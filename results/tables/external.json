@@ -1,0 +1,127 @@
+{
+  "evaluation_mode": "frozen_external_validation",
+  "datasets": {
+    "Core-23": {
+      "dataset": "Core-23",
+      "n": 23,
+      "unit": "refractive_index",
+      "evaluation_mode": "frozen_external_validation",
+      "external_calibration_samples": 0,
+      "evaluation_samples": 23,
+      "external_validation_metrics": {
+        "stage1": {
+          "mae": 0.05257837490533805,
+          "max_error": 0.11409841932946385,
+          "n": 23,
+          "r2": 0.9320940020698727,
+          "rmse": 0.06069745049467888
+        },
+        "stage2": {
+          "mae": 0.04694734256795962,
+          "max_error": 0.10491345870308466,
+          "n": 23,
+          "r2": 0.9435350213551357,
+          "rmse": 0.055348514042350236
+        }
+      }
+    },
+    "DS2-248": {
+      "dataset": "DS2-248",
+      "n": 248,
+      "unit": "eV",
+      "evaluation_mode": "frozen_external_validation",
+      "external_calibration_samples": 0,
+      "evaluation_samples": 248,
+      "external_validation_metrics": {
+        "stage1": {
+          "mae": 0.7481388444800163,
+          "max_error": 2.808653437695466,
+          "n": 248,
+          "r2": 0.17835205690796951,
+          "rmse": 0.9888413265672403
+        },
+        "stage2": {
+          "mae": 0.6853026284048134,
+          "max_error": 2.77175698613638,
+          "n": 248,
+          "r2": 0.28975769199764145,
+          "rmse": 0.9193629372981609
+        }
+      }
+    },
+    "HEA-95": {
+      "dataset": "HEA-95",
+      "n": 95,
+      "unit": "log10(E/GPa)",
+      "evaluation_mode": "frozen_external_validation",
+      "external_calibration_samples": 0,
+      "evaluation_samples": 95,
+      "external_validation_metrics": {
+        "stage1": {
+          "mae": 0.2123381957925427,
+          "max_error": 0.49098653316368823,
+          "n": 95,
+          "r2": -0.7375795571131099,
+          "rmse": 0.23399726509406893
+        },
+        "stage2": {
+          "mae": 0.2110468984931322,
+          "max_error": 0.49250896015840917,
+          "n": 95,
+          "r2": -0.7299976521399265,
+          "rmse": 0.23348618500592147
+        }
+      }
+    },
+    "B2-18": {
+      "dataset": "B2-18",
+      "n": 18,
+      "unit": "log10(E/GPa)",
+      "evaluation_mode": "frozen_external_validation",
+      "external_calibration_samples": 0,
+      "evaluation_samples": 18,
+      "external_validation_metrics": {
+        "stage1": {
+          "mae": 0.246486948913491,
+          "max_error": 0.40490067303536237,
+          "n": 18,
+          "r2": -7.475826533317493,
+          "rmse": 0.26183732081124356
+        },
+        "stage2": {
+          "mae": 0.24646902119869976,
+          "max_error": 0.40499487856103644,
+          "n": 18,
+          "r2": -7.481556711467377,
+          "rmse": 0.26192581489427175
+        }
+      }
+    }
+  },
+  "result_references": {
+    "Core-23": {
+      "prediction_file": "results/external/core23/predictions/final/predictions.npz",
+      "prediction_sha256": "fd7a26b15e9366d6aec026b2a7fbadb294b6ef6f1e1f7a61bdcf53ad6fd1f2bb",
+      "metrics_file": "results/external/core23/results/metrics.json",
+      "metrics_sha256": "dcd6b74c9c633502cb15e91ff614b612b1754b580700789f1cc63a6479358f27"
+    },
+    "DS2-248": {
+      "prediction_file": "results/external/ds2_248/predictions/final/predictions.npz",
+      "prediction_sha256": "71de57563a8ab014d1721f34bc4a253630e2fe30c220af53f75e5317984a944b",
+      "metrics_file": "results/external/ds2_248/results/metrics.json",
+      "metrics_sha256": "58bc623158d4714cc214f4e8ccc629b030b6b137ff0ffd596d1c57330e78da56"
+    },
+    "HEA-95": {
+      "prediction_file": "results/external/hea95/predictions/final/predictions.npz",
+      "prediction_sha256": "ad360f8f69df644ece3128913baf1da439fc8b3037f89770cd7bac9d4de62b1f",
+      "metrics_file": "results/external/hea95/results/metrics.json",
+      "metrics_sha256": "c9eab032f4eb10cb92b10e99d8e6ce80c72f2436bbbde11c4e8520216a7bee19"
+    },
+    "B2-18": {
+      "prediction_file": "results/external/b2_18/predictions/final/predictions.npz",
+      "prediction_sha256": "b9a0ee6c82f58fff1d5a58e755ad5ea5a19844680b0ba9ae2e459a12902c5e2e",
+      "metrics_file": "results/external/b2_18/results/metrics.json",
+      "metrics_sha256": "63219da17ba5d7454c607d0fc1b4472b04ede26d5072ceb6206de3e35241f81a"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extra": {
+    "expert_description": {
+      "bridge": "anchorboost_v2",
+      "implementation": "first_party_enriched_descriptors_xgboost_extra_trees_residual_mlp",
+      "latent": "512d_task_trained_residual_mlp",
+      "official_model_claimed": false,
+      "pretrained": false,
+      "selection_metric": "raw_unit_mae_or_roc_auc"
+    },
+    "request_extra": {
+      "ablation": "full",
+      "blend_weights": [
+        0.3702014724768248,
+        0.4336451607712581,
+        0.1961533667519171
+      ],
+      "selected_mlp_epochs": 47,
+      "selected_xgb_iterations": 729,
+      "trial_id": "v15_fixed_full"
+    }
+  },
+  "latents": {
+    "filename": "latents.npz",
+    "sha256": "56fe5b7e3d805d61fff35bda2ceb0ec55e95e1f00a221f9837c1954e9561bd70",
+    "shape": [
+      1136,
+      512
+    ]
+  },
+  "model": {
+    "family": "anchorboost_v2",
+    "name": "anchorboost_v2",
+    "pretrained_disclosure": {
+      "expert_name": "anchorboost_v2",
+      "overlap_audit_required": false,
+      "uses_pretraining": false
+    }
+  },
+  "predictions": {
+    "filename": "predictions.npz",
+    "n_samples": 1136,
+    "sha256": "95d18c905dba63ee1df768e7cfbac7f3bb6b049e669e5133aa557de37340136c",
+    "uncertainty_present": true,
+    "value_kind": "positive_class_probability"
+  },
+  "provenance": {
+    "checkpoint_sha256": "93fbcf08e9a0082aadb3f9adf8d72b0690e90594b9850b63a8012ec476cce7db",
+    "environment_lock_sha256": "c74b6cd14fb916be9a859412435858b4622ed6418edc9462abe61bd185d14b6b",
+    "raw_sha256": "36beb654e2a463ee2a6572105bea0ca2961eee7c7b26a25377bff2c3b338e53a",
+    "task_manifest_digest": "3db07417036734fe56890aae25882e0e31fe1501dfde66855a56fccfc538719b"
+  },
+  "run_id": "outer_test",
+  "run_kind": "production",
+  "schema_version": "1.0",
+  "selection": {
+    "outer_test_used": false,
+    "source": "single_outer_train_holdout_only"
+  },
+  "split": {
+    "outer_fold": 3,
+    "role": "outer_test",
+    "sample_order": "exact_split_manifest_order",
+    "inner_fold": null
+  },
+  "task": {
+    "direction": "maximize",
+    "input_type": "composition",
+    "matbench_name": "matbench_glass",
+    "metric": "roc_auc",
+    "target": "gfa",
+    "task_name": "glass",
+    "task_type": "classification",
+    "unit": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "python": "3.12.9",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.0",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.0",
+    "matplotlib": "3.10.3",
+    "pymatgen": "2025.10.7",
+    "spglib": "2.6.0",
+    "ijson": "3.5.1",
+    "PyYAML": "6.0.2",
+    "pillow": "11.2.1",
+    "joblib": "1.5.1",
+    "threadpoolctl": "3.6.0"
+  }
+}

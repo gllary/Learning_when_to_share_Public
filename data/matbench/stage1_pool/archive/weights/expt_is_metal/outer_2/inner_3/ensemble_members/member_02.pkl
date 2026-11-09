@@ -1,0 +1,1 @@
+../../../../../../../../../checkpoint/matbench/stage1/inner_oof/archive/weights/expt_is_metal/outer_2/inner_3/ensemble_members/member_02.pkl

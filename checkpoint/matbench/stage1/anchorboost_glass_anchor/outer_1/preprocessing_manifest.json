@@ -1,0 +1,12 @@
+{
+  "feature_dimension": 330,
+  "fit_positions": 4544,
+  "implementation": "anchorboost_enriched_v2",
+  "imputer_fit_scope": "fit_partition_only",
+  "prediction_positions": 1136,
+  "scaler_fit_scope": "fit_partition_only",
+  "schema_version": 1,
+  "target_used_for_features": false,
+  "task": "glass",
+  "validation_positions": 0
+}

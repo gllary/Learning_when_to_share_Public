@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 879,
+  "expert": {
+    "checkpoint_sha256": "4e3bd5c00e5a1713a53445154cc13f935537f09baba91abf2d81aa05541a653e",
+    "expert_id": "jmp_l_perovskites_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "perovskites"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "4c0aa8e2e7527a5b4fa8ee7111a75fc1561e5bf5e9db29c4b9dd2c9214c9c932",
+      "shape": [
+        879
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "a7f7d652f8096bc356d8a8e93ff4063035d440f74e5b51224aad1ee00d1c52dc",
+      "shape": [
+        879,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "fda2cad6c4c90799b6cb6edac437038781909e95ebd70c3eeb3d5aa96bdc2c40",
+      "shape": [
+        879
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U17",
+      "filename": "sample_ids.npy",
+      "sha256": "5857ec863556ff79fc06317fc7a92e2ba4e14f3ffb8562ee2b52eb643200a074",
+      "shape": [
+        879
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "bddb3c0820fa56391fb535cf386ddffd630e58d2d649b421e7bdcd4ef8cd8d61",
+      "shape": [
+        879
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "e05d2e973546796f9ecae37e14ff7393bd341bbbe4bf4c4364a162a6f0e60918",
+  "n_samples": 879,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "4e3bd5c00e5a1713a53445154cc13f935537f09baba91abf2d81aa05541a653e",
+    "source_outer_fold": 0,
+    "source_task": "perovskites",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 0,
+    "target_task": "log_kvrh",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 0,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "log_kvrh",
+  "unavailable_rows": 0
+}

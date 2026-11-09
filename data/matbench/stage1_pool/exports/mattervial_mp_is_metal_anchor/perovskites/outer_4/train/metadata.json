@@ -1,0 +1,99 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 0,
+  "expert": {
+    "checkpoint_sha256": "4109b06f234554df0a4840003b33131554c7d23aafc16c75e7eb31ff78a3ee90",
+    "expert_id": "mattervial_mp_is_metal_anchor",
+    "frozen": true,
+    "hidden_dim": 40,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "mp_is_metal"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "c54d0aafd975d3076b9489d6bb15ab06e74f2e58aa35708d0cbe843995efff68",
+      "shape": [
+        13629
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "b8f65beb726885407d2f517a61cec88a31f796212fb6159a28880f471c7c4129",
+      "shape": [
+        13629,
+        40
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "136c00d52b94e1e562e0e6fc242741525a0df39a43087d697f9943271b10d55b",
+      "shape": [
+        13629
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U20",
+      "filename": "sample_ids.npy",
+      "sha256": "33f6a54eb535296c5deb698d8a9cb21fbe58950d38f5182e722619f56643ec07",
+      "shape": [
+        13629
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "136c00d52b94e1e562e0e6fc242741525a0df39a43087d697f9943271b10d55b",
+      "shape": [
+        13629
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "b5471ebb963a19dd9baf0354feb0966d48f9aa14aea2d4678985a2a1a4571a56",
+  "n_samples": 13629,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "14cb008ca835c90060b216919c9b1a9ccc2e96613da86a8de5bc3df3e7e4b2fd",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_completion_policy": "outer0_union_plus_certified_target_free_stage1_cache_v1",
+    "missing_member_indices": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "4f68fccf871df047416f7f7405f6afd8b354b7dc1345c16e0320d6cef4a74b10",
+    "relation_screening": "none",
+    "source_task": "mp_is_metal",
+    "stage2_protocol_version": "12.2",
+    "supplemental_stage1_feature_cache_compatibility_policy": "native_schema_v2_target_firewall_v1",
+    "supplemental_stage1_feature_cache_receipt_sha256": "9521612eb49b4fba680055c6efed63c79207c41d84eca6d8c03a424ae83eb4f5",
+    "supplemental_stage1_feature_cache_schema_version": 2,
+    "target_task": "perovskites",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 5,
+    "used_members": 0
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 4,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "perovskites",
+  "unavailable_rows": 13629
+}

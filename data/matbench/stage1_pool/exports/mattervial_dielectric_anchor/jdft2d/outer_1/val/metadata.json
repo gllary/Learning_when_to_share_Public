@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 51,
+  "expert": {
+    "checkpoint_sha256": "834e69d644b7d95136f69382119073a40236def9094801c29a216056e69b205d",
+    "expert_id": "mattervial_dielectric_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "dielectric"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "90b7c6ddea4a771fa6ccfba05dffc5c3b416ac433caa69e7918f8294b45bc548",
+      "shape": [
+        51
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "3cf85e3b9b76c03d4f0bc81f9713290cce60f0c6e2e94c3d3f5b68a53fee0a6a",
+      "shape": [
+        51,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "58e585ed5d3e58a54d942f83acc9952d33a500b969c2080e507243af5c5b027c",
+      "shape": [
+        51
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "da9996033dfe73243e465efe79fad78ee99e03732e67220c9a7fc07942ab2daf",
+      "shape": [
+        51
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "b78232caa53cab55bddb852a025097172e768d97e553f59fcc4736a1876f17c4",
+      "shape": [
+        51
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "9b14432ae5307b00b01f14aa0ddede25a8afd240a5809967e00b54dd6936f043",
+  "n_samples": 51,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "b90c80c7998abf84a21433bc84374dd3240b6569b65de3d95b487440a5808361",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_completion_policy": "outer0_union_plus_certified_target_free_stage1_cache_v1",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "4f68fccf871df047416f7f7405f6afd8b354b7dc1345c16e0320d6cef4a74b10",
+    "relation_screening": "none",
+    "source_task": "dielectric",
+    "stage2_protocol_version": "12.2",
+    "supplemental_stage1_feature_cache_compatibility_policy": "native_schema_v2_target_firewall_v1",
+    "supplemental_stage1_feature_cache_receipt_sha256": "fcf6d9a72b06e65015908c6fed7f3d795bc3e19c8f106206ebd4b45b4859432d",
+    "supplemental_stage1_feature_cache_schema_version": 2,
+    "target_task": "jdft2d",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 1,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "jdft2d",
+  "unavailable_rows": 0
+}

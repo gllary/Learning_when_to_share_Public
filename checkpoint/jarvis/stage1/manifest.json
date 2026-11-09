@@ -1,0 +1,1213 @@
+{
+  "original_fits": [
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/full/model.pt",
+      "sha256": "9470a9ebe01b27fd7906a8c8bf46f2133ebbc59d9333c1225860c27741f2f4de",
+      "task": "reg_formation_energy_peratom",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/fold0/model.pt",
+      "sha256": "fcea0c862fe52790c87089ab7bbbc7261dd78580dd90266496e9f023d6133e22",
+      "task": "reg_formation_energy_peratom",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/fold1/model.pt",
+      "sha256": "03c7c73b379bbfc9611ade79ab8855d4178bc125a6a6145e0f0554c4cb85e5a6",
+      "task": "reg_formation_energy_peratom",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/fold2/model.pt",
+      "sha256": "eb83ff725c8318160db19445f47defc477b5b54642fc274b991fc7c2b71e9fee",
+      "task": "reg_formation_energy_peratom",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/fold3/model.pt",
+      "sha256": "107dbfae4c113a86d71b0e32a920b6f43944c83a43a8c155cb855d2981f7c431",
+      "task": "reg_formation_energy_peratom",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_formation_energy_peratom/fold4/model.pt",
+      "sha256": "255372707242237d71dfa2ca38d750a3851593161f8426e7b025872cadcfa27a",
+      "task": "reg_formation_energy_peratom",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/full/model.pt",
+      "sha256": "a69b178092683ef31d7513465fcf41fc7c5037014a395be7a3b584d89cd68f11",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/fold0/model.pt",
+      "sha256": "dcf22040f23b3ebf4624134a40b8ebfafd88f9cdf77721454afae94d89421e1b",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/fold1/model.pt",
+      "sha256": "76c113036e95aea4a7ace5fd98eba670a2f33110af30d189f35b0cd84ad438db",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/fold2/model.pt",
+      "sha256": "bdda291f2486cb4048790e14fed15cf21a3806f8519ea8d189eaf6722f55767b",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/fold3/model.pt",
+      "sha256": "6d3b5a5378a582306374747cdeb883fa424ba0e4f5008cf488f15f2ba33ff643",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_total_energy/fold4/model.pt",
+      "sha256": "aa3549e501dc0293f39b3332728f619f5535f87e1b1dc3aac59b5925b9ec8287",
+      "task": "reg_optb88vdw_total_energy",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/full/model.pt",
+      "sha256": "848364489208a48cd61ee63113c8c998f85fe2dfa05852b44e12e1d35a433c8a",
+      "task": "reg_ehull",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/fold0/model.pt",
+      "sha256": "4b936c5663b6599e1fd975fdf4ee224911d810c020d517b278fde79a5c9692a3",
+      "task": "reg_ehull",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/fold1/model.pt",
+      "sha256": "c064dba5895f576848c3ae51b79b10c8cf11cf902fc461d7bd838ce043ed7b30",
+      "task": "reg_ehull",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/fold2/model.pt",
+      "sha256": "166ead554a75bd95cc630ab05f640e25bd5007a4c8f9f4f3ee364173138e45f5",
+      "task": "reg_ehull",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/fold3/model.pt",
+      "sha256": "1c25afdd2eb622ed3612d02fabc97683c080e923cb5265646435ce2b009a8646",
+      "task": "reg_ehull",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ehull/fold4/model.pt",
+      "sha256": "a42c44a8f5475c1ae5c844e88a59fcb2b411ad9f848711d6241c85b76cf70e0a",
+      "task": "reg_ehull",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/full/model.pt",
+      "sha256": "f0b6ee2bdf13fb0d56a356619efc317be50f1752de71166b0dd0aa9b87383359",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/fold0/model.pt",
+      "sha256": "a142dff1abe37fc5e695dd79707cbe2a53f1ddc223f0de06ea6d9e60a1327120",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/fold1/model.pt",
+      "sha256": "457493a7e729891d9779419c54046a78c6b23deb43fc57cff577c52f6492f9f1",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/fold2/model.pt",
+      "sha256": "5ca695d9830d6ca6780973d2cf075c42a89c2a4988047a3f6d66d87d3c3447ba",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/fold3/model.pt",
+      "sha256": "f8b31d853e69672169aba84446621865ca9e70fc22415f03863eb8c42821d358",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_optb88vdw_bandgap/fold4/model.pt",
+      "sha256": "929a77ceabc21140495043e0cfd8d6ae3c9757f178d3234b6c6b1961f44e9fd9",
+      "task": "reg_optb88vdw_bandgap",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/full/model.pt",
+      "sha256": "743bbfcb932f87658f1edd2392106321422c9a4649ab08a012cb19bda7fde535",
+      "task": "reg_mbj_bandgap",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/fold0/model.pt",
+      "sha256": "6ef1e15dd801c2c393525fa423fb07603185536b2aa8397e31fc9279d560608c",
+      "task": "reg_mbj_bandgap",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/fold1/model.pt",
+      "sha256": "35f6bcafc2454377914662b17344ea815dd3df7af39e4f37d57fac675895bb59",
+      "task": "reg_mbj_bandgap",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/fold2/model.pt",
+      "sha256": "052e2b54d169453567347c2b9d42b56c9431412f6fd879927eda39ca3ae3a7c0",
+      "task": "reg_mbj_bandgap",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/fold3/model.pt",
+      "sha256": "cecac14fe26729a39e52875b535356a7219368e948bc0ca41df01daaae4e847b",
+      "task": "reg_mbj_bandgap",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_mbj_bandgap/fold4/model.pt",
+      "sha256": "247eb243393ad877a747abd0c52cba27e720701c43425e3d1c5f919cfc918f4a",
+      "task": "reg_mbj_bandgap",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/full/model.weights.h5",
+      "sha256": "87b36d37f3e12bbb4fe348b9b90b1b57f0d0239652cffc6c99f0b93ade13fa56",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/fold0/model.weights.h5",
+      "sha256": "a3a84752bf99c723ec8f6ab748f8911bfe94ddb8add63fffe82d6f873dd039ec",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/fold1/model.weights.h5",
+      "sha256": "667cb0d2a8cb6fa8a7d9b4c41ce71de80241fafdd2d874d0049ef856b4ef21fe",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/fold2/model.weights.h5",
+      "sha256": "a35ee611a263c3f4eef96029a52fae6c7798cc7e0e16cb9692db5e0511708918",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/fold3/model.weights.h5",
+      "sha256": "87173d5ce973c1d4fda622f8bad2ad52569bd1b96b9b66f5bfbc5713a68814b8",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_bulk_modulus_kv/fold4/model.weights.h5",
+      "sha256": "fe810cfe449e15d4d55a1b3637b93e3e678561594a45ca1996d2fcc3b971d016",
+      "task": "reg_bulk_modulus_kv",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/full/model.weights.h5",
+      "sha256": "68cbb267679fa7f79ab9607e6d6d5f285ea343f82d1ab1e01e23d24481d15ac7",
+      "task": "reg_shear_modulus_gv",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/fold0/model.weights.h5",
+      "sha256": "b8845c993e5b1d795d268b7f72b4921dfafcfab3f41641ea99cf6176234c2fad",
+      "task": "reg_shear_modulus_gv",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/fold1/model.weights.h5",
+      "sha256": "c32a0639db3b31f8e561ea398835311dcfb83e9cc2492f5a0aea4a7960b0f32e",
+      "task": "reg_shear_modulus_gv",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/fold2/model.weights.h5",
+      "sha256": "d00ed621b3efeaf85770c198b735b896786162b4469b4990a4ea7f04db570f1f",
+      "task": "reg_shear_modulus_gv",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/fold3/model.weights.h5",
+      "sha256": "cb311795005572d4003e1fb73987b43b3e72a57fb3deab3e6a4f316ead6b8b4f",
+      "task": "reg_shear_modulus_gv",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_shear_modulus_gv/fold4/model.weights.h5",
+      "sha256": "dd5107d71f9c7799b249e2f561b0204fa3cd8811a4d258f7ae84afd707448026",
+      "task": "reg_shear_modulus_gv",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/full/model.weights.h5",
+      "sha256": "0ae4c969515fc8f7db7c522131dfef36120690c332c121f18eb48d9462f96db1",
+      "task": "reg_epsx",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/fold0/model.weights.h5",
+      "sha256": "d7f389e14cd36f77fc4c28cf1d2a1937cfbb99caed9fa828661f2726f8d6fd1f",
+      "task": "reg_epsx",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/fold1/model.weights.h5",
+      "sha256": "5f6f2cae386f6bfe93cf4d9574ed8859996364801678f050a06193f5fe4b2f39",
+      "task": "reg_epsx",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/fold2/model.weights.h5",
+      "sha256": "21d0c19441de63be13f0be28399d4b75c62fc4045f51c15bef97b67587aa1423",
+      "task": "reg_epsx",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/fold3/model.weights.h5",
+      "sha256": "d82b0c430d197c91ce081efb23cd1a83ef5e91361b7342f06eb093dcb617c93e",
+      "task": "reg_epsx",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsx/fold4/model.weights.h5",
+      "sha256": "262848d720b58f53eb53d5813d264902cb1eab0fe27726096dadc021fb92883c",
+      "task": "reg_epsx",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/full/model.weights.h5",
+      "sha256": "e4b49b89222703c666a6bfdee7d943df59c7c39e7a5aa8e6d2eb6a3369356c2a",
+      "task": "reg_epsy",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/fold0/model.weights.h5",
+      "sha256": "2622fec57ba4fb822b3e06f7cfd571d6bee519c921340d4b955aaf9fc56afac8",
+      "task": "reg_epsy",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/fold1/model.weights.h5",
+      "sha256": "efa2ab4319e566b239a190770db6de9be91905bc67aa0c445633fc96b54bebf7",
+      "task": "reg_epsy",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/fold2/model.weights.h5",
+      "sha256": "80222264928c23f94008f954c52adad9e45c74ef48f562752b2a37767e553540",
+      "task": "reg_epsy",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/fold3/model.weights.h5",
+      "sha256": "17bc34d684af05c81f37b1d160e5d2a0210edca6c1d82c768acff79498db1d1e",
+      "task": "reg_epsy",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsy/fold4/model.weights.h5",
+      "sha256": "e518a4632516d4eb42dff726faf059202a55c6755ed05a8a8fe9a8c1dfe24abc",
+      "task": "reg_epsy",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/full/model.weights.h5",
+      "sha256": "66163f09647e010c33859e545bf7b98986b50c579f0508d4ad931874bdd205d6",
+      "task": "reg_epsz",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/fold0/model.weights.h5",
+      "sha256": "f08d4370ca5617012490dec24b94b7a3718bc406ae968fcc70dd07ae6eb7fcc2",
+      "task": "reg_epsz",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/fold1/model.weights.h5",
+      "sha256": "b0958ed2132c3c7acc6a58108c9c05be1048f77d3f05fe4b48765f4ced754ad6",
+      "task": "reg_epsz",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/fold2/model.weights.h5",
+      "sha256": "002f1c4aa7dd1b03c509c903762eda761054e92290ab9831da604438c049cc28",
+      "task": "reg_epsz",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/fold3/model.weights.h5",
+      "sha256": "e0e3e62fa8d0e24d4330621ea002b5596eaa5a130cc10ab619c8d798d75f987a",
+      "task": "reg_epsz",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_epsz/fold4/model.weights.h5",
+      "sha256": "db01a2bbcb2cbd17b4b1d03349ea7717c9db257253c3d300e6a085c3a453ee24",
+      "task": "reg_epsz",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/full/model.weights.h5",
+      "sha256": "8453c08379781b6fbfea5a410d0613c2fb39cb1cca712d37b712bbbe49e16349",
+      "task": "reg_mepsx",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/fold0/model.weights.h5",
+      "sha256": "5471d2e6d37974734d970f2a655423969493b4877dd5e4aec97ca0b239854457",
+      "task": "reg_mepsx",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/fold1/model.weights.h5",
+      "sha256": "2d8b9a1ab3bbb63abceea100a912c9abb1a717edf0581993f4281175eb7cf435",
+      "task": "reg_mepsx",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/fold2/model.weights.h5",
+      "sha256": "23faa3161603ac26db5875a9f290e4a32e023e951d6228a3372d461df5d3c617",
+      "task": "reg_mepsx",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/fold3/model.weights.h5",
+      "sha256": "9e22636e7ef2e13a1548081e2258ff76c4e37013890927aa43d54db9cb6aedfa",
+      "task": "reg_mepsx",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsx/fold4/model.weights.h5",
+      "sha256": "4505127f3772d06569f8968713fdf838c4f34ad601fc5f40b59f384f8c36e3ac",
+      "task": "reg_mepsx",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/full/model.weights.h5",
+      "sha256": "66dded360f4ceacfe4cd0ab4a09d4a7642ea3045eef229e1fba5513ccc8e6ecf",
+      "task": "reg_mepsy",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/fold0/model.weights.h5",
+      "sha256": "2c7e8cd4dd1ddc3267a1445927f5c06c54087ac9bc54834c95e5322d5d540874",
+      "task": "reg_mepsy",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/fold1/model.weights.h5",
+      "sha256": "13e4e3fbb1b448af6f1a3dbb4dad41f1e4e2459f74bb51b34a9d7ae6e148166c",
+      "task": "reg_mepsy",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/fold2/model.weights.h5",
+      "sha256": "2392a969a127811b882b9097297a9a60ebc28d3e743c68d8b7a3f78fbdf3625f",
+      "task": "reg_mepsy",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/fold3/model.weights.h5",
+      "sha256": "82aff348547aa10c869047c66d1bf5c0907340eb93dbae856320f58ed4057672",
+      "task": "reg_mepsy",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsy/fold4/model.weights.h5",
+      "sha256": "3e4d96fc92ee9c833d250a578501e95ee0bec7213cb956ac0322960774eabca6",
+      "task": "reg_mepsy",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/full/model.weights.h5",
+      "sha256": "33093685100be7a3fd155692651544e17b6ff157281e7b124037920f75a05be3",
+      "task": "reg_mepsz",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/fold0/model.weights.h5",
+      "sha256": "0159c4808bd592e1ddf63cdbc59d2c83ee11d60c7ee2d6c52ffe5a4b4c8885b2",
+      "task": "reg_mepsz",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/fold1/model.weights.h5",
+      "sha256": "5373044a5c34a98ac2a27c88c20157e631b9b76cdd899a373d97cbf96ed3c57f",
+      "task": "reg_mepsz",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/fold2/model.weights.h5",
+      "sha256": "7b9e91a4927601c660cd87f65fbe947ad66b2f4299a9408403cf55dc8376c7a9",
+      "task": "reg_mepsz",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/fold3/model.weights.h5",
+      "sha256": "060fa442ba22d7cc816b2383dd1759e5bad8a46ebd99db688a81aba7f1d2f444",
+      "task": "reg_mepsz",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_mepsz/fold4/model.weights.h5",
+      "sha256": "333c34056b3e8c053b1bdc4947419be7edfa03610b9787e90318b4fd0bc96c5d",
+      "task": "reg_mepsz",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/full/model.weights.h5",
+      "sha256": "94cfa434638cf84e754bcd52386bea63f42042430918c73096252f005b69833c",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/fold0/model.weights.h5",
+      "sha256": "81e3ad39684ff581a5933ca25c10f9733a5da6cbd1d1640187ceb44700e8ed0c",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/fold1/model.weights.h5",
+      "sha256": "b6854cab8590ce08ff3f6d1fe130c6319036f47b8ffb149fabaef3d5b4016604",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/fold2/model.weights.h5",
+      "sha256": "b5859af3764c8b40f429262e7069fcdf793e7597bfeaf5a0601e76b480cdba19",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/fold3/model.weights.h5",
+      "sha256": "eef2283f70487734ddfb7d36c18d713ff4d27d92a661892943943e350cbb7dc7",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dielectric/fold4/model.weights.h5",
+      "sha256": "e61feeb6ad1e3109a4ec8a107644788ef5e8839d6179076ac0e6252cad3421a9",
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/full/model.weights.h5",
+      "sha256": "28084052cb4fb4cf3a84f77c57a38092edba2593cd5fff85a895c19983b43aa6",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/fold0/model.weights.h5",
+      "sha256": "3b6b78cf621bf1f89ab7ffba42ca0a1d6e7c85c7060ffc5eee34e18bd0e4a0c0",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/fold1/model.weights.h5",
+      "sha256": "5f413be28ce447ae4ff2ceb6241279028b1208a8bb0212280f665c69cbbb12c5",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/fold2/model.weights.h5",
+      "sha256": "ac3476df4148a36dc341cd9013d9c38511d41c7c670f5b68bfd759fd634a19b5",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/fold3/model.weights.h5",
+      "sha256": "836a5ba91d8881621e4e1233c3b7e676ddec0b2ea4b997b8607eea3101ea570d",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_dfpt_piezo_max_dij/fold4/model.weights.h5",
+      "sha256": "515c9816901b2827b53bf3af9474f7d8d46e246c3b6cbe822af9570aa8081cce",
+      "task": "reg_dfpt_piezo_max_dij",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/full/model.weights.h5",
+      "sha256": "3b5628d6fe74e5b2999786e20592762b79614361cea50565e0e29c8c4d57eff4",
+      "task": "reg_magmom_oszicar",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/fold0/model.weights.h5",
+      "sha256": "616c2c4e2284e79bb79d5c2c6da87e8ea5048977f5b8accafd62a3794addf82e",
+      "task": "reg_magmom_oszicar",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/fold1/model.weights.h5",
+      "sha256": "ab65f5ab477f3e532a0e9ef28426d8d3ce9e43ebf6c9798d56084959d889f0f1",
+      "task": "reg_magmom_oszicar",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/fold2/model.weights.h5",
+      "sha256": "5bff371a994a3b816db4aa4441a8e0eac4046aa6c90e6b8993e5645a0022cf61",
+      "task": "reg_magmom_oszicar",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/fold3/model.weights.h5",
+      "sha256": "9513ad200ec648d3e813456085049eaeab2d114101e6dbaae65b2ba4aa6ff5a2",
+      "task": "reg_magmom_oszicar",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_magmom_oszicar/fold4/model.weights.h5",
+      "sha256": "e6aa972127b21a55aa367c6c19fbbe7dc7263e97fb3d32a917d3c4634a0235fc",
+      "task": "reg_magmom_oszicar",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_elec_mass/fold0/model.pt",
+      "sha256": "b1f58e76a8f4bb3707a65734f170a0b11f5718f1676948301a5a151b487c5268",
+      "task": "reg_avg_elec_mass",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_elec_mass/fold1/model.pt",
+      "sha256": "0b0d8e834e4481c1143552be6727287de7106f10fe8e4cd75e0e182067d898f8",
+      "task": "reg_avg_elec_mass",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_elec_mass/fold2/model.pt",
+      "sha256": "ff8f50688b06b88385a51b9b32742388f2ea3c790f679efed0237a68b88eeb74",
+      "task": "reg_avg_elec_mass",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_elec_mass/fold3/model.pt",
+      "sha256": "5f07d4f7a2540f52e47888bdea51a97c683993aecae55912b13d081224e3ab6d",
+      "task": "reg_avg_elec_mass",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_elec_mass/fold4/model.pt",
+      "sha256": "0c2743d0bc59c416f7ee60f4a4e0aab1978e665287afea9dfb0f01f229cb55a7",
+      "task": "reg_avg_elec_mass",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_hole_mass/fold0/model.pt",
+      "sha256": "f07c0448fbda976c445246fe13fdbc3703442083eced94c2fb3c511038c5863b",
+      "task": "reg_avg_hole_mass",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_hole_mass/fold1/model.pt",
+      "sha256": "6468d6c7c795a7512fe31fbf928a204fdddd2bad9bd86620841b5f6a25d51005",
+      "task": "reg_avg_hole_mass",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_hole_mass/fold2/model.pt",
+      "sha256": "01a885917c7aeb4ec116ada9654a0b91bd33b19d1ccc711d20ceec9e9702dba4",
+      "task": "reg_avg_hole_mass",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_hole_mass/fold3/model.pt",
+      "sha256": "3f98a8e1534a8bd4bb7d78bf689e7544eaef8462fcac3d52a9fa1b789ba09c7e",
+      "task": "reg_avg_hole_mass",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_avg_hole_mass/fold4/model.pt",
+      "sha256": "03e2616641a1f05f67e41b48d8351ea226d3b408876171e7dbeefae4dc7ead97",
+      "task": "reg_avg_hole_mass",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/full/model.weights.h5",
+      "sha256": "b51595b489adccdf5acf13e087c563bc00a021466fadd7576bcfd8a49f7ee626",
+      "task": "reg_n_Seebeck",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/fold0/model.weights.h5",
+      "sha256": "de5718db4f645d78c2ba404d75dfcc64607cff13a7db26e81b8dc58be291e1d3",
+      "task": "reg_n_Seebeck",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/fold1/model.weights.h5",
+      "sha256": "52e8470e86d5d01277c97c2c60d41d679a256de2cb99e9dfdcb4001c12674ad1",
+      "task": "reg_n_Seebeck",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/fold2/model.weights.h5",
+      "sha256": "18f3f6ef3fef14b7a06d636d93a05680a684fa0ffbb8886bd81829333b382a74",
+      "task": "reg_n_Seebeck",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/fold3/model.weights.h5",
+      "sha256": "d38a46e626d1c4ef9c46fcda36c6e26ffa8105a53ce26a8d17121502475de336",
+      "task": "reg_n_Seebeck",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_n_Seebeck/fold4/model.weights.h5",
+      "sha256": "c1e560daa09dbd7fe5ff191760c9a20559f548cf6679370e6fde172ad925edf1",
+      "task": "reg_n_Seebeck",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_n_powerfact/fold0/model.pt",
+      "sha256": "d757d1c7129cbc2f690cefb5dc3375e69a7d1c4b87b298f4aae60a07f7755228",
+      "task": "reg_n_powerfact",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_n_powerfact/fold1/model.pt",
+      "sha256": "44c88006625bd9134db3b636e3fafb00c1fabdd68dbb382d18ede786b58b1f81",
+      "task": "reg_n_powerfact",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_n_powerfact/fold2/model.pt",
+      "sha256": "7084aa67275f7e76f244d3927e9f1c50fa339b97a6668967f928cbf0828f2f8c",
+      "task": "reg_n_powerfact",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_n_powerfact/fold3/model.pt",
+      "sha256": "3fe30d243f92a427b1dfef655a9fdf1e2c77c3859b089a04d5e261fa7b0fa4f2",
+      "task": "reg_n_powerfact",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_n_powerfact/fold4/model.pt",
+      "sha256": "82808f2f0ef857244c28e1af90dccdc85a5ef12f9db2abff23071d9757f945d6",
+      "task": "reg_n_powerfact",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_max_efg/fold0/model.pt",
+      "sha256": "f9e170e8abbeeca74c2fcb2dc66e6f66531bed98b106b427f857df91c07c59cc",
+      "task": "reg_max_efg",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_max_efg/fold1/model.pt",
+      "sha256": "cf7962fb7aea3b4b7919abb6dce56bdf0985d261956aadfd0ef1f795efe02105",
+      "task": "reg_max_efg",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_max_efg/fold2/model.pt",
+      "sha256": "23beb21641d5f2707b8b4b59643f4dbb6369b602772c3ef88070131eda18afff",
+      "task": "reg_max_efg",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_max_efg/fold3/model.pt",
+      "sha256": "78de6d796552995c54b8969ed33d5d1ead76fea351876b1ac2039ca48e12b4dc",
+      "task": "reg_max_efg",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_max_efg/fold4/model.pt",
+      "sha256": "16a673590a6f333b957b0900837d8e6b5f904fe4831253c31ad981e792e984e9",
+      "task": "reg_max_efg",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/full/model.weights.h5",
+      "sha256": "8227acd62c5b24289517afd6a8c1d279d54f0809305dfb898431cf647c84c22c",
+      "task": "reg_slme",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/fold0/model.weights.h5",
+      "sha256": "554b3b7f33819196ae0ca0ffef9c3da4ed98258b56b86746c315e953743ce820",
+      "task": "reg_slme",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/fold1/model.weights.h5",
+      "sha256": "e364f9d03f73d7cf2d98f9d84e6049e7d093039b906b42955ddd038b80fdc835",
+      "task": "reg_slme",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/fold2/model.weights.h5",
+      "sha256": "446c23a0ac1ed9df796e0b61cb722a1e2a2920881f06981b480ef934488c922d",
+      "task": "reg_slme",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/fold3/model.weights.h5",
+      "sha256": "b12d973746786e17b1337be5273425b55fddb5a9c7b87f85fd738a8acb30fea6",
+      "task": "reg_slme",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_slme/fold4/model.weights.h5",
+      "sha256": "3f2b1d0292459549215d29976a66a48f041e503d7283d55e46a7308a86c0cd0e",
+      "task": "reg_slme",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/full/model.weights.h5",
+      "sha256": "27cb2130b4896019e1963ad8e2f10280c099a3b191d44d7c86ae2e2a6cf308b4",
+      "task": "reg_spillage",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/fold0/model.weights.h5",
+      "sha256": "89f202b2a93e7f8d9e47667d7ac70d5bcc23ec543548b2fba0323d8d8a839b2e",
+      "task": "reg_spillage",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/fold1/model.weights.h5",
+      "sha256": "28a132271f2d74063503f6605fc088954e79994ec06e4ba196d8fa1d5e8702ff",
+      "task": "reg_spillage",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/fold2/model.weights.h5",
+      "sha256": "2cfe0fb839654e5a280cbba36132be8748f9bb498f0b53d35b80a9b1dabf72d2",
+      "task": "reg_spillage",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/fold3/model.weights.h5",
+      "sha256": "a50a6b4e2e102274721ecfcd4f1106ad398346886fbbdca4af4102297afb6c9f",
+      "task": "reg_spillage",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_spillage/fold4/model.weights.h5",
+      "sha256": "5086b2c0436c1a64cfa619e146ebe293debd21712d33da092199227fde7ca781",
+      "task": "reg_spillage",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/full/model.joblib",
+      "sha256": "53a9e179250abfafbdc8a9cb7574737e8e5b0a74f987d958948e17aa021f5c11",
+      "task": "reg_ph_heat_capacity",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/fold0/model.joblib",
+      "sha256": "3a27975e7e27b62d8ae4db876af1b11db284fb7e4b3afb1bb4e0c46b869ee7bc",
+      "task": "reg_ph_heat_capacity",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/fold1/model.joblib",
+      "sha256": "dd834a18cd7868d2783f46eb970bb5496fe569350ee911b5f4d72a6dcd3a2ca3",
+      "task": "reg_ph_heat_capacity",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/fold2/model.joblib",
+      "sha256": "058094394cf3c135192f41b6f5ee761771141737d91865949c4ce4ddd9387976",
+      "task": "reg_ph_heat_capacity",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/fold3/model.joblib",
+      "sha256": "82015c65d5ec7d9e9e9baa04d1e846fce58264c4f4a675ad0dce6ffe5d17466d",
+      "task": "reg_ph_heat_capacity",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_ph_heat_capacity/fold4/model.joblib",
+      "sha256": "b6d2517333be48cfa03ce71bcdfa8bb08f95be3f20f041fe3716d8eb54844407",
+      "task": "reg_ph_heat_capacity",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/full/model.joblib",
+      "sha256": "b4fffdadc2d15aca5091a1e3258f617d95455947cf0d75a7244d10b2643964e5",
+      "task": "reg_exfoliation_energy",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/fold0/model.joblib",
+      "sha256": "b6349d77abe147e967362eec3ef9c528db8b4173081598da9990651567d0ab05",
+      "task": "reg_exfoliation_energy",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/fold1/model.joblib",
+      "sha256": "c1dd476c8e9a052f471e82c4c715bfc248bd71f78b5697b84ebd124f0fb295dc",
+      "task": "reg_exfoliation_energy",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/fold2/model.joblib",
+      "sha256": "0af0355fe233215848b07ededf196b204fdd82b40b1258e85926ee7fa8c2f872",
+      "task": "reg_exfoliation_energy",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/fold3/model.joblib",
+      "sha256": "e100a9ace9cacf3de2b006eade87bcfbe2b8140869925fd84f68eb320f1ad078",
+      "task": "reg_exfoliation_energy",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_exfoliation_energy/fold4/model.joblib",
+      "sha256": "f689f7b29d5f44f1c8b0d51a965faf4d0d42757dadfe3d795de626f288752bde",
+      "task": "reg_exfoliation_energy",
+      "fit": "fold4"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/full/model.weights.h5",
+      "sha256": "56e5e69bcbbdcb1d836d80d3e2d17924d3be6203881858e6e0f01c318d3082c1",
+      "task": "reg_encut",
+      "fit": "full"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/fold0/model.weights.h5",
+      "sha256": "ee7039b925346d9aef4d722f98cdab5618cd263c6d8ec42b516af66c87fe9081",
+      "task": "reg_encut",
+      "fit": "fold0"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/fold1/model.weights.h5",
+      "sha256": "030757b54901017ef95af5c1b7c452e95dd408fc7557adb4d53612a941e1f335",
+      "task": "reg_encut",
+      "fit": "fold1"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/fold2/model.weights.h5",
+      "sha256": "01c575f6c7c6be49047f6dd156afc67b7e359b0163e540481c4278947f04b335",
+      "task": "reg_encut",
+      "fit": "fold2"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/fold3/model.weights.h5",
+      "sha256": "c1232b2c5a2c19e9eb246b3c9d76b2c34949b5359b21783b9c6892ff097bf239",
+      "task": "reg_encut",
+      "fit": "fold3"
+    },
+    {
+      "path": "data/jarvis/stage1_pool/artifacts/reg_encut/fold4/model.weights.h5",
+      "sha256": "706d90f5656a2648612a463b95521806dd3630dbd097ab4da410d691a9be8c63",
+      "task": "reg_encut",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/full/model.joblib",
+      "sha256": "14c0c482966cd793bc53f4395a8f129b82d5ac5ea6125b1ee98f761bf8657aa5",
+      "task": "reg_kpoint_length_unit",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/fold0/model.joblib",
+      "sha256": "11908bf829f30ab4a444b16c638a7c8e44ee22d7ab6bc854c635b67424305677",
+      "task": "reg_kpoint_length_unit",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/fold1/model.joblib",
+      "sha256": "4bd02e7375ac7467c8a41735e68e7cd2b1214a8b4ee74746524fdff218d27524",
+      "task": "reg_kpoint_length_unit",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/fold2/model.joblib",
+      "sha256": "6b8528d5ea3c09d57717f1f16a95da19a572b650d9d7c9423dac1b05e8fc2e76",
+      "task": "reg_kpoint_length_unit",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/fold3/model.joblib",
+      "sha256": "711233e5890b29e20689ef3a24c3be25ca0c267310ae80c254ee64eef684f4d7",
+      "task": "reg_kpoint_length_unit",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/reg_kpoint_length_unit/fold4/model.joblib",
+      "sha256": "f82bda8c9bfdbe9a3ee3bfc5f555ab32a275e49c0e5b185e1c4fc07dc168e30c",
+      "task": "reg_kpoint_length_unit",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/full/model.joblib",
+      "sha256": "79af11eb221415b45bb64e208d14ec19423dfa07b6e51d395cce0197c9d22936",
+      "task": "cls_magmom_oszicar",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/fold0/model.joblib",
+      "sha256": "c4c3e928014c481f34a950676906981bb041a8bcc7d0cd861e2c8304fe5f4528",
+      "task": "cls_magmom_oszicar",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/fold1/model.joblib",
+      "sha256": "6607eab73962f6a9680887bd937f2cc31e5fecc7a25dd713d20d829d51ca03dd",
+      "task": "cls_magmom_oszicar",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/fold2/model.joblib",
+      "sha256": "34297cffcbf3d98ab69232b3c623db758c6fa1099127fcc8e6acc38e20c8b48a",
+      "task": "cls_magmom_oszicar",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/fold3/model.joblib",
+      "sha256": "149522090d2476d700cefb0fefd8b0d5eff168333291115f764c09ce787cdf3b",
+      "task": "cls_magmom_oszicar",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_magmom_oszicar/fold4/model.joblib",
+      "sha256": "2f730cbde960dbded3fa11656cfdcada6382cae108b6c08d15e694f3a36c5761",
+      "task": "cls_magmom_oszicar",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/full/model.joblib",
+      "sha256": "d951c9ef058c8c68ac461c75ec2fac327c58780a7764a26f3754003ac318d7d7",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/fold0/model.joblib",
+      "sha256": "09ee1bcda96207a101057280c701cd837bdacf1f3e69756d4eb440bb46b0a879",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/fold1/model.joblib",
+      "sha256": "84f16afd39c4bade601f067d1035303111cba93666fe0a8f9f48bc6c18138678",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/fold2/model.joblib",
+      "sha256": "d667f24428105f436b3ccc4e81f2c15424c3ff14929a3a54cba233a960324e37",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/fold3/model.joblib",
+      "sha256": "66fe798cc8dfbeeee5a684b28cb64680420fd7c5d144b1130164bc82e9ac5964",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_optb88vdw_bandgap/fold4/model.joblib",
+      "sha256": "66e663ca2cef242a4e69933d1be6d409191e90cd00ed113de4bed07c0205c0bc",
+      "task": "cls_optb88vdw_bandgap",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/full/model.joblib",
+      "sha256": "7883f078c32d9a2ddda527746c044fd9b4fb4522b6289a80367ff54c41dfaf47",
+      "task": "cls_mbj_bandgap",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/fold0/model.joblib",
+      "sha256": "84bca81f1c03cbcccaf87256fb112826f6ec0198032f35f680d59aa8abddad50",
+      "task": "cls_mbj_bandgap",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/fold1/model.joblib",
+      "sha256": "cc2baf4340c220f0bad1fda430037b39f47024d101dd212adfc8adba741c7366",
+      "task": "cls_mbj_bandgap",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/fold2/model.joblib",
+      "sha256": "f2f034c638c7a28f4d1df2c33127f2b1a3c6937a840cfd435f5938fa543a5aa1",
+      "task": "cls_mbj_bandgap",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/fold3/model.joblib",
+      "sha256": "5f8614c33fff4736c2bccfecbae8a5a4404505eb0e85ed1a992a933dd7e7fc76",
+      "task": "cls_mbj_bandgap",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_mbj_bandgap/fold4/model.joblib",
+      "sha256": "e32d44104110a295708aae197517f82c3faf13656958156962fd89b4d3717312",
+      "task": "cls_mbj_bandgap",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/full/model.joblib",
+      "sha256": "f07d29d2b6e0578de09eec3c1f1b1de83d4b37e88e062c89744e31c31320457e",
+      "task": "cls_n_powerfact",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/fold0/model.joblib",
+      "sha256": "3aaf4d9cc48a0385857d4f6e70b52becd114ec0039c554a747159c6993703cef",
+      "task": "cls_n_powerfact",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/fold1/model.joblib",
+      "sha256": "aa0c81ad422e423dde79c1ea2c6c8ac852f723457383ce47d75faf13c1573a2c",
+      "task": "cls_n_powerfact",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/fold2/model.joblib",
+      "sha256": "3de9f1d4ddda5132d2f7c3e3e24d1f1ac8b30ec16d9fae112b369305f1eaffdf",
+      "task": "cls_n_powerfact",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/fold3/model.joblib",
+      "sha256": "babb1af34e0ba87a285fd675f6023d84da5dc1c9ec90e3f26a0cdce5e639e915",
+      "task": "cls_n_powerfact",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_n_powerfact/fold4/model.joblib",
+      "sha256": "9e2f61bc7160a49fd0a511696024876d33f9cce932c2da8e7f2ca6c3a904cb4e",
+      "task": "cls_n_powerfact",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/full/model.joblib",
+      "sha256": "fc090c5baeeccb08e4e909db3ea10c35f9596cfd9e560729d7597c37ee6f49f6",
+      "task": "cls_p_Seebeck",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/fold0/model.joblib",
+      "sha256": "58a7cd8d90d207873510eb4d794133c25ffb50fa31a5d85b98e18f1427a2acbd",
+      "task": "cls_p_Seebeck",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/fold1/model.joblib",
+      "sha256": "e2df304b7432f2bc23d9a3e94f7009cd06de771f02dc04a038fec53ef92f0b5a",
+      "task": "cls_p_Seebeck",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/fold2/model.joblib",
+      "sha256": "1a1f6905aa29e26a9959ace6e1272897f91ab6763ca9b4244daa281ba30da1b3",
+      "task": "cls_p_Seebeck",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/fold3/model.joblib",
+      "sha256": "1aab939dbb048c276eebacd4d8b05a5ec56caae6a7e19d819ce0917085d28ca6",
+      "task": "cls_p_Seebeck",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_p_Seebeck/fold4/model.joblib",
+      "sha256": "05880a5c622c42f25111ce38e409c022b6987113dcb781fb1ae2bc3dd894d72d",
+      "task": "cls_p_Seebeck",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/full/model.joblib",
+      "sha256": "04d1818232bf7b90c5ce4ede1a8a329c1c1c28dec871976f7daa36b3e0e49a33",
+      "task": "cls_slme",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/fold0/model.joblib",
+      "sha256": "07892abfa6d470ce7457501cd341452d02d9cc01a88918ab132f9ed6a767ddca",
+      "task": "cls_slme",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/fold1/model.joblib",
+      "sha256": "fb550819cb8b0609215709b2cd310c2b0c4e9867cb3045dcd8b5fb864331b4a9",
+      "task": "cls_slme",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/fold2/model.joblib",
+      "sha256": "4f8b9744ca93fc22080a0b94742d167df72209fe91ed3dc5e5617f5eedbbb61a",
+      "task": "cls_slme",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/fold3/model.joblib",
+      "sha256": "b35689ef7ce7d0b4c02ba6deb3ca78319f2e513c5fd98fb63d4d4ff6c81d56c1",
+      "task": "cls_slme",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_slme/fold4/model.joblib",
+      "sha256": "9bac848c18b36125369316123702d318eafd993b4068abf3dc9473eabd6adf8d",
+      "task": "cls_slme",
+      "fit": "fold4"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/full/model.joblib",
+      "sha256": "0c65f4d5c1bb9d0588cf257037f67633f826297f90fdd80bae8e7b18485a640b",
+      "task": "cls_spillage",
+      "fit": "full"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/fold0/model.joblib",
+      "sha256": "e09f401b833c48fdab1446e5fbfe8a66efe384e3ad700f2a90c26ca9d608d236",
+      "task": "cls_spillage",
+      "fit": "fold0"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/fold1/model.joblib",
+      "sha256": "19891a2cee76779cc9be78922bc3604e9ebd2105e68f4d46980a8298aafd5606",
+      "task": "cls_spillage",
+      "fit": "fold1"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/fold2/model.joblib",
+      "sha256": "52fdd8bbcc99e1d083b7eb400c9924ca51f6d5894a9be67b7fc00ecf42c0bb4a",
+      "task": "cls_spillage",
+      "fit": "fold2"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/fold3/model.joblib",
+      "sha256": "706b40a52a4c918127cd2f4c29b60a59cab34cdb4aaf4185c1c7335bcb474efe",
+      "task": "cls_spillage",
+      "fit": "fold3"
+    },
+    {
+      "path": "checkpoint/jarvis/stage1/members/cls_spillage/fold4/model.joblib",
+      "sha256": "346560571788fe14e258957f3725721a36a3a1968b8a3d8ea4976ceaf77d979c",
+      "task": "cls_spillage",
+      "fit": "fold4"
+    }
+  ],
+  "public_full_overrides": [
+    "reg_avg_elec_mass",
+    "reg_avg_hole_mass",
+    "reg_n_powerfact",
+    "reg_max_efg"
+  ],
+  "public_override_root": "data/jarvis/public_alignn",
+  "total_actual_inputs": 204,
+  "oof_models": 170
+}

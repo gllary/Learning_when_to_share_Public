@@ -1,0 +1,119 @@
+{
+  "schema": "jarvis-safety-calibration-v1",
+  "rule": "fixed_liberal",
+  "epsilon_gain_pp": 1.0,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "alpha_all_oof": 0.5,
+  "beta": 0.5,
+  "task_rule_passed": true,
+  "correction_enabled": true,
+  "candidate_mean_losses_all_oof": [
+    19.565009551239513,
+    19.49349097004987,
+    19.484748390935742,
+    19.527405602819872,
+    19.614484055994673
+  ],
+  "certificate": {
+    "G": 0.4102280660460274,
+    "L": 0.282371452872791,
+    "upper_diagnostic": 0.5394648657122235,
+    "confidence": 0.95,
+    "method": "paired_percentile",
+    "resamples": 5000,
+    "resample_size": 35592,
+    "class_counts_preserved": false,
+    "seed": 20262860,
+    "zero_baseline_error_draws": 0,
+    "denominator_floor": 1e-12
+  },
+  "meta_folds": [
+    {
+      "held_fold": 0,
+      "fit_rows": 28473,
+      "held_rows": 7119,
+      "alpha": 0.5,
+      "fit_candidate_mean_losses": [
+        19.544364971454563,
+        19.472079637493184,
+        19.4620616622161,
+        19.50562687172907,
+        19.59506974565952
+      ],
+      "held_gain_percent": 0.3669328649391891
+    },
+    {
+      "held_fold": 1,
+      "fit_rows": 28473,
+      "held_rows": 7119,
+      "alpha": 0.5,
+      "fit_candidate_mean_losses": [
+        19.643442661976515,
+        19.57041512222353,
+        19.56084332686178,
+        19.60222502455114,
+        19.689273609099025
+      ],
+      "held_gain_percent": 0.36833569140378314
+    },
+    {
+      "held_fold": 2,
+      "fit_rows": 28474,
+      "held_rows": 7118,
+      "alpha": 0.5,
+      "fit_candidate_mean_losses": [
+        19.393162392333544,
+        19.321924650744887,
+        19.31381015125848,
+        19.357219669822324,
+        19.44388307932979
+      ],
+      "held_gain_percent": 0.4142565823851638
+    },
+    {
+      "held_fold": 3,
+      "fit_rows": 28474,
+      "held_rows": 7118,
+      "alpha": 0.5,
+      "fit_candidate_mean_losses": [
+        19.669122475958133,
+        19.599983683401817,
+        19.59216678642066,
+        19.635513422864182,
+        19.724089640914126
+      ],
+      "held_gain_percent": 0.48820446777311677
+    },
+    {
+      "held_fold": 4,
+      "fit_rows": 28474,
+      "held_rows": 7118,
+      "alpha": 0.5,
+      "fit_candidate_mean_losses": [
+        19.574957283994053,
+        19.503053705982744,
+        19.494861903605035,
+        19.536444887908882,
+        19.620106149736067
+      ],
+      "held_gain_percent": 0.41446059940137864
+    }
+  ],
+  "positive_fold_count_diagnostic": 5,
+  "worst_fold_gain_diagnostic": 0.3669328649391891,
+  "fold_diagnostics_used_for_acceptance": false,
+  "final_alpha_method": "all_oof_grid_search",
+  "final_oof_training_score_diagnostic": 19.484748390935742,
+  "calibration_seed": 20261083,
+  "train_labels_only": true,
+  "independent_risk_guarantee": false,
+  "task": "reg_epsz",
+  "variant": "full",
+  "calibration_record_sha256": "6adab41827d2e84a7a9dd601f1014c55991764704e2704f1d23b77561ae53b91"
+}

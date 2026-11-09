@@ -1,0 +1,21 @@
+{
+  "table": "Supplementary Table 15",
+  "seed": 20261031,
+  "generator": "numpy.default_rng / PCG64",
+  "replicates": 20000,
+  "quantiles": [
+    0.025,
+    0.975
+  ],
+  "quantile_method": "linear",
+  "difference": "abs(Full-target) - abs(Stage1-target)",
+  "dataset_order": [
+    "core23",
+    "ds2_248",
+    "hea95",
+    "b2_18"
+  ],
+  "hea95": {
+    "group_count": 90
+  }
+}

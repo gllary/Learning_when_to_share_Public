@@ -1,0 +1,89 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 921,
+  "expert": {
+    "checkpoint_sha256": "a7f5c63c5e6e913e6b80bfe9f3f829c055d519eed973e6847319842e580114c2",
+    "expert_id": "mattervial_expt_gap_anchor",
+    "frozen": true,
+    "hidden_dim": 40,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "expt_gap"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "8451742c915a01f40795abf7a33c6fcf078ee8a695ca21ef66e2caa3ddda04d2",
+      "shape": [
+        921
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "dc06f11233dac63f6e78aa70362ce219c0745daf763ce707e10177f1cc9c0eba",
+      "shape": [
+        921,
+        40
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "902792f2f6b4082a99e8b1d932be2f9db6e705988ea8a576b087e6d763991528",
+      "shape": [
+        921
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U16",
+      "filename": "sample_ids.npy",
+      "sha256": "bd540ac0702a09390f25bec9d8f12003fbe5cbb807de19e0ecb4676cd2ebeb92",
+      "shape": [
+        921
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "a19e15f88007427d785ed8df1638fd6ba01a41ff536719636b27deaee2882a97",
+      "shape": [
+        921
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "5e50fdab42c6ac0933fdaed48e763e089c95ae65d15cfb6eeb0dd9723f1150a0",
+  "n_samples": 921,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "e86ea8acc348360f68b7bd813d0841df9e5057d2baffb09232319f93783af8ea",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "expt_gap",
+    "stage2_protocol_version": "12.2",
+    "target_task": "expt_gap",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 5,
+    "used_members": 5
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "outer_test",
+    "outer_fold": 0,
+    "role": "test",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "expt_gap",
+  "unavailable_rows": 0
+}

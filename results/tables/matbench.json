@@ -1,0 +1,990 @@
+{
+  "dataset": "matbench",
+  "tasks": [
+    {
+      "task": "steels",
+      "name": "Steel yield strength",
+      "metric": "mae",
+      "unit": "MPa",
+      "stage1_model": "TPOT-Mat",
+      "models": {
+        "FULL": {
+          "score": 78.51216065453188,
+          "normalized_gain_percent": 0.0,
+          "betas": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fold_gains_percent": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.0
+        },
+        "NO_CROSS": {
+          "score": 79.8934374168247,
+          "normalized_gain_percent": -1.9130312714460178,
+          "betas": [
+            0.0,
+            0.25,
+            0.0,
+            0.25,
+            0.0
+          ],
+          "fold_gains_percent": [
+            0.0,
+            -5.734814995774155,
+            0.0,
+            -3.8303413614559343,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": -1.7593156917062673
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 99.01613793112836,
+          "normalized_gain_percent": -27.175396545874854,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -17.553875376961006,
+            -29.80017148861487,
+            -17.018156943263524,
+            -29.78669975057296,
+            -41.718079169961904
+          ],
+          "delta_vs_stage1_percent_or_pp": -26.115670624347977
+        }
+      },
+      "stage1": 78.51216065453188
+    },
+    {
+      "task": "expt_gap",
+      "name": "Experimental band gap",
+      "metric": "mae",
+      "unit": "eV",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.24710588832964403,
+          "normalized_gain_percent": 24.194994442273362,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            19.36632256110137,
+            20.79643614996852,
+            23.687731730099774,
+            20.19293322524137,
+            36.93154854495578
+          ],
+          "delta_vs_stage1_percent_or_pp": 24.638983778204846
+        },
+        "NO_CROSS": {
+          "score": 0.3285652831391762,
+          "normalized_gain_percent": -0.2685158611010311,
+          "betas": [
+            0.75,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "fold_gains_percent": [
+            -2.0736907340654045,
+            -0.3807832897442188,
+            -0.1759804362511113,
+            -0.06244307579582628,
+            1.3503182303514054
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.20406150556196095
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.24710588832964403,
+          "normalized_gain_percent": 24.194994442273362,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            19.36632256110137,
+            20.79643614996852,
+            23.687731730099774,
+            20.19293322524137,
+            36.93154854495578
+          ],
+          "delta_vs_stage1_percent_or_pp": 24.638983778204846
+        }
+      },
+      "stage1": 0.3278961732713187
+    },
+    {
+      "task": "glass",
+      "name": "Glass-forming ability",
+      "metric": "roc_auc",
+      "unit": "ROC-AUC",
+      "stage1_model": "AnchorBoost-v2",
+      "models": {
+        "FULL": {
+          "score": 0.9554747027340558,
+          "normalized_gain_percent": -1.1648886334293198,
+          "betas": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.0
+          ],
+          "fold_gains_percent": [
+            -3.8320520402127665,
+            -0.2771149257178208,
+            -1.0898592565862644,
+            -0.625416944629748,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.044142627390275635
+        },
+        "NO_CROSS": {
+          "score": 0.955624606878265,
+          "normalized_gain_percent": -0.8329413815636499,
+          "betas": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.0
+          ],
+          "fold_gains_percent": [
+            -3.1224127735067504,
+            1.6395966438302507,
+            -0.7722843738723056,
+            -1.9096064042694445,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.02915221296935222
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.9493195933755928,
+          "normalized_gain_percent": -16.436536440870746,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -38.935541099941084,
+            -11.946732353167544,
+            -11.735835438470062,
+            -11.807871914609759,
+            -7.756701398165282
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.659653563236573
+        }
+      },
+      "stage1": 0.9559161290079585
+    },
+    {
+      "task": "expt_is_metal",
+      "name": "Experimental metallicity",
+      "metric": "roc_auc",
+      "unit": "ROC-AUC",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.9807043565135845,
+          "normalized_gain_percent": 18.0793474720193,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            17.782094296309445,
+            11.68264211825,
+            17.761746929226053,
+            30.40723981900465,
+            12.763014197306356
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.4203874315048539
+        },
+        "NO_CROSS": {
+          "score": 0.9765004821985359,
+          "normalized_gain_percent": 0.0,
+          "betas": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "fold_gains_percent": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.0
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.9807043565135845,
+          "normalized_gain_percent": 18.0793474720193,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            17.782094296309445,
+            11.68264211825,
+            17.761746929226053,
+            30.40723981900465,
+            12.763014197306356
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.4203874315048539
+        }
+      },
+      "stage1": 0.9765004821985359
+    },
+    {
+      "task": "jdft2d",
+      "name": "Exfoliation energy",
+      "metric": "mae",
+      "unit": "meV/atom",
+      "stage1_model": "JMP-L",
+      "models": {
+        "FULL": {
+          "score": 28.892161363294075,
+          "normalized_gain_percent": 0.2856418065780755,
+          "betas": [
+            0.75,
+            0.75,
+            0.0,
+            0.75,
+            0.75
+          ],
+          "fold_gains_percent": [
+            0.7132454158813993,
+            -0.13434737869046084,
+            0.0,
+            0.463787362184648,
+            0.38552363351479096
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.22667194234039673
+        },
+        "NO_CROSS": {
+          "score": 28.88291978671806,
+          "normalized_gain_percent": 0.3121367256309452,
+          "betas": [
+            0.75,
+            0.75,
+            0.0,
+            0.75,
+            0.75
+          ],
+          "fold_gains_percent": [
+            0.6655065656173331,
+            -0.07463518517488185,
+            0.0,
+            0.4640787161427102,
+            0.5057335315695646
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.2585858874376407
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 28.86657053278892,
+          "normalized_gain_percent": 0.3773369347645167,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            0.9475587499788233,
+            -0.2446212726445902,
+            0.10467529608467659,
+            0.5787056071096409,
+            0.5003662932940328
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.3150447814351781
+        }
+      },
+      "stage1": 28.95780057231039
+    },
+    {
+      "task": "dielectric",
+      "name": "Refractive index",
+      "metric": "mae",
+      "unit": "dimensionless",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.24493392731842398,
+          "normalized_gain_percent": 10.567032708478106,
+          "betas": [
+            0.75,
+            1.0,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "fold_gains_percent": [
+            14.213354234429124,
+            16.734846068892267,
+            3.6721898516213494,
+            5.309869880799662,
+            12.904903506648127
+          ],
+          "delta_vs_stage1_percent_or_pp": 9.629050423477889
+        },
+        "NO_CROSS": {
+          "score": 0.2559950476152181,
+          "normalized_gain_percent": 5.553997283291262,
+          "betas": [
+            1.0,
+            1.0,
+            0.75,
+            0.75,
+            0.75
+          ],
+          "fold_gains_percent": [
+            6.4017410388825216,
+            9.092196915504774,
+            3.2283409555311833,
+            -3.041674557866403,
+            12.089382064404235
+          ],
+          "delta_vs_stage1_percent_or_pp": 5.547933709492002
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.24516815420830965,
+          "normalized_gain_percent": 10.267770316223487,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            12.142552370557164,
+            16.734846068892267,
+            2.4954766976959832,
+            4.833791628090386,
+            15.132184815881628
+          ],
+          "delta_vs_stage1_percent_or_pp": 9.542629948017154
+        }
+      },
+      "stage1": 0.2710317070542949
+    },
+    {
+      "task": "log_kvrh",
+      "name": "Log bulk modulus",
+      "metric": "mae",
+      "unit": "log10(GPa)",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.026627960790552945,
+          "normalized_gain_percent": 0.030761768955359953,
+          "betas": [
+            0.5,
+            0.5,
+            0.25,
+            0.5,
+            0.5
+          ],
+          "fold_gains_percent": [
+            0.47104824176965365,
+            -0.18640556089965885,
+            0.14021033916187622,
+            -0.1938096229101981,
+            -0.07723455234487311
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.016085238391868237
+        },
+        "NO_CROSS": {
+          "score": 0.026880840267101812,
+          "normalized_gain_percent": -0.9866948028389639,
+          "betas": [
+            0.75,
+            0.75,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "fold_gains_percent": [
+            -3.2211977740502706,
+            -0.661150578136061,
+            0.0,
+            -0.2756450403855532,
+            -0.7754806216229356
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.9334384681772144
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.026980431693869277,
+          "normalized_gain_percent": -1.290946791008331,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -0.9675471604588669,
+            -1.8179855907887816,
+            -0.7602439370424966,
+            -1.362884386622825,
+            -1.5460728801286843
+          ],
+          "delta_vs_stage1_percent_or_pp": -1.3073890235061776
+        }
+      },
+      "stage1": 0.0266322446505941
+    },
+    {
+      "task": "log_gvrh",
+      "name": "Log shear modulus",
+      "metric": "mae",
+      "unit": "log10(GPa)",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.034602631751647156,
+          "normalized_gain_percent": -0.008248361847868802,
+          "betas": [
+            0.5,
+            0.0,
+            0.25,
+            0.25,
+            0.0
+          ],
+          "fold_gains_percent": [
+            1.1986433099227023,
+            0.0,
+            -1.2197153901030333,
+            -0.020169729059012986,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": -0.0016911009227614298
+        },
+        "NO_CROSS": {
+          "score": 0.03548904844714933,
+          "normalized_gain_percent": -2.603362476305572,
+          "betas": [
+            0.5,
+            0.25,
+            0.5,
+            0.5,
+            0.0
+          ],
+          "fold_gains_percent": [
+            -4.203262872535076,
+            -0.4611768562871451,
+            -8.332279447618335,
+            -0.020093205087302713,
+            0.0
+          ],
+          "delta_vs_stage1_percent_or_pp": -2.5634375370472102
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.037320221077293485,
+          "normalized_gain_percent": -7.821883005917046,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -2.2835496475761228,
+            -1.8030052117762068,
+            -20.105566862989352,
+            -2.3432396350524827,
+            -12.574053672191065
+          ],
+          "delta_vs_stage1_percent_or_pp": -7.855530954289195
+        }
+      },
+      "stage1": 0.034602046596117875
+    },
+    {
+      "task": "perovskites",
+      "name": "Perovskite formation energy",
+      "metric": "mae",
+      "unit": "eV/unitcell",
+      "stage1_model": "JMP-L",
+      "models": {
+        "FULL": {
+          "score": 0.026481742026205964,
+          "normalized_gain_percent": 3.172833910909688,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            2.157919378383606,
+            2.3857956124727626,
+            3.6916456704590996,
+            3.937814481638231,
+            3.6909944115947395
+          ],
+          "delta_vs_stage1_percent_or_pp": 3.1570496976961238
+        },
+        "NO_CROSS": {
+          "score": 0.02660796638206019,
+          "normalized_gain_percent": 2.7096140555900803,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            1.725046730154376,
+            1.9895205059987062,
+            3.155470439621896,
+            3.4607329602601853,
+            3.217299641915237
+          ],
+          "delta_vs_stage1_percent_or_pp": 2.695450947552177
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.026481742026205964,
+          "normalized_gain_percent": 3.172833910909688,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            2.157919378383606,
+            2.3857956124727626,
+            3.6916456704590996,
+            3.937814481638231,
+            3.6909944115947395
+          ],
+          "delta_vs_stage1_percent_or_pp": 3.1570496976961238
+        }
+      },
+      "stage1": 0.027345038480902174
+    },
+    {
+      "task": "phonons",
+      "name": "Maximum phonon frequency",
+      "metric": "mae",
+      "unit": "cm^-1",
+      "stage1_model": "JMP-L",
+      "models": {
+        "FULL": {
+          "score": 20.131589820753334,
+          "normalized_gain_percent": 1.4412361454287779,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -0.44476628999238116,
+            3.9629635774889285,
+            2.8076015950182125,
+            1.2641244900941204,
+            -0.3837426454649918
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.4415761146961754
+        },
+        "NO_CROSS": {
+          "score": 20.081889856953516,
+          "normalized_gain_percent": 1.6925658174078664,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            0.75,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -0.3508303593927478,
+            4.139359236911294,
+            2.8860011218863826,
+            1.5823857734978821,
+            0.20591331413651995
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.6848927202340556
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 20.11625510111075,
+          "normalized_gain_percent": 1.5174077285922063,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            -0.44476628999238116,
+            3.9629635774889285,
+            2.8076015950182125,
+            1.6449824059112632,
+            -0.3837426454649918
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.5166504536904126
+        }
+      },
+      "stage1": 20.426046833075606
+    },
+    {
+      "task": "mp_gap",
+      "name": "Computed band gap",
+      "metric": "mae",
+      "unit": "eV",
+      "stage1_model": "JMP-L FP32",
+      "models": {
+        "FULL": {
+          "score": 0.09740880962012122,
+          "normalized_gain_percent": 1.8198415824880236,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            3.2798205876369146,
+            1.820515806726635,
+            1.6340433189257833,
+            1.0483301458566576,
+            1.3164980532941282
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.8210178883530403
+        },
+        "NO_CROSS": {
+          "score": 0.09756106284498509,
+          "normalized_gain_percent": 1.6663752521750381,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            3.0961736271638447,
+            1.582064269660085,
+            1.5432144905366987,
+            0.8678767153223843,
+            1.2425471581921785
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.667560858145553
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.09740880962012122,
+          "normalized_gain_percent": 1.8198415824880236,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            3.2798205876369146,
+            1.820515806726635,
+            1.6340433189257833,
+            1.0483301458566576,
+            1.3164980532941282
+          ],
+          "delta_vs_stage1_percent_or_pp": 1.8210178883530403
+        }
+      },
+      "stage1": 0.09921554239516364
+    },
+    {
+      "task": "mp_is_metal",
+      "name": "Computed metallicity",
+      "metric": "roc_auc",
+      "unit": "ROC-AUC",
+      "stage1_model": "MatterVial",
+      "models": {
+        "FULL": {
+          "score": 0.9869873617659362,
+          "normalized_gain_percent": 25.8496001885669,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            31.815544421808145,
+            23.897581160758882,
+            22.131928469548775,
+            24.721528061052602,
+            26.6814188296661
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.45321506520585864
+        },
+        "NO_CROSS": {
+          "score": 0.9824881543193502,
+          "normalized_gain_percent": 0.17285605799572742,
+          "betas": [
+            0.0,
+            0.75,
+            1.0,
+            1.0,
+            0.75
+          ],
+          "fold_gains_percent": [
+            0.0,
+            0.8188593687104065,
+            -0.5714543015344561,
+            0.00134651865551614,
+            0.6155287041471705
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.0032943205472646397
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.9869873617659362,
+          "normalized_gain_percent": 25.8496001885669,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            31.815544421808145,
+            23.897581160758882,
+            22.131928469548775,
+            24.721528061052602,
+            26.6814188296661
+          ],
+          "delta_vs_stage1_percent_or_pp": 0.45321506520585864
+        }
+      },
+      "stage1": 0.9824552111138776
+    },
+    {
+      "task": "mp_e_form",
+      "name": "Formation energy",
+      "metric": "mae",
+      "unit": "eV/atom",
+      "stage1_model": "JMP-L FP32",
+      "models": {
+        "FULL": {
+          "score": 0.011201046260196895,
+          "normalized_gain_percent": 7.4453116475358625,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            8.404788874946536,
+            9.48284210918176,
+            4.817180530627807,
+            6.073207046119219,
+            8.448539676803989
+          ],
+          "delta_vs_stage1_percent_or_pp": 7.478711429068803
+        },
+        "NO_CROSS": {
+          "score": 0.0111814861333492,
+          "normalized_gain_percent": 7.605011298349578,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            8.670184063839312,
+            9.621289769850131,
+            4.886712897804702,
+            6.187589877027548,
+            8.659279883226194
+          ],
+          "delta_vs_stage1_percent_or_pp": 7.640279205731811
+        },
+        "NO_SAFETY_CALIBRATION": {
+          "score": 0.011201046260196895,
+          "normalized_gain_percent": 7.4453116475358625,
+          "betas": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "fold_gains_percent": [
+            8.404788874946536,
+            9.48284210918176,
+            4.817180530627807,
+            6.073207046119219,
+            8.448539676803989
+          ],
+          "delta_vs_stage1_percent_or_pp": 7.478711429068803
+        }
+      },
+      "stage1": 0.012106452939865448
+    }
+  ],
+  "summary": {
+    "FULL": {
+      "macro_normalized_gain_percent": 7.054881898304328,
+      "versus_stage1": {
+        "win": 10,
+        "tie": 1,
+        "loss": 2
+      },
+      "versus_main": {
+        "win": 0,
+        "tie": 13,
+        "loss": 0
+      },
+      "versus_fixed_board": {
+        "win": 10,
+        "tie": 0,
+        "loss": 0
+      },
+      "comparable_board_tasks": 10,
+      "mean_regression_MAE_improvement_percent": 4.840745541130638,
+      "mean_classification_improvement_pp": 0.2764866231068123,
+      "enabled_beta_count": 56,
+      "beta_denominator": 65,
+      "beta_histogram": {
+        "0.0": 9,
+        "0.25": 7,
+        "0.5": 5,
+        "0.75": 9,
+        "1.0": 35
+      }
+    },
+    "NO_CROSS": {
+      "macro_normalized_gain_percent": 1.008308515168097,
+      "versus_stage1": {
+        "win": 7,
+        "tie": 1,
+        "loss": 5
+      },
+      "versus_main": {
+        "win": 4,
+        "tie": 0,
+        "loss": 9
+      },
+      "versus_fixed_board": {
+        "win": 9,
+        "tie": 0,
+        "loss": 1
+      },
+      "comparable_board_tasks": 10,
+      "mean_regression_MAE_improvement_percent": 1.4034450126100586,
+      "mean_classification_improvement_pp": -0.008619297474029194,
+      "enabled_beta_count": 52,
+      "beta_denominator": 65,
+      "beta_histogram": {
+        "0.0": 13,
+        "0.25": 7,
+        "0.5": 9,
+        "0.75": 13,
+        "1.0": 23
+      }
+    },
+    "NO_SAFETY_CALIBRATION": {
+      "macro_normalized_gain_percent": 3.0768985722847977,
+      "versus_stage1": {
+        "win": 9,
+        "tie": 0,
+        "loss": 4
+      },
+      "versus_main": {
+        "win": 2,
+        "tie": 6,
+        "loss": 5
+      },
+      "versus_fixed_board": {
+        "win": 9,
+        "tie": 0,
+        "loss": 1
+      },
+      "comparable_board_tasks": 10,
+      "mean_regression_MAE_improvement_percent": 1.3191497374322207,
+      "mean_classification_improvement_pp": 0.07131631115804653,
+      "enabled_beta_count": 65,
+      "beta_denominator": 65,
+      "beta_histogram": {
+        "0.0": 0,
+        "0.25": 0,
+        "0.5": 0,
+        "0.75": 0,
+        "1.0": 65
+      }
+    }
+  },
+  "pairwise": {
+    "FULL_vs_NO_CROSS": {
+      "win_tie_loss": {
+        "win": 9,
+        "tie": 0,
+        "loss": 4
+      },
+      "macro_gain_difference_pp": 6.046573383136231
+    },
+    "FULL_vs_NO_SAFETY_CALIBRATION": {
+      "win_tie_loss": {
+        "win": 5,
+        "tie": 6,
+        "loss": 2
+      },
+      "macro_gain_difference_pp": 3.97798332601953
+    }
+  },
+  "parameters": {
+    "FULL": 3549181,
+    "NO_CROSS": 3549011
+  }
+}

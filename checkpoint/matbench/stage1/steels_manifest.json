@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "outer": 0,
+      "path": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_0/tpot_mat_pipeline.joblib",
+      "sha256": "57401a4c40f62891b26889a717734f616aba63c22434e712da7bec2d5daaef5b",
+      "source_task": "steels"
+    },
+    {
+      "outer": 1,
+      "path": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_1/tpot_mat_pipeline.joblib",
+      "sha256": "26dfca3aaa2a7785e78fbdfc67b820255701e535c099ad6ec9d45c6e1a6be1a2",
+      "source_task": "steels"
+    },
+    {
+      "outer": 2,
+      "path": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_2/tpot_mat_pipeline.joblib",
+      "sha256": "8f54caa311e7099882d90cb15416fcc35aef3ed5cb7302bb6d0305a58e995f92",
+      "source_task": "steels"
+    },
+    {
+      "outer": 3,
+      "path": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_3/tpot_mat_pipeline.joblib",
+      "sha256": "6d5af0296fdabea749397672da734debbcfe1d61e750e8cb0b271b59b85de72a",
+      "source_task": "steels"
+    },
+    {
+      "outer": 4,
+      "path": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_4/tpot_mat_pipeline.joblib",
+      "sha256": "32cd97655acf77c24dbeaff78731aa4e34f2609b9ea75e8f293bcc3607d8d69f",
+      "source_task": "steels"
+    }
+  ]
+}

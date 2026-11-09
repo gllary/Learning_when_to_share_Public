@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 8489,
+  "expert": {
+    "checkpoint_sha256": "fe9ccfbc06efe99634b4175797dfd7911cdb09a10c7ea38528812c3dbd63d777",
+    "expert_id": "jmp_l_jdft2d_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "jdft2d"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "f484f14183fb11d0fdcb5072a66b5890178ff91dcb82d46e3085f0115b9daef8",
+      "shape": [
+        8489
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "cc1983b8515f28c182c56cfb78e7c0eeeaed972a63bf5b10bfaf68c4663a245e",
+      "shape": [
+        8489,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "3402042e254e3aaf273fd23fd8064f90df0a4cb86093fac27510913e72e2adaa",
+      "shape": [
+        8489
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U21",
+      "filename": "sample_ids.npy",
+      "sha256": "e8719b849af2a60f124e597b48e9c36f94f1500036c8da8caea6dd6946b72e80",
+      "shape": [
+        8489
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "3c231f123a5678a8cd0b409daf842c08fce575e06c227e299cecf8c71ce7cad1",
+      "shape": [
+        8489
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "2ce635496975374dcc6cabe2aab82e520204dcdb3a9b4fe53a843aa6ec05d372",
+  "n_samples": 8489,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "fe9ccfbc06efe99634b4175797dfd7911cdb09a10c7ea38528812c3dbd63d777",
+    "source_outer_fold": 1,
+    "source_task": "jdft2d",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 1,
+    "target_task": "mp_is_metal",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 1,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_is_metal",
+  "unavailable_rows": 0
+}

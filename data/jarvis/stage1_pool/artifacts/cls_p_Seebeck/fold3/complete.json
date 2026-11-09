@@ -1,0 +1,9 @@
+{
+  "task": "cls_p_Seebeck",
+  "fold": 3,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "1aab939dbb048c276eebacd4d8b05a5ec56caae6a7e19d819ce0917085d28ca6",
+  "seconds": 198.05753805674613,
+  "test_labels_read": false
+}

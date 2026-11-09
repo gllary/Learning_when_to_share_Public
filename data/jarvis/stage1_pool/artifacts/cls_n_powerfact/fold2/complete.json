@@ -1,0 +1,9 @@
+{
+  "task": "cls_n_powerfact",
+  "fold": 2,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "3de9f1d4ddda5132d2f7c3e3e24d1f1ac8b30ec16d9fae112b369305f1eaffdf",
+  "seconds": 245.48548305872828,
+  "test_labels_read": false
+}

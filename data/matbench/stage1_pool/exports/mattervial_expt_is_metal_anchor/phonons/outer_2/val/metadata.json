@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 101,
+  "expert": {
+    "checkpoint_sha256": "70742d75987102f800875bd02995f2f01501a913b000fd7ceae312d1547c31cd",
+    "expert_id": "mattervial_expt_is_metal_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "expt_is_metal"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "2affbf057a240203c206ec83b9c67d4f771be8ebbe398cfad85250f8c9fdca88",
+      "shape": [
+        101
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "dc49faf94f9f659d65f7d9e5aeca1e57bdda6c8657d3d3888982381a0d310caa",
+      "shape": [
+        101,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "e796cbdadda0b9a68489bdec965d49a9e008a50eaa1fe08eea17e8c23cd4e2bd",
+      "shape": [
+        101
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U15",
+      "filename": "sample_ids.npy",
+      "sha256": "ae8c2249af79f085d6d1e9232e56f1aee186ba7459beba83d7f880c44f3d8269",
+      "shape": [
+        101
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "f71fc54bae300d49d23ce0c98fae1e22c9b7903a6682961e91b1c5201f434088",
+      "shape": [
+        101
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "90b5cc63a957e297b25f5f6775553501503f7c673c0428febb59bfe83e3757a7",
+  "n_samples": 101,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "7f99c0af3b524533688c5df6a97f9b590e43a5bc535eaf323a164eb8f05b50b0",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_completion_policy": "outer0_union_plus_certified_target_free_stage1_cache_v1",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "4f68fccf871df047416f7f7405f6afd8b354b7dc1345c16e0320d6cef4a74b10",
+    "relation_screening": "none",
+    "source_task": "expt_is_metal",
+    "stage2_protocol_version": "12.2",
+    "supplemental_stage1_feature_cache_compatibility_policy": "native_schema_v2_target_firewall_v1",
+    "supplemental_stage1_feature_cache_receipt_sha256": "a44c6dfb43952dd7796ab29da0084ca4de4b870added7d90720263577e328416",
+    "supplemental_stage1_feature_cache_schema_version": 2,
+    "target_task": "phonons",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 2,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "phonons",
+  "unavailable_rows": 0
+}

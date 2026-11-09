@@ -1,0 +1,136 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 879,
+  "expert": {
+    "checkpoint_sha256": "cf0de7cfbe8fdc7a84a4d03963973bace8b83fa3935cf2225f5e17875394f10f",
+    "expert_id": "mattervial_log_gvrh_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "log_gvrh"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "4c0aa8e2e7527a5b4fa8ee7111a75fc1561e5bf5e9db29c4b9dd2c9214c9c932",
+      "shape": [
+        879
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "1567296742174a3f956d83b61b69697f2fac2f01067cd58a21fa604528cbc4a4",
+      "shape": [
+        879,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "08c248158e07664dea9d7c5d1188ca2e4656147eb2f5d7ab0a3695346b1411e9",
+      "shape": [
+        879
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U17",
+      "filename": "sample_ids.npy",
+      "sha256": "64cabdb3a5f456d0aa337f56cf2b7395d3f4767cb33c9696ec15ca4189cdd856",
+      "shape": [
+        879
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "187cc28b79721c9572e1734baab018e65a2149660018fa326c1c50125386fdd8",
+      "shape": [
+        879
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "8a929ca102837bf838d8848cd7e5aeb11763fe6b32837836801ecdd6c8507229",
+  "n_samples": 879,
+  "producer": {
+    "adapter": "mattervial_modnet_inner_oof_penultimate_concat_v12_2",
+    "aggregate_checkpoint_sha256": "cf0de7cfbe8fdc7a84a4d03963973bace8b83fa3935cf2225f5e17875394f10f",
+    "checkpoint_fit_role": "inner_train_crossfit",
+    "checkpoint_role": "inner_oof",
+    "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+    "inner_checkpoint_records": [
+      {
+        "checkpoint_sha256": "ab46fa8584828ae86f9940f21314f0bbda23725c6a2eee60ef2d56c482de809f",
+        "fit_positions_sha256": "e72d2bb9c9fa41ccee8b52268d7a3f7612ca24ce139070520f4deb62ba60c9b2",
+        "formal_predictions_sha256": "55365b8e43c6a6d063d56bb81cacc475a41c0f8d11199d84de438f941a957556",
+        "inner_fold": 0,
+        "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "091d77ffff99002d54fb67eb5e86685b72fbcdc9ac804c2c80143cf88b8caf69"
+      },
+      {
+        "checkpoint_sha256": "ac6b0c56401b9c89df134854c4511961f501b08be6c79dddf1b66b50a24ed4cf",
+        "fit_positions_sha256": "4828ea8f67e714b18f34bf05db10f05619782e84b947ba4d2f7d365b2feffc7d",
+        "formal_predictions_sha256": "ab480b382471995502896afbaa4fe7b0e4af16578fa6114b169c2a23b829f3af",
+        "inner_fold": 1,
+        "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "0bb0fb540fec3983286b607c9c8d077b2e1395fb335020bff0bcfcdb981a4aca"
+      },
+      {
+        "checkpoint_sha256": "5530846f1a5553ff0f3a483fa401647035201c4649f0354b72e4de36947eda56",
+        "fit_positions_sha256": "b90b0eef2252701c5af18f159617d321288a1029d5d4f966a0c706b207273186",
+        "formal_predictions_sha256": "8092edaeb7232313e92daad61b9ac9431cd76ab2a6aa3acc40a4eae0ddfa369d",
+        "inner_fold": 2,
+        "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "d24d724f3b581a8b445b92f50c12200e40af3ced7e07852c21e3a4c647f613dd"
+      },
+      {
+        "checkpoint_sha256": "81406cf5bfe244fb019fe2281378075ec451f3b40577ccf7686f062e4927ce38",
+        "fit_positions_sha256": "b87cbc2be84112c5fe37461f42285826ed5711e3346c020d9aeaf1494e6ca066",
+        "formal_predictions_sha256": "ba248adf737ade1eecc322910ab5a612a79848b09e579bd5bdd2397cd5d4057f",
+        "inner_fold": 3,
+        "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "b2a598326b3d789010caa63b175e49484454ee2c5686ef89a0f0804efcbac4f2"
+      },
+      {
+        "checkpoint_sha256": "b4f8164cc23b028e20dd30eab0906389a4a00c73d8600c10fdf6774c376debb9",
+        "fit_positions_sha256": "428b32257bbbc4768103f58f0b9cd3e8aec642cef631172c5cb135a66f8b5e9f",
+        "formal_predictions_sha256": "7edebda7730e3bd1cddfa22168c9cbda03f63e24bf54caa595a066dc5b7dee34",
+        "inner_fold": 4,
+        "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "8f91f0524994628029362500000637649aab8329db195fc33e223912ea10c845"
+      }
+    ],
+    "inner_fold_count": 5,
+    "inner_validation_partition_exact": true,
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_inner_validation_predictions",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "log_gvrh",
+    "stage2_protocol_version": "12.2",
+    "target_task": "log_gvrh",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 0,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "log_gvrh",
+  "unavailable_rows": 0
+}

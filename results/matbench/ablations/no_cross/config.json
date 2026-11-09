@@ -1,0 +1,18 @@
+{
+  "experiment_id": "matbench_no_cross",
+  "dataset": "matbench",
+  "architecture": "model",
+  "strict_no_cross": true,
+  "safety": "fixed_task_liberal",
+  "batch": {
+    "regression": 384,
+    "classification_per_class": 160
+  },
+  "classification_metric": "ROC-AUC",
+  "uncertainty": "stage1_inputs",
+  "route_temperature": 0.75,
+  "calibration_records": "records/calibration/matbench/tasks/matbench_no_cross/calibration_records",
+  "weights_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "display_name": "Matbench No-cross Ablation",
+  "result_key": "NO_CROSS"
+}

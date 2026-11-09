@@ -1,0 +1,30 @@
+{
+  "available_rows": 23,
+  "checkpoint": "checkpoint/matbench/stage1/mattervial_log_gvrh_anchor/outer_1/mattervial_modnet.pkl",
+  "checkpoint_sha256": "717c64bff285a1013a03a78a28c918c3492baa4f54d3b73527ea939150ac5afd",
+  "dataset": "Core-23",
+  "detail": {
+    "partial_ensemble_used": false,
+    "total_members": 20,
+    "uncertainty": "frozen_member_prediction_std_ddof0",
+    "used_members": 20
+  },
+  "expert_id": "mattervial_log_gvrh_anchor",
+  "files": {
+    "available.npy": "4dc47237124b77c644f82df124ca07a797dbf87339497fa06f1c0c2476f265d3",
+    "hidden.npy": "a3590c3d09bc66b6e89b22bf5e0578686956f943987dbe6340046169dadba53a",
+    "prediction.npy": "1baff66dedbd601de689afdf8aec399a09b4a8f55d2983d8449730270e8d476b",
+    "sample_ids.npy": "05e0f06096fdc9fda37e93f7d36ec161a251d4b6b298141f7c69bdddcfedab7d",
+    "uncertainty.npy": "bd977b7bde360db7f5ec2891812a7ce2bc4158c1ef8e3f5d1d1fa8d3d5a793d9"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 160,
+  "kind": "mattervial",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 1,
+  "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+  "source_task": "log_gvrh",
+  "time": 1793417770.5208945,
+  "weights_updated": false
+}

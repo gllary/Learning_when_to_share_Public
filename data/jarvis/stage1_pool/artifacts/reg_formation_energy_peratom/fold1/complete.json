@@ -1,0 +1,15 @@
+{
+  "task": "reg_formation_energy_peratom",
+  "fold": 1,
+  "checkpoint_file": "model.pt",
+  "checkpoint_sha256": "03c7c73b379bbfc9611ade79ab8855d4178bc125a6a6145e0f0554c4cb85e5a6",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "test_labels_read": false,
+  "official_validation_labels_read": true,
+  "selected_epoch": 300,
+  "validation_mae": 0.02737957168549663,
+  "seconds": 5938.205101634376,
+  "architecture": "atomnet_model",
+  "recipe": "formation"
+}

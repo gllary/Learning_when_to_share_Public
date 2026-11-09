@@ -1,0 +1,39 @@
+{
+  "checkpoint_sha256": "7a44ad4baca1bdfb423ac5d52650894ecac9d96272be34dc4dd3e0cd294a1997",
+  "compatibility_resumed_members": 0,
+  "configured_n_models": 20,
+  "ensemble_budget_policy": "validated_deterministic_prefix",
+  "ensemble_member_limit": 5,
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "ef418e1fb7267db55552e1d6f7fa656ac4cb8b854ca0946d988da6f2c68bd8bb",
+    "34eae37b002a9d33e45284f631383a699d62f2444b025aa66055f4ce780b2cad",
+    "ed032ce3094dc6ed3a7748a2fb0a4622bb44d692d716f76f71f759f70ec8e567",
+    "2e1d7a04a11c2be42bf181133cc1c3b199af6470f8bd35ec5c597ce291ab73e9",
+    "1bdf749fcd5f3cc695ca583de723758ebdd33105cad977435a5a80c580ebbefd"
+  ],
+  "member_resume_compatibility_status": "compatibility_pointer_absent",
+  "member_resume_rejections": [],
+  "model_internal_target_name": "hpsafe_expt_gap_4cd725f4ce14",
+  "model_internal_target_name_policy": "preserve_safe_else_task_and_target_hash_v1",
+  "n_feat": 337,
+  "n_models": 5,
+  "recipe_signature": "fa8441af826410483979178fc4cecb9631a8def06f7f7405eeb71ed61bde6bf5",
+  "recipe_signature_schema_version": 2,
+  "resumed_members": 0,
+  "schema_version": 1,
+  "scientific_target_name": "gap expt",
+  "smoke_test": false,
+  "task_name": "expt_gap",
+  "task_type": "regression"
+}

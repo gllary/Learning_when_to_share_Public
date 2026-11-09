@@ -1,0 +1,15 @@
+{
+  "task": "reg_optb88vdw_total_energy",
+  "fold": 1,
+  "checkpoint_file": "model.pt",
+  "checkpoint_sha256": "76c113036e95aea4a7ace5fd98eba670a2f33110af30d189f35b0cd84ad438db",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "test_labels_read": false,
+  "official_validation_labels_read": true,
+  "selected_epoch": 288,
+  "validation_mae": 0.02786401707922394,
+  "seconds": 5893.528142278083,
+  "architecture": "atomnet_model",
+  "recipe": "total_energy"
+}

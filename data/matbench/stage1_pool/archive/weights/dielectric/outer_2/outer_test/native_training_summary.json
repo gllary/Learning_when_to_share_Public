@@ -1,0 +1,42 @@
+{
+  "checkpoint_sha256": "232c1f71045b0b8b523f167c737b765dba2ddd5712f7f4688a1b8ad988b6972f",
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "43086b3f8f2b7f7f3c8b7e08ea91a3cab87c3f6468469d2329699384ef46f575",
+    "6e91c69038b897ac495ea04e04ce366c3ed343f7073ea1869d4ac69ff0ab631c",
+    "46eb7fa30c75b6a0a95ca7dc0e8d360a6ffdc270431c1e989b96a0c76e469b1c",
+    "ab2ab1260d8d4f825345c532604ca03d92a58f8e76b2861f9183723dd6d96f23",
+    "9fe744442f43f72602f034cc4c072cb9d6c80917586454f486f665566ab99c03",
+    "d04391b8db61971d5414ab61239397f2fd8edd32dc1a6fb26571fb7274cbdd86",
+    "876939cfdf801481c1524a1b8641224732dda23d34116c6407e4f17929098200",
+    "ef17532a841bd8c29ce1bf5d5c500018497366dc3e04a52a9bef6c56ff8fb639",
+    "0668707df8be2e37d10cea204f135226b6e935afb652247e728a9db23321e33f",
+    "b278c34e9926e329a4b78bdad221888e4f9349a793c6fcdf12eab69ee46ca3bc",
+    "0fe3b327f5a3cb41ff4a52f50720c9f215fe03e595ad8b235daeda8c3894c497",
+    "6ec30f6c63c66090d08e9c26c235cce41c3c8a81c1e52b3c1ca4758f37f402e5",
+    "5e41ae79a8397b2bf978750748720a51803b29f43f457a4cf1c28bde1cf1230f",
+    "38bb3a9999b06a104f55c1bed1394e2f6ff3af2d426f432539f397e9aa878f5c",
+    "e0328e89932ea77995e3ba85c1ebb374c2f0224262331231b2cc0954bf7ed73f",
+    "cf69d8b3448f9dd0e368a6c4bc9c4a2798a50d75f8de14f62a299c8ae8db2d7d",
+    "d85fe6a423084ca8555fbeff7fa6a931b5b714bcc492cb264ed6b150aa4b6a33",
+    "0dfb65a4d091e37595ae1ec7740d1c2fe7a93aea7f4e0e9133ed5dec428ce0a0",
+    "dab51ad87ef4643bfa5cee6cd572532e34285668c7af682aaa6498c1478054de",
+    "a5ab4a8a85c7d8143d554826a3f48f366560e802075ccff80dd2515360e4257e"
+  ],
+  "n_feat": 512,
+  "n_models": 20,
+  "recipe_signature": "2b63c05b1134b7d56d8b8a8eec14498308178c261c9ed77a12998625b21a5d36",
+  "resumed_members": 0,
+  "schema_version": 1,
+  "smoke_test": false
+}

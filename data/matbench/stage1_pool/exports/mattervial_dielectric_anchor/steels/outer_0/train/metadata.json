@@ -1,0 +1,110 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 0,
+  "expert": {
+    "checkpoint_sha256": "f0618ff5db49d9115ee2dc080fb8d18809bb98a39f22f4bd3639bfb4e4e7a95f",
+    "expert_id": "mattervial_dielectric_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "dielectric"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "d60edcbfc6059c326867a531115e3ce5c47ca623d9f76c32688dc66d87826db4",
+      "shape": [
+        224
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "15577669d22d62621eb0a56a2a4d5c99c1851b8add4a55c01ec4ba483591bfd6",
+      "shape": [
+        224,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "84e680a8b6debc8a4495b35b62fc95263ca9c0c57cf1c170219564af375ac930",
+      "shape": [
+        224
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "896e4bc5c123ab69e1939fc0243c232ec42436401b0ebd2cbc4f3b303b567f2d",
+      "shape": [
+        224
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "84e680a8b6debc8a4495b35b62fc95263ca9c0c57cf1c170219564af375ac930",
+      "shape": [
+        224
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "aa28b6e6fac2c1db76cc87dd83bdb2fa0204568c0094a14f4206ef72fce9afce",
+  "n_samples": 224,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "88e24fa01116c35ffc1b224e7f4b19f247c7b6f5b99aad61f8d4856e1cee6f32",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "missing_member_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "dielectric",
+    "stage2_protocol_version": "12.2",
+    "target_task": "steels",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 0
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 0,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "steels",
+  "unavailable_rows": 224
+}

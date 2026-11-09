@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 10620,
+  "expert": {
+    "checkpoint_sha256": "3d796f868b1274b9eb6eea3eea57e8e22f79d483ecde4dff35902ff013d3443a",
+    "expert_id": "jmp_l_phonons_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "phonons"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "d9a7fbbf72005a12a0854b511ff94891edb02e423cf6756921e7b95828ad8349",
+      "shape": [
+        10620
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "89836eb8764e47976487e0e5a36dfcd4ae1ca9f65c87ccbbd9f7df78d5b49e08",
+      "shape": [
+        10620,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "ccf7f19580fdd3ab3e227d5edc5f922666bba4ca2f7187ea3c17ae8955287832",
+      "shape": [
+        10620
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U19",
+      "filename": "sample_ids.npy",
+      "sha256": "2f72ea4e3c182bc2787fd5ca1d33515975320b5e5913deaac040f2be28bdfd1e",
+      "shape": [
+        10620
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "19f390e41867a690b796d8f129486925810854e28defae6ad98b64dda83b21a8",
+      "shape": [
+        10620
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "7598c1bbf05ec42ebb1f7841d965123296ad4534378f7a15948f88d209bf96fa",
+  "n_samples": 10620,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "3d796f868b1274b9eb6eea3eea57e8e22f79d483ecde4dff35902ff013d3443a",
+    "source_outer_fold": 4,
+    "source_task": "phonons",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 4,
+    "target_task": "mp_e_form",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 4,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_e_form",
+  "unavailable_rows": 0
+}

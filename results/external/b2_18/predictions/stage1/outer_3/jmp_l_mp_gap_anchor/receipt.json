@@ -1,0 +1,31 @@
+{
+  "available_rows": 18,
+  "checkpoint": "checkpoint/matbench/stage1/jmp_l_mp_gap_anchor/outer_3/jmp_l_official_fold_final.ckpt",
+  "checkpoint_sha256": "5360857f2f973f25d3d5b08324dfb9a527e6801f5ccaa3f3d71865edc941bc76",
+  "dataset": "B2-18",
+  "detail": {
+    "forward_only": true,
+    "inference_batch_size": 1,
+    "lmdb_target_values": false,
+    "uncertainty": "original_JMP_unavailable_zero_sentinel"
+  },
+  "expert_id": "jmp_l_mp_gap_anchor",
+  "files": {
+    "available.npy": "c70fa8b6d5f5f02f99a9d544d9e68a72bacb8d0a573130ded95da16336b5093e",
+    "hidden.npy": "72aaea4771094aa2d54a9e07c04bf18715af4f9d8dcd20f4f95efe26128054fb",
+    "prediction.npy": "1a61bcfcac948e56ea1e3d1320b31060b8f9c9db07dcba91e34ffd0d52fc0f33",
+    "sample_ids.npy": "ff7aa22377319c8e237d21e1a7599e292bd736aa46242e90c263776d8f0c4803",
+    "uncertainty.npy": "32d91f894c62dd1e97b5166a1f9bae50af930243054b8ee93da163d972119baa"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 256,
+  "kind": "jmp",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 3,
+  "preprocessing": "checkpoint/matbench/stage1/jmp_l_mp_gap_anchor/outer_3/preprocessing_manifest.json",
+  "provider": "jmp_l_frozen_outer_checkpoint_replay_v17_12",
+  "source_task": "mp_gap",
+  "time": 1793417995.1138823,
+  "weights_updated": false
+}

@@ -1,0 +1,12 @@
+{
+  "checkpoint": "checkpoint/matbench/stage1/tpot_mat_steels_anchor/outer_3/tpot_mat_pipeline.joblib",
+  "checkpoint_sha256": "6d5af0296fdabea749397672da734debbcfe1d61e750e8cb0b271b59b85de72a",
+  "hidden_dim": 103,
+  "outer_fold": 3,
+  "outputs": {},
+  "same_outer_checkpoint_replayed_for_train_val_test": true,
+  "schema_version": 1,
+  "seed": 18012019,
+  "status": "complete",
+  "task": "steels"
+}

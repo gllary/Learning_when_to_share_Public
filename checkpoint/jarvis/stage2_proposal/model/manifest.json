@@ -1,0 +1,57 @@
+{
+  "architecture": "model",
+  "models": [
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner0/seed20261071/final.pt",
+      "sha256": "a12a2b9fb5c69fc60a7a5801917debd56df00d0ddb69ac7d8c7d9111a49d74e6",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner0/seed20261072/final.pt",
+      "sha256": "b43d29b6f86ad92907496c9623bfdf98fc428e838c288eeb5e8868763c64acc9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner1/seed20261071/final.pt",
+      "sha256": "9e93aebd69cdebadce8eff55d9973277efaf2a6fbaf802bbe0d4a743e08fc661",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner1/seed20261072/final.pt",
+      "sha256": "6ad4e17bf0f3da10024954d1c78b6fa562e30c3448015ef8e12f5c3211b7f1d0",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner2/seed20261071/final.pt",
+      "sha256": "515f3df365065ca8c2bbcf1fb19f56fc72a6f9a2979ac41706b64dfb8d2d4159",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner2/seed20261072/final.pt",
+      "sha256": "aeeb231caee90d65d33a90518b6d9d3d5a98c86d5564d75329d619835459f652",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner3/seed20261071/final.pt",
+      "sha256": "7f4708199b58aab73e763bb75e51399401da21d75515c2e2915cae09a478ed61",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner3/seed20261072/final.pt",
+      "sha256": "5ca500c733d4d53aee677d1bf04ac115f0a6436c36f22f3d866186f1e61b85f5",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner4/seed20261071/final.pt",
+      "sha256": "0f3cd1d62dfb8c6c33664d625069b90ae46977f1c969fa021959b82d82471e90",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/jarvis/stage2_proposal/model/stage2/full/inner4/seed20261072/final.pt",
+      "sha256": "9728fb2536454254b8f05f8e36fc8e4350f555b89f8875171b6e85b002c91db0",
+      "steps": 1400
+    }
+  ],
+  "route_temperature": 0.75,
+  "router_applicable": true
+}

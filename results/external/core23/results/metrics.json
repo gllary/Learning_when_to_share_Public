@@ -1,0 +1,24 @@
+{
+  "dataset": "Core-23",
+  "n": 23,
+  "unit": "refractive_index",
+  "evaluation_mode": "frozen_external_validation",
+  "external_calibration_samples": 0,
+  "evaluation_samples": 23,
+  "external_validation_metrics": {
+    "stage1": {
+      "mae": 0.05257837490533805,
+      "max_error": 0.11409841932946385,
+      "n": 23,
+      "r2": 0.9320940020698727,
+      "rmse": 0.06069745049467888
+    },
+    "stage2": {
+      "mae": 0.04694734256795962,
+      "max_error": 0.10491345870308466,
+      "n": 23,
+      "r2": 0.9435350213551357,
+      "rmse": 0.055348514042350236
+    }
+  }
+}

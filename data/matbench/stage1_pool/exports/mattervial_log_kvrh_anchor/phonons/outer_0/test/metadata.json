@@ -1,0 +1,89 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 253,
+  "expert": {
+    "checkpoint_sha256": "fbd747b793cd5a1c2ca01b48f41b31d8a0ab074b996cc4a04766d5b3f4255085",
+    "expert_id": "mattervial_log_kvrh_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "log_kvrh"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "c99f8a441fe78f47df8e406cb1b86eaaf66964351f57eecbd933f7d4c483a8e9",
+      "shape": [
+        253
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "f7b2d68bd9ed6a0af25759e1053a6ee1dc8d4c1196554fd7d2c478817806233e",
+      "shape": [
+        253,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "0948bbbc4b2d014430429211e6ff3c05225561b43887d568e89b3d50c74938bf",
+      "shape": [
+        253
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U15",
+      "filename": "sample_ids.npy",
+      "sha256": "edc923df033f0458a88761187eb9a32865fc47ce4a7e5b7ea0d0ace4f4c90a97",
+      "shape": [
+        253
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "5cb97265aa174812cd5a4232c5834da084fdfe8a2b34bea2eab2c8ec830486e2",
+      "shape": [
+        253
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "90b5cc63a957e297b25f5f6775553501503f7c673c0428febb59bfe83e3757a7",
+  "n_samples": 253,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "969e8b05f0b3b8aa1fdb0addfaa26149da773a2d97d2385a1c1bd7e5cb6e2a21",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "log_kvrh",
+    "stage2_protocol_version": "12.2",
+    "target_task": "phonons",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "outer_test",
+    "outer_fold": 0,
+    "role": "test",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "phonons",
+  "unavailable_rows": 0
+}

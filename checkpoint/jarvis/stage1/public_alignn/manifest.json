@@ -1,0 +1,84 @@
+{
+  "models": [
+    {
+      "task": "reg_avg_elec_mass",
+      "archive_sha256": "4f87f97399cd9f7d722b7af9ccb43fd5b5e83442ff5516b1fdb68a623d1925fb",
+      "download_url": "https://api.figshare.com/v2/file/download/31458643",
+      "source_code": "https://raw.githubusercontent.com/usnistgov/alignn/dcd73d187ddb331e73c0277f1815fa3d8268e098/alignn/pretrained.py",
+      "files": [
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_avg_elec_mass/checkpoint_300.pt",
+          "sha256": "9691cdae8d895393e7f4ad6d467910f3b911170bbf5949a364212608ddf32048",
+          "archive_member": "jv_avg_elec_mass_alignn/checkpoint_300.pt",
+          "bytes": 48614953
+        },
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_avg_elec_mass/config.json",
+          "sha256": "f168ee4835d0af08455b27fb87fd058c9bcd903c19af744d2724f34990c29f4d",
+          "archive_member": "jv_avg_elec_mass_alignn/config.json",
+          "bytes": 1589
+        }
+      ]
+    },
+    {
+      "task": "reg_avg_hole_mass",
+      "archive_sha256": "2155f0d42f955d15b71b09fdb7331d32b9ef10557312ed396afd09fae1703d60",
+      "download_url": "https://api.figshare.com/v2/file/download/31458646",
+      "source_code": "https://raw.githubusercontent.com/usnistgov/alignn/dcd73d187ddb331e73c0277f1815fa3d8268e098/alignn/pretrained.py",
+      "files": [
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_avg_hole_mass/checkpoint_300.pt",
+          "sha256": "ead4f2b49cf0a2c81c0a7e97bcb478c0ed77e3cb7e9b7c6c66b118337cdef492",
+          "archive_member": "jv_avg_hole_mass_alignn/checkpoint_300.pt",
+          "bytes": 48614953
+        },
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_avg_hole_mass/config.json",
+          "sha256": "a6cc6ea12186d332db738ccfb72cb5d5ce63abf07d28e9075ddb3f49e2593328",
+          "archive_member": "jv_avg_hole_mass_alignn/config.json",
+          "bytes": 1589
+        }
+      ]
+    },
+    {
+      "task": "reg_n_powerfact",
+      "archive_sha256": "dfd46257426304a33e31e82a108a08a413c934e69fd0004aa6233763459871fe",
+      "download_url": "https://api.figshare.com/v2/file/download/31458712",
+      "source_code": "https://raw.githubusercontent.com/usnistgov/alignn/dcd73d187ddb331e73c0277f1815fa3d8268e098/alignn/pretrained.py",
+      "files": [
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_n_powerfact/checkpoint_300.pt",
+          "sha256": "b7792e730f59bc87cefb8d2e6b0de76f61c8ca3e9b5de07301ebbed75b1928e4",
+          "archive_member": "jv_n-powerfact_alignn/checkpoint_300.pt",
+          "bytes": 48614953
+        },
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_n_powerfact/config.json",
+          "sha256": "76db548eebaee53232806af15c9ef99ff51e8766b1a74159a162549c3ada34a7",
+          "archive_member": "jv_n-powerfact_alignn/config.json",
+          "bytes": 1585
+        }
+      ]
+    },
+    {
+      "task": "reg_max_efg",
+      "archive_sha256": "150419b3f25c14950c287ba6c18516e1c26a5dd3cdf204959a5c4cee8ff31a8c",
+      "download_url": "https://api.figshare.com/v2/file/download/31458691",
+      "source_code": "https://raw.githubusercontent.com/usnistgov/alignn/dcd73d187ddb331e73c0277f1815fa3d8268e098/alignn/pretrained.py",
+      "files": [
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_max_efg/checkpoint_300.pt",
+          "sha256": "6b8cfe3819fbc631243b30c04bac05f0c33cf94dda744c171998f558b0935b03",
+          "archive_member": "jv_max_efg_alignn/checkpoint_300.pt",
+          "bytes": 48614569
+        },
+        {
+          "path": "checkpoint/jarvis/stage1/public_alignn/reg_max_efg/config.json",
+          "sha256": "e5ba24274f42867ffc8ce24e649dfeec68f23e642d57ea597a133e54d642622e",
+          "archive_member": "jv_max_efg_alignn/config.json",
+          "bytes": 1577
+        }
+      ]
+    }
+  ]
+}

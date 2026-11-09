@@ -1,0 +1,30 @@
+{
+  "available_rows": 248,
+  "checkpoint": "checkpoint/matbench/stage1/mattervial_expt_is_metal_anchor/outer_4/mattervial_modnet.pkl",
+  "checkpoint_sha256": "e8f2c0ad75bba953b88fde6697dce5a2b13a804d17b9a5d600919d20a7a1d7f0",
+  "dataset": "DS2-248",
+  "detail": {
+    "partial_ensemble_used": false,
+    "total_members": 20,
+    "uncertainty": "frozen_member_prediction_std_ddof0",
+    "used_members": 20
+  },
+  "expert_id": "mattervial_expt_is_metal_anchor",
+  "files": {
+    "available.npy": "a5feb74a229c82f77f3e873ed1cb768db1cf092c2892a0c0e40fbc812a647461",
+    "hidden.npy": "84bd93408691e99922d1d88dc3f32095523dc69e1826b7c5f18008aa7515f28a",
+    "prediction.npy": "f4f9948a87e962f2b34f4aa7356fe44aec5a313ed52eaa4514aa9134a21c8add",
+    "sample_ids.npy": "f9e582a9ea7140af511f68ec94f8f1fdf61213e7d06abddbd1f037a979619c20",
+    "uncertainty.npy": "815a9bdf64052d322aa1374d1b6db1a97fbebe686a9c90a8a3485af16dd56ca2"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 160,
+  "kind": "mattervial",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 4,
+  "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+  "source_task": "expt_is_metal",
+  "time": 1793417768.0523257,
+  "weights_updated": false
+}

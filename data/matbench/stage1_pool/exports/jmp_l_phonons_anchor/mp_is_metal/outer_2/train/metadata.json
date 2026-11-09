@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 76401,
+  "expert": {
+    "checkpoint_sha256": "373c865c1bf9dc2640ad8c48356533f89a4b2d2f7e307995876c2aa1c9ed93bb",
+    "expert_id": "jmp_l_phonons_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "phonons"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "212b90f6123cd6cf7736f9fb31faf19975dc4b2a1a97839d1d991f391d7ff738",
+      "shape": [
+        76401
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "b019d8e5bea14710e84ede58c70191017e962d51d66461cc543d7e9e157c1959",
+      "shape": [
+        76401,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "46990394d1c915afea8ec9504d9fc742c500ee29c70663c18b7ee3e3cf8239e7",
+      "shape": [
+        76401
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U21",
+      "filename": "sample_ids.npy",
+      "sha256": "b1d2efd4be3d6b3f1c04310d5511d7f55243f57a680193c8df10bde9dfc2d099",
+      "shape": [
+        76401
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "02ce59f35546dfba97d51c3dcbfdd998fe97c9bd540058c293402e8c710524c9",
+      "shape": [
+        76401
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "2ce635496975374dcc6cabe2aab82e520204dcdb3a9b4fe53a843aa6ec05d372",
+  "n_samples": 76401,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "373c865c1bf9dc2640ad8c48356533f89a4b2d2f7e307995876c2aa1c9ed93bb",
+    "source_outer_fold": 2,
+    "source_task": "phonons",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 2,
+    "target_task": "mp_is_metal",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 2,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_is_metal",
+  "unavailable_rows": 0
+}

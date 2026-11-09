@@ -1,0 +1,9 @@
+{
+  "task": "reg_encut",
+  "fold": 1,
+  "checkpoint_sha256": "030757b54901017ef95af5c1b7c452e95dd408fc7557adb4d53612a941e1f335",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 20926.647505946923
+}

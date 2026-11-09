@@ -1,0 +1,46 @@
+{
+  "proposal": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "stage1": "checkpoint/matbench/stage1/manifest.json",
+  "frozen_beta": {
+    "0": {
+      "dielectric": {
+        "beta": 0.75,
+        "file": "results/external/core23/calibration/outer_0/dielectric.json",
+        "source_sha256": "84d410163f117a079a3fa11d946acb13976ba69b22fc181019ed9c5d5227d620",
+        "sha256": "00760b83deef064a47766482961198744350a06e45c229633edeb41cf494ed63"
+      }
+    },
+    "1": {
+      "dielectric": {
+        "beta": 1.0,
+        "file": "results/external/core23/calibration/outer_1/dielectric.json",
+        "source_sha256": "ba515d5766f79db0c73b980b750c0aa51ad0a960d3a12fbc3597d121a4bf593d",
+        "sha256": "1361321c68fd2b0265b4e45db5009588db27387d4128f805d75ea688d5bef813"
+      }
+    },
+    "2": {
+      "dielectric": {
+        "beta": 0.75,
+        "file": "results/external/core23/calibration/outer_2/dielectric.json",
+        "source_sha256": "076e61e6ef8589a52c71bac1c9513567d05e21daf2f87e95bfdd3b38582d3367",
+        "sha256": "2a2edf0187753de1df7139b1d944688571826911ed9e174681e88885af8b505c"
+      }
+    },
+    "3": {
+      "dielectric": {
+        "beta": 0.75,
+        "file": "results/external/core23/calibration/outer_3/dielectric.json",
+        "source_sha256": "06c88cda8326de02499d5b3f2e7e312628d89d3bebac7bbce8d55dcb880f8bd9",
+        "sha256": "3c618a828d29b2f2305bba878631ece42ac8cde69ce31b41c525e68273724c12"
+      }
+    },
+    "4": {
+      "dielectric": {
+        "beta": 0.75,
+        "file": "results/external/core23/calibration/outer_4/dielectric.json",
+        "source_sha256": "bb5754789fc55ae929850e9d411e725b3083f399167f9af923959967a1d455ca",
+        "sha256": "ae10d63e1140af623530ef5da07922e2cb95b9692661f7f640d238a9187a6651"
+      }
+    }
+  }
+}

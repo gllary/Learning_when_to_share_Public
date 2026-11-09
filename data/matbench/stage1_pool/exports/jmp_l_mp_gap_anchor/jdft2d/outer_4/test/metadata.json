@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 127,
+  "expert": {
+    "checkpoint_sha256": "fbe55573c904cfe3b5c1175e0509dd9bd8d3a692d1c4b800ad6575b061484985",
+    "expert_id": "jmp_l_mp_gap_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_frozen_outer_checkpoint_replay_v17_12",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "mp_gap"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "f2a85d8392587100002559cbd0def4639d1064c69bab186d5a454aec6ecd8c58",
+      "shape": [
+        127
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "91cce122add850c360e0f460035d29701e0b8654502059ad5cb91788dd9a4b2b",
+      "shape": [
+        127,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "49a162f584ebd557764f1e1c1f43bc70f1feac9092291052b205052812207da2",
+      "shape": [
+        127
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "e829573dd179d53348f41545b175593f3875d7792931ab4426539505776c7d1e",
+      "shape": [
+        127
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "74731465b6c3bf0eef0b0031e94c88d8a92489b3ee75fbb44177ef3116a3e327",
+      "shape": [
+        127
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "9b14432ae5307b00b01f14aa0ddede25a8afd240a5809967e00b54dd6936f043",
+  "n_samples": 127,
+  "producer": {
+    "adapter": "jmp_l_fast32_fp32_outer_checkpoint_replay_v17_12",
+    "checkpoint_fit_role": "complete_outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_used_for_training": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_official_exact_reproduction": false,
+    "source_outer_fold": 4,
+    "source_stage1_protocol": "jmp_l_fast32_fp32_v1",
+    "source_task": "mp_gap",
+    "stage2_protocol_version": "17.12",
+    "target_outer_fold": 4,
+    "target_task": "jdft2d",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "outer_test",
+    "outer_fold": 4,
+    "role": "test",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "jdft2d",
+  "unavailable_rows": 0
+}

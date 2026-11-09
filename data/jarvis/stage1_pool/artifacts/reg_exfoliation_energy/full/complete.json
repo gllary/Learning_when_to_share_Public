@@ -1,0 +1,9 @@
+{
+  "task": "reg_exfoliation_energy",
+  "fold": -1,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "b4fffdadc2d15aca5091a1e3258f617d95455947cf0d75a7244d10b2643964e5",
+  "seconds": 64.83315789233893,
+  "test_labels_read": false
+}

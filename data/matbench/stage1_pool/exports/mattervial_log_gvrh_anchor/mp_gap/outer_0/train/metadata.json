@@ -1,0 +1,89 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 76401,
+  "expert": {
+    "checkpoint_sha256": "6b98efb5943641652bc90ec83c836a87bb67afeb8f568ac2925e05c9b02bdb04",
+    "expert_id": "mattervial_log_gvrh_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "log_gvrh"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "212b90f6123cd6cf7736f9fb31faf19975dc4b2a1a97839d1d991f391d7ff738",
+      "shape": [
+        76401
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "de60dff2f9b23c0965532e5420ee0d31da2854cd94ba33e78ef9aaa05b02f928",
+      "shape": [
+        76401,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "711679ebbfcc708d7619e0c9fb09b47df2ead4b40e4c1d23789e544e48fec964",
+      "shape": [
+        76401
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U16",
+      "filename": "sample_ids.npy",
+      "sha256": "428ddd4cdfc7da5f387a353daf043ab579de433a704e7758405f4e3a591f0643",
+      "shape": [
+        76401
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "2e0961dfcd540ebe81fc5c8ba0b6a1a779f4fe6b3f31e53290fbe982df53a652",
+      "shape": [
+        76401
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "519f0ce4617e1a5aba0ecd3277a981773b6a554fd4f5c09ce439c0984cc96baf",
+  "n_samples": 76401,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "969e8b05f0b3b8aa1fdb0addfaa26149da773a2d97d2385a1c1bd7e5cb6e2a21",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "log_gvrh",
+    "stage2_protocol_version": "12.2",
+    "target_task": "mp_gap",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 0,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_gap",
+  "unavailable_rows": 0
+}

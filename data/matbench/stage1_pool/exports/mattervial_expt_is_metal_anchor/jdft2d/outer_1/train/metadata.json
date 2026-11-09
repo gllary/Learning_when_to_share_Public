@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 458,
+  "expert": {
+    "checkpoint_sha256": "a0bb8641a939eb092e5b40e016aacf28c2795bda1f8b6a4d513d97896e5c8ed5",
+    "expert_id": "mattervial_expt_is_metal_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "expt_is_metal"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "8a2f3a3a44e951dbe13b490e188705cec3a0de458948a12fbf9b7961fccfe4fc",
+      "shape": [
+        458
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "676a5b05ee01cb101f74b6d09129a9f8749a61700d7412bd71bfe47455b3d543",
+      "shape": [
+        458,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "abdda590d5299ae987d2f5d07b0c70cc519905559710c50d521fe64e872b79ff",
+      "shape": [
+        458
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "5b6c67c305ecc9ef3cb1a66551ba75419f7fddf4e75c027e3886327d0d7e9a5d",
+      "shape": [
+        458
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "3ba1ce020c6635724b312725d4e2c5f99632a758c2a1096fefa5afdc6e3f6042",
+      "shape": [
+        458
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "9b14432ae5307b00b01f14aa0ddede25a8afd240a5809967e00b54dd6936f043",
+  "n_samples": 458,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "bb88ee24df6f82ca521af205c5d5394fc7430643fd7b490b05d2f957cfc5f3bc",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_completion_policy": "outer0_union_plus_certified_target_free_stage1_cache_v1",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "4f68fccf871df047416f7f7405f6afd8b354b7dc1345c16e0320d6cef4a74b10",
+    "relation_screening": "none",
+    "source_task": "expt_is_metal",
+    "stage2_protocol_version": "12.2",
+    "supplemental_stage1_feature_cache_compatibility_policy": "native_schema_v2_target_firewall_v1",
+    "supplemental_stage1_feature_cache_receipt_sha256": "fcf6d9a72b06e65015908c6fed7f3d795bc3e19c8f106206ebd4b45b4859432d",
+    "supplemental_stage1_feature_cache_schema_version": 2,
+    "target_task": "jdft2d",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 1,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "jdft2d",
+  "unavailable_rows": 0
+}

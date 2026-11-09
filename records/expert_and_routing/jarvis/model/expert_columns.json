@@ -1,0 +1,228 @@
+{
+  "dataset": "jarvis",
+  "architecture": "model",
+  "source_checkpoint_manifest": "checkpoint/jarvis/stage2_proposal/model/manifest.json",
+  "checked_checkpoints": 20,
+  "expert_columns": [
+    {
+      "column": 0,
+      "expert_id": "reg_formation_energy_peratom"
+    },
+    {
+      "column": 1,
+      "expert_id": "reg_optb88vdw_total_energy"
+    },
+    {
+      "column": 2,
+      "expert_id": "reg_ehull"
+    },
+    {
+      "column": 3,
+      "expert_id": "reg_optb88vdw_bandgap"
+    },
+    {
+      "column": 4,
+      "expert_id": "reg_mbj_bandgap"
+    },
+    {
+      "column": 5,
+      "expert_id": "reg_bulk_modulus_kv"
+    },
+    {
+      "column": 6,
+      "expert_id": "reg_shear_modulus_gv"
+    },
+    {
+      "column": 7,
+      "expert_id": "reg_epsx"
+    },
+    {
+      "column": 8,
+      "expert_id": "reg_epsy"
+    },
+    {
+      "column": 9,
+      "expert_id": "reg_epsz"
+    },
+    {
+      "column": 10,
+      "expert_id": "reg_mepsx"
+    },
+    {
+      "column": 11,
+      "expert_id": "reg_mepsy"
+    },
+    {
+      "column": 12,
+      "expert_id": "reg_mepsz"
+    },
+    {
+      "column": 13,
+      "expert_id": "reg_dfpt_piezo_max_dielectric"
+    },
+    {
+      "column": 14,
+      "expert_id": "reg_dfpt_piezo_max_dij"
+    },
+    {
+      "column": 15,
+      "expert_id": "reg_magmom_oszicar"
+    },
+    {
+      "column": 16,
+      "expert_id": "reg_avg_elec_mass"
+    },
+    {
+      "column": 17,
+      "expert_id": "reg_avg_hole_mass"
+    },
+    {
+      "column": 18,
+      "expert_id": "reg_n_Seebeck"
+    },
+    {
+      "column": 19,
+      "expert_id": "reg_n_powerfact"
+    },
+    {
+      "column": 20,
+      "expert_id": "reg_max_efg"
+    },
+    {
+      "column": 21,
+      "expert_id": "reg_slme"
+    },
+    {
+      "column": 22,
+      "expert_id": "reg_spillage"
+    },
+    {
+      "column": 23,
+      "expert_id": "reg_ph_heat_capacity"
+    },
+    {
+      "column": 24,
+      "expert_id": "reg_exfoliation_energy"
+    },
+    {
+      "column": 25,
+      "expert_id": "reg_encut"
+    },
+    {
+      "column": 26,
+      "expert_id": "reg_kpoint_length_unit"
+    },
+    {
+      "column": 27,
+      "expert_id": "cls_magmom_oszicar"
+    },
+    {
+      "column": 28,
+      "expert_id": "cls_optb88vdw_bandgap"
+    },
+    {
+      "column": 29,
+      "expert_id": "cls_mbj_bandgap"
+    },
+    {
+      "column": 30,
+      "expert_id": "cls_n_powerfact"
+    },
+    {
+      "column": 31,
+      "expert_id": "cls_p_Seebeck"
+    },
+    {
+      "column": 32,
+      "expert_id": "cls_slme"
+    },
+    {
+      "column": 33,
+      "expert_id": "cls_spillage"
+    }
+  ],
+  "task_order": [
+    "reg_formation_energy_peratom",
+    "reg_optb88vdw_total_energy",
+    "reg_ehull",
+    "reg_optb88vdw_bandgap",
+    "reg_mbj_bandgap",
+    "reg_bulk_modulus_kv",
+    "reg_shear_modulus_gv",
+    "reg_epsx",
+    "reg_epsy",
+    "reg_epsz",
+    "reg_mepsx",
+    "reg_mepsy",
+    "reg_mepsz",
+    "reg_dfpt_piezo_max_dielectric",
+    "reg_dfpt_piezo_max_dij",
+    "reg_magmom_oszicar",
+    "reg_avg_elec_mass",
+    "reg_avg_hole_mass",
+    "reg_n_Seebeck",
+    "reg_n_powerfact",
+    "reg_max_efg",
+    "reg_slme",
+    "reg_spillage",
+    "reg_ph_heat_capacity",
+    "reg_exfoliation_energy",
+    "reg_encut",
+    "reg_kpoint_length_unit",
+    "cls_magmom_oszicar",
+    "cls_optb88vdw_bandgap",
+    "cls_mbj_bandgap",
+    "cls_n_powerfact",
+    "cls_p_Seebeck",
+    "cls_slme",
+    "cls_spillage"
+  ],
+  "anchor_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "attention_fields": {
+    "data_attention": "SC",
+    "physics_attention": "RC"
+  },
+  "route_columns": [
+    "anchor_technical_fallback",
+    "SC",
+    "RC"
+  ],
+  "averaged_attention_is_not_member_attention": true,
+  "weights_are_not_causal_attribution": true,
+  "new_inference": false
+}

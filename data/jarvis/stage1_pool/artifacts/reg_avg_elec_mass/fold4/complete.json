@@ -1,0 +1,9 @@
+{
+  "task": "reg_avg_elec_mass",
+  "fold": 4,
+  "rows": 55712,
+  "hidden_dim": 256,
+  "checkpoint_sha256": "0c2743d0bc59c416f7ee60f4a4e0aab1978e665287afea9dfb0f01f229cb55a7",
+  "test_labels_read": false,
+  "seconds": 4474.605436325073
+}

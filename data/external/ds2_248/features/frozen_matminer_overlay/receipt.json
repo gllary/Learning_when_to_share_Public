@@ -1,0 +1,21 @@
+{
+  "cache_kind": "frozen_matminer_sparse_schema_zero_overlay_v1",
+  "case_target_values_read": false,
+  "checkpoint_parameters_updated": false,
+  "feature_names": [],
+  "feature_schema_path": "feature_schema.json",
+  "feature_selection_performed": false,
+  "fit_performed": false,
+  "observed_production_column_count": 285,
+  "required_schema_count": 200,
+  "sample_ids_path": "sample_ids.npy",
+  "schema_version": "v8-youngs-case-study-1.3",
+  "shape": [
+    1587,
+    0
+  ],
+  "status": "complete",
+  "values_path": "matminer_schema_zeros.npy",
+  "zero_completed_column_count": 0,
+  "zero_completed_family_counts": {}
+}

@@ -1,0 +1,39 @@
+{
+  "checkpoint_sha256": "de027ebe3964cd4ed4848ba1e1d59cb588b37df689794de9013f58c0dce91cb7",
+  "compatibility_resumed_members": 0,
+  "configured_n_models": 20,
+  "ensemble_budget_policy": "validated_deterministic_prefix",
+  "ensemble_member_limit": 5,
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0,
+    "loss": null
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "dda6bfc0257784c7e442e783ca6f02c67f945bd7b254727aaca9d21c3f9c765d",
+    "380eb8cb4d98043902ac29014fa914e7d5a9aa1ed3fb283ec1cdd59eda4a2b61",
+    "f86225708cfd43544d5e4cb403510f514505789704474ed854ccd84a2ca1d87f",
+    "313789a6fc956f5a02b5fa6b654ce85c0a9eeafc3dcff08e2a78cdb9935d6b94",
+    "d53a8ff60623b7be088ca474ad2e6896fafbe87dfb45a2725caa37f3d4edbf34"
+  ],
+  "member_resume_compatibility_status": "compatibility_pointer_absent",
+  "member_resume_rejections": [],
+  "model_internal_target_name": "is_metal",
+  "model_internal_target_name_policy": "preserve_safe_else_task_and_target_hash_v1",
+  "n_feat": 512,
+  "n_models": 5,
+  "recipe_signature": "174eff8e81168509198739fa7cf4a977e8e08871e0c341b17320aedbb93bda02",
+  "recipe_signature_schema_version": 2,
+  "resumed_members": 0,
+  "schema_version": 1,
+  "scientific_target_name": "is_metal",
+  "smoke_test": false,
+  "task_name": "mp_is_metal",
+  "task_type": "classification"
+}

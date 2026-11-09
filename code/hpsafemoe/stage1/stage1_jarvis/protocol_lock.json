@@ -1,0 +1,9 @@
+{
+  "version": "jarvis34-v6_1-20261015",
+  "tasks": 34,
+  "stage1_fits_per_task": 6,
+  "stage1_expected_fits": 204,
+  "stage1_oof": true,
+  "oof_rule": "blake2b_jid_mod5",
+  "source_identity_manifest": "checkpoint/jarvis/stage1/protocol_identity.json"
+}

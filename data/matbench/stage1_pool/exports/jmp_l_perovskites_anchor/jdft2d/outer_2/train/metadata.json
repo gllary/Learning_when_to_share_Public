@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 458,
+  "expert": {
+    "checkpoint_sha256": "a09faddce6e4133de5e75a6a8b99b5cf41934954bf3f601922946131b084ff65",
+    "expert_id": "jmp_l_perovskites_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "perovskites"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "8a2f3a3a44e951dbe13b490e188705cec3a0de458948a12fbf9b7961fccfe4fc",
+      "shape": [
+        458
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "2131cfd0e0fd97089ba0c42137e2bbb58da995ac2ec1cc0ca95b9c21f7c805d2",
+      "shape": [
+        458,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "2e51590132779fd21af3b10b4a33905f01fb4d4916dd61ce3ebc7506e35a88ae",
+      "shape": [
+        458
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "024baa17e36e5b1f581db38f9cfc5f79f1163fb6f44dc73eb2a7b767d062e5bd",
+      "shape": [
+        458
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "37773c5b96a42fb4977cea71a232a3b994f7a87ead2aeb1d443f6e6d9a40d8b7",
+      "shape": [
+        458
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "9b14432ae5307b00b01f14aa0ddede25a8afd240a5809967e00b54dd6936f043",
+  "n_samples": 458,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "a09faddce6e4133de5e75a6a8b99b5cf41934954bf3f601922946131b084ff65",
+    "source_outer_fold": 2,
+    "source_task": "perovskites",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 2,
+    "target_task": "jdft2d",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 2,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "jdft2d",
+  "unavailable_rows": 0
+}

@@ -1,0 +1,46 @@
+{
+  "expert": "jmp_l",
+  "graph": {
+    "conditional_max_neighbors": {
+      "default": 30,
+      "gt_200": 10,
+      "gt_300": 5
+    },
+    "cutoff_angstrom": 12.0,
+    "periodic": true
+  },
+  "hyperparameter_search": false,
+  "latent_export": {
+    "checkpoint_state": "final_finetuned_fold_checkpoint",
+    "dimension": 256,
+    "inference_only": true,
+    "pooling": "mean",
+    "row_order": "exact_official_outer_test_manifest_order",
+    "schema_version": 1,
+    "source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "targets_accessed": false
+  },
+  "learning_rate": 8e-05,
+  "official_checkpoint_sha256": "b5c40f6748126b270496c774bb8ffd11e48a03ff0af804d9c0d2f40daba15185",
+  "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+  "official_repository": "https://github.com/facebookresearch/JMP",
+  "outer_fold": 2,
+  "outer_test_used_for_selection": false,
+  "phase": "official_finetune",
+  "prediction_positions_sha256": "4a9add22fd9addc5a4b6b95d0bfa860f6f05f4cfb1945bf082064f18db0ce86d",
+  "prediction_targets_materialized": false,
+  "refit_branch": false,
+  "schema_version": 1,
+  "split_protocol": "official_matbench_outer_train_to_outer_test",
+  "stage2_enabled": false,
+  "target_mean": 106.46511492350562,
+  "target_normalization_scope": "complete_official_outer_train_only",
+  "target_std": 115.41872679696658,
+  "task": "jdft2d",
+  "task_settings": {
+    "batch_size": 3,
+    "precision": "32-true",
+    "reduction": "mean"
+  },
+  "train_positions_sha256": "94ddb1d98b99a6c7aaf5d2737aaf0000eff3eb22514fb9e54b6e8048eaa95dbd"
+}

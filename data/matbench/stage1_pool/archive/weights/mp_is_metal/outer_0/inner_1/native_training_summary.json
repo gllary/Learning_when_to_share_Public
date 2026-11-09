@@ -1,0 +1,60 @@
+{
+  "checkpoint_sha256": "43bcaa400997bd4bc3083757370533b73c955383ebc4c47deb5b4b38c0359be9",
+  "compatibility_resumed_members": 0,
+  "configured_n_models": 20,
+  "ensemble_budget_policy": "validated_deterministic_prefix",
+  "ensemble_member_limit": 5,
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0,
+    "loss": null
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "4a58c0ade67d721b20895268eed0b183d951efa975ae066b804ab7d294b83cd2",
+    "8b6f9f6823f76bd52791908527d568909f0b40f20182c66fa3290e65ffa4753b",
+    "6d8a0116d77a2aee9583999a2663a4e3bcdf4201309c278c684c69a52ee2987a",
+    "1b49009cfdabe09da4d87b8eba6f24e8d858ee7c861989b89a107b531298f462",
+    "92e806350fbfc8ebfe15e1a5c3d0321c7d9735e5245602c67e138049ce03f5ba"
+  ],
+  "member_resume_compatibility_status": "compatibility_pointer_absent",
+  "member_resume_rejections": [
+    {
+      "member": 1,
+      "reason": "compatibility_pointer_absent"
+    },
+    {
+      "member": 2,
+      "reason": "compatibility_pointer_absent"
+    },
+    {
+      "member": 3,
+      "reason": "compatibility_pointer_absent"
+    },
+    {
+      "member": 4,
+      "reason": "compatibility_pointer_absent"
+    },
+    {
+      "member": 5,
+      "reason": "compatibility_pointer_absent"
+    }
+  ],
+  "model_internal_target_name": "is_metal",
+  "model_internal_target_name_policy": "preserve_safe_else_task_and_target_hash_v1",
+  "n_feat": 512,
+  "n_models": 5,
+  "recipe_signature": "59ad60c11e9120ccefda5198fbadc909c3cb00ff68ac32ff11798763f6aeff77",
+  "recipe_signature_schema_version": 2,
+  "resumed_members": 0,
+  "schema_version": 1,
+  "scientific_target_name": "is_metal",
+  "smoke_test": false,
+  "task_name": "mp_is_metal",
+  "task_type": "classification"
+}

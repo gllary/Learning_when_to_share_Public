@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 51,
+  "expert": {
+    "checkpoint_sha256": "b2d34d16534b88db22a299f8abb5f2cfc8ef6ea3696d5139758c1bd932e2f2a7",
+    "expert_id": "jmp_l_mp_e_form_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_frozen_outer_checkpoint_replay_v17_12",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "mp_e_form"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "90b7c6ddea4a771fa6ccfba05dffc5c3b416ac433caa69e7918f8294b45bc548",
+      "shape": [
+        51
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "7aad8f92b7bae0a6fd3d89a46d32ef29cb57a79363de9321d0f387ee09e10445",
+      "shape": [
+        51,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "445ad46d2f4aab8a98faadc9f1c4f93dae1c143d1c6f2fdb8477185c9360a334",
+      "shape": [
+        51
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "f3264f7e4f28b3f119ebecbed52ebe1d4f06f3d20eb4f2d78782c0ff8ef92d50",
+      "shape": [
+        51
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "056465abeec08c77d56b316b0a66296dd53a042accf0c99bb00f36eacd7f177a",
+      "shape": [
+        51
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "9b14432ae5307b00b01f14aa0ddede25a8afd240a5809967e00b54dd6936f043",
+  "n_samples": 51,
+  "producer": {
+    "adapter": "jmp_l_fast32_fp32_outer_checkpoint_replay_v17_12",
+    "checkpoint_fit_role": "complete_outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_used_for_training": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_official_exact_reproduction": false,
+    "source_outer_fold": 4,
+    "source_stage1_protocol": "jmp_l_fast32_fp32_v1",
+    "source_task": "mp_e_form",
+    "stage2_protocol_version": "17.12",
+    "target_outer_fold": 4,
+    "target_task": "jdft2d",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 4,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "jdft2d",
+  "unavailable_rows": 0
+}

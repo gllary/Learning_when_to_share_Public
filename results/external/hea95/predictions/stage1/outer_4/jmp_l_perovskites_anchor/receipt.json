@@ -1,0 +1,31 @@
+{
+  "available_rows": 95,
+  "checkpoint": "checkpoint/matbench/stage1/jmp_l_perovskites_anchor/outer_4/jmp_l_official_fold_final.ckpt",
+  "checkpoint_sha256": "3f05bb9f56957861a4634105fbcb7906131d917a0fa9a293c29bfa2b5204ad08",
+  "dataset": "HEA-95",
+  "detail": {
+    "forward_only": true,
+    "inference_batch_size": 1,
+    "lmdb_target_values": false,
+    "uncertainty": "original_JMP_unavailable_zero_sentinel"
+  },
+  "expert_id": "jmp_l_perovskites_anchor",
+  "files": {
+    "available.npy": "dbb432470b872fadfc3bbfc7156618cbb4822a20cafb7f975aeeed3492e672e1",
+    "hidden.npy": "a141a3ac1ab5b7ac4ed3b55ce386e42fd4f9ae9e8952e41804de508d40c91093",
+    "prediction.npy": "489413739ab3abe8d0173bc3733bac2d736327cb3ed0cf9e5537e975d3867778",
+    "sample_ids.npy": "8eb572e53a43fdf4885e0d530c4a282e96db273c5dded56c6d2f17784d3cb5b4",
+    "uncertainty.npy": "3be8d02a9d7526dee74b5fb4576bd96c48fbc2db6754a22721a4e9215014bae6"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 256,
+  "kind": "jmp",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 4,
+  "preprocessing": "checkpoint/matbench/stage1/jmp_l_perovskites_anchor/outer_4/preprocessing_manifest.json",
+  "provider": "jmp_l_official_checkpoint_consistent_v17",
+  "source_task": "perovskites",
+  "time": 1793417993.0877402,
+  "weights_updated": false
+}

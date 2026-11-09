@@ -1,0 +1,42 @@
+{
+  "checkpoint_sha256": "1dc39e57556c28e845a692ea26d10792efb59455e75ce06f9153aed233dab3d1",
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "423162cae18559d940234a833623e6c25119cb7d63b0df3a22bbdfbe294c4db8",
+    "ec1073dec7c5edeb5c2f82eca88ab1cb4a4239b80ca069fe5f81348653fe80fd",
+    "ee5be8bcc617dd866980edee49efaba1cfee74397ebc15a42e1c2c184d8c9945",
+    "ae3feb1abfb57900f36d4cc974629625b923287dc1a824771bfff1d8c2f413a8",
+    "a3e27d3b021f6112558d8e90ccfcc9af15da8ae7f9f0336a8742e669e5088ec4",
+    "779bc9b7e5cce17038f95bc0fed27edc17b4a17ea11532748c469bc1c2f6e348",
+    "c99c8f2673d249691af79b5560b594c59f7ff6496a84094a2489470f55191a9e",
+    "f71bc58e48605e01fa84d9d9e48615051a918207729b71dfd49de548570842c1",
+    "4d05261ace92850f21f016b3db907f1012bd216c9e4c93cfc4d3dfedf18f8a73",
+    "b4031e7af91d81cb29c8bb74741f1438f91e0629e61b41a9696849d019bd0d77",
+    "1adabed926137088c816c48865f8d0a4a60e253f8602913935e9613d73a9c7a5",
+    "0aa2dd3aad1bfe8d60fdad1d11063a1d880655a14cf8625f07994b3d3ed80096",
+    "c8d3b1ce96e0e72ddd7e3428454d9df7a6554275d3229875cac8af8d67f0a91e",
+    "48849f3bbde63b09158e586cc5621df882f980edff14bf53c4dac8d7059994a3",
+    "5d619addffefc16db4a8c26c9f4520c09fc3ab4421083f0f85e9c5b6741a1403",
+    "7046bb4cb76ba3c61e020ab7e4cc9fcea3840a8370cab910ae8b6df2f09f8599",
+    "3593ffd0fcba06768a67006aa26f31be404f24acfdaadbda9c6ec1dcea552207",
+    "722a4663b40ba933f320eb22b829362e3f2d76d11521d17dd703027472334b1d",
+    "9cc1f97d244054e2c26c33c17b644048369e7d4021d8ec757e060d3f564f3178",
+    "4914219a6f5e7b0a1a7a38003d8b29cdda423f1f26ae0fba79413c6f8f27916a"
+  ],
+  "n_feat": 512,
+  "n_models": 20,
+  "recipe_signature": "ea6c043f6ddbbad1b9d6e01ef1a40794eac0d207735b395282d55710e75ddecc",
+  "resumed_members": 0,
+  "schema_version": 1,
+  "smoke_test": false
+}

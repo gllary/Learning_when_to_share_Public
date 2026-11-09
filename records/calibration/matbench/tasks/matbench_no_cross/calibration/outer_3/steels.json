@@ -1,0 +1,123 @@
+{
+  "schema": "matbench-safety-calibration-v1",
+  "rule": "fixed_liberal",
+  "epsilon_gain_pp": 1.0,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "alpha_all_oof": 0.25,
+  "beta": 0.25,
+  "task_rule_passed": true,
+  "correction_enabled": true,
+  "metric": "mae",
+  "threshold_classification_scores": false,
+  "certificate": {
+    "G": 2.4004662302290733,
+    "L": -0.2935319799189408,
+    "upper_diagnostic": 4.919913997894313,
+    "confidence": 0.95,
+    "resamples": 5000,
+    "resample_size": 250,
+    "class_counts_preserved": false,
+    "seed": 20265878,
+    "method": "paired_full_n_percentile",
+    "metric": "mae",
+    "baseline_oof_score": 85.37311181640625,
+    "crossfit_oof_score": 83.32375909755771,
+    "denominator_floor": 1e-12
+  },
+  "meta_folds": [
+    {
+      "held_fold": 0,
+      "fit_rows": 200,
+      "held_rows": 50,
+      "alpha": 0.25,
+      "fit_candidate_scores": [
+        86.84689611816404,
+        84.20717373121934,
+        84.41955416246928,
+        86.98802337485178,
+        91.91257775923991
+      ],
+      "held_gain_diagnostic": -0.3927200649869186
+    },
+    {
+      "held_fold": 1,
+      "fit_rows": 200,
+      "held_rows": 50,
+      "alpha": 0.25,
+      "fit_candidate_scores": [
+        77.58895239257814,
+        75.53625032652434,
+        76.2618709488829,
+        79.98783529297356,
+        85.65746045268472
+      ],
+      "held_gain_diagnostic": 1.747454902752786
+    },
+    {
+      "held_fold": 2,
+      "fit_rows": 200,
+      "held_rows": 50,
+      "alpha": 0.25,
+      "fit_candidate_scores": [
+        90.22581921386718,
+        88.89194862027225,
+        90.94821064208612,
+        95.65842119800266,
+        101.75116032081235
+      ],
+      "held_gain_diagnostic": 7.445590198037751
+    },
+    {
+      "held_fold": 3,
+      "fit_rows": 200,
+      "held_rows": 50,
+      "alpha": 0.25,
+      "fit_candidate_scores": [
+        81.82037780761719,
+        79.84408750583742,
+        80.52514510135398,
+        84.26864526183296,
+        90.53578821753284
+      ],
+      "held_gain_diagnostic": 2.3513830152936808
+    },
+    {
+      "held_fold": 4,
+      "fit_rows": 200,
+      "held_rows": 50,
+      "alpha": 0.25,
+      "fit_candidate_scores": [
+        90.38351354980469,
+        88.13933530393524,
+        88.56257555336532,
+        91.52819593022762,
+        96.58821698153064
+      ],
+      "held_gain_diagnostic": 1.944009422472388
+    }
+  ],
+  "meta_seed": 20264101,
+  "candidate_scores_all_oof": [
+    85.37311181640625,
+    83.32375909755771,
+    84.14347128163152,
+    87.68622421157772,
+    93.2890407463601
+  ],
+  "positive_fold_count_diagnostic": 4,
+  "worst_fold_gain_diagnostic": -0.3927200649869186,
+  "fold_diagnostics_used_for_acceptance": false,
+  "final_alpha_method": "all_matching_outer_train_oof_grid_search",
+  "independent_risk_guarantee": false,
+  "calibration_record_sha256": "b69307dc03c0e35f9ffdbfaa8d147126bc851ebba9375d5664a06d8f686d36b6",
+  "outer": 3,
+  "candidate": "ablation_no_cross_expert",
+  "task": "steels",
+  "outer_test_labels_used": false
+}

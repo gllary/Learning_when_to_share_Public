@@ -1,0 +1,9 @@
+{
+  "task": "reg_shear_modulus_gv",
+  "fold": 2,
+  "checkpoint_sha256": "d00ed621b3efeaf85770c198b735b896786162b4469b4990a4ea7f04db570f1f",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 7244.895621325821
+}

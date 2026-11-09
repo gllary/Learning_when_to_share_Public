@@ -1,0 +1,23 @@
+{
+  "aggregate_checkpoint_sha256": "e91b0bb8bd7b67135bce2a57dd5e67f7c61fe8bf6379e917676fdaf843779f88",
+  "elapsed_seconds": 16.344,
+  "inner_fold_count": 5,
+  "mattervial_training_performed": false,
+  "outer_fold": 0,
+  "outer_test_rows_accessed": 0,
+  "outer_train_rows": 3936,
+  "records": [
+    {
+      "n_rows": 3542,
+      "role": "train"
+    },
+    {
+      "n_rows": 394,
+      "role": "val"
+    }
+  ],
+  "schema_version": "12.2",
+  "status": "complete",
+  "target_labels_accessed_by_exporter": false,
+  "task": "expt_is_metal"
+}

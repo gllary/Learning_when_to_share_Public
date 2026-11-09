@@ -1,0 +1,35 @@
+number,task,name,Stage1_model
+1,reg_formation_energy_peratom,formation_energy_peratom (R),AtomNet
+2,reg_optb88vdw_total_energy,optb88vdw_total_energy (R),AtomNet
+3,reg_ehull,ehull (R),PRISM
+4,reg_optb88vdw_bandgap,optb88vdw_bandgap (R),AtomNet
+5,reg_mbj_bandgap,mbj_bandgap (R),GSMNet
+6,reg_bulk_modulus_kv,bulk_modulus_kv (R),coNGN
+7,reg_shear_modulus_gv,shear_modulus_gv (R),coNGN
+8,reg_epsx,epsx (R),coNGN
+9,reg_epsy,epsy (R),coNGN
+10,reg_epsz,epsz (R),coNGN
+11,reg_mepsx,mepsx (R),coNGN
+12,reg_mepsy,mepsy (R),coNGN
+13,reg_mepsz,mepsz (R),coNGN
+14,reg_dfpt_piezo_max_dielectric,dfpt_piezo_max_dielectric (R),coNGN
+15,reg_dfpt_piezo_max_dij,dfpt_piezo_max_dij (R),coNGN
+16,reg_magmom_oszicar,magmom_oszicar (R),coNGN
+17,reg_avg_elec_mass,avg_elec_mass (R),Official public ALIGNN checkpoint
+18,reg_avg_hole_mass,avg_hole_mass (R),Official public ALIGNN checkpoint
+19,reg_n_Seebeck,n_Seebeck (R),coGN
+20,reg_n_powerfact,n_powerfact (R),Official public ALIGNN checkpoint
+21,reg_max_efg,max_efg (R),Official public ALIGNN checkpoint
+22,reg_slme,slme (R),coNGN
+23,reg_spillage,spillage (R),coNGN
+24,reg_ph_heat_capacity,ph_heat_capacity (R),matminer + Random Forest
+25,reg_exfoliation_energy,exfoliation_energy (R),matminer + XGBoost
+26,reg_encut,encut (R),coNGN
+27,reg_kpoint_length_unit,kpoint_length_unit (R),matminer + XGBoost
+28,cls_magmom_oszicar,magmom_oszicar (C),matminer + XGBoost
+29,cls_optb88vdw_bandgap,optb88vdw_bandgap (C),matminer + XGBoost
+30,cls_mbj_bandgap,mbj_bandgap (C),matminer + XGBoost
+31,cls_n_powerfact,n_powerfact (C),matminer + XGBoost
+32,cls_p_Seebeck,p_Seebeck (C),matminer + XGBoost
+33,cls_slme,slme (C),matminer + Random Forest
+34,cls_spillage,spillage (C),matminer + XGBoost

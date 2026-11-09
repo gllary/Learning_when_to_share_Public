@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 62,
+  "expert": {
+    "checkpoint_sha256": "6d5af0296fdabea749397672da734debbcfe1d61e750e8cb0b271b59b85de72a",
+    "expert_id": "tpot_mat_steels_anchor",
+    "frozen": true,
+    "hidden_dim": 103,
+    "input_modality": "steels_14_element_composition",
+    "provider": "tpot_mat_own_task_inner_oof_20261028",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "steels"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "f976b371ea54f221dcde94969e423f22ea77fb84c9e724c0a721c2a4e338a9b3",
+      "shape": [
+        62
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "e841263d8ce04fc9d46d273475b98b14f4ff9d23dfd24a416583ac3790638bf4",
+      "shape": [
+        62,
+        103
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "1c75423b29532c794f58c4410bc36365c6eb01560d350528cbf68b0fb05dadb7",
+      "shape": [
+        62
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "f9ae65bc1de7bd5dd54b50bdd6d8b10fbb34e6af993ca5cb27eeff13a70226c7",
+      "shape": [
+        62
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "cfe867ebd0e38b55d86f381e8ccea948bba40e5a8573a7e78d122366fb7a6a51",
+      "shape": [
+        62
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "aa28b6e6fac2c1db76cc87dd83bdb2fa0204568c0094a14f4206ef72fce9afce",
+  "n_samples": 62,
+  "producer": {
+    "adapter": "tpot_mat_selected_pipeline_outer_checkpoint_replay_v18",
+    "availability_policy": "own_task_only_technical_inability_else_unavailable",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "feature_cache_receipt_sha256": "02e01f6a4055e3f60ffd8937c3fbbe7777c968e0b3f0342df22f0f2116d41375",
+    "feature_recipe": "official_tpot_mat_14_element_vector_v2_fe_retained",
+    "seed": 18012019,
+    "hidden_source": "three_stacking_predictions_plus_xgboost_leaf_path_v1",
+    "official_commit": "936176db18ca4cd7b38cbd957c017a5bac770c6b",
+    "official_pipeline_sha256": "21a3f2e07020ce2437310e23aa8d8051542ed785949cf38b0a4b7b08a795bec0",
+    "outer_test_labels_accessed_by_exporter": false,
+    "relation_screening": "none",
+    "source_outer_fold": 3,
+    "source_target_arrays_loaded_by_exporter": false,
+    "stage2_protocol_version": "18",
+    "target_outer_fold": 3,
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "within_pipeline_component_prediction_std"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "outer_test",
+    "outer_fold": 3,
+    "role": "test",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "steels",
+  "unavailable_rows": 0
+}

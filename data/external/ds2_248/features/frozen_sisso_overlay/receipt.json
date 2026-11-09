@@ -1,0 +1,41 @@
+{
+  "cache_kind": "frozen_mattervial_sisso_v1_overlay",
+  "case_target_values_read": false,
+  "checkpoint_parameters_updated": false,
+  "feature_names": [
+    "SISSO_matbench_expt_gap_1",
+    "SISSO_matbench_expt_gap_10",
+    "SISSO_matbench_expt_gap_11",
+    "SISSO_matbench_expt_gap_12",
+    "SISSO_matbench_expt_gap_13",
+    "SISSO_matbench_expt_gap_14",
+    "SISSO_matbench_expt_gap_15",
+    "SISSO_matbench_expt_gap_16",
+    "SISSO_matbench_expt_gap_17",
+    "SISSO_matbench_expt_gap_18",
+    "SISSO_matbench_expt_gap_19",
+    "SISSO_matbench_expt_gap_2",
+    "SISSO_matbench_expt_gap_20",
+    "SISSO_matbench_expt_gap_3",
+    "SISSO_matbench_expt_gap_4",
+    "SISSO_matbench_expt_gap_5",
+    "SISSO_matbench_expt_gap_6",
+    "SISSO_matbench_expt_gap_7",
+    "SISSO_matbench_expt_gap_8",
+    "SISSO_matbench_expt_gap_9"
+  ],
+  "feature_schema_path": "feature_schema.json",
+  "feature_selection_performed": false,
+  "formula_family": "SISSO_FORMULAS_v1_already_frozen_before_case_study",
+  "formula_fit_performed": false,
+  "nonfinite_policy": "preserved_for_each_frozen_MODNet_member_scale_impute",
+  "nonfinite_value_count": 147,
+  "sample_ids_path": "sample_ids.npy",
+  "schema_version": "v8-youngs-case-study-1.3",
+  "shape": [
+    1587,
+    20
+  ],
+  "status": "complete",
+  "values_path": "sisso_task.npy"
+}

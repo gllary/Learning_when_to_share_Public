@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpsafemoe-final"
+version = "1.0.0"
+requires-python = ">=3.10"
+dependencies = ["numpy", "PyYAML", "scikit-learn", "orjson", "ijson"]
+
+[project.optional-dependencies]
+proposal = ["torch"]
+analysis = ["numpy==2.2.6", "pandas==2.3.0", "scipy==1.15.3", "scikit-learn==1.7.0", "matplotlib==3.10.3", "ijson==3.5.1", "PyYAML==6.0.2"]
+analysis-inputs = ["pymatgen==2025.10.7", "spglib==2.6.0"]
+
+[tool.setuptools.packages.find]
+where = ["code"]
+include = ["hpsafemoe*", "hpsafe_sota*"]

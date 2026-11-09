@@ -1,0 +1,123 @@
+{
+  "schema": "matbench-safety-calibration-v1",
+  "rule": "fixed_liberal",
+  "epsilon_gain_pp": 1.0,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "alpha_all_oof": 0.75,
+  "beta": 0.75,
+  "task_rule_passed": true,
+  "correction_enabled": true,
+  "metric": "mae",
+  "threshold_classification_scores": false,
+  "certificate": {
+    "G": 5.633375175397188,
+    "L": 3.369022371195182,
+    "upper_diagnostic": 7.907594776745062,
+    "confidence": 0.95,
+    "resamples": 5000,
+    "resample_size": 3811,
+    "class_counts_preserved": false,
+    "seed": 20265354,
+    "method": "paired_full_n_percentile",
+    "metric": "mae",
+    "baseline_oof_score": 0.24222678174776116,
+    "crossfit_oof_score": 0.22858123835661925,
+    "denominator_floor": 1e-12
+  },
+  "meta_folds": [
+    {
+      "held_fold": 0,
+      "fit_rows": 3048,
+      "held_rows": 763,
+      "alpha": 0.75,
+      "fit_candidate_scores": [
+        0.24937707993161873,
+        0.24304084779447052,
+        0.238897565924049,
+        0.23697981666341247,
+        0.2378426900731545
+      ],
+      "held_gain_diagnostic": 8.720327501472433
+    },
+    {
+      "held_fold": 1,
+      "fit_rows": 3049,
+      "held_rows": 762,
+      "alpha": 0.75,
+      "fit_candidate_scores": [
+        0.23356689705165196,
+        0.22670809267024616,
+        0.2219153893359738,
+        0.21929620353355292,
+        0.22024253381281866
+      ],
+      "held_gain_diagnostic": 4.024926193622033
+    },
+    {
+      "held_fold": 2,
+      "fit_rows": 3049,
+      "held_rows": 762,
+      "alpha": 0.75,
+      "fit_candidate_scores": [
+        0.22009698264553598,
+        0.21309638097847036,
+        0.20821118305693218,
+        0.2056152094230769,
+        0.20649613674563352
+      ],
+      "held_gain_diagnostic": 3.1137558860675605
+    },
+    {
+      "held_fold": 3,
+      "fit_rows": 3049,
+      "held_rows": 762,
+      "alpha": 0.75,
+      "fit_candidate_scores": [
+        0.2545303379913574,
+        0.24784916188760936,
+        0.24318705272792696,
+        0.2404176380296129,
+        0.2410829040472326
+      ],
+      "held_gain_diagnostic": 6.101825427498318
+    },
+    {
+      "held_fold": 4,
+      "fit_rows": 3049,
+      "held_rows": 762,
+      "alpha": 0.75,
+      "fit_candidate_scores": [
+        0.25356495624759673,
+        0.2468857709220797,
+        0.24253199800534675,
+        0.24060007866879904,
+        0.2422912131361128
+      ],
+      "held_gain_diagnostic": 8.315130585203525
+    }
+  ],
+  "meta_seed": 20263577,
+  "candidate_scores_all_oof": [
+    0.24222678174776116,
+    0.2355155572270549,
+    0.23094811636369875,
+    0.22858123835661925,
+    0.22959055426185485
+  ],
+  "positive_fold_count_diagnostic": 5,
+  "worst_fold_gain_diagnostic": 3.1137558860675605,
+  "fold_diagnostics_used_for_acceptance": false,
+  "final_alpha_method": "all_matching_outer_train_oof_grid_search",
+  "independent_risk_guarantee": false,
+  "calibration_record_sha256": "7e6965a6124378bf762f3fb6a4596d63d0e2b01d5bea6f3b042a0cfdb28445cd",
+  "outer": 2,
+  "candidate": "ablation_no_cross_expert",
+  "task": "dielectric",
+  "outer_test_labels_used": false
+}

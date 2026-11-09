@@ -1,0 +1,42 @@
+{
+  "checkpoint_sha256": "f0618ff5db49d9115ee2dc080fb8d18809bb98a39f22f4bd3639bfb4e4e7a95f",
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "90d10c96815182b56d75e1c90f42153e33ac150964bb4009a79ed8e231295930",
+    "9649a70a49c30fbe20909e2087d26fa151c900a21348a18efeb92e8bd502692b",
+    "155dac8534fe605d50793fc5b984081c59cad2713be6de7c53589458216d7c07",
+    "5c7ebc214b457ed413f64219928e3eef7d2ece300f323343c1cf89c089030f87",
+    "bfd39c86527fc09e903af48be4bb47e0247d362f1573010ee26804eb1370346f",
+    "b3e7004fc158d3027a269e915c20aa141d33d1c96560f8fe5fa51e8ff662a635",
+    "2dd4e5f84fda31188d4cfcf030eb294a255f54972cb6b933407089d70735b57f",
+    "ff8d5d7610be4bc8c912553f56b4268791022b2f63c86c96c96beb1efa904e9f",
+    "1a4a061d7e7ed7a9d783a2310640214567231f4c84d214a8aa8ec90a359a994d",
+    "6c1291f98ca010e4863d970d63a94e784e0f054bd31af9f8e3af3cab1e90bc3d",
+    "6e80d8cd1c6ae8584bb7ef309440c4711aca97da14348b1eac9dc70c295e44ad",
+    "968e5c9546ea57f7c31a557e219d684970074839c7ae7524349cfdf2b344cfc4",
+    "7e530e70e898899fea2c1703298f8f543a0c095dee89410b979540731e8d34c0",
+    "53f1a2b091e8c6342fcb337caaf1a55ba9055ad3514ee4eac40e5df644314c0f",
+    "1fb701500138a0070746f29e382ab79f28fe50dcd7b7bd027737898ac2247344",
+    "2b9d38a444eab4c62a675dbc32886755682b01330a7f941b2045135735b5ffc1",
+    "ef37e6301ea1ebd139982beb6d958dcdb30db61b52e195fb400e0032849162c2",
+    "384fadc537d8be9ee1454d2f0e407e3226e85c52934a387489866804e5174e63",
+    "75c8a69d3124180c1e460e6933fbf74c9a279e4fc6a8b3b0a0e1788bd63e2579",
+    "4fb283821f3085fe7e5f52bc31b5685782840b53c561dd5e020255a1ed94c4f0"
+  ],
+  "n_feat": 512,
+  "n_models": 20,
+  "recipe_signature": "905dd1d20f4d3ac6b5fb83eea12a57aa5be67903c3487600cf539c2424462933",
+  "resumed_members": 0,
+  "schema_version": 1,
+  "smoke_test": false
+}

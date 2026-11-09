@@ -1,0 +1,17 @@
+{
+  "version": "jarvis-proposal-v1",
+  "variants": [
+    "full"
+  ],
+  "seeds": [
+    20261071,
+    20261072
+  ],
+  "steps": 1400,
+  "source_dropout": 0.05,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "architecture": "model",
+  "regression_batch_size": 128,
+  "classification_batch_size": 128
+}

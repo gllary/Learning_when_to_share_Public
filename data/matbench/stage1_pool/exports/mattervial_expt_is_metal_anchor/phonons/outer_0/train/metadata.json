@@ -1,0 +1,89 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 911,
+  "expert": {
+    "checkpoint_sha256": "af2fc984665081ba336a32f29449c6d66c6599d60e021c76591df402cec57432",
+    "expert_id": "mattervial_expt_is_metal_anchor",
+    "frozen": true,
+    "hidden_dim": 160,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "expt_is_metal"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "2aee62e0093119d850b4862f615550942fd13f7215bad77a2b05790bb59e7c73",
+      "shape": [
+        911
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "f859aa0b85b378f1f7e482f6602670f8b13848fc7bc06ee2c9648afa1d7c3726",
+      "shape": [
+        911,
+        160
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "594c9cb9993a19fa0bbdf92de4ba8de0ddf16ca5bacef75eb871c685aef7ecd1",
+      "shape": [
+        911
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U15",
+      "filename": "sample_ids.npy",
+      "sha256": "88763d13330bae7cb88e0c11399e7ee560b2b8eaa8f448918f87974ee01b4ec7",
+      "shape": [
+        911
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "4685d802906e03b9706cf785627efc9d4d2063ff62214f22a876debdc08f65c5",
+      "shape": [
+        911
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "90b5cc63a957e297b25f5f6775553501503f7c673c0428febb59bfe83e3757a7",
+  "n_samples": 911,
+  "producer": {
+    "adapter": "mattervial_modnet_outer_consistent_penultimate_concat_v12_2",
+    "checkpoint_fit_positions_sha256": "0bc6dac4f029241bac52b5b28804e2ea09370a35997803da49cfb1b4e25aa134",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "missing_member_indices": [],
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_outer_test_for_own_anchor_else_deterministic_replay",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "expt_is_metal",
+    "stage2_protocol_version": "12.2",
+    "target_task": "phonons",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true,
+    "total_members": 20,
+    "used_members": 20
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 0,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "phonons",
+  "unavailable_rows": 0
+}

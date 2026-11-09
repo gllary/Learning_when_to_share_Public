@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "task": "reg_avg_hole_mass",
+  "mode": "official_public_alignn_checkpoint_full_universe_inference",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "official_split_membership_and_order_exact": true,
+  "checkpoint_member": "jv_avg_hole_mass_alignn/checkpoint_300.pt",
+  "checkpoint_archive_sha256": "2155f0d42f955d15b71b09fdb7331d32b9ef10557312ed396afd09fae1703d60",
+  "checkpoint_declared_alignn_commit": "5d616626c6e006c074ae5bef4e7469c4d53d13bc",
+  "prediction_sha256": "fd1b113131d73136caceb44cd9316e062837454106e7bd61dd9806219c5ea5d0",
+  "hidden_sha256": "dade2e72505f2632ea2dcc5eae3d42dde062c91c88f7b992bf39e1657b144649",
+  "universe_ids_sha256": "cb8aaa38ad852dbc612e894fb25a588dc2d74278f3e94131b5579ec90f251626",
+  "trained_or_finetuned": false,
+  "test_labels_read": false,
+  "seconds": 49.10694360733032
+}

@@ -1,0 +1,31 @@
+{
+  "available_rows": 248,
+  "checkpoint": "checkpoint/matbench/stage1/anchorboost_glass_anchor/outer_4/anchorboost_v2.joblib",
+  "checkpoint_sha256": "f452a2adb3f36ff027c1d44ef3b5a52e26d66acac48a7924f2573c34398957f1",
+  "dataset": "DS2-248",
+  "detail": {
+    "classification_probability": true,
+    "descriptor_width": 330,
+    "frozen_preprocessor": true
+  },
+  "expert_id": "anchorboost_glass_anchor",
+  "files": {
+    "available.npy": "a5feb74a229c82f77f3e873ed1cb768db1cf092c2892a0c0e40fbc812a647461",
+    "hidden.npy": "249cdc1b4fabdf103db91a227b1a4ed54b67535ca65735ea0ef2b9c3a528be21",
+    "prediction.npy": "d45bbd4c6f94330357a2585268bcc41ad9a96d32c14bfbd3b46733f76a084dda",
+    "sample_ids.npy": "f9e582a9ea7140af511f68ec94f8f1fdf61213e7d06abddbd1f037a979619c20",
+    "uncertainty.npy": "52b66f9f9f248f0b7c75a20570598f152bee87d9f4ad112afdcd83626ffc3f72"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 512,
+  "kind": "glass",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 4,
+  "preprocessing": "checkpoint/matbench/stage1/anchorboost_glass_anchor/outer_4/preprocessing_manifest.json",
+  "preprocessor": "checkpoint/matbench/stage1/anchorboost_glass_anchor/outer_4/feature_preprocessor.joblib",
+  "provider": "anchorboost_v2_own_task_inner_oof_20261028",
+  "source_task": "glass",
+  "time": 1793417794.739244,
+  "weights_updated": false
+}

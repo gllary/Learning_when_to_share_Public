@@ -1,0 +1,131 @@
+task,variant,method,outer_fold,metric,unit,score
+matbench_expt_is_metal,STAGE1,Target model,0,roc_auc,ROC-AUC,0.9766526216842435
+matbench_expt_is_metal,STAGE1,Target model,1,roc_auc,ROC-AUC,0.9782347351896225
+matbench_expt_is_metal,STAGE1,Target model,2,roc_auc,ROC-AUC,0.9788110385854747
+matbench_expt_is_metal,STAGE1,Target model,3,roc_auc,ROC-AUC,0.9771750805585392
+matbench_expt_is_metal,STAGE1,Target model,4,roc_auc,ROC-AUC,0.9716289349747996
+matbench_expt_is_metal,FULL,HP-SafeMoE,0,roc_auc,ROC-AUC,0.9808042745120674
+matbench_expt_is_metal,FULL,HP-SafeMoE,1,roc_auc,ROC-AUC,0.9807774931835083
+matbench_expt_is_metal,FULL,HP-SafeMoE,2,roc_auc,ROC-AUC,0.982574568288854
+matbench_expt_is_metal,FULL,HP-SafeMoE,3,roc_auc,ROC-AUC,0.9841155085515988
+matbench_expt_is_metal,FULL,HP-SafeMoE,4,roc_auc,ROC-AUC,0.975249938031893
+matbench_glass,STAGE1,Target model,0,roc_auc,ROC-AUC,0.9681547854449856
+matbench_glass,STAGE1,Target model,1,roc_auc,ROC-AUC,0.9510702327280671
+matbench_glass,STAGE1,Target model,2,roc_auc,ROC-AUC,0.9478160322105589
+matbench_glass,STAGE1,Target model,3,roc_auc,ROC-AUC,0.954832902076436
+matbench_glass,STAGE1,Target model,4,roc_auc,ROC-AUC,0.9577066925797448
+matbench_glass,FULL,HP-SafeMoE,0,roc_auc,ROC-AUC,0.96693446025092
+matbench_glass,FULL,HP-SafeMoE,1,roc_auc,ROC-AUC,0.9509346410398376
+matbench_glass,FULL,HP-SafeMoE,2,roc_auc,ROC-AUC,0.9472473004071517
+matbench_glass,FULL,HP-SafeMoE,3,roc_auc,ROC-AUC,0.9545504193926245
+matbench_glass,FULL,HP-SafeMoE,4,roc_auc,ROC-AUC,0.9577066925797448
+matbench_mp_is_metal,STAGE1,Target model,0,roc_auc,ROC-AUC,0.9829437025335924
+matbench_mp_is_metal,STAGE1,Target model,1,roc_auc,ROC-AUC,0.9816876926853051
+matbench_mp_is_metal,STAGE1,Target model,2,roc_auc,ROC-AUC,0.982947073045989
+matbench_mp_is_metal,STAGE1,Target model,3,roc_auc,ROC-AUC,0.9828906116175681
+matbench_mp_is_metal,STAGE1,Target model,4,roc_auc,ROC-AUC,0.9818069756869332
+matbench_mp_is_metal,FULL,HP-SafeMoE,0,roc_auc,ROC-AUC,0.9883702564307331
+matbench_mp_is_metal,FULL,HP-SafeMoE,1,roc_auc,ROC-AUC,0.9860638911882419
+matbench_mp_is_metal,FULL,HP-SafeMoE,2,roc_auc,ROC-AUC,0.9867212146414152
+matbench_mp_is_metal,FULL,HP-SafeMoE,3,roc_auc,ROC-AUC,0.9871203138676055
+matbench_mp_is_metal,FULL,HP-SafeMoE,4,roc_auc,ROC-AUC,0.9866611327016855
+matbench_dielectric,STAGE1,Target model,0,mae,dimensionless,0.13987786780547692
+matbench_dielectric,STAGE1,Target model,1,mae,dimensionless,0.23507605199674103
+matbench_dielectric,STAGE1,Target model,2,mae,dimensionless,0.3816184534463217
+matbench_dielectric,STAGE1,Target model,3,mae,dimensionless,0.2632348364913628
+matbench_dielectric,STAGE1,Target model,4,mae,dimensionless,0.33535132553157215
+matbench_dielectric,FULL,HP-SafeMoE,0,mae,dimensionless,0.119996530958718
+matbench_dielectric,FULL,HP-SafeMoE,1,mae,dimensionless,0.19573643655025727
+matbench_dielectric,FULL,HP-SafeMoE,2,mae,dimensionless,0.36760469932695156
+matbench_dielectric,FULL,HP-SafeMoE,3,mae,dimensionless,0.2492574091927357
+matbench_dielectric,FULL,HP-SafeMoE,4,mae,dimensionless,0.2920745605634573
+matbench_expt_gap,STAGE1,Target model,0,mae,eV,0.3068199903260458
+matbench_expt_gap,STAGE1,Target model,1,mae,eV,0.3185639148067637
+matbench_expt_gap,STAGE1,Target model,2,mae,eV,0.3282150013115556
+matbench_expt_gap,STAGE1,Target model,3,mae,eV,0.31526970676175065
+matbench_expt_gap,STAGE1,Target model,4,mae,eV,0.3706122531504775
+matbench_expt_gap,FULL,HP-SafeMoE,0,mae,eV,0.24740024131756375
+matbench_expt_gap,FULL,HP-SafeMoE,1,mae,eV,0.252313973667135
+matbench_expt_gap,FULL,HP-SafeMoE,2,mae,eV,0.2504683123029309
+matbench_expt_gap,FULL,HP-SafeMoE,3,mae,eV,0.25160750539593607
+matbench_expt_gap,FULL,HP-SafeMoE,4,mae,eV,0.2337394089646545
+matbench_jdft2d,STAGE1,Target model,0,mae,meV/atom,21.027254613025313
+matbench_jdft2d,STAGE1,Target model,1,mae,meV/atom,26.114386361069293
+matbench_jdft2d,STAGE1,Target model,2,mae,meV/atom,45.95614129347243
+matbench_jdft2d,STAGE1,Target model,3,mae,meV/atom,17.916648493400388
+matbench_jdft2d,STAGE1,Target model,4,mae,meV/atom,33.77457210058454
+matbench_jdft2d,FULL,HP-SafeMoE,0,mae,meV/atom,20.8772786834122
+matbench_jdft2d,FULL,HP-SafeMoE,1,mae,meV/atom,26.14947035460649
+matbench_jdft2d,FULL,HP-SafeMoE,2,mae,meV/atom,45.95614129347243
+matbench_jdft2d,FULL,HP-SafeMoE,3,mae,meV/atom,17.83355334196095
+matbench_jdft2d,FULL,HP-SafeMoE,4,mae,meV/atom,33.644363143018296
+matbench_log_gvrh,STAGE1,Target model,0,mae,log10(GPa),0.03466405705754176
+matbench_log_gvrh,STAGE1,Target model,1,mae,log10(GPa),0.03447578596709412
+matbench_log_gvrh,STAGE1,Target model,2,mae,log10(GPa),0.03375146978182983
+matbench_log_gvrh,STAGE1,Target model,3,mae,log10(GPa),0.033477431351327816
+matbench_log_gvrh,STAGE1,Target model,4,mae,log10(GPa),0.03664148882279583
+matbench_log_gvrh,FULL,HP-SafeMoE,0,mae,log10(GPa),0.03424855865667375
+matbench_log_gvrh,FULL,HP-SafeMoE,1,mae,log10(GPa),0.03447578596709412
+matbench_log_gvrh,FULL,HP-SafeMoE,2,mae,log10(GPa),0.03416314165314478
+matbench_log_gvrh,FULL,HP-SafeMoE,3,mae,log10(GPa),0.033484183658527296
+matbench_log_gvrh,FULL,HP-SafeMoE,4,mae,log10(GPa),0.03664148882279583
+matbench_log_kvrh,STAGE1,Target model,0,mae,log10(GPa),0.023932113461924795
+matbench_log_kvrh,STAGE1,Target model,1,mae,log10(GPa),0.028312399294191822
+matbench_log_kvrh,STAGE1,Target model,2,mae,log10(GPa),0.026076167719028626
+matbench_log_kvrh,STAGE1,Target model,3,mae,log10(GPa),0.02808683545201633
+matbench_log_kvrh,STAGE1,Target model,4,mae,log10(GPa),0.026753707325808933
+matbench_log_kvrh,FULL,HP-SafeMoE,0,mae,log10(GPa),0.02381938166224408
+matbench_log_kvrh,FULL,HP-SafeMoE,1,mae,log10(GPa),0.02836517518090031
+matbench_log_kvrh,FULL,HP-SafeMoE,2,mae,log10(GPa),0.026039606235829356
+matbench_log_kvrh,FULL,HP-SafeMoE,3,mae,log10(GPa),0.028141270441893292
+matbench_log_kvrh,FULL,HP-SafeMoE,4,mae,log10(GPa),0.02677437043189768
+matbench_mp_e_form,STAGE1,Target model,0,mae,eV/atom,0.012642185927843948
+matbench_mp_e_form,STAGE1,Target model,1,mae,eV/atom,0.012063935200326748
+matbench_mp_e_form,STAGE1,Target model,2,mae,eV/atom,0.011447311113663611
+matbench_mp_e_form,STAGE1,Target model,3,mae,eV/atom,0.01223460397412169
+matbench_mp_e_form,STAGE1,Target model,4,mae,eV/atom,0.012144228483371242
+matbench_mp_e_form,FULL,HP-SafeMoE,0,mae,eV/atom,0.011579636891430463
+matbench_mp_e_form,FULL,HP-SafeMoE,1,mae,eV/atom,0.010919931273125759
+matbench_mp_e_form,FULL,HP-SafeMoE,2,mae,eV/atom,0.010895873471415816
+matbench_mp_e_form,FULL,HP-SafeMoE,3,mae,eV/atom,0.011491571143500552
+matbench_mp_e_form,FULL,HP-SafeMoE,4,mae,eV/atom,0.011118218521511888
+matbench_mp_gap,STAGE1,Target model,0,mae,eV,0.09873634081565373
+matbench_mp_gap,STAGE1,Target model,1,mae,eV,0.10144693155877804
+matbench_mp_gap,STAGE1,Target model,2,mae,eV,0.09809400709905168
+matbench_mp_gap,STAGE1,Target model,3,mae,eV,0.09639699166284162
+matbench_mp_gap,STAGE1,Target model,4,mae,eV,0.10140344083949314
+matbench_mp_gap,FULL,HP-SafeMoE,0,mae,eV,0.09549796598210256
+matbench_mp_gap,FULL,HP-SafeMoE,1,mae,eV,0.09960007413431134
+matbench_mp_gap,FULL,HP-SafeMoE,2,mae,eV,0.09649110852978304
+matbench_mp_gap,FULL,HP-SafeMoE,3,mae,eV,0.0953864329395411
+matbench_mp_gap,FULL,HP-SafeMoE,4,mae,eV,0.10006846651486798
+matbench_perovskites,STAGE1,Target model,0,mae,eV/unitcell,0.027152270483580203
+matbench_perovskites,STAGE1,Target model,1,mae,eV/unitcell,0.029195867901558734
+matbench_perovskites,STAGE1,Target model,2,mae,eV/unitcell,0.02597314772313698
+matbench_perovskites,STAGE1,Target model,3,mae,eV/unitcell,0.027194995580292754
+matbench_perovskites,STAGE1,Target model,4,mae,eV/unitcell,0.027208910715942183
+matbench_perovskites,FULL,HP-SafeMoE,0,mae,eV/unitcell,0.026566346377143894
+matbench_perovskites,FULL,HP-SafeMoE,1,mae,eV/unitcell,0.028499314166140002
+matbench_perovskites,FULL,HP-SafeMoE,2,mae,eV/unitcell,0.025014311139733847
+matbench_perovskites,FULL,HP-SafeMoE,3,mae,eV/unitcell,0.02612410710605111
+matbench_perovskites,FULL,HP-SafeMoE,4,mae,eV/unitcell,0.026204631341960955
+matbench_phonons,STAGE1,Target model,0,mae,cm^-1,21.139858671770988
+matbench_phonons,STAGE1,Target model,1,mae,cm^-1,18.821717166515207
+matbench_phonons,STAGE1,Target model,2,mae,cm^-1,22.787650668212613
+matbench_phonons,STAGE1,Target model,3,mae,cm^-1,20.131811635950324
+matbench_phonons,STAGE1,Target model,4,mae,cm^-1,19.2491960229289
+matbench_phonons,FULL,HP-SafeMoE,0,mae,cm^-1,21.233881636895056
+matbench_phonons,FULL,HP-SafeMoE,1,mae,cm^-1,18.075819370548228
+matbench_phonons,FULL,HP-SafeMoE,2,mae,cm^-1,22.147864224584698
+matbench_phonons,FULL,HP-SafeMoE,3,mae,cm^-1,19.87732047476066
+matbench_phonons,FULL,HP-SafeMoE,4,mae,cm^-1,19.32306339697803
+matbench_steels,STAGE1,Target model,0,mae,MPa,102.96913248697916
+matbench_steels,STAGE1,Target model,1,mae,MPa,69.47615249875993
+matbench_steels,STAGE1,Target model,2,mae,MPa,76.86285912298388
+matbench_steels,STAGE1,Target model,3,mae,MPa,76.28706487840222
+matbench_steels,STAGE1,Target model,4,mae,MPa,66.96559428553425
+matbench_steels,FULL,HP-SafeMoE,0,mae,MPa,102.96913248697916
+matbench_steels,FULL,HP-SafeMoE,1,mae,MPa,69.47615249875993
+matbench_steels,FULL,HP-SafeMoE,2,mae,MPa,76.86285912298388
+matbench_steels,FULL,HP-SafeMoE,3,mae,MPa,76.28706487840222
+matbench_steels,FULL,HP-SafeMoE,4,mae,MPa,66.96559428553425

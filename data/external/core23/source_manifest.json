@@ -1,0 +1,33 @@
+{
+  "dataset": "Core-23",
+  "samples": 23,
+  "materials_sha256": "448aeac536a446c0ddf275ef4814bb16e95d5d4e814b16078db128e5ecd49f0f",
+  "labels_sha256": "0590159b7dfd1282b321c268256acb0ac2376faa1a7006dee6a2a860a47defea",
+  "sample_id_order": [
+    "rii-0005",
+    "rii-0007",
+    "rii-0008",
+    "rii-0011",
+    "rii-0016",
+    "rii-0017",
+    "rii-0022",
+    "rii-0023",
+    "rii-0024",
+    "rii-0027",
+    "rii-0038",
+    "rii-0040",
+    "rii-0041",
+    "rii-0042",
+    "rii-0056",
+    "rii-0061",
+    "rii-0064",
+    "rii-0065",
+    "rii-0068",
+    "rii-0076",
+    "rii-0077",
+    "rii-0078",
+    "rii-0080"
+  ],
+  "label_access": "evaluation only",
+  "external_model_training": false
+}

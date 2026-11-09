@@ -1,0 +1,31 @@
+{
+  "available_rows": 18,
+  "checkpoint": "checkpoint/matbench/stage1/jmp_l_phonons_anchor/outer_0/jmp_l_official_fold_final.ckpt",
+  "checkpoint_sha256": "d2a34ffc077e80e1c33ae1f93bd9734d0a60511fb7983c8fee65a03099b2196d",
+  "dataset": "B2-18",
+  "detail": {
+    "forward_only": true,
+    "inference_batch_size": 1,
+    "lmdb_target_values": false,
+    "uncertainty": "original_JMP_unavailable_zero_sentinel"
+  },
+  "expert_id": "jmp_l_phonons_anchor",
+  "files": {
+    "available.npy": "c70fa8b6d5f5f02f99a9d544d9e68a72bacb8d0a573130ded95da16336b5093e",
+    "hidden.npy": "4518b3867998f9a18aa9b9eca593f7ab50cfd374ccda3a9823750f2035c38ba2",
+    "prediction.npy": "6b15fe8ccf43424bf88e560bf84669879617865e951fea9a82ceef3e9511b5c0",
+    "sample_ids.npy": "ff7aa22377319c8e237d21e1a7599e292bd736aa46242e90c263776d8f0c4803",
+    "uncertainty.npy": "32d91f894c62dd1e97b5166a1f9bae50af930243054b8ee93da163d972119baa"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 256,
+  "kind": "jmp",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 0,
+  "preprocessing": "checkpoint/matbench/stage1/jmp_l_phonons_anchor/outer_0/preprocessing_manifest.json",
+  "provider": "jmp_l_official_checkpoint_consistent_v17",
+  "source_task": "phonons",
+  "time": 1793417863.9248545,
+  "weights_updated": false
+}

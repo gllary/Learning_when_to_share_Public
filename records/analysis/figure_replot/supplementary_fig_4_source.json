@@ -1,0 +1,97 @@
+{
+  "inputs": [
+    "data/analysis/representation/pca/expt_is_metal.csv.gz",
+    "data/analysis/representation/pca/glass.csv.gz",
+    "data/analysis/representation/pca/mp_is_metal.csv.gz",
+    "data/analysis/representation/pca/dielectric.csv.gz",
+    "data/analysis/representation/pca/expt_gap.csv.gz",
+    "data/analysis/representation/pca/jdft2d.csv.gz",
+    "data/analysis/representation/pca/log_gvrh.csv.gz",
+    "data/analysis/representation/pca/log_kvrh.csv.gz",
+    "data/analysis/representation/pca/mp_e_form.csv.gz",
+    "data/analysis/representation/pca/mp_gap.csv.gz",
+    "data/analysis/representation/pca/perovskites.csv.gz",
+    "data/analysis/representation/pca/phonons.csv.gz",
+    "data/analysis/representation/pca/steels.csv.gz"
+  ],
+  "panels": [
+    {
+      "task": "expt_is_metal",
+      "outer_fold": 0,
+      "records": 985,
+      "all_records_plotted": true
+    },
+    {
+      "task": "glass",
+      "outer_fold": 0,
+      "records": 1136,
+      "all_records_plotted": true
+    },
+    {
+      "task": "mp_is_metal",
+      "outer_fold": 0,
+      "records": 21223,
+      "all_records_plotted": true
+    },
+    {
+      "task": "dielectric",
+      "outer_fold": 0,
+      "records": 953,
+      "all_records_plotted": true
+    },
+    {
+      "task": "expt_gap",
+      "outer_fold": 0,
+      "records": 921,
+      "all_records_plotted": true
+    },
+    {
+      "task": "jdft2d",
+      "outer_fold": 0,
+      "records": 128,
+      "all_records_plotted": true
+    },
+    {
+      "task": "log_gvrh",
+      "outer_fold": 0,
+      "records": 2198,
+      "all_records_plotted": true
+    },
+    {
+      "task": "log_kvrh",
+      "outer_fold": 0,
+      "records": 2198,
+      "all_records_plotted": true
+    },
+    {
+      "task": "mp_e_form",
+      "outer_fold": 0,
+      "records": 26551,
+      "all_records_plotted": true
+    },
+    {
+      "task": "mp_gap",
+      "outer_fold": 0,
+      "records": 21223,
+      "all_records_plotted": true
+    },
+    {
+      "task": "perovskites",
+      "outer_fold": 0,
+      "records": 3786,
+      "all_records_plotted": true
+    },
+    {
+      "task": "phonons",
+      "outer_fold": 0,
+      "records": 253,
+      "all_records_plotted": true
+    },
+    {
+      "task": "steels",
+      "outer_fold": 0,
+      "records": 63,
+      "all_records_plotted": true
+    }
+  ]
+}

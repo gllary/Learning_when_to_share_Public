@@ -1,0 +1,507 @@
+{
+  "architecture": "model",
+  "models": [
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "4b0948355d38ee4933a5de8ed9d019d96787594a589f1be13d0ee1b5cb21461e",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "d0c77a93a06901d420788d404b5198c841269d9d12f0eaca68f5896995c3a141",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "044f2acd4e59976f90df936239e24fe69dfad355787f2c60b1b1b4f410149c1a",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "4d72ee281a6b8f352590a70e653a73cbd9c875105e7a28c92c43759f22305c58",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "0a15f27b7da7a5190f2c710fbcd02e1d9a28f32e31a417c0d67cded4c7d16521",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "e9716b052067afe30e5bd3a011174cfbbcfcebce685ad8106976ee24b9f44643",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "14b804bcc06c4a686f7f52479d65e6e0da765b03ed5030dd1dfab12250a17856",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "12e051971b3319d90c380b3f9fd0b68b2fe9cb3913c3ce18af4bb651034333da",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "a6342634a3a1c3f716d66466abdf4b79a7c7e5780935d04fec97b7095edf5d34",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/proposal_full/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "31da390f489d8b043ca01a9b2a1338a219669f3b1dcf9265b365609f92d85826",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "54d0cd798eec5f70d401b83cf622ef758dbd7129bdacd6aacc0e313cca1dac6f",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "5fffcbc6dc36274c833f9a2884495a27234df89275479ce5bbcca724e952dff2",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "0cb2ebbaef26c92b332ab3b83e2e9e6879da42c76361be16ef0c59a91460bd72",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "c2e79dfb4bba0ebed35656e53408a29a1d5a2fb1bd6368551afc12d2a22e69a0",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "e2d65b772b198e9314ef07f25df7f158e530b74d264186d12c08b7b0af551587",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "1e8bdd45746432be18d5cd513b09fa406622c8e5346ecf16a9d8ee4a6fd70ee9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "0ace26f1fa35be11d45204460f35e1fa995e9a3bffcce3f5d45b0861f2a605fa",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "5d2b2f3369c3959acc926859cee4576d946854998f25d52b29551eb276f954a6",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "3c5580ab86e6d57c2292b06da5a660f9f956de0bbc041468140afad09057bedc",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_0/ablation_no_cross_expert/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "2fd2942ab5e9b8579adb90b6e991197ef41f029fccf85a3f455ee629ee09f778",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "5b31ad14181d523b4f78d5faa4cacfb7edb27f7b4ae91ab7f8c1be6eea88f124",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "1f4a7d7fde4fdf04e20473991d08143e3212f2a5526bdfdf5faf4b6b6986a047",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "01fef760eec72b6e93edddbdce4ef68ed1e8ebed64b9c4a099d58e50fcc43d97",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "8d9b6e05639d3e5757b0f45e373d1059b9be4bf71167eb5216c62a02216cf2f9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "e05945b6af1f3fe8bad657bd1ea902791a7d9f83aaf2abfdc040398b2b11e139",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "1d601eb68a663af75405c5e119dadbc27dd1368399fc70e8dde7a7f391bd7cbe",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "db93581bded766639cca7d25b2573d2b51c9a8f40d64f8cbabc8c8d8e150ec97",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "be5f2b5961ff61085a8f68060a2229a890de584e8769479fd2b35a4e57991f61",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "c5b5971415d0f6e3040198d5fcd6c7d01b48856a78fd5ba21b0e60adaa108ec4",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/proposal_full/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "153e7a5bbc5737eded2e98ed76489a8624c5df6b76ac0a0d6b8f7af436807625",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "98d37d99a8fa9c0b559dbdc437c434b5b48ccb4ebd74a8a0a8ebf11ff3ee1fda",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "c68e5b4d9edbe8c4159f08a9489129a5aefd783d9133a35eaa5979de78beb709",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "025ca73875a04c29b06cde65ade5f0d4192e1ba6767be1d2431acbc5c715f716",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "51386d948d337c1c4e8c3236021ce94dfd64d3b8db0eec0f3086b236eb3d0d42",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "164ded4dccaff30218c33cc2fac3895f1fe2ee94daef82f7c5e45181f2031fc8",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "21b80e4582d432b39e35d6219a28d84db98b980f89de03a8b9bd50f2fed9cf7b",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "f55ea6ba0eae169b593adbabddf50ea8b819c5d63394f2b62f4d131d123da46a",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "14a334ebdb597393cc9a1cb32a5436fb81b0ce69fefcb38b31289da1405bef51",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "a828a7847e50f4c28c0cdba97ec4c2baf1abb9a7c74f03d73fddefc9f4499df3",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_1/ablation_no_cross_expert/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "3f1228351dce2cef2e33ff4ff2417031b7be0bdf25aa430c812ab48e2f9acaca",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "646122631603cb86b8f357530a9f32f4d262a6396a2be4cb4ab999420df46908",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "bb6b31ed5c4f82437699f58a6ebeebe309841af4669c7062b96fd18c6aeaea01",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "4a3e62012e9c583cde9981f0f3bac130683ba6e44d778b8b28c36dcd13d4a401",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "d7241501fac4b0868d3b03b624f957d1868b1865a0668744a583867e8e5f2ed5",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "924baf902806663063f4ea63df9648c19ff50cb7d00d21bff383384ea7bead43",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "956864de86a5d7e0a0070710543344b49dafb4655ac6f6340c3c7e6256399a21",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "cd8b60d0846c6266354d69b23bb9550f9ea5907d20b462474b0c08d8508c1ee0",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "e80cb1660fdb2f58d7e9d03669bc07eaa29e06354b085c17fef52f453d0cc446",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "62cb715b2b3c3e04d35c54a8849da04652fb14253616cac59a29de796e3d6dff",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/proposal_full/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "d5f0a2b532eddd47e1f1d36b1219cdb885628cd978b16eb2f99108422fb2afb9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "2d0fc3d5b5d5994b24f10be299d9d0ae77efa0b0298d562b8b48f5f301abb941",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "ad26f3581f2626c6fa62e720718f7646ad53acfec5cb3bc63747281a5497edcc",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "da708d601693273b88097ef860266953a73b13db1e0658e076d412e90272b6ef",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "db73c2811764c4f7e4703e37126309ab875a1fd225e2a38bb9d5294724a17ffd",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "20b42436c16ade6a33f0ac94e17dd637bc95b3ae784ec77bee445ab3d120d6f9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "f5c57be3c356b5925d3f9dd47aac4e47df12d6a11580605130735d00c6ec66d5",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "554d86e19e57513f4fdefd97d946cb03be4cc901f180356ca9175187ce96852e",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "211b01b162f028f0923070a569cf1fc3fe94aa5c4f7d54d64f9543315652c365",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "fb8f256a2e4fa57aef3717be91f489b1a59b8f7983ca0eba6ad05340cd45b703",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_2/ablation_no_cross_expert/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "0c4d2a27eedd2526217458dd7945e9eeb5653ca2d0f02f30a7687a2e70f4b427",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "d4dc102c621b269e827452630469cf7c20cf3da3ad8687904b7bec260282f88b",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "bbac049a6e29d571f9caa3f576c64bff8eca15c92b3ff731bc05eaadb5c1de34",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "2aa73798b06642aabcd172ab834d5613b4301e974766c9430d687e8b65f06a37",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "397ab22982d5f846805ad559c42ec9cabcfe7c58175fa9e0a1fac307faf132b0",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "095b75f9f96e5b491f08db8159c6d3649a4fcd066da9bc2f70ae6249376cdf95",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "2e86a094b00c92e84336d29ab44c945d00488c7888bf353a06bd8c75f1f1d22a",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "372890bc48583b4773c4bb2b84473c70bb33a7c6e1111a56921604c891300f49",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "7d42716239be498ec5d20a0b7e899b1e72a792d64f2b2617dad8e2a51f6be402",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "fd63e3101514ee56c8abf2d9984388d70e2977a85b8689cf13e4b6ec4d23ea44",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/proposal_full/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "547ffb8a6e24d52d3c2ed8b5f393c7fb6b56cc0720a7f88b19f26eecbbbfa830",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "a02eab8d6d75cbc355b6fa20e0c39df5884dec75d2030a7f7615464cd1cce91f",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "c06909a54f88cfcb6fdbd96b1fd70bb94104ddb9adef397a1bac602d0d577493",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "200d1e5e61648cbe64b0a39373790a384587ed8aa883a997a401cce60a57cab0",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "85547f7b5e00536e6b751d5172209b48d91d2abda5d22a4ee9d1f150e0ac7930",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "2f1dea2174ad0f0708b0d2102cecbc69258f05498d7aed1c07e890597386a511",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "d9333f52a82c590e5db45a09ef69b8b957f79eee0c92897ca2df5b29e91c2e70",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "3bfbf327ee50f3659c96103380c336adea4c9ed348792298f692f0f4009b5ab3",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "2c3af5744925a34e5ede83f97d28bea67e31e010008412f58019249494064b7d",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "227e024268cbaa97150252072c759c5362d203f37defadbe105985131b40d167",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_3/ablation_no_cross_expert/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "0978bd1bdf2a7250f2fdf9700f63c9af1a77721652a510c7ae44c0f2e8903813",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "b3b1ee49ae63b70b8e5123567ddedee1c9c83cbc0cf2c88cd649610671e312e6",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "edb995aad4a5095d595b38f04b82a7371cb94f24f81b5e9eb360ee7f0d1fdf31",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "28f0e35ce541e074e6bcc851fe678b84b9eba9d126fd59fd74dc26181ca4fedc",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "a36d14f254f34f8fdea8f21322c3f4c3d1c21fd6aaf9543d4a5972cb022f84b9",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "81d97d4ad739f7a5f912070ff1295377a9fb2b3d68671d322a712136cbaa2864",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "44db71c3e706c5fb23b619344484fd2248931ef9b3b0bb7a958dc70e2be23c92",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "dd20f4bf85ed02c3543e9cda88853e9917a60a9c974cae727a1c5a01b53b9741",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "1868ef2a1e82b92884059d0b03d923d6e5b1f7c8d5d2308d165777b57354853c",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "cf00fa97b6cb738180cf01b2d7e1f2347d8b087aeb07d445b743f6d36303c1b2",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/proposal_full/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "04fbb4a2f74c42e31f5b5d657a2f2734596d693d17032e6e618d3d22ddb5874d",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_0/seed_20261071.pt",
+      "sha256": "3a7c70e4835dfdaf115325849e71b73e031ccc0462cc895acda36ae22a014a93",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_0/seed_20261072.pt",
+      "sha256": "e947bb8ee1e1dc50008435652d2a539a22b44b35ac1f3779c4b46da97d2086a6",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_1/seed_20261071.pt",
+      "sha256": "d3fc02fca2533f6763718d5dd7cfdf74c35dc0c7096cd7f21a979ed333402105",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_1/seed_20261072.pt",
+      "sha256": "f57f09dbd5ef848b1b1ec3d52b365041b4106a744a6cdc3b1c0edba5de01c5ec",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_2/seed_20261071.pt",
+      "sha256": "234007aa836cffab3b2435c7fab99a0dc5362739c768e3eff9bee4f915c09ae5",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_2/seed_20261072.pt",
+      "sha256": "b8ec1fb9c985f9deeb6ddaab922307b4b5897761fb45d4b09268feee6bd69ea8",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_3/seed_20261071.pt",
+      "sha256": "6b7b6b699250abe072846ed57c258bfb3cd39daf87058b82dcbe55c4d66bc16f",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_3/seed_20261072.pt",
+      "sha256": "3c1d6d7b6e43ce05cd62b6175c45e0ab05f3f383c53bc4ebd6022ce873a1e18e",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_4/seed_20261071.pt",
+      "sha256": "191b2712f8cb99a5d35905dbb87a6329443120f8f836c680f774493fef6100d4",
+      "steps": 1400
+    },
+    {
+      "path": "checkpoint/matbench/stage2_proposal/model/output/proposal_training/outer_4/ablation_no_cross_expert/checkpoints/inner_4/seed_20261072.pt",
+      "sha256": "0ccadee1105d83c22ea7acd948494cf1126d170d8fa3b8137a9f6994cba1d133",
+      "steps": 1400
+    }
+  ],
+  "route_temperature": 0.75,
+  "router_applicable": true
+}

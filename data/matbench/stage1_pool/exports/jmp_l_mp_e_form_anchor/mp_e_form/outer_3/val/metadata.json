@@ -1,0 +1,93 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 10620,
+  "expert": {
+    "checkpoint_sha256": "92b306a8fc57738974a7f4b1a27cd97e8ee0ef72fe2eaf322d89b4aa7fe1b310",
+    "expert_id": "jmp_l_mp_e_form_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_frozen_outer_checkpoint_replay_v17_12",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "mp_e_form"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "d9a7fbbf72005a12a0854b511ff94891edb02e423cf6756921e7b95828ad8349",
+      "shape": [
+        10620
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "dde3241162fe6cdd4137f82f014702c464e85971a2d93169d611d0f4aa1ee7f6",
+      "shape": [
+        10620,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "d00cd75e9b4d0689fb56b6e978c70ccae443f1c0440acd2c16104f00edb96cbf",
+      "shape": [
+        10620
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U19",
+      "filename": "sample_ids.npy",
+      "sha256": "8e3cd618859a8e006ce7ff74f5102797197989b8972614993ded1a9d9cd3d81b",
+      "shape": [
+        10620
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "19f390e41867a690b796d8f129486925810854e28defae6ad98b64dda83b21a8",
+      "shape": [
+        10620
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "7598c1bbf05ec42ebb1f7841d965123296ad4534378f7a15948f88d209bf96fa",
+  "n_samples": 10620,
+  "producer": {
+    "adapter": "jmp_l_fast32_fp32_outer_checkpoint_replay_v17_12",
+    "checkpoint_fit_role": "complete_outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_used_for_training": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_official_exact_reproduction": false,
+    "source_outer_fold": 3,
+    "source_stage1_protocol": "jmp_l_fast32_fp32_v1",
+    "source_task": "mp_e_form",
+    "stage2_protocol_version": "17.12",
+    "target_outer_fold": 3,
+    "target_task": "mp_e_form",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 3,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_e_form",
+  "unavailable_rows": 0
+}

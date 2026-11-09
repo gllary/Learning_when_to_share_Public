@@ -1,0 +1,171 @@
+{
+  "checkpoint": "checkpoint/matbench/stage1/jmp_l_phonons_anchor/outer_0/jmp_l_official_fold_final.ckpt",
+  "checkpoint_parameters_updated": false,
+  "checkpoint_sha256": "d2a34ffc077e80e1c33ae1f93bd9734d0a60511fb7983c8fee65a03099b2196d",
+  "eligible_structure_targets": [
+    "jdft2d",
+    "dielectric",
+    "log_kvrh",
+    "log_gvrh",
+    "perovskites",
+    "phonons",
+    "mp_gap",
+    "mp_is_metal",
+    "mp_e_form"
+  ],
+  "outer_fold": 0,
+  "outer_fold_mapping": {
+    "source": 0,
+    "target": 0
+  },
+  "outer_test_labels_accessed": false,
+  "records": [
+    {
+      "n_rows": 457,
+      "role": "train",
+      "target_task": "jdft2d"
+    },
+    {
+      "n_rows": 51,
+      "role": "val",
+      "target_task": "jdft2d"
+    },
+    {
+      "n_rows": 128,
+      "role": "test",
+      "target_task": "jdft2d"
+    },
+    {
+      "n_rows": 3430,
+      "role": "train",
+      "target_task": "dielectric"
+    },
+    {
+      "n_rows": 381,
+      "role": "val",
+      "target_task": "dielectric"
+    },
+    {
+      "n_rows": 953,
+      "role": "test",
+      "target_task": "dielectric"
+    },
+    {
+      "n_rows": 7910,
+      "role": "train",
+      "target_task": "log_kvrh"
+    },
+    {
+      "n_rows": 879,
+      "role": "val",
+      "target_task": "log_kvrh"
+    },
+    {
+      "n_rows": 2198,
+      "role": "test",
+      "target_task": "log_kvrh"
+    },
+    {
+      "n_rows": 7910,
+      "role": "train",
+      "target_task": "log_gvrh"
+    },
+    {
+      "n_rows": 879,
+      "role": "val",
+      "target_task": "log_gvrh"
+    },
+    {
+      "n_rows": 2198,
+      "role": "test",
+      "target_task": "log_gvrh"
+    },
+    {
+      "n_rows": 13628,
+      "role": "train",
+      "target_task": "perovskites"
+    },
+    {
+      "n_rows": 1514,
+      "role": "val",
+      "target_task": "perovskites"
+    },
+    {
+      "n_rows": 3786,
+      "role": "test",
+      "target_task": "perovskites"
+    },
+    {
+      "n_rows": 911,
+      "role": "train",
+      "target_task": "phonons"
+    },
+    {
+      "n_rows": 101,
+      "role": "val",
+      "target_task": "phonons"
+    },
+    {
+      "n_rows": 253,
+      "role": "test",
+      "target_task": "phonons"
+    },
+    {
+      "n_rows": 76401,
+      "role": "train",
+      "target_task": "mp_gap"
+    },
+    {
+      "n_rows": 8489,
+      "role": "val",
+      "target_task": "mp_gap"
+    },
+    {
+      "n_rows": 21223,
+      "role": "test",
+      "target_task": "mp_gap"
+    },
+    {
+      "n_rows": 76401,
+      "role": "train",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "n_rows": 8489,
+      "role": "val",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "n_rows": 21223,
+      "role": "test",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "n_rows": 95581,
+      "role": "train",
+      "target_task": "mp_e_form"
+    },
+    {
+      "n_rows": 10620,
+      "role": "val",
+      "target_task": "mp_e_form"
+    },
+    {
+      "n_rows": 26551,
+      "role": "test",
+      "target_task": "mp_e_form"
+    }
+  ],
+  "schema_version": "17.0",
+  "skipped_non_structure_targets": [
+    "steels",
+    "expt_gap",
+    "glass",
+    "expt_is_metal"
+  ],
+  "source_task": "phonons",
+  "stage1_training_performed": false,
+  "stage2_training_performed": false,
+  "status": "complete",
+  "target_values_accessed": false
+}

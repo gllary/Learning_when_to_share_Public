@@ -1,0 +1,40 @@
+{
+  "dataset": "B2-18",
+  "sample_ids": [
+    "b2mpei18-0",
+    "b2mpei18-1",
+    "b2mpei18-2",
+    "b2mpei18-3",
+    "b2mpei18-4",
+    "b2mpei18-5",
+    "b2mpei18-6",
+    "b2mpei18-7",
+    "b2mpei18-8",
+    "b2mpei18-9",
+    "b2mpei18-10",
+    "b2mpei18-11",
+    "b2mpei18-12",
+    "b2mpei18-13",
+    "b2mpei18-14",
+    "b2mpei18-15",
+    "b2mpei18-16",
+    "b2mpei18-17"
+  ],
+  "evaluation_unit": "log10(E/GPa)",
+  "input_modality": "composition_and_structure",
+  "n": 18,
+  "target_tasks": [
+    "log_kvrh",
+    "log_gvrh"
+  ],
+  "route_temperature": 0.75,
+  "uncertainty": "frozen_stage1_inputs",
+  "ensemble_order": "restore_each_member_then_average_10_apply_outer_beta_then_derive_E_then_average_5",
+  "model_training": false,
+  "beta_refitting": false,
+  "evaluation_mode": "frozen_external_validation",
+  "external_calibration_samples": 0,
+  "evaluation_samples": 18,
+  "labels_used_for": "evaluation_only",
+  "display_name": "B2-18 Zero-shot External Validation"
+}

@@ -1,0 +1,31 @@
+{
+  "available_rows": 23,
+  "checkpoint": "checkpoint/matbench/stage1/jmp_l_phonons_anchor/outer_3/jmp_l_official_fold_final.ckpt",
+  "checkpoint_sha256": "f85f2cdbf6af2c4c7737341e5f0a8b937cdccf8c63a30ad3a718c5afecfaea80",
+  "dataset": "Core-23",
+  "detail": {
+    "forward_only": true,
+    "inference_batch_size": 1,
+    "lmdb_target_values": false,
+    "uncertainty": "original_JMP_unavailable_zero_sentinel"
+  },
+  "expert_id": "jmp_l_phonons_anchor",
+  "files": {
+    "available.npy": "4dc47237124b77c644f82df124ca07a797dbf87339497fa06f1c0c2476f265d3",
+    "hidden.npy": "2dd1543a391c2413084595441b5a173c5102bb159865fbb6c1454a707b691dc7",
+    "prediction.npy": "150289f000a05ea14e7cda088b02325ad4dedd593b24ea585cf9c2bcdf5f0d92",
+    "sample_ids.npy": "05e0f06096fdc9fda37e93f7d36ec161a251d4b6b298141f7c69bdddcfedab7d",
+    "uncertainty.npy": "b5596fbd33a8c72367e7192ee125228b950ebb4135bad83691293e55493ddbba"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 256,
+  "kind": "jmp",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 3,
+  "preprocessing": "checkpoint/matbench/stage1/jmp_l_phonons_anchor/outer_3/preprocessing_manifest.json",
+  "provider": "jmp_l_official_checkpoint_consistent_v17",
+  "source_task": "phonons",
+  "time": 1793417989.7207093,
+  "weights_updated": false
+}

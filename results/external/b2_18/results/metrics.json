@@ -1,0 +1,24 @@
+{
+  "dataset": "B2-18",
+  "n": 18,
+  "unit": "log10(E/GPa)",
+  "evaluation_mode": "frozen_external_validation",
+  "external_calibration_samples": 0,
+  "evaluation_samples": 18,
+  "external_validation_metrics": {
+    "stage1": {
+      "mae": 0.246486948913491,
+      "max_error": 0.40490067303536237,
+      "n": 18,
+      "r2": -7.475826533317493,
+      "rmse": 0.26183732081124356
+    },
+    "stage2": {
+      "mae": 0.24646902119869976,
+      "max_error": 0.40499487856103644,
+      "n": 18,
+      "r2": -7.481556711467377,
+      "rmse": 0.26192581489427175
+    }
+  }
+}

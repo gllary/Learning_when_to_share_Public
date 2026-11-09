@@ -1,0 +1,214 @@
+[
+  {
+    "task": "steels",
+    "n": 312,
+    "adopted": 0,
+    "coverage_percent": 0.0,
+    "top3_sources": [],
+    "top3_percent": []
+  },
+  {
+    "task": "expt_gap",
+    "n": 4604,
+    "adopted": 4604,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "expt_is_metal",
+      "glass",
+      "steels"
+    ],
+    "top3_percent": [
+      83.88423515107617,
+      16.115764848923828,
+      0.0
+    ],
+    "top3_sum_percent": 100.0
+  },
+  {
+    "task": "glass",
+    "n": 5680,
+    "adopted": 4544,
+    "coverage_percent": 80.0,
+    "top3_sources": [
+      "expt_is_metal",
+      "expt_gap",
+      "steels"
+    ],
+    "top3_percent": [
+      71.99589633470124,
+      28.004103665298768,
+      0.0
+    ],
+    "top3_sum_percent": 100.00000000000001
+  },
+  {
+    "task": "expt_is_metal",
+    "n": 4921,
+    "adopted": 4921,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "expt_gap",
+      "glass",
+      "steels"
+    ],
+    "top3_percent": [
+      83.75706932152171,
+      16.2429306784783,
+      0.0
+    ],
+    "top3_sum_percent": 100.00000000000001
+  },
+  {
+    "task": "jdft2d",
+    "n": 636,
+    "adopted": 509,
+    "coverage_percent": 80.03144654088051,
+    "top3_sources": [
+      "mp_gap",
+      "mp_e_form",
+      "expt_is_metal"
+    ],
+    "top3_percent": [
+      33.442438740054214,
+      17.664451574415725,
+      11.547444264357642
+    ],
+    "top3_sum_percent": 62.65433457882758
+  },
+  {
+    "task": "dielectric",
+    "n": 4764,
+    "adopted": 4764,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_gap",
+      "mp_e_form",
+      "phonons"
+    ],
+    "top3_percent": [
+      33.38961737497803,
+      20.157231940352915,
+      16.182972513741895
+    ],
+    "top3_sum_percent": 69.72982182907285
+  },
+  {
+    "task": "log_kvrh",
+    "n": 10987,
+    "adopted": 10987,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_e_form",
+      "mp_gap",
+      "expt_is_metal"
+    ],
+    "top3_percent": [
+      20.740634354673453,
+      18.540560156910473,
+      16.36964385503459
+    ],
+    "top3_sum_percent": 55.650838366618515
+  },
+  {
+    "task": "log_gvrh",
+    "n": 10987,
+    "adopted": 6592,
+    "coverage_percent": 59.99817966687904,
+    "top3_sources": [
+      "mp_e_form",
+      "mp_gap",
+      "perovskites"
+    ],
+    "top3_percent": [
+      19.48813991145687,
+      17.946662269309005,
+      16.95791518014652
+    ],
+    "top3_sum_percent": 54.39271736091239
+  },
+  {
+    "task": "perovskites",
+    "n": 18928,
+    "adopted": 18928,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "phonons",
+      "mp_e_form",
+      "mp_gap"
+    ],
+    "top3_percent": [
+      39.64932037167175,
+      22.103246783746393,
+      13.564024171645015
+    ],
+    "top3_sum_percent": 75.31659132706315
+  },
+  {
+    "task": "phonons",
+    "n": 1265,
+    "adopted": 1265,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_gap",
+      "mp_e_form",
+      "expt_is_metal"
+    ],
+    "top3_percent": [
+      34.80417891998319,
+      21.934788775420106,
+      13.856387408740797
+    ],
+    "top3_sum_percent": 70.59535510414409
+  },
+  {
+    "task": "mp_gap",
+    "n": 106113,
+    "adopted": 106113,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_e_form",
+      "phonons",
+      "expt_is_metal"
+    ],
+    "top3_percent": [
+      25.246463335672548,
+      23.76210415747047,
+      17.769114442166092
+    ],
+    "top3_sum_percent": 66.77768193530912
+  },
+  {
+    "task": "mp_is_metal",
+    "n": 106113,
+    "adopted": 106113,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_gap",
+      "mp_e_form",
+      "phonons"
+    ],
+    "top3_percent": [
+      41.14947293436614,
+      13.739973544392145,
+      12.771609838548711
+    ],
+    "top3_sum_percent": 67.66105631730699
+  },
+  {
+    "task": "mp_e_form",
+    "n": 132752,
+    "adopted": 132752,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "mp_gap",
+      "phonons",
+      "expt_is_metal"
+    ],
+    "top3_percent": [
+      29.413723698983002,
+      19.43183233232206,
+      13.47730980167038
+    ],
+    "top3_sum_percent": 62.322865832975445
+  }
+]

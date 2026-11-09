@@ -1,0 +1,9 @@
+{
+  "task": "reg_n_Seebeck",
+  "fold": 3,
+  "checkpoint_sha256": "d38a46e626d1c4ef9c46fcda36c6e26ffa8105a53ce26a8d17121502475de336",
+  "rows": 55712,
+  "hidden_dim": 128,
+  "test_labels_read": false,
+  "seconds": 4817.536370202899
+}

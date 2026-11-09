@@ -1,0 +1,9 @@
+{
+  "task": "reg_dfpt_piezo_max_dij",
+  "fold": 4,
+  "checkpoint_sha256": "515c9816901b2827b53bf3af9474f7d8d46e246c3b6cbe822af9570aa8081cce",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 1824.733871740289
+}

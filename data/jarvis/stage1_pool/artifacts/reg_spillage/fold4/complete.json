@@ -1,0 +1,9 @@
+{
+  "task": "reg_spillage",
+  "fold": 4,
+  "checkpoint_sha256": "5086b2c0436c1a64cfa619e146ebe293debd21712d33da092199227fde7ca781",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 4489.612293698825
+}

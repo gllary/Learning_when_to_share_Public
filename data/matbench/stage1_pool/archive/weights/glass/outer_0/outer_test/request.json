@@ -1,0 +1,10 @@
+{
+  "expert_name": "anchorboost_v2",
+  "extra": {},
+  "outer_fold": 0,
+  "phase": "outer_refit",
+  "schema_version": 1,
+  "seed": 20260817,
+  "task_name": "glass",
+  "inner_fold": null
+}

@@ -1,0 +1,23 @@
+{
+  "algorithm": "AnchorBoostV2",
+  "blend_score": 0.9474344776670359,
+  "candidate_names": [
+    "xgboost",
+    "extra_trees",
+    "residual_mlp"
+  ],
+  "candidate_scores": {
+    "extra_trees": 0.9454595791805094,
+    "residual_mlp": 0.9196382428940568,
+    "xgboost": 0.9425987449243264
+  },
+  "selected_parameters": {
+    "blend_weights": [
+      0.1363943524245248,
+      0.7898562726129357,
+      0.07374937496253957
+    ],
+    "selected_mlp_epochs": 21,
+    "selected_xgb_iterations": 1028
+  }
+}

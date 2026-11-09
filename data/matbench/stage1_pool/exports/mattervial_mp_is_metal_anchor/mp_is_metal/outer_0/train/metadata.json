@@ -1,0 +1,136 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 76401,
+  "expert": {
+    "checkpoint_sha256": "82a7bf45741b33dbd29b637f1e48957edff55ad32fbc515338e1764af2757601",
+    "expert_id": "mattervial_mp_is_metal_anchor",
+    "frozen": true,
+    "hidden_dim": 40,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "mp_is_metal"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "212b90f6123cd6cf7736f9fb31faf19975dc4b2a1a97839d1d991f391d7ff738",
+      "shape": [
+        76401
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "86641a108608af6daee9ebc81924271986d61c3f930d0e27d15c214581cf359e",
+      "shape": [
+        76401,
+        40
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "36547c9c21b58ad2acd55ba7371705a96df446dd161363b5346b05c28a0f7ab0",
+      "shape": [
+        76401
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U21",
+      "filename": "sample_ids.npy",
+      "sha256": "75c7f7294a34e7d78434a3d64a67c7c7fe5b4201f095891b0890bfe1a8bd0258",
+      "shape": [
+        76401
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "888dec2352e4adb8af5cbf9bed854dcdec9fa89bb3aeb5ccaeec8c8eae4c4d28",
+      "shape": [
+        76401
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "2ce635496975374dcc6cabe2aab82e520204dcdb3a9b4fe53a843aa6ec05d372",
+  "n_samples": 76401,
+  "producer": {
+    "adapter": "mattervial_modnet_inner_oof_penultimate_concat_v12_2",
+    "aggregate_checkpoint_sha256": "82a7bf45741b33dbd29b637f1e48957edff55ad32fbc515338e1764af2757601",
+    "checkpoint_fit_role": "inner_train_crossfit",
+    "checkpoint_role": "inner_oof",
+    "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+    "inner_checkpoint_records": [
+      {
+        "checkpoint_sha256": "1983405abcdc1b9852b7138c36b453e4bd73342cfdd6aa2ce253a30a4d381d9f",
+        "fit_positions_sha256": "67aa5a765645fde1c4bdc3e8aa93e5c393981d31d9d44f5959128acce7f6886e",
+        "formal_predictions_sha256": "af58e8ae97e2a98b0798f149b56fc5630485776a017dc9770f56d33a954643f6",
+        "inner_fold": 0,
+        "supplemental_stage1_feature_cache_receipt_sha256": "05c88ccc2a36e6ada72971989605eb405a43ffecc3d113516afb580435b97989",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "3c6262730925c5f3cb4ca36ce25ca723bb2aa5c0af10ae6dfb044da00cbd2132"
+      },
+      {
+        "checkpoint_sha256": "43bcaa400997bd4bc3083757370533b73c955383ebc4c47deb5b4b38c0359be9",
+        "fit_positions_sha256": "9fddc708b33916c57de998b55cddf824f9b6ae526dafe576e3b2adfd62290944",
+        "formal_predictions_sha256": "14ec30c9d13f9d332b279205a7b9d33f68025de2e2425e612021cef9cc7c1a5e",
+        "inner_fold": 1,
+        "supplemental_stage1_feature_cache_receipt_sha256": "05c88ccc2a36e6ada72971989605eb405a43ffecc3d113516afb580435b97989",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "1f591c16af10652561c87b6f682570618791bf47f69deb0335516597665435a7"
+      },
+      {
+        "checkpoint_sha256": "4f3d2a85738b971318fcd544a7ec408fd02b3efd121db295ba8c22b75d05554c",
+        "fit_positions_sha256": "7147848ce2a827a163a5658b3dd950d24c0e246f330b973a2d6a1f8d7282cc8b",
+        "formal_predictions_sha256": "c86ffdd33123e3d12ce66b9cd62726c665ca40483f99ded1f98a3194f9583c01",
+        "inner_fold": 2,
+        "supplemental_stage1_feature_cache_receipt_sha256": "05c88ccc2a36e6ada72971989605eb405a43ffecc3d113516afb580435b97989",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "38d08666a6a405cd1bee866f84a35e97034a6f3b2a38e9ac1e9fbd6fa01a9e7e"
+      },
+      {
+        "checkpoint_sha256": "66eddc1b6d3e759ee6f65924c7a92682ddfeb995c98cbbbfacef77616bed913c",
+        "fit_positions_sha256": "ddc41b69c2f0c5030e471687ba6cbe4bdda03520cfcd05bbca3bd1440ae6e4d3",
+        "formal_predictions_sha256": "17d2d66a376f7dffd8b36976ce9bcb726d96b1973aa3870ee31e3e12849b0079",
+        "inner_fold": 3,
+        "supplemental_stage1_feature_cache_receipt_sha256": "05c88ccc2a36e6ada72971989605eb405a43ffecc3d113516afb580435b97989",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "82704aecdeef5fe9d4351eb36ba516a71d2539fb7e8ec89b1d4460511c1cede7"
+      },
+      {
+        "checkpoint_sha256": "6078a51b718d616eeb630622361588278ce76598b1171676cddee97ae6fa8717",
+        "fit_positions_sha256": "6d79e9989931c5149645e6e7d4fde42979e710dfa3d6d96a902b837bd1f0daa7",
+        "formal_predictions_sha256": "fabc740d58a3e449d940a1e22dc5cac1154e7123865bb9d418c3feae674c3263",
+        "inner_fold": 4,
+        "supplemental_stage1_feature_cache_receipt_sha256": "05c88ccc2a36e6ada72971989605eb405a43ffecc3d113516afb580435b97989",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "174c66ff87d30e186a07794fde1a6ec161c3d4dcced56cd8a32937304bbff4c2"
+      }
+    ],
+    "inner_fold_count": 5,
+    "inner_validation_partition_exact": true,
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_inner_validation_predictions",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "mp_is_metal",
+    "stage2_protocol_version": "12.2",
+    "target_task": "mp_is_metal",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 0,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_is_metal",
+  "unavailable_rows": 0
+}

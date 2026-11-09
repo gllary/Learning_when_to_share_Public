@@ -1,0 +1,9 @@
+{
+  "task": "cls_slme",
+  "fold": 1,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "fb550819cb8b0609215709b2cd310c2b0c4e9867cb3045dcd8b5fb864331b4a9",
+  "seconds": 32.46192314196378,
+  "test_labels_read": false
+}

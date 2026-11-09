@@ -1,0 +1,372 @@
+{
+  "panel_a": [
+    {
+      "task": "expt_is_metal",
+      "mean_full_minus_nocross_pp": 18.0793474720193,
+      "fold_min": 11.68264211825,
+      "fold_max": 30.40723981900465,
+      "fold_values": [
+        17.782094296309445,
+        11.68264211825,
+        17.761746929226053,
+        30.40723981900465,
+        12.763014197306356
+      ]
+    },
+    {
+      "task": "glass",
+      "mean_full_minus_nocross_pp": -0.33194725186567,
+      "fold_min": -1.9167115695480716,
+      "fold_max": 1.2841894596396966,
+      "fold_values": [
+        -0.7096392667060161,
+        -1.9167115695480716,
+        -0.31757488271395873,
+        1.2841894596396966,
+        0.0
+      ]
+    },
+    {
+      "task": "mp_is_metal",
+      "mean_full_minus_nocross_pp": 25.676744130571173,
+      "fold_min": 22.70338277108323,
+      "fold_max": 31.815544421808145,
+      "fold_values": [
+        31.815544421808145,
+        23.078721792048476,
+        22.70338277108323,
+        24.720181542397086,
+        26.06589012551893
+      ]
+    },
+    {
+      "task": "dielectric",
+      "mean_full_minus_nocross_pp": 5.013035425186844,
+      "fold_min": 0.4438488960901661,
+      "fold_max": 8.351544438666064,
+      "fold_values": [
+        7.811613195546602,
+        7.642649153387493,
+        0.4438488960901661,
+        8.351544438666064,
+        0.8155214422438917
+      ]
+    },
+    {
+      "task": "expt_gap",
+      "mean_full_minus_nocross_pp": 24.46351030337439,
+      "fold_min": 20.255376301037195,
+      "fold_max": 35.581230314604376,
+      "fold_values": [
+        21.440013295166775,
+        21.17721943971274,
+        23.863712166350886,
+        20.255376301037195,
+        35.581230314604376
+      ]
+    },
+    {
+      "task": "jdft2d",
+      "mean_full_minus_nocross_pp": -0.026494919052869714,
+      "fold_min": -0.12020989805477361,
+      "fold_max": 0.04773885026406621,
+      "fold_values": [
+        0.04773885026406621,
+        -0.05971219351557899,
+        0.0,
+        -0.00029135395806217934,
+        -0.12020989805477361
+      ]
+    },
+    {
+      "task": "log_gvrh",
+      "mean_full_minus_nocross_pp": 2.595114114457703,
+      "fold_min": -7.652397171027323e-05,
+      "fold_max": 7.112564057515302,
+      "fold_values": [
+        5.401906182457778,
+        0.4611768562871451,
+        7.112564057515302,
+        -7.652397171027323e-05,
+        0.0
+      ]
+    },
+    {
+      "task": "log_kvrh",
+      "mean_full_minus_nocross_pp": 1.0174565717943242,
+      "fold_min": 0.08183541747535511,
+      "fold_max": 3.6922460158199244,
+      "fold_values": [
+        3.6922460158199244,
+        0.47474501723640217,
+        0.14021033916187622,
+        0.08183541747535511,
+        0.6982460692780625
+      ]
+    },
+    {
+      "task": "mp_e_form",
+      "mean_full_minus_nocross_pp": -0.1596996508137151,
+      "fold_min": -0.265395188892775,
+      "fold_max": -0.06953236717689482,
+      "fold_values": [
+        -0.265395188892775,
+        -0.1384476606683709,
+        -0.06953236717689482,
+        -0.11438283090832968,
+        -0.21074020642220503
+      ]
+    },
+    {
+      "task": "mp_gap",
+      "mean_full_minus_nocross_pp": 0.15346633031298546,
+      "fold_min": 0.07395089510194963,
+      "fold_max": 0.23845153706654987,
+      "fold_values": [
+        0.18364696047306994,
+        0.23845153706654987,
+        0.09082882838908457,
+        0.18045343053427332,
+        0.07395089510194963
+      ]
+    },
+    {
+      "task": "perovskites",
+      "mean_full_minus_nocross_pp": 0.46321985531960763,
+      "fold_min": 0.3962751064740564,
+      "fold_max": 0.5361752308372036,
+      "fold_values": [
+        0.43287264822923,
+        0.3962751064740564,
+        0.5361752308372036,
+        0.4770815213780457,
+        0.4736947696795024
+      ]
+    },
+    {
+      "task": "phonons",
+      "mean_full_minus_nocross_pp": -0.25132967197908845,
+      "fold_min": -0.5896559596015117,
+      "fold_max": -0.07839952686817009,
+      "fold_values": [
+        -0.09393593059963334,
+        -0.17639565942236546,
+        -0.07839952686817009,
+        -0.3182612834037617,
+        -0.5896559596015117
+      ]
+    },
+    {
+      "task": "steels",
+      "mean_full_minus_nocross_pp": 1.9130312714460178,
+      "fold_min": 0.0,
+      "fold_max": 5.734814995774155,
+      "fold_values": [
+        0.0,
+        5.734814995774155,
+        0.0,
+        3.8303413614559343,
+        0.0
+      ]
+    }
+  ],
+  "panel_b": [
+    {
+      "task": "expt_is_metal",
+      "raw_full_gain_percent": 18.0793474720193,
+      "full_gain_percent": 18.0793474720193
+    },
+    {
+      "task": "glass",
+      "raw_full_gain_percent": -16.436536440870746,
+      "full_gain_percent": -1.1648886334293198
+    },
+    {
+      "task": "mp_is_metal",
+      "raw_full_gain_percent": 25.8496001885669,
+      "full_gain_percent": 25.8496001885669
+    },
+    {
+      "task": "dielectric",
+      "raw_full_gain_percent": 10.267770316223487,
+      "full_gain_percent": 10.567032708478106
+    },
+    {
+      "task": "expt_gap",
+      "raw_full_gain_percent": 24.194994442273362,
+      "full_gain_percent": 24.194994442273362
+    },
+    {
+      "task": "jdft2d",
+      "raw_full_gain_percent": 0.3773369347645167,
+      "full_gain_percent": 0.2856418065780755
+    },
+    {
+      "task": "log_gvrh",
+      "raw_full_gain_percent": -7.821883005917046,
+      "full_gain_percent": -0.008248361847868802
+    },
+    {
+      "task": "log_kvrh",
+      "raw_full_gain_percent": -1.290946791008331,
+      "full_gain_percent": 0.030761768955359953
+    },
+    {
+      "task": "mp_e_form",
+      "raw_full_gain_percent": 7.4453116475358625,
+      "full_gain_percent": 7.4453116475358625
+    },
+    {
+      "task": "mp_gap",
+      "raw_full_gain_percent": 1.8198415824880236,
+      "full_gain_percent": 1.8198415824880236
+    },
+    {
+      "task": "perovskites",
+      "raw_full_gain_percent": 3.172833910909688,
+      "full_gain_percent": 3.172833910909688
+    },
+    {
+      "task": "phonons",
+      "raw_full_gain_percent": 1.5174077285922063,
+      "full_gain_percent": 1.4412361454287779
+    },
+    {
+      "task": "steels",
+      "raw_full_gain_percent": -27.175396545874854,
+      "full_gain_percent": 0.0
+    }
+  ],
+  "panel_c": [
+    {
+      "task": "expt_is_metal",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "glass",
+      "beta_by_outer_fold": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.0
+      ]
+    },
+    {
+      "task": "mp_is_metal",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "dielectric",
+      "beta_by_outer_fold": [
+        0.75,
+        1.0,
+        0.75,
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "task": "expt_gap",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "jdft2d",
+      "beta_by_outer_fold": [
+        0.75,
+        0.75,
+        0.0,
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "task": "log_gvrh",
+      "beta_by_outer_fold": [
+        0.5,
+        0.0,
+        0.25,
+        0.25,
+        0.0
+      ]
+    },
+    {
+      "task": "log_kvrh",
+      "beta_by_outer_fold": [
+        0.5,
+        0.5,
+        0.25,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "task": "mp_e_form",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "mp_gap",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "perovskites",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task": "phonons",
+      "beta_by_outer_fold": [
+        1.0,
+        1.0,
+        1.0,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "task": "steels",
+      "beta_by_outer_fold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

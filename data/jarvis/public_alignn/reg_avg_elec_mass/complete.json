@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "task": "reg_avg_elec_mass",
+  "mode": "official_public_alignn_checkpoint_full_universe_inference",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "official_split_membership_and_order_exact": true,
+  "checkpoint_member": "jv_avg_elec_mass_alignn/checkpoint_300.pt",
+  "checkpoint_archive_sha256": "4f87f97399cd9f7d722b7af9ccb43fd5b5e83442ff5516b1fdb68a623d1925fb",
+  "checkpoint_declared_alignn_commit": "5d616626c6e006c074ae5bef4e7469c4d53d13bc",
+  "prediction_sha256": "cbd4803c7b74f54efa845047a8b6564009fa95c1a896e5efdc72d8a42babba89",
+  "hidden_sha256": "2aabebd0dfdfb0d6dcde878efa341d081cc19c2a98110ac59e1745bca71e5369",
+  "universe_ids_sha256": "cb8aaa38ad852dbc612e894fb25a588dc2d74278f3e94131b5579ec90f251626",
+  "trained_or_finetuned": false,
+  "test_labels_read": false,
+  "seconds": 48.93720602989197
+}

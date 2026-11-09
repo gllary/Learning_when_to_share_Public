@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 101,
+  "expert": {
+    "checkpoint_sha256": "6f320cb2759ca65504ec7ab8b730fd674c034ca2e2d720db056e228eb67583cb",
+    "expert_id": "jmp_l_jdft2d_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "jdft2d"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "2affbf057a240203c206ec83b9c67d4f771be8ebbe398cfad85250f8c9fdca88",
+      "shape": [
+        101
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "21b7851882021970219917bfca83ff9804a3c593ce3ef6ae250599da05ac4ed5",
+      "shape": [
+        101,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "d07b9d9db1335e5c2a54c1ad96ce4ef615cd4f3478b4cc33bb55d651924d1c37",
+      "shape": [
+        101
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U15",
+      "filename": "sample_ids.npy",
+      "sha256": "52e2120f32528ded9a3fafd448d6a2656100c0acd40812fc023fa8f66d79368f",
+      "shape": [
+        101
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "088deda2395fde2a0ec248828a10220d9a2d54d5d1c1967b3d41132900254b41",
+      "shape": [
+        101
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "90b5cc63a957e297b25f5f6775553501503f7c673c0428febb59bfe83e3757a7",
+  "n_samples": 101,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "6f320cb2759ca65504ec7ab8b730fd674c034ca2e2d720db056e228eb67583cb",
+    "source_outer_fold": 0,
+    "source_task": "jdft2d",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 0,
+    "target_task": "phonons",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 0,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "phonons",
+  "unavailable_rows": 0
+}

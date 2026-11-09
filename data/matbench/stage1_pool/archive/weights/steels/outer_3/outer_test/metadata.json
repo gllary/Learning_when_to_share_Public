@@ -1,0 +1,62 @@
+{
+  "extra": {
+    "candidate_global_selection_deferred": true,
+    "candidate_matrix_predeclared": true,
+    "candidate_seed": 18012019,
+    "checkpoint_committed_before_outer_test_score": true,
+    "hidden_source": "three_stacking_predictions_plus_xgboost_leaf_path_v1",
+    "official_commit": "936176db18ca4cd7b38cbd957c017a5bac770c6b",
+    "official_pipeline_sha256": "21a3f2e07020ce2437310e23aa8d8051542ed785949cf38b0a4b7b08a795bec0"
+  },
+  "latents": {
+    "filename": "latents.npz",
+    "sha256": "04acaa7618a258e4ed8e83a376e6471c5d20b14ac08eab9d8ea87e6e1d9c00fc",
+    "shape": [
+      62,
+      103
+    ]
+  },
+  "model": {
+    "family": "TPOT_selected_pipeline_replay",
+    "name": "tpot_mat_official_selected_pipeline_v18",
+    "pretrained_disclosure": {
+      "uses_pretraining": false
+    }
+  },
+  "predictions": {
+    "filename": "predictions.npz",
+    "n_samples": 62,
+    "sha256": "74e37b443cb502efc9eab362e39c3a691402bd9245e104ddaa5923fd8260817b",
+    "uncertainty_present": true,
+    "value_kind": "regression_value"
+  },
+  "provenance": {
+    "checkpoint_sha256": "6d5af0296fdabea749397672da734debbcfe1d61e750e8cb0b271b59b85de72a",
+    "environment_lock_sha256": "aac567580572bb0722590843a41848fb300b63b7eb9414cae18b3ac616dae272",
+    "raw_sha256": "473bc4957b2ea5e6465aef84bc29bb48ac34db27d69ea4ec5f508745c6fae252",
+    "task_manifest_digest": "aa28b6e6fac2c1db76cc87dd83bdb2fa0204568c0094a14f4206ef72fce9afce"
+  },
+  "run_id": "tpot_mat_v18_seed_18012019_outer_3",
+  "run_kind": "production",
+  "schema_version": "1.0",
+  "selection": {
+    "outer_test_used": false,
+    "source": "predeclared_candidate_seed_before_outer_test_score"
+  },
+  "split": {
+    "outer_fold": 3,
+    "role": "outer_test",
+    "sample_order": "exact_split_manifest_order",
+    "inner_fold": null
+  },
+  "task": {
+    "direction": "minimize",
+    "input_type": "composition",
+    "matbench_name": "matbench_steels",
+    "metric": "mae",
+    "target": "yield strength",
+    "task_name": "steels",
+    "task_type": "regression",
+    "unit": "MPa"
+  }
+}

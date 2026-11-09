@@ -1,0 +1,45 @@
+{
+  "act": "relu",
+  "batch_size": 64,
+  "epochs": 1000,
+  "feature_selection_n_jobs": 4,
+  "heartbeat_seconds": 30,
+  "increase_bs": false,
+  "latent_blocks": [
+    "mvl16",
+    "mvl32"
+  ],
+  "latent_dim": 288,
+  "lr": 0.005,
+  "n_feat": 512,
+  "n_models": 20,
+  "num_neurons": [
+    [
+      128
+    ],
+    [
+      32
+    ],
+    [
+      8
+    ],
+    [
+      8
+    ]
+  ],
+  "predictor_blocks": [
+    "matminer",
+    "mvl16",
+    "mvl32",
+    "megnet_ofm",
+    "roost_mpgap",
+    "orb_v3"
+  ],
+  "resume_members": true,
+  "task_type": "classification",
+  "use_precomputed_cross_nmi": false,
+  "verbose": 0,
+  "xgb_preselect_fraction": 0.1,
+  "xgb_preselect_target": 800,
+  "xgb_random_state": 1
+}

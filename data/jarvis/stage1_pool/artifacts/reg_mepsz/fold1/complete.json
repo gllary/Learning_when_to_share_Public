@@ -1,0 +1,9 @@
+{
+  "task": "reg_mepsz",
+  "fold": 1,
+  "checkpoint_sha256": "5373044a5c34a98ac2a27c88c20157e631b9b76cdd899a373d97cbf96ed3c57f",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 6626.089686445892
+}

@@ -1,0 +1,9 @@
+{
+  "task": "reg_bulk_modulus_kv",
+  "fold": -1,
+  "checkpoint_sha256": "87b36d37f3e12bbb4fe348b9b90b1b57f0d0239652cffc6c99f0b93ade13fa56",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 9067.367213116959
+}

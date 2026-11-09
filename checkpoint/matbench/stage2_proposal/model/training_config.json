@@ -1,0 +1,32 @@
+{
+  "model_seeds": [
+    20261071,
+    20261072
+  ],
+  "token_dim": 128,
+  "task_dim": 32,
+  "residual_hidden": 192,
+  "residual_rank": 16,
+  "dropout": 0.08,
+  "attention_top_k": 4,
+  "residual_limit": 1.25,
+  "route_temperature": 0.75,
+  "proposal_training_steps": 1400,
+  "progress_every": 10,
+  "regression_batch_size": 384,
+  "classification_per_class": 160,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "gradient_clip": 2.0,
+  "pairwise_auc_temperature": 0.5,
+  "mean_positive_task_regret_weight": 0.75,
+  "task_cvar_fraction": 0.25,
+  "task_cvar_weight": 0.25,
+  "branch_auxiliary_weight": 0.2,
+  "route_entropy_target": 0.45,
+  "route_entropy_weight": 0.003,
+  "expert_dropout": 0.05,
+  "inner_oof_folds": 5,
+  "inner_partition_seed": 20261073,
+  "routing_mode": "softmax_weighted_residual"
+}

@@ -1,0 +1,30 @@
+{
+  "available_rows": 23,
+  "checkpoint": "checkpoint/matbench/stage1/mattervial_dielectric_anchor/outer_2/mattervial_modnet.pkl",
+  "checkpoint_sha256": "232c1f71045b0b8b523f167c737b765dba2ddd5712f7f4688a1b8ad988b6972f",
+  "dataset": "Core-23",
+  "detail": {
+    "partial_ensemble_used": false,
+    "total_members": 20,
+    "uncertainty": "frozen_member_prediction_std_ddof0",
+    "used_members": 20
+  },
+  "expert_id": "mattervial_dielectric_anchor",
+  "files": {
+    "available.npy": "4dc47237124b77c644f82df124ca07a797dbf87339497fa06f1c0c2476f265d3",
+    "hidden.npy": "6ea24a366f07bfe812dcc9ba240d7b7b00d846864ebbc286dd8a22da31a97ad9",
+    "prediction.npy": "b712c17bedfe704b410a62eb9d5b12d1ffaf79219c87cb79088794bdc42c2cb9",
+    "sample_ids.npy": "05e0f06096fdc9fda37e93f7d36ec161a251d4b6b298141f7c69bdddcfedab7d",
+    "uncertainty.npy": "ce64eb8357d1e28637c728e2b7cb7b68f2e468a6a6f6c63fd85b3caed5d96455"
+  },
+  "fresh_forward": true,
+  "hidden_dim": 160,
+  "kind": "mattervial",
+  "labels_accessed": false,
+  "old_external_numeric_exports_used": false,
+  "outer": 2,
+  "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+  "source_task": "dielectric",
+  "time": 1793417768.8511977,
+  "weights_updated": false
+}

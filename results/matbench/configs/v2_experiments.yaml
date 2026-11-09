@@ -1,0 +1,71 @@
+anchorboost_v2:
+  gpu_lane: 0
+  supported_tasks:
+  - steels
+  - expt_gap
+  - glass
+  - expt_is_metal
+  - jdft2d
+  - dielectric
+  - log_kvrh
+  - log_gvrh
+  - perovskites
+  - phonons
+  - mp_gap
+  - mp_is_metal
+  - mp_e_form
+  feature_version: anchorboost_enriched_v2
+  models:
+  - xgboost
+  - extra_trees
+  - residual_mlp
+  defaults:
+    n_estimators: 1200
+    max_depth: 10
+    learning_rate: 0.035
+    subsample: 0.85
+    colsample_bytree: 0.85
+    min_child_weight: 2.0
+    reg_lambda: 2.0
+    xgb_patience: 80
+    extra_trees_estimators: 768
+    extra_trees_min_samples_leaf: 1
+    mlp_hidden_dim: 768
+    mlp_layers: 6
+    mlp_dropout: 0.1
+    mlp_epochs: 300
+    mlp_patience: 40
+    mlp_batch_size: 2048
+    learning_rate_mlp: 0.0007
+    weight_decay: 1.0e-05
+    mc_dropout_samples: 3
+  task_overrides:
+    steels:
+      extra_trees_estimators: 1536
+      mlp_epochs: 500
+      mlp_batch_size: 128
+      mlp_dropout: 0.18
+    jdft2d:
+      extra_trees_estimators: 1536
+      mlp_epochs: 500
+      mlp_batch_size: 128
+      mlp_dropout: 0.18
+    phonons:
+      extra_trees_estimators: 1200
+      mlp_epochs: 500
+      mlp_batch_size: 256
+    expt_gap:
+      n_estimators: 1800
+      max_depth: 12
+    mp_gap:
+      n_estimators: 900
+      mlp_epochs: 160
+      mlp_batch_size: 4096
+    mp_is_metal:
+      n_estimators: 900
+      mlp_epochs: 160
+      mlp_batch_size: 4096
+    mp_e_form:
+      n_estimators: 900
+      mlp_epochs: 160
+      mlp_batch_size: 4096

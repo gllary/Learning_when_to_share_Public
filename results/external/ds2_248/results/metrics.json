@@ -1,0 +1,24 @@
+{
+  "dataset": "DS2-248",
+  "n": 248,
+  "unit": "eV",
+  "evaluation_mode": "frozen_external_validation",
+  "external_calibration_samples": 0,
+  "evaluation_samples": 248,
+  "external_validation_metrics": {
+    "stage1": {
+      "mae": 0.7481388444800163,
+      "max_error": 2.808653437695466,
+      "n": 248,
+      "r2": 0.17835205690796951,
+      "rmse": 0.9888413265672403
+    },
+    "stage2": {
+      "mae": 0.6853026284048134,
+      "max_error": 2.77175698613638,
+      "n": 248,
+      "r2": 0.28975769199764145,
+      "rmse": 0.9193629372981609
+    }
+  }
+}

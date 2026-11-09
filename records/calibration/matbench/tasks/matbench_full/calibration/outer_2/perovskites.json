@@ -1,0 +1,123 @@
+{
+  "schema": "matbench-safety-calibration-v1",
+  "rule": "fixed_liberal",
+  "epsilon_gain_pp": 1.0,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "alpha_all_oof": 1.0,
+  "beta": 1.0,
+  "task_rule_passed": true,
+  "correction_enabled": true,
+  "metric": "mae",
+  "threshold_classification_scores": false,
+  "certificate": {
+    "G": 30.5724192313053,
+    "L": 29.807228057531336,
+    "upper_diagnostic": 31.296182664277598,
+    "confidence": 0.95,
+    "resamples": 5000,
+    "resample_size": 15142,
+    "class_counts_preserved": false,
+    "seed": 20265645,
+    "method": "paired_full_n_percentile",
+    "metric": "mae",
+    "baseline_oof_score": 0.007967503822994522,
+    "crossfit_oof_score": 0.00553164515195836,
+    "denominator_floor": 1e-12
+  },
+  "meta_folds": [
+    {
+      "held_fold": 0,
+      "fit_rows": 12113,
+      "held_rows": 3029,
+      "alpha": 1.0,
+      "fit_candidate_scores": [
+        0.0079493818074049,
+        0.007033709943046847,
+        0.006280906806406083,
+        0.005752682270646348,
+        0.005526137510275713
+      ],
+      "held_gain_diagnostic": 30.92427528488898
+    },
+    {
+      "held_fold": 1,
+      "fit_rows": 12113,
+      "held_rows": 3029,
+      "alpha": 1.0,
+      "fit_candidate_scores": [
+        0.007962362047053875,
+        0.007033746564670995,
+        0.006267043944286894,
+        0.005733835261330873,
+        0.005516063703554106
+      ],
+      "held_gain_diagnostic": 29.9710890044334
+    },
+    {
+      "held_fold": 2,
+      "fit_rows": 12114,
+      "held_rows": 3028,
+      "alpha": 1.0,
+      "fit_candidate_scores": [
+        0.00797012692633804,
+        0.00705068399126255,
+        0.006289502988436655,
+        0.005764977144255274,
+        0.005555676016751381
+      ],
+      "held_gain_diagnostic": 31.68908872857012
+    },
+    {
+      "held_fold": 3,
+      "fit_rows": 12114,
+      "held_rows": 3028,
+      "alpha": 1.0,
+      "fit_candidate_scores": [
+        0.007983180807627565,
+        0.007060187087460021,
+        0.006293190968731831,
+        0.005759758544468434,
+        0.005539115774408317
+      ],
+      "held_gain_diagnostic": 30.39965844653752
+    },
+    {
+      "held_fold": 4,
+      "fit_rows": 12114,
+      "held_rows": 3028,
+      "alpha": 1.0,
+      "fit_candidate_scores": [
+        0.007972465606142787,
+        0.007051817996506362,
+        0.0062816122916244934,
+        0.005742907927087569,
+        0.005521231013916526
+      ],
+      "held_gain_diagnostic": 29.87479079706266
+    }
+  ],
+  "meta_seed": 20263868,
+  "candidate_scores_all_oof": [
+    0.007967503822994522,
+    0.007046029522772908,
+    0.00628245167978177,
+    0.005750832479639048,
+    0.00553164515195836
+  ],
+  "positive_fold_count_diagnostic": 5,
+  "worst_fold_gain_diagnostic": 29.87479079706266,
+  "fold_diagnostics_used_for_acceptance": false,
+  "final_alpha_method": "all_matching_outer_train_oof_grid_search",
+  "independent_risk_guarantee": false,
+  "calibration_record_sha256": "fceab5c38570e290e715692f4207e845dfd279f19018d729ee878c8009bdea00",
+  "outer": 2,
+  "candidate": "proposal_full",
+  "task": "perovskites",
+  "outer_test_labels_used": false
+}

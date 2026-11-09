@@ -1,0 +1,74 @@
+[
+  {
+    "experiment_id": "jarvis_full",
+    "dataset": "jarvis",
+    "architecture": "model",
+    "strict_no_cross": false,
+    "safety": "fixed_task_liberal",
+    "batch": 128,
+    "classification_metric": "ACC",
+    "uncertainty": "zero",
+    "route_temperature": 0.75,
+    "calibration_records": "records/calibration/jarvis/tasks/jarvis_full/calibration_records",
+    "weights_manifest": "checkpoint/jarvis/stage2_proposal/model/manifest.json",
+    "directory": "results/jarvis/full",
+    "display_name": "JARVIS Full",
+    "result_key": "FULL"
+  },
+  {
+    "experiment_id": "matbench_no_safety_calibration",
+    "dataset": "matbench",
+    "architecture": "model",
+    "strict_no_cross": false,
+    "safety": "none",
+    "batch": {
+      "regression": 384,
+      "classification_per_class": 160
+    },
+    "classification_metric": "ROC-AUC",
+    "uncertainty": "stage1_inputs",
+    "route_temperature": 0.75,
+    "weights_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+    "directory": "results/matbench/ablations/no_safety_calibration",
+    "display_name": "Matbench No-safety-calibration Ablation",
+    "result_key": "NO_SAFETY_CALIBRATION"
+  },
+  {
+    "experiment_id": "matbench_full",
+    "dataset": "matbench",
+    "architecture": "model",
+    "strict_no_cross": false,
+    "safety": "fixed_task_liberal",
+    "batch": {
+      "regression": 384,
+      "classification_per_class": 160
+    },
+    "classification_metric": "ROC-AUC",
+    "uncertainty": "stage1_inputs",
+    "route_temperature": 0.75,
+    "calibration_records": "records/calibration/matbench/tasks/matbench_full/calibration_records",
+    "weights_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+    "directory": "results/matbench/full",
+    "display_name": "Matbench Full",
+    "result_key": "FULL"
+  },
+  {
+    "experiment_id": "matbench_no_cross",
+    "dataset": "matbench",
+    "architecture": "model",
+    "strict_no_cross": true,
+    "safety": "fixed_task_liberal",
+    "batch": {
+      "regression": 384,
+      "classification_per_class": 160
+    },
+    "classification_metric": "ROC-AUC",
+    "uncertainty": "stage1_inputs",
+    "route_temperature": 0.75,
+    "calibration_records": "records/calibration/matbench/tasks/matbench_no_cross/calibration_records",
+    "weights_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+    "directory": "results/matbench/ablations/no_cross",
+    "display_name": "Matbench No-cross Ablation",
+    "result_key": "NO_CROSS"
+  }
+]

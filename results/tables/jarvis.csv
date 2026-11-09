@@ -1,0 +1,35 @@
+task,name,metric,unit,stage1,FULL
+reg_formation_energy_peratom,Formation energy per atom,MAE,eV/atom,0.025378175957034108,0.02537094748664016
+reg_optb88vdw_total_energy,optB88vdW total energy per atom,MAE,eV/atom,0.026008176888380002,0.0259932213408553
+reg_ehull,Energy above hull,MAE,eV/atom,0.03202821011351133,0.03187771404280185
+reg_optb88vdw_bandgap,optB88vdW band gap,MAE,eV,0.10648857809024946,0.10631320219255908
+reg_mbj_bandgap,TB-mBJ band gap,MAE,eV,0.2397030596997599,0.20558457530290078
+reg_bulk_modulus_kv,Voigt bulk modulus,MAE,GPa,8.76160034458061,8.742394960381269
+reg_shear_modulus_gv,Voigt shear modulus,MAE,GPa,8.681423329562369,8.681423329562369
+reg_epsx,optB88vdW static dielectric constant x,MAE,dimensionless,18.75731402554003,18.51382997011135
+reg_epsy,optB88vdW static dielectric constant y,MAE,dimensionless,18.47964293918555,18.098865287402038
+reg_epsz,optB88vdW static dielectric constant z,MAE,dimensionless,18.28730570501485,18.08456195473752
+reg_mepsx,TB-mBJ static dielectric constant x,MAE,dimensionless,24.15615919420423,21.517681830287795
+reg_mepsy,TB-mBJ static dielectric constant y,MAE,dimensionless,23.46408286283585,21.320068838775814
+reg_mepsz,TB-mBJ static dielectric constant z,MAE,dimensionless,22.97126824521593,21.12668630405453
+reg_dfpt_piezo_max_dielectric,DFPT maximum dielectric constant,MAE,dimensionless,26.77818644238443,25.94732520401327
+reg_dfpt_piezo_max_dij,Maximum piezoelectric strain coefficient dij,MAE,pC/N,12.626242394354694,12.670094451615139
+reg_magmom_oszicar,OSZICAR total magnetic moment,MAE,μB/cell,0.24667580209607495,0.24668576968187314
+reg_avg_elec_mass,Mean electron effective mass,MAE,mₑ,0.08531673926254699,0.06967310383754262
+reg_avg_hole_mass,Mean hole effective mass,MAE,mₑ,0.12376298694346925,0.09951552512714337
+reg_n_Seebeck,n-type Seebeck coefficient,MAE,μV/K,39.7843206397314,37.608875608344306
+reg_n_powerfact,n-type power factor,MAE,μW/(m·K²),441.75055214557364,433.65125679002455
+reg_max_efg,Maximum electric field gradient,MAE,10²¹ V/m²,19.127156837828146,19.127156837828146
+reg_slme,Spectroscopic limited maximum efficiency (SLME),MAE,percentage points,4.388649783745973,4.1547624090767385
+reg_spillage,Spin-orbit spillage,MAE,dimensionless,0.35151865503441465,0.3439832987245117
+reg_ph_heat_capacity,Phonon heat capacity,MAE,J/(mol·K),5.279716542734088,5.2658339482848255
+reg_exfoliation_energy,Exfoliation energy,MAE,meV/atom,42.799116420039425,41.52023465536817
+reg_encut,Converged plane-wave cutoff energy,MAE,eV,124.35307513662443,124.35307513662443
+reg_kpoint_length_unit,Converged k-point length parameter,MAE,Å,8.894647208463631,8.742377735976351
+cls_magmom_oszicar,Magnetic classification,ACC,ACC,0.9475296821141325,0.9490616621983914
+cls_optb88vdw_bandgap,optB88vdW metal/nonmetal classification,ACC,ACC,0.9391600861450108,0.9427494615936827
+cls_mbj_bandgap,TB-mBJ metal/nonmetal classification,ACC,ACC,0.9421487603305785,0.9449035812672176
+cls_n_powerfact,n-type power-factor classification,ACC,ACC,0.8134424816889272,0.8134424816889272
+cls_p_Seebeck,p-type Seebeck classification,ACC,ACC,0.9323567427832831,0.9375269280482551
+cls_slme,SLME high/low classification,ACC,ACC,0.8388520971302428,0.8454746136865342
+cls_spillage,Spillage high/low classification,ACC,ACC,0.8311345646437994,0.832014072119613

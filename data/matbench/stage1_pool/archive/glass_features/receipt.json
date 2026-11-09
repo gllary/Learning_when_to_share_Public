@@ -1,0 +1,11 @@
+{
+  "dimension": 330,
+  "feature_version": "anchorboost_enriched_v2",
+  "features_sha256": "cab4230856543dd64bd42751559c12a5798cb7207c68835520090d00cf22c363",
+  "manifest_digest": "3db07417036734fe56890aae25882e0e31fe1501dfde66855a56fccfc538719b",
+  "n_samples": 5680,
+  "raw_sha256": "36beb654e2a463ee2a6572105bea0ca2961eee7c7b26a25377bff2c3b338e53a",
+  "schema_version": 1,
+  "target_used": false,
+  "task": "glass"
+}

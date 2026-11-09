@@ -1,0 +1,15 @@
+{
+  "expert_name": "mattervial_modnet",
+  "extra": {
+    "smoke_test": false,
+    "smoke_xgb_preselect_fraction": 0.35,
+    "smoke_xgb_preselect_target": 64,
+    "verify_cache_hashes": false
+  },
+  "outer_fold": 3,
+  "phase": "outer_refit",
+  "schema_version": 1,
+  "seed": 20260817,
+  "task_name": "expt_is_metal",
+  "inner_fold": null
+}

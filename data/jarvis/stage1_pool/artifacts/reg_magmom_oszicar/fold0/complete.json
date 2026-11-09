@@ -1,0 +1,9 @@
+{
+  "task": "reg_magmom_oszicar",
+  "fold": 0,
+  "checkpoint_sha256": "616c2c4e2284e79bb79d5c2c6da87e8ea5048977f5b8accafd62a3794addf82e",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 19867.990916752722
+}

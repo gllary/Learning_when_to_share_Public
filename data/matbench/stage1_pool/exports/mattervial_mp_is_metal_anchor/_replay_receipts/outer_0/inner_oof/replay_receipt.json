@@ -1,0 +1,24 @@
+{
+  "aggregate_checkpoint_sha256": "82a7bf45741b33dbd29b637f1e48957edff55ad32fbc515338e1764af2757601",
+  "elapsed_seconds": 17.879,
+  "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+  "inner_fold_count": 5,
+  "mattervial_training_performed": false,
+  "outer_fold": 0,
+  "outer_test_rows_accessed": 0,
+  "outer_train_rows": 84890,
+  "records": [
+    {
+      "n_rows": 76401,
+      "role": "train"
+    },
+    {
+      "n_rows": 8489,
+      "role": "val"
+    }
+  ],
+  "schema_version": "12.2",
+  "status": "complete",
+  "target_labels_accessed_by_exporter": false,
+  "task": "mp_is_metal"
+}

@@ -1,0 +1,30 @@
+{
+  "feature_cache_receipt_sha256": "02e01f6a4055e3f60ffd8937c3fbbe7777c968e0b3f0342df22f0f2116d41375",
+  "feature_recipe": "official_tpot_mat_14_element_vector_v2_fe_retained",
+  "feature_schema": [
+    "Al",
+    "C",
+    "Co",
+    "Cr",
+    "Fe",
+    "Mn",
+    "Mo",
+    "N",
+    "Nb",
+    "Ni",
+    "Si",
+    "Ti",
+    "V",
+    "W"
+  ],
+  "fit_scope": "complete_outer_train",
+  "official_fitted_state_reused": false,
+  "official_selected_pipeline_recipe_cloned": true,
+  "outer_fold": 2,
+  "outer_test_used_for_fit": false,
+  "schema_version": 1,
+  "seed": 18012019,
+  "status": "complete",
+  "target_used_for_features": false,
+  "task": "steels"
+}

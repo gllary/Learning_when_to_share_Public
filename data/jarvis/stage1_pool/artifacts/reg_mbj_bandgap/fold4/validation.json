@@ -1,0 +1,7 @@
+{
+  "score": 0.27830437251499723,
+  "metric": "MAE",
+  "selected_epoch": 500,
+  "checkpoint_rule": "official_default_final_epoch",
+  "test_labels_read": false
+}

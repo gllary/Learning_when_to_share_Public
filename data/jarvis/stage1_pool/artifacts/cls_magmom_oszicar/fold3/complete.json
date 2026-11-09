@@ -1,0 +1,9 @@
+{
+  "task": "cls_magmom_oszicar",
+  "fold": 3,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "149522090d2476d700cefb0fefd8b0d5eff168333291115f764c09ce787cdf3b",
+  "seconds": 265.7132827742025,
+  "test_labels_read": false
+}

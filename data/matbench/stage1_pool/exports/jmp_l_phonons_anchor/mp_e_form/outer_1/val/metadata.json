@@ -1,0 +1,92 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 10620,
+  "expert": {
+    "checkpoint_sha256": "69c92d1d1c6727b8a5611ffd53ffc532277dd54df8af1a4bc068b04b1010b707",
+    "expert_id": "jmp_l_phonons_anchor",
+    "frozen": true,
+    "hidden_dim": 256,
+    "input_modality": "periodic_crystal_structure",
+    "provider": "jmp_l_official_checkpoint_consistent_v17",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "phonons"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "d9a7fbbf72005a12a0854b511ff94891edb02e423cf6756921e7b95828ad8349",
+      "shape": [
+        10620
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "3404ffc56a8ba3bed088f5e4f090391c3abb5a4050744e82c42cb449c4e59c4b",
+      "shape": [
+        10620,
+        256
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "2c77fc287506a8404ec0c0f7e760fa0fb9648aba53af8261deecbaeaf24fe9a1",
+      "shape": [
+        10620
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U19",
+      "filename": "sample_ids.npy",
+      "sha256": "c48182e0eaeb6a8d2c96a3cd72d43ca602ab60e493135b38cba894ea8095cce2",
+      "shape": [
+        10620
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "19f390e41867a690b796d8f129486925810854e28defae6ad98b64dda83b21a8",
+      "shape": [
+        10620
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "7598c1bbf05ec42ebb1f7841d965123296ad4534378f7a15948f88d209bf96fa",
+  "n_samples": 10620,
+  "producer": {
+    "adapter": "jmp_l_outer_checkpoint_replay_v17_1",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_parameters_updated": false,
+    "checkpoint_role": "outer",
+    "latent_source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "learning_rate": 8e-05,
+    "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+    "outer_fold_mapping": "one_to_one",
+    "outer_test_accessed": false,
+    "prediction_source": "frozen_source_outer_checkpoint_replay",
+    "relation_screening": "none",
+    "source_checkpoint_sha256": "69c92d1d1c6727b8a5611ffd53ffc532277dd54df8af1a4bc068b04b1010b707",
+    "source_outer_fold": 1,
+    "source_task": "phonons",
+    "stage2_protocol_version": "17",
+    "target_outer_fold": 1,
+    "target_task": "mp_e_form",
+    "target_values_accessed_by_exporter": false,
+    "uncertainty_kind": "unavailable_zero_sentinel"
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_val",
+    "outer_fold": 1,
+    "role": "val",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "mp_e_form",
+  "unavailable_rows": 0
+}

@@ -1,0 +1,9 @@
+{
+  "task": "reg_avg_hole_mass",
+  "fold": 1,
+  "rows": 55712,
+  "hidden_dim": 256,
+  "checkpoint_sha256": "6468d6c7c795a7512fe31fbf928a204fdddd2bad9bd86620841b5f6a25d51005",
+  "test_labels_read": false,
+  "seconds": 4503.853702545166
+}

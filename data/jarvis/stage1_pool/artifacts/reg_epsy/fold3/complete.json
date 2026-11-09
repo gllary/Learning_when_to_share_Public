@@ -1,0 +1,9 @@
+{
+  "task": "reg_epsy",
+  "fold": 3,
+  "checkpoint_sha256": "17bc34d684af05c81f37b1d160e5d2a0210edca6c1d82c768acff79498db1d1e",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 16553.060541199986
+}

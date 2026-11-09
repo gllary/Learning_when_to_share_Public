@@ -1,0 +1,7 @@
+{
+  "metric": "MAE",
+  "score": 20.291517469618057,
+  "selected_epoch": 300,
+  "checkpoint_rule": "official_train_dgl_final_epoch",
+  "test_labels_read": false
+}

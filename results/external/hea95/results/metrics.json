@@ -1,0 +1,24 @@
+{
+  "dataset": "HEA-95",
+  "n": 95,
+  "unit": "log10(E/GPa)",
+  "evaluation_mode": "frozen_external_validation",
+  "external_calibration_samples": 0,
+  "evaluation_samples": 95,
+  "external_validation_metrics": {
+    "stage1": {
+      "mae": 0.2123381957925427,
+      "max_error": 0.49098653316368823,
+      "n": 95,
+      "r2": -0.7375795571131099,
+      "rmse": 0.23399726509406893
+    },
+    "stage2": {
+      "mae": 0.2110468984931322,
+      "max_error": 0.49250896015840917,
+      "n": 95,
+      "r2": -0.7299976521399265,
+      "rmse": 0.23348618500592147
+    }
+  }
+}

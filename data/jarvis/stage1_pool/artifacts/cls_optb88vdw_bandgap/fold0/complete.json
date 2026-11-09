@@ -1,0 +1,9 @@
+{
+  "task": "cls_optb88vdw_bandgap",
+  "fold": 0,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "09ee1bcda96207a101057280c701cd837bdacf1f3e69756d4eb440bb46b0a879",
+  "seconds": 272.05776292737573,
+  "test_labels_read": false
+}

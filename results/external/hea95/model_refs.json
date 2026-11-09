@@ -1,0 +1,76 @@
+{
+  "proposal": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "stage1": "checkpoint/matbench/stage1/manifest.json",
+  "frozen_beta": {
+    "0": {
+      "log_kvrh": {
+        "beta": 0.5,
+        "file": "results/external/hea95/calibration/outer_0/log_kvrh.json",
+        "source_sha256": "7a7acef1c7e8877117e1f3c747f6262fded53e174ff7f34dda74a835b16ae797",
+        "sha256": "e38651720fc88e6fff3c01814677e36c9f985d0c0e8dadc4cef55d6642985fc7"
+      },
+      "log_gvrh": {
+        "beta": 0.5,
+        "file": "results/external/hea95/calibration/outer_0/log_gvrh.json",
+        "source_sha256": "20901fa5cf1e4817a502b40a9ef5c474ccda616710661a9251d9e18b0c552347",
+        "sha256": "0e45d0cba21fb7d90948abf04bef16b79d755075ee77cb551d6f74d77473fe38"
+      }
+    },
+    "1": {
+      "log_kvrh": {
+        "beta": 0.5,
+        "file": "results/external/hea95/calibration/outer_1/log_kvrh.json",
+        "source_sha256": "2417f477f867566cd54a0256a63861d52a79657866a0b2c1f9658c9623075e65",
+        "sha256": "4b15d80775870c8a769ddbd4c4cf13495ba8ace83ba7bf61cd77bf02985d86b3"
+      },
+      "log_gvrh": {
+        "beta": 0.0,
+        "file": "results/external/hea95/calibration/outer_1/log_gvrh.json",
+        "source_sha256": "06f581da4da01c33bf5154f228963dc97804b1d504932312e28cabf98650f73b",
+        "sha256": "c0573ec922a65f39b35a7cff1a31b0ee3adcd87ebb85a88138c07906d35a500b"
+      }
+    },
+    "2": {
+      "log_kvrh": {
+        "beta": 0.25,
+        "file": "results/external/hea95/calibration/outer_2/log_kvrh.json",
+        "source_sha256": "dc46f241083c38c504634dcd69c4429d88aee18a33fd699c15f23c2588bc577c",
+        "sha256": "69197a485b0919bead0823aa010d38122c42d741a31b7197996e59c164505e4c"
+      },
+      "log_gvrh": {
+        "beta": 0.25,
+        "file": "results/external/hea95/calibration/outer_2/log_gvrh.json",
+        "source_sha256": "c6ceaf1e7223d23cdec47cc2d5ec770e8b4e0fb4b525e79002e0f781d9dfd795",
+        "sha256": "2bc3ecc802a466570d04b00bd7a341a6a70381b34390b8b0422b123f4ba7bbd4"
+      }
+    },
+    "3": {
+      "log_kvrh": {
+        "beta": 0.5,
+        "file": "results/external/hea95/calibration/outer_3/log_kvrh.json",
+        "source_sha256": "1e2d495a87102c05fa02cddde7da50447ef0ca23db823f0d691523b4d4b669ff",
+        "sha256": "2eaa4031ccb5034fe56312fdbf352076c16e6f4522aae4ef423040c1324fd280"
+      },
+      "log_gvrh": {
+        "beta": 0.25,
+        "file": "results/external/hea95/calibration/outer_3/log_gvrh.json",
+        "source_sha256": "85b438f55d0006e94c047d7eac3ea1e379e43542920d2797ebd64c91a0e063df",
+        "sha256": "c68c664e020e3ead33e032188107956c8bae2ca7663c83db335ce80bd389c570"
+      }
+    },
+    "4": {
+      "log_kvrh": {
+        "beta": 0.5,
+        "file": "results/external/hea95/calibration/outer_4/log_kvrh.json",
+        "source_sha256": "c40685be74f40cfa84c5fa9181431319817ddbeea1c8413388f2fec8421aac1a",
+        "sha256": "d8a6d6277e084f6e13547185b4973fd3a85eeb3c4afa2841a5d16fb6ea93eb75"
+      },
+      "log_gvrh": {
+        "beta": 0.0,
+        "file": "results/external/hea95/calibration/outer_4/log_gvrh.json",
+        "source_sha256": "b5823233446faf865249a0a8516e1b0ffa3a9b8c15bac40d9eb083974c0f4c4e",
+        "sha256": "b7ae5a95b6923ac9443af3e21b0d0b362d54bc0bd5f6bc5bc9ca6d4d109bde4c"
+      }
+    }
+  }
+}

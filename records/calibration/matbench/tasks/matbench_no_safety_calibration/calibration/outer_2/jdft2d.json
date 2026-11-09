@@ -1,0 +1,10 @@
+{
+  "schema": "matbench-no-safety-calibration-v1",
+  "beta": 1.0,
+  "calibration_performed": false,
+  "correction_enabled": true,
+  "outer": 2,
+  "candidate": "proposal_full",
+  "task": "jdft2d",
+  "outer_test_labels_used": false
+}

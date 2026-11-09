@@ -1,0 +1,123 @@
+{
+  "compatibility": {
+    "checkpoint_sha256": "93fbcf08e9a0082aadb3f9adf8d72b0690e90594b9850b63a8012ec476cce7db",
+    "outer_fold": 3,
+    "preprocessor_input_width": 330,
+    "preprocessor_sha256": "75055481376455dfc40cc9d547a7a7de2c40eed2ba650dc07e80a0f2090e8a37",
+    "source_task": "glass",
+    "targets": {
+      "expt_gap": {
+        "descriptor_receipt_sha256": "b69b3bf149405a89facf8a434a77c8362499e82e6ee3f057ee4f8d10cbdd1e2b",
+        "descriptor_width": 330,
+        "manifest_digest": "5e50fdab42c6ac0933fdaed48e763e089c95ae65d15cfb6eeb0dd9723f1150a0",
+        "manifest_sha256": "5a858482b2387c8d0fc185ad5c35fc0161552bf83c3ebe71f953aa3aab79a973",
+        "rows": 4604
+      },
+      "expt_is_metal": {
+        "descriptor_receipt_sha256": "43d7f2cb18dd8384804b52713ae8dcb82cccaac7bc6a51531cae2bad86d4a07b",
+        "descriptor_width": 330,
+        "manifest_digest": "22910a561641613552ae60a947918c04d2d292a4f268789b8869abdc4aaeb588",
+        "manifest_sha256": "0b9816bf76e2fe5f4b0ec04d9c1ae08fe2972397f34e6385977d4b9bfdb1a364",
+        "rows": 4921
+      },
+      "glass": {
+        "descriptor_receipt_sha256": "54f1561bb8551776c5a6eb3ecc0e9bb74c399c2684f37b2a92fb9e02bb6c4656",
+        "descriptor_width": 330,
+        "manifest_digest": "3db07417036734fe56890aae25882e0e31fe1501dfde66855a56fccfc538719b",
+        "manifest_sha256": "eeee0cd515fd9d0920a3e875b8fe29d416dd42124468b5a52f669c286ee0f226",
+        "rows": 5680
+      },
+      "steels": {
+        "descriptor_receipt_sha256": "1fb6ec83394044318523db18015ca306f8dec37d4de4c5fd46f9490530a09668",
+        "descriptor_width": 330,
+        "manifest_digest": "aa28b6e6fac2c1db76cc87dd83bdb2fa0204568c0094a14f4206ef72fce9afce",
+        "manifest_sha256": "9e2d7b54ce42ba788761d1cbd9042eaced69b8d1c0f85338adb58d30e3902326",
+        "rows": 312
+      }
+    }
+  },
+  "cross_exports_written": 9,
+  "cross_records": {
+    "expt_gap": {
+      "test": {
+        "metadata_sha256": "531579533d6fa24592e9d6ade7dfec95a4ed2daef3d73b89ede5bfc00e22632a",
+        "rows": 921
+      },
+      "train": {
+        "metadata_sha256": "9a629afbe24f9793690017b5e9f1a4517eb15d91a88b0754d9286c4dcdbdfd39",
+        "rows": 3315
+      },
+      "val": {
+        "metadata_sha256": "9571a7eb3418ca4a1043763218de8d78fdd7dda3cb7b6a4de2754cff5be89b10",
+        "rows": 368
+      }
+    },
+    "expt_is_metal": {
+      "test": {
+        "metadata_sha256": "471796d5a3e203f1f61992fab743c4f19b64eaae4ac9fa241bc933de6dace4ca",
+        "rows": 984
+      },
+      "train": {
+        "metadata_sha256": "575a3ce77c2d39ddb7cd5fc63bc427c86aefaa461b0233a4e6dc322996e1164f",
+        "rows": 3543
+      },
+      "val": {
+        "metadata_sha256": "5dea284a080315545d9dd625202c06741be6026d3c0a1d5be48be09aee40abfc",
+        "rows": 394
+      }
+    },
+    "steels": {
+      "test": {
+        "metadata_sha256": "e4f48f85d3744203d77a8e49bfa518fb3fdadc538a3303c05f8bae42dddebe1f",
+        "rows": 62
+      },
+      "train": {
+        "metadata_sha256": "04190f5d9cd6b275cca9c07ee6de61cceb0b0d58694bb8cba7ba3d356fb1b31f",
+        "rows": 225
+      },
+      "val": {
+        "metadata_sha256": "2968f5357d5326e48c2b9526abac6028a53a965e07797ccee5d98dc441772eb8",
+        "rows": 25
+      }
+    }
+  },
+  "elapsed_seconds": 10.199,
+  "outer_fold": 3,
+  "own_exports_copied": 3,
+  "own_records": {
+    "test": {
+      "metadata_sha256": "c4ea80e792fafdccc25c4c0b3dc6d7d93aa16418bf3458fec3f1db8e174812ce",
+      "rows": 1136
+    },
+    "train": {
+      "metadata_sha256": "c1a19ea5e38ba32d2c5d4397423ef949bc8e75c1fc6ac5bf42e1c135e82c57cb",
+      "rows": 4089
+    },
+    "val": {
+      "metadata_sha256": "72d5d7298d0cdcfd8123e566b5f2503631f6b1d87302ad1be2e128ebcc512d38",
+      "rows": 455
+    }
+  },
+  "protocol": "anchorboost_composition_only_cross_task_outer_refit_replay_v1",
+  "provider": "anchorboost_v2_fixed_checkpoint_replay_v15_2",
+  "schema_version": "15.3",
+  "source_target_arrays_loaded": false,
+  "source_task": "glass",
+  "stage1_retrained": false,
+  "status": "complete",
+  "structural_target_policy": "no_export_technical_unavailability",
+  "structural_targets": [
+    "jdft2d",
+    "dielectric",
+    "log_kvrh",
+    "log_gvrh",
+    "perovskites",
+    "phonons",
+    "mp_gap",
+    "mp_is_metal",
+    "mp_e_form"
+  ],
+  "target_manifest_target_array_loaded": false,
+  "target_values_accessed_by_exporter": false,
+  "total_exports": 12
+}

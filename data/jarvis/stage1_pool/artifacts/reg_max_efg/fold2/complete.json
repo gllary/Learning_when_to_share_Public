@@ -1,0 +1,9 @@
+{
+  "task": "reg_max_efg",
+  "fold": 2,
+  "rows": 55712,
+  "hidden_dim": 256,
+  "checkpoint_sha256": "23beb21641d5f2707b8b4b59643f4dbb6369b602772c3ef88070131eda18afff",
+  "test_labels_read": false,
+  "seconds": 3233.3936104774475
+}

@@ -1,0 +1,36 @@
+{
+  "checkpoint_sha256": "a7f5c63c5e6e913e6b80bfe9f3f829c055d519eed973e6847319842e580114c2",
+  "configured_n_models": 20,
+  "ensemble_budget_policy": "validated_deterministic_prefix",
+  "ensemble_member_limit": 5,
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "861f5399955bbdda39c800224a4ca715c70f271e11ef35526517d0e714a7c14c",
+    "1b393a2ea8696f0e265d245da869759ced0fbbb4d84d8e689dc30d9f8f5453f1",
+    "2f0e4e5320c9e34f19236ac6a673fe04c87615675cf0e1ce2c0498047032eca5",
+    "07c04d358d9ea9b26cf7080826dbc112f58a6a6aa27cb8a632672109aa2a69f6",
+    "4f650e79f1f84f1b5ccaad5bb91391124664783b51ecb901b9195d9ae51320d0"
+  ],
+  "model_internal_target_name": "hpsafe_expt_gap_4cd725f4ce14",
+  "model_internal_target_name_policy": "preserve_safe_else_task_and_target_hash_v1",
+  "n_feat": 338,
+  "n_models": 5,
+  "recipe_signature": "420c9090ba61792b1096d56a45e9bc303c407d17e018c55b0b1bdadfcd8ce2f7",
+  "recipe_signature_schema_version": 2,
+  "resumed_members": 5,
+  "schema_version": 1,
+  "scientific_target_name": "gap expt",
+  "smoke_test": false,
+  "task_name": "expt_gap",
+  "task_type": "regression"
+}

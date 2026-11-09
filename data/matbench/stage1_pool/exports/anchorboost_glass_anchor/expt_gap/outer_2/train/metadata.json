@@ -1,0 +1,88 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 3315,
+  "expert": {
+    "checkpoint_sha256": "22d0671b604f4a89bb692fff24ac3627e2a10d10a3c98f3626248e06d492d3f6",
+    "expert_id": "anchorboost_glass_anchor",
+    "frozen": true,
+    "hidden_dim": 512,
+    "input_modality": "enriched_composition_and_structure_descriptors",
+    "provider": "anchorboost_v2_own_task_inner_oof_20261028",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "glass"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "0f8995f3fd4598c4a68c5f2109bfaf7bd914b23b360721e455d9ec1192e9df11",
+      "shape": [
+        3315
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "42bdd8ba6d8b0454a9f9143bfa6807433f07692399cc2c1914ade6097ab94c40",
+      "shape": [
+        3315,
+        512
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "3651f2e72941dbea705ce5befaa4fa640acdb55aaea7a60ad8025b3161de9025",
+      "shape": [
+        3315
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U16",
+      "filename": "sample_ids.npy",
+      "sha256": "c9dd3550c2d1a042d9d0a3ab4299a4b97434965c8e6f155d1db60aee5c6ad65e",
+      "shape": [
+        3315
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "fda9696c9172ca4f533ad73cfb008f96f3a02e41e5d398f43f46c653e3e4d776",
+      "shape": [
+        3315
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "5e50fdab42c6ac0933fdaed48e763e089c95ae65d15cfb6eeb0dd9723f1150a0",
+  "n_samples": 3315,
+  "producer": {
+    "adapter": "anchorboost_v2_cross_task_outer_refit_replay_v15_3",
+    "checkpoint_fit_positions_sha256": "0ad570be5f9faa4c6b1155d37cd37ec82a4f597af215f85cffd85f4ee036e3df",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_preprocessor_sha256": "dcb49463b8174f2a8069f9ee2bc5380ad98f1be7722fad267f0d466203efd9cd",
+    "input_modality": "composition",
+    "relation_screening": "none",
+    "source_target_arrays_loaded": false,
+    "source_task": "glass",
+    "stage2_protocol_version": "15.3",
+    "target_descriptor_cache_receipt_sha256": "b69b3bf149405a89facf8a434a77c8362499e82e6ee3f057ee4f8d10cbdd1e2b",
+    "target_manifest_target_array_loaded": false,
+    "target_task": "expt_gap",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 2,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "expt_gap",
+  "unavailable_rows": 0
+}

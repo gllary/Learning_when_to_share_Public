@@ -1,0 +1,136 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 3315,
+  "expert": {
+    "checkpoint_sha256": "0d1e556abc4ac891639ecbc8c6bc031bf75322c0c3afb36666e795edb9123445",
+    "expert_id": "mattervial_expt_gap_anchor",
+    "frozen": true,
+    "hidden_dim": 40,
+    "input_modality": "composition_or_structure_official_mattervial_features",
+    "provider": "mattervial_modnet_0.4.5_checkpoint_consistent_v12_2",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "expt_gap"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "0f8995f3fd4598c4a68c5f2109bfaf7bd914b23b360721e455d9ec1192e9df11",
+      "shape": [
+        3315
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "188049b4f39a7ea08486735bed5ff1cc85d94a1b73ffce234878de4ad2a624b1",
+      "shape": [
+        3315,
+        40
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "2caa720a6893d0c4fcc735d39098294ca6d2f706deb97ac3c6af4b34dc12ae76",
+      "shape": [
+        3315
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U16",
+      "filename": "sample_ids.npy",
+      "sha256": "542df1080fc9291e4cbde9ff5e44ad33989b2fe832f8c2fa49093724ce9b3c0a",
+      "shape": [
+        3315
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "dabc410fbce12fc49b50239c9fc95b338ad481926920dea1b868b83c78e276c5",
+      "shape": [
+        3315
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "5e50fdab42c6ac0933fdaed48e763e089c95ae65d15cfb6eeb0dd9723f1150a0",
+  "n_samples": 3315,
+  "producer": {
+    "adapter": "mattervial_modnet_inner_oof_penultimate_concat_v12_2",
+    "aggregate_checkpoint_sha256": "0d1e556abc4ac891639ecbc8c6bc031bf75322c0c3afb36666e795edb9123445",
+    "checkpoint_fit_role": "inner_train_crossfit",
+    "checkpoint_role": "inner_oof",
+    "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+    "inner_checkpoint_records": [
+      {
+        "checkpoint_sha256": "3c3e6365e3ec60d7defaa698ffb5fef4f91d54f147c91f78b5f6f856120d6256",
+        "fit_positions_sha256": "b5c01228c2e88686cafebc0be6ee92a5abec4a230b42090a87433b65769dfdde",
+        "formal_predictions_sha256": "a7829b7dc6bc79801a202bf266e3b625076ce23fcfb143a9423892cf14606b85",
+        "inner_fold": 0,
+        "supplemental_stage1_feature_cache_receipt_sha256": "e96ad9a8efc29955aea643d32be03a5a3563d2177fc3c0afc1c9ad669d85e4cb",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "36d9981fc96230cc23d1b285be14c9fa82d302ac8a841b6d46921d684d32014e"
+      },
+      {
+        "checkpoint_sha256": "9b1caaf0639ca4dec1d93c3ab510b42325510286388bf61b0f00b2dbebdedbde",
+        "fit_positions_sha256": "bc2df0b8032a54d79b7f18c69384858e73d1120939f8ccfd2d1d14f33400661b",
+        "formal_predictions_sha256": "23e10794d250debbb6b6bcc34eac26a3e72f825d13d57330aa885c884191e86f",
+        "inner_fold": 1,
+        "supplemental_stage1_feature_cache_receipt_sha256": "e96ad9a8efc29955aea643d32be03a5a3563d2177fc3c0afc1c9ad669d85e4cb",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "f472dd7852ac3ea985207d970dc7626daca95663c998b6add92a6eea6e1ce4f4"
+      },
+      {
+        "checkpoint_sha256": "2b8200b995579d2d7b5d59fde5008ec7685bdf7640567b390b19b978314d9515",
+        "fit_positions_sha256": "ebe6a56a417b12efd1935a90047cca89cbe04be591f9bac865b055190b7a3845",
+        "formal_predictions_sha256": "7cb447c7a51189ff3c70d0de7bb53226c22c7b71f71000d7e480ede831c4a9b8",
+        "inner_fold": 2,
+        "supplemental_stage1_feature_cache_receipt_sha256": "e96ad9a8efc29955aea643d32be03a5a3563d2177fc3c0afc1c9ad669d85e4cb",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "54bcc20c01bc128b633b2ac1c69323c3596800467cd2c4daa67c4306aee258d4"
+      },
+      {
+        "checkpoint_sha256": "6dee935007caded900dda02620a42ed33cd3a1f578c2c2abcc9784fa234a5e23",
+        "fit_positions_sha256": "7c3cdbd8665c819f98c4533ddb0507580b2ac11e7ea08b5d3e1b52cee440ae1d",
+        "formal_predictions_sha256": "42e77355e396453700d83108e08f190e9dd7ae17f7c47ef288688c6488a64bd9",
+        "inner_fold": 3,
+        "supplemental_stage1_feature_cache_receipt_sha256": "e96ad9a8efc29955aea643d32be03a5a3563d2177fc3c0afc1c9ad669d85e4cb",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "3180bf265862c8894c62dd68a412a96562535bc7e46edd9864d4f6b52a44b773"
+      },
+      {
+        "checkpoint_sha256": "6d7be4e76aad215efede33c104eccd04d51846217eece5f1c43d2e996140a85b",
+        "fit_positions_sha256": "3477618fc4977aeff76e6bb023f8189c8334df3616412f936eb1cfb2aba031f3",
+        "formal_predictions_sha256": "f233effd3b67e9f963f1a2fa2f58283648c3013d7991dbffa515d4213df433a3",
+        "inner_fold": 4,
+        "supplemental_stage1_feature_cache_receipt_sha256": "e96ad9a8efc29955aea643d32be03a5a3563d2177fc3c0afc1c9ad669d85e4cb",
+        "supplemental_stage1_feature_cache_used": true,
+        "validation_positions_sha256": "82c499e7302ebd6cac263dd8696bafb17568686988d37994fdac34740ecc341c"
+      }
+    ],
+    "inner_fold_count": 5,
+    "inner_validation_partition_exact": true,
+    "outer_test_accessed": false,
+    "prediction_source": "formal_stage1_inner_validation_predictions",
+    "registry_sha256": "e23976c4b35a76bafdad901bf6df744e6e12cd394c447bd3e68cd4102988f623",
+    "relation_screening": "none",
+    "source_task": "expt_gap",
+    "stage2_protocol_version": "12.2",
+    "target_task": "expt_gap",
+    "target_values_accessed_by_exporter": false,
+    "technical_unavailability_only": true
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "holdout_train",
+    "outer_fold": 0,
+    "role": "train",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "expt_gap",
+  "unavailable_rows": 0
+}

@@ -1,0 +1,9 @@
+{
+  "task": "cls_mbj_bandgap",
+  "fold": 1,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "cc2baf4340c220f0bad1fda430037b39f47024d101dd212adfc8adba741c7366",
+  "seconds": 178.13301909249276,
+  "test_labels_read": false
+}

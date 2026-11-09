@@ -1,0 +1,857 @@
+{
+  "dataset": "jarvis",
+  "tasks": [
+    {
+      "task": "reg_formation_energy_peratom",
+      "name": "Formation energy per atom",
+      "metric": "MAE",
+      "unit": "eV/atom",
+      "stage1_model": "AtomNet",
+      "n_test": 5572,
+      "split_counts": {
+        "train": 44569,
+        "val": 5572,
+        "test": 5572
+      },
+      "models": {
+        "FULL": {
+          "score": 0.02537094748664016,
+          "normalized_gain_percent": 0.028483017874040607,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.028483017874040607
+        }
+      },
+      "stage1": 0.025378175957034108
+    },
+    {
+      "task": "reg_optb88vdw_total_energy",
+      "name": "optB88vdW total energy per atom",
+      "metric": "MAE",
+      "unit": "eV/atom",
+      "stage1_model": "AtomNet",
+      "n_test": 5572,
+      "split_counts": {
+        "train": 44569,
+        "val": 5572,
+        "test": 5572
+      },
+      "models": {
+        "FULL": {
+          "score": 0.0259932213408553,
+          "normalized_gain_percent": 0.05750325210755184,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.05750325210755183
+        }
+      },
+      "stage1": 0.026008176888380002
+    },
+    {
+      "task": "reg_ehull",
+      "name": "Energy above hull",
+      "metric": "MAE",
+      "unit": "eV/atom",
+      "stage1_model": "PRISM",
+      "n_test": 5537,
+      "split_counts": {
+        "train": 44290,
+        "val": 5537,
+        "test": 5537
+      },
+      "models": {
+        "FULL": {
+          "score": 0.03187771404280185,
+          "normalized_gain_percent": 0.46988598543629534,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.46988598543629534
+        }
+      },
+      "stage1": 0.03202821011351133
+    },
+    {
+      "task": "reg_optb88vdw_bandgap",
+      "name": "optB88vdW band gap",
+      "metric": "MAE",
+      "unit": "eV",
+      "stage1_model": "AtomNet",
+      "n_test": 5572,
+      "split_counts": {
+        "train": 44569,
+        "val": 5572,
+        "test": 5572
+      },
+      "models": {
+        "FULL": {
+          "score": 0.10631320219255908,
+          "normalized_gain_percent": 0.16468986705950192,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.16468986705950195
+        }
+      },
+      "stage1": 0.10648857809024946
+    },
+    {
+      "task": "reg_mbj_bandgap",
+      "name": "TB-mBJ band gap",
+      "metric": "MAE",
+      "unit": "eV",
+      "stage1_model": "GSMNet",
+      "n_test": 1815,
+      "split_counts": {
+        "train": 14535,
+        "val": 1817,
+        "test": 1815
+      },
+      "models": {
+        "FULL": {
+          "score": 0.20558457530290078,
+          "normalized_gain_percent": 14.233645761382538,
+          "beta": 1.0,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 14.233645761382538
+        }
+      },
+      "stage1": 0.2397030596997599
+    },
+    {
+      "task": "reg_bulk_modulus_kv",
+      "name": "Voigt bulk modulus",
+      "metric": "MAE",
+      "unit": "GPa",
+      "stage1_model": "coNGN",
+      "n_test": 1968,
+      "split_counts": {
+        "train": 15744,
+        "val": 1968,
+        "test": 1968
+      },
+      "models": {
+        "FULL": {
+          "score": 8.742394960381269,
+          "normalized_gain_percent": 0.21919950059376206,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.21919950059376206
+        }
+      },
+      "stage1": 8.76160034458061
+    },
+    {
+      "task": "reg_shear_modulus_gv",
+      "name": "Voigt shear modulus",
+      "metric": "MAE",
+      "unit": "GPa",
+      "stage1_model": "coNGN",
+      "n_test": 1968,
+      "split_counts": {
+        "train": 15744,
+        "val": 1968,
+        "test": 1968
+      },
+      "models": {
+        "FULL": {
+          "score": 8.681423329562369,
+          "normalized_gain_percent": 0.0,
+          "beta": 0.0,
+          "rule_passed": false,
+          "actual_changed_fraction": 0.0,
+          "delta_vs_stage1_percent_or_pp": 0.0
+        }
+      },
+      "stage1": 8.681423329562369
+    },
+    {
+      "task": "reg_epsx",
+      "name": "optB88vdW static dielectric constant x",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 4449,
+      "split_counts": {
+        "train": 35592,
+        "val": 4449,
+        "test": 4449
+      },
+      "models": {
+        "FULL": {
+          "score": 18.51382997011135,
+          "normalized_gain_percent": 1.2980752739819357,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 1.2980752739819357
+        }
+      },
+      "stage1": 18.75731402554003
+    },
+    {
+      "task": "reg_epsy",
+      "name": "optB88vdW static dielectric constant y",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 4449,
+      "split_counts": {
+        "train": 35592,
+        "val": 4449,
+        "test": 4449
+      },
+      "models": {
+        "FULL": {
+          "score": 18.098865287402038,
+          "normalized_gain_percent": 2.060524941074932,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 2.060524941074932
+        }
+      },
+      "stage1": 18.47964293918555
+    },
+    {
+      "task": "reg_epsz",
+      "name": "optB88vdW static dielectric constant z",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 4449,
+      "split_counts": {
+        "train": 35592,
+        "val": 4449,
+        "test": 4449
+      },
+      "models": {
+        "FULL": {
+          "score": 18.08456195473752,
+          "normalized_gain_percent": 1.108658396965137,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 1.1086583969651371
+        }
+      },
+      "stage1": 18.28730570501485
+    },
+    {
+      "task": "reg_mepsx",
+      "name": "TB-mBJ static dielectric constant x",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 1681,
+      "split_counts": {
+        "train": 13447,
+        "val": 1681,
+        "test": 1681
+      },
+      "models": {
+        "FULL": {
+          "score": 21.517681830287795,
+          "normalized_gain_percent": 10.922586420731491,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 10.922586420731493
+        }
+      },
+      "stage1": 24.15615919420423
+    },
+    {
+      "task": "reg_mepsy",
+      "name": "TB-mBJ static dielectric constant y",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 1681,
+      "split_counts": {
+        "train": 13447,
+        "val": 1681,
+        "test": 1681
+      },
+      "models": {
+        "FULL": {
+          "score": 21.320068838775814,
+          "normalized_gain_percent": 9.137429477185671,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 9.137429477185671
+        }
+      },
+      "stage1": 23.46408286283585
+    },
+    {
+      "task": "reg_mepsz",
+      "name": "TB-mBJ static dielectric constant z",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 1681,
+      "split_counts": {
+        "train": 13447,
+        "val": 1681,
+        "test": 1681
+      },
+      "models": {
+        "FULL": {
+          "score": 21.12668630405453,
+          "normalized_gain_percent": 8.029952554080506,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 8.029952554080507
+        }
+      },
+      "stage1": 22.97126824521593
+    },
+    {
+      "task": "reg_dfpt_piezo_max_dielectric",
+      "name": "DFPT maximum dielectric constant",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 470,
+      "split_counts": {
+        "train": 3764,
+        "val": 470,
+        "test": 470
+      },
+      "models": {
+        "FULL": {
+          "score": 25.94732520401327,
+          "normalized_gain_percent": 3.102753952956557,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 3.102753952956557
+        }
+      },
+      "stage1": 26.77818644238443
+    },
+    {
+      "task": "reg_dfpt_piezo_max_dij",
+      "name": "Maximum piezoelectric strain coefficient dij",
+      "metric": "MAE",
+      "unit": "pC/N",
+      "stage1_model": "coNGN",
+      "n_test": 334,
+      "split_counts": {
+        "train": 2677,
+        "val": 334,
+        "test": 334
+      },
+      "models": {
+        "FULL": {
+          "score": 12.670094451615139,
+          "normalized_gain_percent": -0.34730885001899897,
+          "beta": 1.0,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": -0.34730885001899897
+        }
+      },
+      "stage1": 12.626242394354694
+    },
+    {
+      "task": "reg_magmom_oszicar",
+      "name": "OSZICAR total magnetic moment",
+      "metric": "MAE",
+      "unit": "μB/cell",
+      "stage1_model": "coNGN",
+      "n_test": 5222,
+      "split_counts": {
+        "train": 41766,
+        "val": 5222,
+        "test": 5222
+      },
+      "models": {
+        "FULL": {
+          "score": 0.24668576968187314,
+          "normalized_gain_percent": -0.004040763509630826,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": -0.004040763509630826
+        }
+      },
+      "stage1": 0.24667580209607495
+    },
+    {
+      "task": "reg_avg_elec_mass",
+      "name": "Mean electron effective mass",
+      "metric": "MAE",
+      "unit": "mₑ",
+      "stage1_model": "Official public ALIGNN checkpoint",
+      "n_test": 1764,
+      "split_counts": {
+        "train": 14114,
+        "val": 1764,
+        "test": 1764
+      },
+      "models": {
+        "FULL": {
+          "score": 0.06967310383754262,
+          "normalized_gain_percent": 18.335950905090126,
+          "beta": 1.0,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 18.335950905090126
+        }
+      },
+      "stage1": 0.08531673926254699
+    },
+    {
+      "task": "reg_avg_hole_mass",
+      "name": "Mean hole effective mass",
+      "metric": "MAE",
+      "unit": "mₑ",
+      "stage1_model": "Official public ALIGNN checkpoint",
+      "n_test": 1764,
+      "split_counts": {
+        "train": 14114,
+        "val": 1764,
+        "test": 1764
+      },
+      "models": {
+        "FULL": {
+          "score": 0.09951552512714337,
+          "normalized_gain_percent": 19.59185247153198,
+          "beta": 1.0,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 19.59185247153198
+        }
+      },
+      "stage1": 0.12376298694346925
+    },
+    {
+      "task": "reg_n_Seebeck",
+      "name": "n-type Seebeck coefficient",
+      "metric": "MAE",
+      "unit": "μV/K",
+      "stage1_model": "coGN",
+      "n_test": 2321,
+      "split_counts": {
+        "train": 18568,
+        "val": 2321,
+        "test": 2321
+      },
+      "models": {
+        "FULL": {
+          "score": 37.608875608344306,
+          "normalized_gain_percent": 5.468096467165863,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 5.468096467165863
+        }
+      },
+      "stage1": 39.7843206397314
+    },
+    {
+      "task": "reg_n_powerfact",
+      "name": "n-type power factor",
+      "metric": "MAE",
+      "unit": "μW/(m·K²)",
+      "stage1_model": "Official public ALIGNN checkpoint",
+      "n_test": 2321,
+      "split_counts": {
+        "train": 18568,
+        "val": 2321,
+        "test": 2321
+      },
+      "models": {
+        "FULL": {
+          "score": 433.65125679002455,
+          "normalized_gain_percent": 1.8334544951242215,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 1.8334544951242215
+        }
+      },
+      "stage1": 441.75055214557364
+    },
+    {
+      "task": "reg_max_efg",
+      "name": "Maximum electric field gradient",
+      "metric": "MAE",
+      "unit": "10²¹ V/m²",
+      "stage1_model": "Official public ALIGNN checkpoint",
+      "n_test": 1186,
+      "split_counts": {
+        "train": 9493,
+        "val": 1186,
+        "test": 1186
+      },
+      "models": {
+        "FULL": {
+          "score": 19.127156837828146,
+          "normalized_gain_percent": 0.0,
+          "beta": 0.0,
+          "rule_passed": false,
+          "actual_changed_fraction": 0.0,
+          "delta_vs_stage1_percent_or_pp": 0.0
+        }
+      },
+      "stage1": 19.127156837828146
+    },
+    {
+      "task": "reg_slme",
+      "name": "Spectroscopic limited maximum efficiency (SLME)",
+      "metric": "MAE",
+      "unit": "percentage points",
+      "stage1_model": "coNGN",
+      "n_test": 906,
+      "split_counts": {
+        "train": 7250,
+        "val": 906,
+        "test": 906
+      },
+      "models": {
+        "FULL": {
+          "score": 4.1547624090767385,
+          "normalized_gain_percent": 5.329369765057847,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 5.329369765057847
+        }
+      },
+      "stage1": 4.388649783745973
+    },
+    {
+      "task": "reg_spillage",
+      "name": "Spin-orbit spillage",
+      "metric": "MAE",
+      "unit": "dimensionless",
+      "stage1_model": "coNGN",
+      "n_test": 1137,
+      "split_counts": {
+        "train": 9101,
+        "val": 1137,
+        "test": 1137
+      },
+      "models": {
+        "FULL": {
+          "score": 0.3439832987245117,
+          "normalized_gain_percent": 2.143657584592544,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 2.143657584592544
+        }
+      },
+      "stage1": 0.35151865503441465
+    },
+    {
+      "task": "reg_ph_heat_capacity",
+      "name": "Phonon heat capacity",
+      "metric": "MAE",
+      "unit": "J/(mol·K)",
+      "stage1_model": "matminer + Random Forest",
+      "n_test": 1205,
+      "split_counts": {
+        "train": 9644,
+        "val": 1205,
+        "test": 1205
+      },
+      "models": {
+        "FULL": {
+          "score": 5.2658339482848255,
+          "normalized_gain_percent": 0.26294204124211956,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.26294204124211956
+        }
+      },
+      "stage1": 5.279716542734088
+    },
+    {
+      "task": "reg_exfoliation_energy",
+      "name": "Exfoliation energy",
+      "metric": "MAE",
+      "unit": "meV/atom",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 81,
+      "split_counts": {
+        "train": 650,
+        "val": 81,
+        "test": 81
+      },
+      "models": {
+        "FULL": {
+          "score": 41.52023465536817,
+          "normalized_gain_percent": 2.9881031938137297,
+          "beta": 0.25,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 2.9881031938137297
+        }
+      },
+      "stage1": 42.799116420039425
+    },
+    {
+      "task": "reg_encut",
+      "name": "Converged plane-wave cutoff energy",
+      "metric": "MAE",
+      "unit": "eV",
+      "stage1_model": "coNGN",
+      "n_test": 5539,
+      "split_counts": {
+        "train": 44308,
+        "val": 5539,
+        "test": 5539
+      },
+      "models": {
+        "FULL": {
+          "score": 124.35307513662443,
+          "normalized_gain_percent": 0.0,
+          "beta": 0.0,
+          "rule_passed": false,
+          "actual_changed_fraction": 0.0,
+          "delta_vs_stage1_percent_or_pp": 0.0
+        }
+      },
+      "stage1": 124.35307513662443
+    },
+    {
+      "task": "reg_kpoint_length_unit",
+      "name": "Converged k-point length parameter",
+      "metric": "MAE",
+      "unit": "Å",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 5539,
+      "split_counts": {
+        "train": 44313,
+        "val": 5540,
+        "test": 5539
+      },
+      "models": {
+        "FULL": {
+          "score": 8.742377735976351,
+          "normalized_gain_percent": 1.711922563296149,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 1.711922563296149
+        }
+      },
+      "stage1": 8.894647208463631
+    },
+    {
+      "task": "cls_magmom_oszicar",
+      "name": "Magnetic classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 5222,
+      "split_counts": {
+        "train": 41766,
+        "val": 5222,
+        "test": 5222
+      },
+      "models": {
+        "FULL": {
+          "score": 0.9490616621983914,
+          "normalized_gain_percent": 2.9197080291971096,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.15319800842589215
+        }
+      },
+      "stage1": 0.9475296821141325
+    },
+    {
+      "task": "cls_optb88vdw_bandgap",
+      "name": "optB88vdW metal/nonmetal classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 5572,
+      "split_counts": {
+        "train": 44569,
+        "val": 5572,
+        "test": 5572
+      },
+      "models": {
+        "FULL": {
+          "score": 0.9427494615936827,
+          "normalized_gain_percent": 5.899705014749186,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.3589375448671883
+        }
+      },
+      "stage1": 0.9391600861450108
+    },
+    {
+      "task": "cls_mbj_bandgap",
+      "name": "TB-mBJ metal/nonmetal classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 1815,
+      "split_counts": {
+        "train": 14535,
+        "val": 1817,
+        "test": 1815
+      },
+      "models": {
+        "FULL": {
+          "score": 0.9449035812672176,
+          "normalized_gain_percent": 4.761904761904807,
+          "beta": 0.75,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.27548209366391463
+        }
+      },
+      "stage1": 0.9421487603305785
+    },
+    {
+      "task": "cls_n_powerfact",
+      "name": "n-type power-factor classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 2321,
+      "split_counts": {
+        "train": 18568,
+        "val": 2321,
+        "test": 2321
+      },
+      "models": {
+        "FULL": {
+          "score": 0.8134424816889272,
+          "normalized_gain_percent": 0.0,
+          "beta": 0.0,
+          "rule_passed": false,
+          "actual_changed_fraction": 0.0,
+          "delta_vs_stage1_percent_or_pp": 0.0
+        }
+      },
+      "stage1": 0.8134424816889272
+    },
+    {
+      "task": "cls_p_Seebeck",
+      "name": "p-type Seebeck classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 2321,
+      "split_counts": {
+        "train": 18568,
+        "val": 2321,
+        "test": 2321
+      },
+      "models": {
+        "FULL": {
+          "score": 0.9375269280482551,
+          "normalized_gain_percent": 7.643312101910891,
+          "beta": 1.0,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.5170185264972038
+        }
+      },
+      "stage1": 0.9323567427832831
+    },
+    {
+      "task": "cls_slme",
+      "name": "SLME high/low classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + Random Forest",
+      "n_test": 906,
+      "split_counts": {
+        "train": 7250,
+        "val": 906,
+        "test": 906
+      },
+      "models": {
+        "FULL": {
+          "score": 0.8454746136865342,
+          "normalized_gain_percent": 4.10958904109591,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.6622516556291425
+        }
+      },
+      "stage1": 0.8388520971302428
+    },
+    {
+      "task": "cls_spillage",
+      "name": "Spillage high/low classification",
+      "metric": "ACC",
+      "unit": "ACC",
+      "stage1_model": "matminer + XGBoost",
+      "n_test": 1137,
+      "split_counts": {
+        "train": 9101,
+        "val": 1137,
+        "test": 1137
+      },
+      "models": {
+        "FULL": {
+          "score": 0.832014072119613,
+          "normalized_gain_percent": 0.5208333333333405,
+          "beta": 0.5,
+          "rule_passed": true,
+          "actual_changed_fraction": 1.0,
+          "delta_vs_stage1_percent_or_pp": 0.08795074758135568
+        }
+      },
+      "stage1": 0.8311345646437994
+    }
+  ],
+  "summary": {
+    "FULL": {
+      "macro_normalized_gain_percent": 3.94124825167668,
+      "versus_stage1": {
+        "win": 28,
+        "tie": 4,
+        "loss": 2
+      },
+      "versus_main": {
+        "win": 0,
+        "tie": 34,
+        "loss": 0
+      },
+      "versus_fixed_board": {
+        "win": 25,
+        "tie": 0,
+        "loss": 9
+      },
+      "comparable_board_tasks": 34,
+      "mean_regression_MAE_improvement_percent": 4.00545882499318,
+      "mean_classification_improvement_pp": 0.2935483680949567,
+      "enabled_beta_count": 30,
+      "beta_denominator": 34,
+      "beta_histogram": {
+        "0.0": 4,
+        "0.25": 6,
+        "0.5": 11,
+        "0.75": 8,
+        "1.0": 5
+      }
+    }
+  },
+  "pairwise": {},
+  "parameters": {
+    "FULL": 8858834
+  }
+}

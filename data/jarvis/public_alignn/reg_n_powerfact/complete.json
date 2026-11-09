@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "task": "reg_n_powerfact",
+  "mode": "official_public_alignn_checkpoint_full_universe_inference",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "official_split_membership_and_order_exact": true,
+  "checkpoint_member": "jv_n-powerfact_alignn/checkpoint_300.pt",
+  "checkpoint_archive_sha256": "dfd46257426304a33e31e82a108a08a413c934e69fd0004aa6233763459871fe",
+  "checkpoint_declared_alignn_commit": "5d616626c6e006c074ae5bef4e7469c4d53d13bc",
+  "prediction_sha256": "385948ba0f3b3776f6466a4fa615534eecc28397c63a2418a8c4dd35226a791d",
+  "hidden_sha256": "e81c30d314dd3532c714cfee2cccdc9762a8e6e07edcc1b5759cbed76fa37b6d",
+  "universe_ids_sha256": "cb8aaa38ad852dbc612e894fb25a588dc2d74278f3e94131b5579ec90f251626",
+  "trained_or_finetuned": false,
+  "test_labels_read": false,
+  "seconds": 47.719663858413696
+}

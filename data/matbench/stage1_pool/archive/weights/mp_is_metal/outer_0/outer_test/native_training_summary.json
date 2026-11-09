@@ -1,0 +1,60 @@
+{
+  "checkpoint_sha256": "d95950dc8957be0b1da0209c1c5c02e34103d517bae5803cbd9d1e582fc91ea1",
+  "compatibility_resumed_members": 0,
+  "configured_n_models": 20,
+  "ensemble_budget_policy": "validated_deterministic_prefix",
+  "ensemble_member_limit": 5,
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0,
+    "loss": null
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "61647d957dcadc16b01db902d3901059b730f4efa442050fe21d8c3888d3eb7e",
+    "e0322b46f6267f526bfa9fe1136237d6e1bffe57c417c08818fd8a6ab503ead7",
+    "695477d5badd5288e06a5598eb0786019821ada1cad0f9aae40a9ccc76308b4f",
+    "f038520b71706bc5437298bffb20b1f092f75cd1f25b45da12408fc251e583f5",
+    "b60e9cf4fe716e827aa3342ff199f0edda7e661304f916988d4f75d8d120748a"
+  ],
+  "member_resume_compatibility_status": "compatibility_preprocessing_mismatch",
+  "member_resume_rejections": [
+    {
+      "member": 1,
+      "reason": "compatibility_preprocessing_mismatch"
+    },
+    {
+      "member": 2,
+      "reason": "compatibility_preprocessing_mismatch"
+    },
+    {
+      "member": 3,
+      "reason": "compatibility_preprocessing_mismatch"
+    },
+    {
+      "member": 4,
+      "reason": "compatibility_preprocessing_mismatch"
+    },
+    {
+      "member": 5,
+      "reason": "compatibility_preprocessing_mismatch"
+    }
+  ],
+  "model_internal_target_name": "is_metal",
+  "model_internal_target_name_policy": "preserve_safe_else_task_and_target_hash_v1",
+  "n_feat": 512,
+  "n_models": 5,
+  "recipe_signature": "4d384e87acab41473eb391205b9c46ba47eb1ddb1d39d4c619d33301a08b9586",
+  "recipe_signature_schema_version": 2,
+  "resumed_members": 0,
+  "schema_version": 1,
+  "scientific_target_name": "is_metal",
+  "smoke_test": false,
+  "task_name": "mp_is_metal",
+  "task_type": "classification"
+}

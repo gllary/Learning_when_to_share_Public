@@ -1,0 +1,15 @@
+{
+  "task": "reg_optb88vdw_bandgap",
+  "fold": 2,
+  "checkpoint_file": "model.pt",
+  "checkpoint_sha256": "5ca695d9830d6ca6780973d2cf075c42a89c2a4988047a3f6d66d87d3c3447ba",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "test_labels_read": false,
+  "official_validation_labels_read": true,
+  "selected_epoch": 255,
+  "validation_mae": 0.12194958566677973,
+  "seconds": 5922.16939225141,
+  "architecture": "atomnet_model",
+  "recipe": "opt_bandgap"
+}

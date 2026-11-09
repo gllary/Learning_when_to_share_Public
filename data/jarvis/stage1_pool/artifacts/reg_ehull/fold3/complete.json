@@ -1,0 +1,15 @@
+{
+  "task": "reg_ehull",
+  "fold": 3,
+  "checkpoint_file": "model.pt",
+  "checkpoint_sha256": "1c25afdd2eb622ed3612d02fabc97683c080e923cb5265646435ce2b009a8646",
+  "rows": 55712,
+  "hidden_dim": 256,
+  "test_labels_read": false,
+  "official_validation_labels_read": true,
+  "selected_epoch": 499,
+  "validation_mae": 0.03950725048269114,
+  "seconds": 28399.911627976224,
+  "architecture": "prism_model",
+  "recipe": "ehull"
+}

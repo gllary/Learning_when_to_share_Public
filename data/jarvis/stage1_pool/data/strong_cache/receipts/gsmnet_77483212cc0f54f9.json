@@ -1,0 +1,12 @@
+{
+  "cache_contract": "77483212cc0f54f95b07aceb95ba66b683cae5e78d6d5bba58c2db71d17ed746",
+  "files": {
+    "data/strong_cache/gsmnet_77483212cc0f54f9/processed/target_free_universe-target-infinite.pt": "217b746697640ba3da6ee92de958f1bc32ac906f75715f64eb71fb73c413a160"
+  },
+  "recipe": "mbj_bandgap",
+  "cache": "gsmnet_77483212cc0f54f9",
+  "rows": 55712,
+  "universe_sha256": "eb0bef0ef284b8961c044e024e83f6cb0cd1a46196b4bea786f6b933f9f56cc3",
+  "target_free": true,
+  "physical_labels_present": false
+}

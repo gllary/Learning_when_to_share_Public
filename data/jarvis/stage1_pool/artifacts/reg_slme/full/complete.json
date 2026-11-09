@@ -1,0 +1,9 @@
+{
+  "task": "reg_slme",
+  "fold": -1,
+  "checkpoint_sha256": "8227acd62c5b24289517afd6a8c1d279d54f0809305dfb898431cf647c84c22c",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 4866.867015996017
+}

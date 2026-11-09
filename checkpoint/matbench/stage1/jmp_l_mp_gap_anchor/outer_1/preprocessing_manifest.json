@@ -1,0 +1,53 @@
+{
+  "automatic_full_state_resume": true,
+  "expert": "jmp_l",
+  "finetune_protocol": "jmp_l_fast32_fp32_v1",
+  "graph": {
+    "conditional_max_neighbors": {
+      "default": 30,
+      "gt_200": 10,
+      "gt_300": 5
+    },
+    "cutoff_angstrom": 12.0,
+    "periodic": true
+  },
+  "hyperparameter_search": false,
+  "latent_export": {
+    "checkpoint_state": "fast32_final_finetuned_fold_checkpoint",
+    "dimension": 256,
+    "inference_only": true,
+    "pooling": "mean",
+    "row_order": "exact_official_outer_test_manifest_order",
+    "schema_version": 1,
+    "source": "gemnet_oc_final_atom_energy_embedding_before_task_head",
+    "targets_accessed": false
+  },
+  "learning_rate": 8e-05,
+  "maximum_epochs": 32,
+  "maximum_wall_time_days": 3,
+  "official_checkpoint_sha256": "b5c40f6748126b270496c774bb8ffd11e48a03ff0af804d9c0d2f40daba15185",
+  "official_commit": "937b14874381d9b80809582e323ef82f2d4e1291",
+  "official_repository": "https://github.com/facebookresearch/JMP",
+  "outer_fold": 1,
+  "outer_test_used_for_selection": false,
+  "periodic_full_state_checkpoint_steps": 10000,
+  "phase": "official_finetune",
+  "prediction_positions_sha256": "07017152d34b61fdbac0133a8c67eb9d591097f8ff90d241d011dbeb4bcea250",
+  "prediction_targets_materialized": false,
+  "refit_branch": false,
+  "schema_version": 1,
+  "split_protocol": "official_matbench_outer_train_to_outer_test",
+  "stage2_enabled": false,
+  "stage2_feature_generation": false,
+  "target_mean": 1.2168485710920014,
+  "target_normalization_scope": "complete_official_outer_train_only",
+  "target_std": 1.6014801855024177,
+  "task": "mp_gap",
+  "task_settings": {
+    "batch_size": 16,
+    "num_workers": 8,
+    "precision": "32-true",
+    "reduction": "mean"
+  },
+  "train_positions_sha256": "e612639cc065d5005328e97cac2c5d56a1fcf325ca1df8bfaa6761b93e6f6754"
+}

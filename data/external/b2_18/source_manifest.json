@@ -1,0 +1,28 @@
+{
+  "dataset": "B2-18",
+  "samples": 18,
+  "materials_sha256": "1a3fb511a450b29c1db9d43472571170e7f890c54842c42e5b4e51c3e9c14215",
+  "labels_sha256": "381dec479ccbcc40bf848d57b580911fe4bb8595eec1dd0b210531f4c526fbba",
+  "sample_id_order": [
+    "b2mpei18-0",
+    "b2mpei18-1",
+    "b2mpei18-2",
+    "b2mpei18-3",
+    "b2mpei18-4",
+    "b2mpei18-5",
+    "b2mpei18-6",
+    "b2mpei18-7",
+    "b2mpei18-8",
+    "b2mpei18-9",
+    "b2mpei18-10",
+    "b2mpei18-11",
+    "b2mpei18-12",
+    "b2mpei18-13",
+    "b2mpei18-14",
+    "b2mpei18-15",
+    "b2mpei18-16",
+    "b2mpei18-17"
+  ],
+  "label_access": "evaluation only",
+  "external_model_training": false
+}

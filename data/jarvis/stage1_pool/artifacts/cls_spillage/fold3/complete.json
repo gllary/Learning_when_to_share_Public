@@ -1,0 +1,9 @@
+{
+  "task": "cls_spillage",
+  "fold": 3,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "706b40a52a4c918127cd2f4c29b60a59cab34cdb4aaf4185c1c7335bcb474efe",
+  "seconds": 180.81387820001692,
+  "test_labels_read": false
+}

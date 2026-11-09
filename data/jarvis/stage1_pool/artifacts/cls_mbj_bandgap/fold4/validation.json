@@ -1,0 +1,6 @@
+{
+  "score": 0.9361585030269676,
+  "metric": "ACC",
+  "checkpoint_rule": "published fixed iterations",
+  "test_labels_read": false
+}

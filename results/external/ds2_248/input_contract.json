@@ -1,0 +1,247 @@
+{
+  "graph": {
+    "expt_gap": {
+      "0": {
+        "anchorboost_glass_anchor": {
+          "present": true,
+          "checkpoint_sha256": "7fa840f57edf9ac940f671c67b3ab5fb185b2a68d005cb6861b6bd4ad52ea8ae"
+        },
+        "jmp_l_jdft2d_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_e_form_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_gap_anchor": {
+          "present": false
+        },
+        "jmp_l_perovskites_anchor": {
+          "present": false
+        },
+        "jmp_l_phonons_anchor": {
+          "present": false
+        },
+        "mattervial_dielectric_anchor": {
+          "present": true,
+          "checkpoint_sha256": "f0618ff5db49d9115ee2dc080fb8d18809bb98a39f22f4bd3639bfb4e4e7a95f"
+        },
+        "mattervial_expt_gap_anchor": {
+          "present": true,
+          "checkpoint_sha256": "a7f5c63c5e6e913e6b80bfe9f3f829c055d519eed973e6847319842e580114c2"
+        },
+        "mattervial_expt_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "af2fc984665081ba336a32f29449c6d66c6599d60e021c76591df402cec57432"
+        },
+        "mattervial_log_gvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "6b98efb5943641652bc90ec83c836a87bb67afeb8f568ac2925e05c9b02bdb04"
+        },
+        "mattervial_log_kvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "fbd747b793cd5a1c2ca01b48f41b31d8a0ab074b996cc4a04766d5b3f4255085"
+        },
+        "mattervial_mp_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "d95950dc8957be0b1da0209c1c5c02e34103d517bae5803cbd9d1e582fc91ea1"
+        },
+        "tpot_mat_steels_anchor": {
+          "present": false
+        }
+      },
+      "1": {
+        "anchorboost_glass_anchor": {
+          "present": true,
+          "checkpoint_sha256": "130d93039652358c6e1e7698836ccb1c6558e291ceca67db0aeb9073a97e1469"
+        },
+        "jmp_l_jdft2d_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_e_form_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_gap_anchor": {
+          "present": false
+        },
+        "jmp_l_perovskites_anchor": {
+          "present": false
+        },
+        "jmp_l_phonons_anchor": {
+          "present": false
+        },
+        "mattervial_dielectric_anchor": {
+          "present": true,
+          "checkpoint_sha256": "834e69d644b7d95136f69382119073a40236def9094801c29a216056e69b205d"
+        },
+        "mattervial_expt_gap_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3fb35b380bb34986698675142ba8fbab1dddd22cf1f143a69f486a52e2d32a42"
+        },
+        "mattervial_expt_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "a0bb8641a939eb092e5b40e016aacf28c2795bda1f8b6a4d513d97896e5c8ed5"
+        },
+        "mattervial_log_gvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "717c64bff285a1013a03a78a28c918c3492baa4f54d3b73527ea939150ac5afd"
+        },
+        "mattervial_log_kvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "c8970f736d3f077a81c432fdffcb861ba9229e2345038571280f01f16ed8fa06"
+        },
+        "mattervial_mp_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "5e776e14eeabef7431880221cfbf33ed88f6e0893582261bfb1d6d8cc505f26d"
+        },
+        "tpot_mat_steels_anchor": {
+          "present": false
+        }
+      },
+      "2": {
+        "anchorboost_glass_anchor": {
+          "present": true,
+          "checkpoint_sha256": "22d0671b604f4a89bb692fff24ac3627e2a10d10a3c98f3626248e06d492d3f6"
+        },
+        "jmp_l_jdft2d_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_e_form_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_gap_anchor": {
+          "present": false
+        },
+        "jmp_l_perovskites_anchor": {
+          "present": false
+        },
+        "jmp_l_phonons_anchor": {
+          "present": false
+        },
+        "mattervial_dielectric_anchor": {
+          "present": true,
+          "checkpoint_sha256": "232c1f71045b0b8b523f167c737b765dba2ddd5712f7f4688a1b8ad988b6972f"
+        },
+        "mattervial_expt_gap_anchor": {
+          "present": true,
+          "checkpoint_sha256": "cfe3082b93b9ecf964f436e9bf7e29c35bf79b823f6a5f449ae692bc8d89e6f0"
+        },
+        "mattervial_expt_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "70742d75987102f800875bd02995f2f01501a913b000fd7ceae312d1547c31cd"
+        },
+        "mattervial_log_gvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3cc08c9d34b88dbaa4ec65166f1c73728fbe4e491d3b8bde989681993783e399"
+        },
+        "mattervial_log_kvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3c77a87c9c7bf6deeb2cc9388debdb50c680706f696890f6fe652668ea3fcf35"
+        },
+        "mattervial_mp_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "e516dcd7cc46d6d671c8f16031fc215973824c86bc70f3f8fe98d7f4c312c044"
+        },
+        "tpot_mat_steels_anchor": {
+          "present": false
+        }
+      },
+      "3": {
+        "anchorboost_glass_anchor": {
+          "present": true,
+          "checkpoint_sha256": "93fbcf08e9a0082aadb3f9adf8d72b0690e90594b9850b63a8012ec476cce7db"
+        },
+        "jmp_l_jdft2d_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_e_form_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_gap_anchor": {
+          "present": false
+        },
+        "jmp_l_perovskites_anchor": {
+          "present": false
+        },
+        "jmp_l_phonons_anchor": {
+          "present": false
+        },
+        "mattervial_dielectric_anchor": {
+          "present": true,
+          "checkpoint_sha256": "e2b54ac8a9776913a5baf637f25efd2cfd3fae70c87bfe89ae4c513836130035"
+        },
+        "mattervial_expt_gap_anchor": {
+          "present": true,
+          "checkpoint_sha256": "5b9c12bd49352cef78dbb6b581358d6dc2bc84e495badc7564b31021248a0d01"
+        },
+        "mattervial_expt_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "8101cc947cb0cec14d086f3ccfb5aae345964eb77070b4c26e36b5b9c6529539"
+        },
+        "mattervial_log_gvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "d27674066562bd67110491c4ee7a3616ade71353d92f36dfc08d23fed2bc7bd1"
+        },
+        "mattervial_log_kvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "fc037aab087a151c45518d209abc8c8382b2a5e72fb853fc4829c6c5ba57693b"
+        },
+        "mattervial_mp_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "de027ebe3964cd4ed4848ba1e1d59cb588b37df689794de9013f58c0dce91cb7"
+        },
+        "tpot_mat_steels_anchor": {
+          "present": false
+        }
+      },
+      "4": {
+        "anchorboost_glass_anchor": {
+          "present": true,
+          "checkpoint_sha256": "f452a2adb3f36ff027c1d44ef3b5a52e26d66acac48a7924f2573c34398957f1"
+        },
+        "jmp_l_jdft2d_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_e_form_anchor": {
+          "present": false
+        },
+        "jmp_l_mp_gap_anchor": {
+          "present": false
+        },
+        "jmp_l_perovskites_anchor": {
+          "present": false
+        },
+        "jmp_l_phonons_anchor": {
+          "present": false
+        },
+        "mattervial_dielectric_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3c1a03683738fcf3fed3ae10b4c513d651e791734c46bd13d0adee7ca703f867"
+        },
+        "mattervial_expt_gap_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3c8f580095fe74577bdd3d29ac560fef13e9bdb4f968c962ac7bc5ae527095d2"
+        },
+        "mattervial_expt_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "e8f2c0ad75bba953b88fde6697dce5a2b13a804d17b9a5d600919d20a7a1d7f0"
+        },
+        "mattervial_log_gvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "8a242dcadeddf103adf237d0cc28c54b88ed93774b0e3c5b94fedb6757554969"
+        },
+        "mattervial_log_kvrh_anchor": {
+          "present": true,
+          "checkpoint_sha256": "3f87abd8a6e9f8c9577940191e5211cd86be8aca5636d8f53d0398166993333c"
+        },
+        "mattervial_mp_is_metal_anchor": {
+          "present": true,
+          "checkpoint_sha256": "4109b06f234554df0a4840003b33131554c7d23aafc16c75e7eb31ff78a3ee90"
+        },
+        "tpot_mat_steels_anchor": {
+          "present": false
+        }
+      }
+    }
+  },
+  "source_contract_sha256": "92e58d6612a6d2b63a554db5935f78a5e5d183ec64e72bde4a897395bf477dd1"
+}

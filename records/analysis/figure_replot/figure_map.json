@@ -1,0 +1,58 @@
+{
+  "fig2": {
+    "manuscript_figure": "Fig. 2",
+    "files": [
+      "results/analysis/figures/fig2_source_allocation.png",
+      "results/analysis/figures/fig2_source_allocation.svg"
+    ]
+  },
+  "fig3": {
+    "manuscript_figure": "Fig. 3",
+    "files": [
+      "results/analysis/figures/fig3_ablation.png",
+      "results/analysis/figures/fig3_ablation.svg"
+    ]
+  },
+  "fig4": {
+    "manuscript_figure": "Fig. 4",
+    "files": [
+      "results/analysis/figures/fig4_external_errors.png",
+      "results/analysis/figures/fig4_external_errors.svg"
+    ]
+  },
+  "s1": {
+    "manuscript_figure": "Supplementary Fig. 1",
+    "files": [
+      "results/analysis/figures/matbench_fold_boxplots.png",
+      "results/analysis/figures/matbench_fold_boxplots.svg"
+    ]
+  },
+  "s2": {
+    "manuscript_figure": "Supplementary Fig. 2",
+    "files": [
+      "results/analysis/figures/supp_fig_s2_source_allocation.png",
+      "results/analysis/figures/supp_fig_s2_source_allocation.svg"
+    ]
+  },
+  "s3": {
+    "manuscript_figure": "Supplementary Fig. 3",
+    "files": [
+      "results/analysis/figures/supp_fig_s3_descriptor_cka.png",
+      "results/analysis/figures/supp_fig_s3_descriptor_cka.svg"
+    ]
+  },
+  "s4": {
+    "manuscript_figure": "Supplementary Fig. 4",
+    "files": [
+      "results/analysis/figures/supp_fig_s4_pca.png",
+      "results/analysis/figures/supp_fig_s4_pca.svg"
+    ]
+  },
+  "s5": {
+    "manuscript_figure": "Supplementary Fig. 5",
+    "files": [
+      "results/analysis/figures/supp_fig_s5_permutation_reference.png",
+      "results/analysis/figures/supp_fig_s5_permutation_reference.svg"
+    ]
+  }
+}

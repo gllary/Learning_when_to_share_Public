@@ -1,0 +1,9 @@
+{
+  "task": "reg_kpoint_length_unit",
+  "fold": 1,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "4bd02e7375ac7467c8a41735e68e7cd2b1214a8b4ee74746524fdff218d27524",
+  "seconds": 293.31210053898394,
+  "test_labels_read": false
+}

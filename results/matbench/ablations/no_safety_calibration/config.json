@@ -1,0 +1,17 @@
+{
+  "experiment_id": "matbench_no_safety_calibration",
+  "dataset": "matbench",
+  "architecture": "model",
+  "strict_no_cross": false,
+  "safety": "none",
+  "batch": {
+    "regression": 384,
+    "classification_per_class": 160
+  },
+  "classification_metric": "ROC-AUC",
+  "uncertainty": "stage1_inputs",
+  "route_temperature": 0.75,
+  "weights_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "display_name": "Matbench No-safety-calibration Ablation",
+  "result_key": "NO_SAFETY_CALIBRATION"
+}

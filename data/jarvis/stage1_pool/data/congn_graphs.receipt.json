@@ -1,0 +1,10 @@
+{
+  "cache_contract": "67a5056a56ac6fb29a139e9eb0508921fdebef26aedeebe48cd734ded36d9b38",
+  "sha256": "c613bec3f0798b77e1f2947243f00ced230634c17d9dcf5703d66259813f19df",
+  "labels_read": false,
+  "materials": 55712,
+  "kind": "congn",
+  "preprocessing": "official_POSCAR_CIF_primitive_True",
+  "source_sha256": "ad77b21932579c436f46cac74cdf231401853da883f2046f6d2964a49ffdffa5",
+  "protocol_sha256": "7ebbcbd66c09ac6bbaaff8b58910a219e24ce2458506292ce4ab8ed4e6701b7f"
+}

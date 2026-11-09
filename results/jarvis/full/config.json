@@ -1,0 +1,15 @@
+{
+  "experiment_id": "jarvis_full",
+  "dataset": "jarvis",
+  "architecture": "model",
+  "strict_no_cross": false,
+  "safety": "fixed_task_liberal",
+  "batch": 128,
+  "classification_metric": "ACC",
+  "uncertainty": "zero",
+  "route_temperature": 0.75,
+  "calibration_records": "records/calibration/jarvis/tasks/jarvis_full/calibration_records",
+  "weights_manifest": "checkpoint/jarvis/stage2_proposal/model/manifest.json",
+  "display_name": "JARVIS Full",
+  "result_key": "FULL"
+}

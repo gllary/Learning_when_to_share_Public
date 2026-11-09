@@ -1,0 +1,234 @@
+{
+  "checkpoint_sha256": "a0bb8641a939eb092e5b40e016aacf28c2795bda1f8b6a4d513d97896e5c8ed5",
+  "elapsed_seconds": 68.977,
+  "mattervial_training_performed": false,
+  "outer_fold": 1,
+  "records": [
+    {
+      "available_rows": 0,
+      "n_rows": 224,
+      "role": "train",
+      "target_task": "steels"
+    },
+    {
+      "available_rows": 0,
+      "n_rows": 25,
+      "role": "val",
+      "target_task": "steels"
+    },
+    {
+      "available_rows": 0,
+      "n_rows": 63,
+      "role": "test",
+      "target_task": "steels"
+    },
+    {
+      "available_rows": 3315,
+      "n_rows": 3315,
+      "role": "train",
+      "target_task": "expt_gap"
+    },
+    {
+      "available_rows": 368,
+      "n_rows": 368,
+      "role": "val",
+      "target_task": "expt_gap"
+    },
+    {
+      "available_rows": 921,
+      "n_rows": 921,
+      "role": "test",
+      "target_task": "expt_gap"
+    },
+    {
+      "available_rows": 4089,
+      "n_rows": 4089,
+      "role": "train",
+      "target_task": "glass"
+    },
+    {
+      "available_rows": 455,
+      "n_rows": 455,
+      "role": "val",
+      "target_task": "glass"
+    },
+    {
+      "available_rows": 1136,
+      "n_rows": 1136,
+      "role": "test",
+      "target_task": "glass"
+    },
+    {
+      "available_rows": 984,
+      "n_rows": 984,
+      "role": "test",
+      "target_task": "expt_is_metal"
+    },
+    {
+      "available_rows": 458,
+      "n_rows": 458,
+      "role": "train",
+      "target_task": "jdft2d"
+    },
+    {
+      "available_rows": 51,
+      "n_rows": 51,
+      "role": "val",
+      "target_task": "jdft2d"
+    },
+    {
+      "available_rows": 127,
+      "n_rows": 127,
+      "role": "test",
+      "target_task": "jdft2d"
+    },
+    {
+      "available_rows": 3430,
+      "n_rows": 3430,
+      "role": "train",
+      "target_task": "dielectric"
+    },
+    {
+      "available_rows": 381,
+      "n_rows": 381,
+      "role": "val",
+      "target_task": "dielectric"
+    },
+    {
+      "available_rows": 953,
+      "n_rows": 953,
+      "role": "test",
+      "target_task": "dielectric"
+    },
+    {
+      "available_rows": 7910,
+      "n_rows": 7910,
+      "role": "train",
+      "target_task": "log_kvrh"
+    },
+    {
+      "available_rows": 879,
+      "n_rows": 879,
+      "role": "val",
+      "target_task": "log_kvrh"
+    },
+    {
+      "available_rows": 2198,
+      "n_rows": 2198,
+      "role": "test",
+      "target_task": "log_kvrh"
+    },
+    {
+      "available_rows": 7910,
+      "n_rows": 7910,
+      "role": "train",
+      "target_task": "log_gvrh"
+    },
+    {
+      "available_rows": 879,
+      "n_rows": 879,
+      "role": "val",
+      "target_task": "log_gvrh"
+    },
+    {
+      "available_rows": 2198,
+      "n_rows": 2198,
+      "role": "test",
+      "target_task": "log_gvrh"
+    },
+    {
+      "available_rows": 13628,
+      "n_rows": 13628,
+      "role": "train",
+      "target_task": "perovskites"
+    },
+    {
+      "available_rows": 1514,
+      "n_rows": 1514,
+      "role": "val",
+      "target_task": "perovskites"
+    },
+    {
+      "available_rows": 3786,
+      "n_rows": 3786,
+      "role": "test",
+      "target_task": "perovskites"
+    },
+    {
+      "available_rows": 911,
+      "n_rows": 911,
+      "role": "train",
+      "target_task": "phonons"
+    },
+    {
+      "available_rows": 101,
+      "n_rows": 101,
+      "role": "val",
+      "target_task": "phonons"
+    },
+    {
+      "available_rows": 253,
+      "n_rows": 253,
+      "role": "test",
+      "target_task": "phonons"
+    },
+    {
+      "available_rows": 76401,
+      "n_rows": 76401,
+      "role": "train",
+      "target_task": "mp_gap"
+    },
+    {
+      "available_rows": 8489,
+      "n_rows": 8489,
+      "role": "val",
+      "target_task": "mp_gap"
+    },
+    {
+      "available_rows": 21223,
+      "n_rows": 21223,
+      "role": "test",
+      "target_task": "mp_gap"
+    },
+    {
+      "available_rows": 76401,
+      "n_rows": 76401,
+      "role": "train",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "available_rows": 8489,
+      "n_rows": 8489,
+      "role": "val",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "available_rows": 21223,
+      "n_rows": 21223,
+      "role": "test",
+      "target_task": "mp_is_metal"
+    },
+    {
+      "available_rows": 95581,
+      "n_rows": 95581,
+      "role": "train",
+      "target_task": "mp_e_form"
+    },
+    {
+      "available_rows": 10620,
+      "n_rows": 10620,
+      "role": "val",
+      "target_task": "mp_e_form"
+    },
+    {
+      "available_rows": 26551,
+      "n_rows": 26551,
+      "role": "test",
+      "target_task": "mp_e_form"
+    }
+  ],
+  "schema_version": "12.2",
+  "source_task": "expt_is_metal",
+  "status": "complete",
+  "target_labels_accessed": false
+}

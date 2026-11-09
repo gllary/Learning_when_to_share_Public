@@ -1,0 +1,27 @@
+{
+  "aggregate_checkpoint_sha256": "aeefbf166a67ed41900408727b5f1bb42faf4ceb25f35a6a44edfeada1de5617",
+  "elapsed_seconds": 9.939,
+  "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+  "inner_fold_count": 5,
+  "mattervial_training_performed": false,
+  "outer_fold": 4,
+  "outer_test_rows_accessed": 0,
+  "outer_train_rows": 8790,
+  "records": [
+    {
+      "n_rows": 7911,
+      "role": "train"
+    },
+    {
+      "n_rows": 879,
+      "role": "val"
+    }
+  ],
+  "schema_version": "12.2",
+  "status": "complete",
+  "supplemental_stage1_feature_cache_compatibility_policy": "native_schema_v2_target_firewall_v1",
+  "supplemental_stage1_feature_cache_receipt_sha256": "8ccfa6ce42ba5b2768526171257e26d2ecb8f12df8667bc60c054fb741e2b97e",
+  "supplemental_stage1_feature_cache_schema_version": 2,
+  "target_labels_accessed_by_exporter": false,
+  "task": "log_gvrh"
+}

@@ -1,0 +1,544 @@
+[
+  {
+    "task": "reg_formation_energy_peratom",
+    "n": 5572,
+    "adopted": 5572,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      13.404910338775302,
+      12.513383203114598,
+      7.269456711882618
+    ],
+    "top3_sum_percent": 33.18775025377252
+  },
+  {
+    "task": "reg_optb88vdw_total_energy",
+    "n": 5572,
+    "adopted": 5572,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      12.044762857666097,
+      11.716456068466007,
+      7.741672861963036
+    ],
+    "top3_sum_percent": 31.502891788095138
+  },
+  {
+    "task": "reg_ehull",
+    "n": 5537,
+    "adopted": 5537,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      12.139755014221661,
+      11.823263477454502,
+      8.642820633798312
+    ],
+    "top3_sum_percent": 32.605839125474475
+  },
+  {
+    "task": "reg_optb88vdw_bandgap",
+    "n": 5572,
+    "adopted": 5572,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_epsy",
+      "reg_epsx"
+    ],
+    "top3_percent": [
+      14.419206642995327,
+      8.945928860300375,
+      8.18275706498011
+    ],
+    "top3_sum_percent": 31.547892568275813
+  },
+  {
+    "task": "reg_mbj_bandgap",
+    "n": 1815,
+    "adopted": 1815,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      13.350317251790951,
+      11.50128678580462,
+      8.448700435909828
+    ],
+    "top3_sum_percent": 33.3003044735054
+  },
+  {
+    "task": "reg_bulk_modulus_kv",
+    "n": 1968,
+    "adopted": 1968,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      12.668747247656748,
+      11.87211218955055,
+      7.744958072217601
+    ],
+    "top3_sum_percent": 32.2858175094249
+  },
+  {
+    "task": "reg_shear_modulus_gv",
+    "n": 1968,
+    "adopted": 0,
+    "coverage_percent": 0.0,
+    "top3_sources": [],
+    "top3_percent": []
+  },
+  {
+    "task": "reg_epsx",
+    "n": 4449,
+    "adopted": 4449,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_epsy",
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      14.283152596963541,
+      9.967518614927236,
+      9.420720092867876
+    ],
+    "top3_sum_percent": 33.67139130475865
+  },
+  {
+    "task": "reg_epsy",
+    "n": 4449,
+    "adopted": 4449,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_epsx",
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      15.347913775792655,
+      10.389577373721925,
+      9.722517324593895
+    ],
+    "top3_sum_percent": 35.46000847410848
+  },
+  {
+    "task": "reg_epsz",
+    "n": 4449,
+    "adopted": 4449,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_epsx",
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      11.144680174979202,
+      10.716355897976943,
+      10.05727934818639
+    ],
+    "top3_sum_percent": 31.918315421142538
+  },
+  {
+    "task": "reg_mepsx",
+    "n": 1681,
+    "adopted": 1681,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      9.770067930248603,
+      9.047010203868362,
+      9.043174611334484
+    ],
+    "top3_sum_percent": 27.860252745451447
+  },
+  {
+    "task": "reg_mepsy",
+    "n": 1681,
+    "adopted": 1681,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_epsy",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      9.558251717429533,
+      9.493309028889287,
+      9.062155709800837
+    ],
+    "top3_sum_percent": 28.113716456119658
+  },
+  {
+    "task": "reg_mepsz",
+    "n": 1681,
+    "adopted": 1681,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_epsz",
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck"
+    ],
+    "top3_percent": [
+      9.869511700902974,
+      9.505394813055036,
+      8.182990244903296
+    ],
+    "top3_sum_percent": 27.557896758861304
+  },
+  {
+    "task": "reg_dfpt_piezo_max_dielectric",
+    "n": 470,
+    "adopted": 470,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      14.935916958207192,
+      11.747482851274635,
+      6.126676698577023
+    ],
+    "top3_sum_percent": 32.81007650805885
+  },
+  {
+    "task": "reg_dfpt_piezo_max_dij",
+    "n": 334,
+    "adopted": 334,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_mbj_bandgap"
+    ],
+    "top3_percent": [
+      14.05524135014602,
+      11.160214755272968,
+      7.063903363873364
+    ],
+    "top3_sum_percent": 32.27935946929235
+  },
+  {
+    "task": "reg_magmom_oszicar",
+    "n": 5222,
+    "adopted": 5222,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      13.12892988178287,
+      12.558596748896111,
+      7.751291117489851
+    ],
+    "top3_sum_percent": 33.43881774816883
+  },
+  {
+    "task": "reg_avg_elec_mass",
+    "n": 1764,
+    "adopted": 1764,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      16.90743880344756,
+      14.632901657776525,
+      8.859526010816001
+    ],
+    "top3_sum_percent": 40.39986647204009
+  },
+  {
+    "task": "reg_avg_hole_mass",
+    "n": 1764,
+    "adopted": 1764,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      16.982845130312178,
+      14.740518500412424,
+      9.53086170394302
+    ],
+    "top3_sum_percent": 41.25422533466762
+  },
+  {
+    "task": "reg_n_Seebeck",
+    "n": 2321,
+    "adopted": 2321,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      15.845534587498134,
+      12.956419573098996,
+      9.310576517446519
+    ],
+    "top3_sum_percent": 38.11253067804365
+  },
+  {
+    "task": "reg_n_powerfact",
+    "n": 2321,
+    "adopted": 2321,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      12.300907097724574,
+      11.741332361614127,
+      8.162133277098953
+    ],
+    "top3_sum_percent": 32.204372736437655
+  },
+  {
+    "task": "reg_max_efg",
+    "n": 1186,
+    "adopted": 0,
+    "coverage_percent": 0.0,
+    "top3_sources": [],
+    "top3_percent": []
+  },
+  {
+    "task": "reg_slme",
+    "n": 906,
+    "adopted": 906,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "reg_kpoint_length_unit",
+      "cls_slme"
+    ],
+    "top3_percent": [
+      16.564799871616977,
+      7.719773800377832,
+      7.547408268235334
+    ],
+    "top3_sum_percent": 31.83198194023014
+  },
+  {
+    "task": "reg_spillage",
+    "n": 1137,
+    "adopted": 1137,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "cls_spillage",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      11.289981011235529,
+      7.459797082974066,
+      6.436461115465882
+    ],
+    "top3_sum_percent": 25.186239209675477
+  },
+  {
+    "task": "reg_ph_heat_capacity",
+    "n": 1205,
+    "adopted": 1205,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      12.487943601927265,
+      11.213901430761887,
+      7.423195654794604
+    ],
+    "top3_sum_percent": 31.125040687483754
+  },
+  {
+    "task": "reg_exfoliation_energy",
+    "n": 81,
+    "adopted": 81,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      12.329434598012579,
+      10.390641015167995,
+      6.189552761292901
+    ],
+    "top3_sum_percent": 28.909628374473478
+  },
+  {
+    "task": "reg_encut",
+    "n": 5539,
+    "adopted": 0,
+    "coverage_percent": 0.0,
+    "top3_sources": [],
+    "top3_percent": []
+  },
+  {
+    "task": "reg_kpoint_length_unit",
+    "n": 5539,
+    "adopted": 5539,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_p_Seebeck",
+      "reg_epsx"
+    ],
+    "top3_percent": [
+      12.941678393380592,
+      10.908118840466148,
+      8.113603280455203
+    ],
+    "top3_sum_percent": 31.963400514301945
+  },
+  {
+    "task": "cls_magmom_oszicar",
+    "n": 5222,
+    "adopted": 5222,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_spillage",
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      7.722291425325397,
+      7.416602581863828,
+      7.27800466196434
+    ],
+    "top3_sum_percent": 22.416898669153568
+  },
+  {
+    "task": "cls_optb88vdw_bandgap",
+    "n": 5572,
+    "adopted": 5572,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      10.634879893053373,
+      9.341661458240033,
+      7.328297487590697
+    ],
+    "top3_sum_percent": 27.304838838884102
+  },
+  {
+    "task": "cls_mbj_bandgap",
+    "n": 1815,
+    "adopted": 1815,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      11.454410157559892,
+      9.387867213019433,
+      8.492017477061639
+    ],
+    "top3_sum_percent": 29.33429484764096
+  },
+  {
+    "task": "cls_n_powerfact",
+    "n": 2321,
+    "adopted": 0,
+    "coverage_percent": 0.0,
+    "top3_sources": [],
+    "top3_percent": []
+  },
+  {
+    "task": "cls_p_Seebeck",
+    "n": 2321,
+    "adopted": 2321,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "cls_optb88vdw_bandgap",
+      "reg_epsy"
+    ],
+    "top3_percent": [
+      11.51936867898426,
+      8.4975298261724,
+      7.776561689054336
+    ],
+    "top3_sum_percent": 27.793460194210997
+  },
+  {
+    "task": "cls_slme",
+    "n": 906,
+    "adopted": 906,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_optb88vdw_bandgap",
+      "reg_kpoint_length_unit",
+      "reg_slme"
+    ],
+    "top3_percent": [
+      14.998338625855403,
+      9.327944587642827,
+      8.398135083855692
+    ],
+    "top3_sum_percent": 32.72441829735392
+  },
+  {
+    "task": "cls_spillage",
+    "n": 1137,
+    "adopted": 1137,
+    "coverage_percent": 100.0,
+    "top3_sources": [
+      "reg_epsy",
+      "cls_p_Seebeck",
+      "reg_optb88vdw_bandgap"
+    ],
+    "top3_percent": [
+      11.431722696067983,
+      9.426926239864832,
+      7.0114191445967045
+    ],
+    "top3_sum_percent": 27.870068080529517
+  }
+]

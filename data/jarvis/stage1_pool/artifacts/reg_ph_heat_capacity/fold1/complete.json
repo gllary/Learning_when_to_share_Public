@@ -1,0 +1,9 @@
+{
+  "task": "reg_ph_heat_capacity",
+  "fold": 1,
+  "rows": 55712,
+  "hidden_dim": 128,
+  "checkpoint_sha256": "dd834a18cd7868d2783f46eb970bb5496fe569350ee911b5f4d72a6dcd3a2ca3",
+  "seconds": 32.513363130390644,
+  "test_labels_read": false
+}

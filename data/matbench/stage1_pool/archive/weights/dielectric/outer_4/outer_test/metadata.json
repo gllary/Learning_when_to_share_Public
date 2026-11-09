@@ -1,0 +1,114 @@
+{
+  "extra": {
+    "expert_description": {
+      "backend": "published_mattervial_features_plus_modnet_ensemble",
+      "bridge": "mattervial_modnet_v1",
+      "feature_selection_scope": "current_fit_partition_only",
+      "latent": "canonical_target_free_mvl_all_288d",
+      "prediction_target_visibility": "none_until_artifact_evaluation",
+      "predictor_blocks": [
+        "megnet_mm",
+        "megnet_ofm",
+        "mvl_all",
+        "orb_v3"
+      ],
+      "pretraining_overlap_status": "requires_separate_structure_overlap_audit"
+    },
+    "request_extra": {
+      "act": "relu",
+      "batch_size": 64,
+      "epochs": 1000,
+      "feature_selection_n_jobs": 16,
+      "heartbeat_seconds": 30,
+      "increase_bs": false,
+      "latent_dim": 288,
+      "loss": "mae",
+      "lr": 0.005,
+      "n_feat": 512,
+      "n_models": 20,
+      "num_neurons": [
+        [
+          128
+        ],
+        [
+          32
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "predictor_blocks": [
+        "megnet_mm",
+        "megnet_ofm",
+        "mvl_all",
+        "orb_v3"
+      ],
+      "resume_members": true,
+      "smoke_test": false,
+      "smoke_xgb_preselect_fraction": 0.35,
+      "smoke_xgb_preselect_target": 64,
+      "use_precomputed_cross_nmi": false,
+      "verbose": 0,
+      "verify_cache_hashes": false,
+      "xgb_preselect_fraction": 0.1,
+      "xgb_preselect_target": 800,
+      "xgb_random_state": 1
+    }
+  },
+  "latents": {
+    "filename": "latents.npz",
+    "sha256": "fdc733c89532fc19b6f4595b8ca71416b3147f5bcbe5e52cab16aea07d8cf654",
+    "shape": [
+      952,
+      288
+    ]
+  },
+  "model": {
+    "family": "mattervial_modnet_v1",
+    "name": "mattervial_modnet",
+    "pretrained_disclosure": {
+      "expert_name": "mattervial_modnet",
+      "overlap_audit_required": true,
+      "uses_pretraining": true
+    }
+  },
+  "predictions": {
+    "filename": "predictions.npz",
+    "n_samples": 952,
+    "sha256": "68197ae092f4d9d72cd4f2f80b7ea65c6c7d958591b55a2aa7a4bf5ea6c8aeed",
+    "uncertainty_present": true,
+    "value_kind": "regression_value"
+  },
+  "provenance": {
+    "checkpoint_sha256": "3c1a03683738fcf3fed3ae10b4c513d651e791734c46bd13d0adee7ca703f867",
+    "environment_lock_sha256": "3041d39d2fb698f9cfdb9d19dc820f6bbdca361f046931154f4131518b195498",
+    "raw_sha256": "83befa09bc2ec2f4b6143afc413157827a90e5e2e42c1eb507ccfa01bf26a1d6",
+    "task_manifest_digest": "d1e11ca432e342bfc412a429305b2ca1c08408f40e1e6529a0b853ace28d9e82"
+  },
+  "run_id": "outer_test",
+  "run_kind": "production",
+  "schema_version": "1.0",
+  "selection": {
+    "outer_test_used": false,
+    "source": "externally_predeclared_published_recipe"
+  },
+  "split": {
+    "outer_fold": 4,
+    "role": "outer_test",
+    "sample_order": "exact_split_manifest_order",
+    "inner_fold": null
+  },
+  "task": {
+    "direction": "minimize",
+    "input_type": "structure",
+    "matbench_name": "matbench_dielectric",
+    "metric": "mae",
+    "target": "n",
+    "task_name": "dielectric",
+    "task_type": "regression",
+    "unit": "unitless"
+  }
+}

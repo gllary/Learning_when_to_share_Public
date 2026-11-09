@@ -1,0 +1,1016 @@
+[
+  {
+    "symbol": "H",
+    "atomic_number": 1.0,
+    "atomic_mass": 1.00794,
+    "electronegativity": 2.2,
+    "atomic_radius": 0.25,
+    "period": 1.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "He",
+    "atomic_number": 2.0,
+    "atomic_mass": 4.002602,
+    "period": 1.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "Li",
+    "atomic_number": 3.0,
+    "atomic_mass": 6.941,
+    "electronegativity": 0.98,
+    "atomic_radius": 1.45,
+    "period": 2.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Be",
+    "atomic_number": 4.0,
+    "atomic_mass": 9.012182,
+    "electronegativity": 1.57,
+    "atomic_radius": 1.05,
+    "period": 2.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "B",
+    "atomic_number": 5.0,
+    "atomic_mass": 10.811,
+    "electronegativity": 2.04,
+    "atomic_radius": 0.85,
+    "period": 2.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "C",
+    "atomic_number": 6.0,
+    "atomic_mass": 12.0107,
+    "electronegativity": 2.55,
+    "atomic_radius": 0.7,
+    "period": 2.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "N",
+    "atomic_number": 7.0,
+    "atomic_mass": 14.0067,
+    "electronegativity": 3.04,
+    "atomic_radius": 0.65,
+    "period": 2.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "O",
+    "atomic_number": 8.0,
+    "atomic_mass": 15.9994,
+    "electronegativity": 3.44,
+    "atomic_radius": 0.6,
+    "period": 2.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "F",
+    "atomic_number": 9.0,
+    "atomic_mass": 18.9984032,
+    "electronegativity": 3.98,
+    "atomic_radius": 0.5,
+    "period": 2.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Ne",
+    "atomic_number": 10.0,
+    "atomic_mass": 20.1797,
+    "period": 2.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "Na",
+    "atomic_number": 11.0,
+    "atomic_mass": 22.98976928,
+    "electronegativity": 0.93,
+    "atomic_radius": 1.8,
+    "period": 3.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Mg",
+    "atomic_number": 12.0,
+    "atomic_mass": 24.305,
+    "electronegativity": 1.31,
+    "atomic_radius": 1.5,
+    "period": 3.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "Al",
+    "atomic_number": 13.0,
+    "atomic_mass": 26.9815386,
+    "electronegativity": 1.61,
+    "atomic_radius": 1.25,
+    "period": 3.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "Si",
+    "atomic_number": 14.0,
+    "atomic_mass": 28.0855,
+    "electronegativity": 1.9,
+    "atomic_radius": 1.1,
+    "period": 3.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "P",
+    "atomic_number": 15.0,
+    "atomic_mass": 30.973762,
+    "electronegativity": 2.19,
+    "atomic_radius": 1.0,
+    "period": 3.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "S",
+    "atomic_number": 16.0,
+    "atomic_mass": 32.065,
+    "electronegativity": 2.58,
+    "atomic_radius": 1.0,
+    "period": 3.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "Cl",
+    "atomic_number": 17.0,
+    "atomic_mass": 35.453,
+    "electronegativity": 3.16,
+    "atomic_radius": 1.0,
+    "period": 3.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Ar",
+    "atomic_number": 18.0,
+    "atomic_mass": 39.948,
+    "atomic_radius": 0.71,
+    "period": 3.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "K",
+    "atomic_number": 19.0,
+    "atomic_mass": 39.0983,
+    "electronegativity": 0.82,
+    "atomic_radius": 2.2,
+    "period": 4.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Ca",
+    "atomic_number": 20.0,
+    "atomic_mass": 40.078,
+    "electronegativity": 1.0,
+    "atomic_radius": 1.8,
+    "period": 4.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "Sc",
+    "atomic_number": 21.0,
+    "atomic_mass": 44.955912,
+    "electronegativity": 1.36,
+    "atomic_radius": 1.6,
+    "period": 4.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Ti",
+    "atomic_number": 22.0,
+    "atomic_mass": 47.867,
+    "electronegativity": 1.54,
+    "atomic_radius": 1.4,
+    "period": 4.0,
+    "group": 4.0
+  },
+  {
+    "symbol": "V",
+    "atomic_number": 23.0,
+    "atomic_mass": 50.9415,
+    "electronegativity": 1.63,
+    "atomic_radius": 1.35,
+    "period": 4.0,
+    "group": 5.0
+  },
+  {
+    "symbol": "Cr",
+    "atomic_number": 24.0,
+    "atomic_mass": 51.9961,
+    "electronegativity": 1.66,
+    "atomic_radius": 1.4,
+    "period": 4.0,
+    "group": 6.0
+  },
+  {
+    "symbol": "Mn",
+    "atomic_number": 25.0,
+    "atomic_mass": 54.938045,
+    "electronegativity": 1.55,
+    "atomic_radius": 1.4,
+    "period": 4.0,
+    "group": 7.0
+  },
+  {
+    "symbol": "Fe",
+    "atomic_number": 26.0,
+    "atomic_mass": 55.845,
+    "electronegativity": 1.83,
+    "atomic_radius": 1.4,
+    "period": 4.0,
+    "group": 8.0
+  },
+  {
+    "symbol": "Co",
+    "atomic_number": 27.0,
+    "atomic_mass": 58.933195,
+    "electronegativity": 1.88,
+    "atomic_radius": 1.35,
+    "period": 4.0,
+    "group": 9.0
+  },
+  {
+    "symbol": "Ni",
+    "atomic_number": 28.0,
+    "atomic_mass": 58.6934,
+    "electronegativity": 1.91,
+    "atomic_radius": 1.35,
+    "period": 4.0,
+    "group": 10.0
+  },
+  {
+    "symbol": "Cu",
+    "atomic_number": 29.0,
+    "atomic_mass": 63.546,
+    "electronegativity": 1.9,
+    "atomic_radius": 1.35,
+    "period": 4.0,
+    "group": 11.0
+  },
+  {
+    "symbol": "Zn",
+    "atomic_number": 30.0,
+    "atomic_mass": 65.409,
+    "electronegativity": 1.65,
+    "atomic_radius": 1.35,
+    "period": 4.0,
+    "group": 12.0
+  },
+  {
+    "symbol": "Ga",
+    "atomic_number": 31.0,
+    "atomic_mass": 69.723,
+    "electronegativity": 1.81,
+    "atomic_radius": 1.3,
+    "period": 4.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "Ge",
+    "atomic_number": 32.0,
+    "atomic_mass": 72.64,
+    "electronegativity": 2.01,
+    "atomic_radius": 1.25,
+    "period": 4.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "As",
+    "atomic_number": 33.0,
+    "atomic_mass": 74.9216,
+    "electronegativity": 2.18,
+    "atomic_radius": 1.15,
+    "period": 4.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "Se",
+    "atomic_number": 34.0,
+    "atomic_mass": 78.96,
+    "electronegativity": 2.55,
+    "atomic_radius": 1.15,
+    "period": 4.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "Br",
+    "atomic_number": 35.0,
+    "atomic_mass": 79.904,
+    "electronegativity": 2.96,
+    "atomic_radius": 1.15,
+    "period": 4.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Kr",
+    "atomic_number": 36.0,
+    "atomic_mass": 83.798,
+    "electronegativity": 3.0,
+    "period": 4.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "Rb",
+    "atomic_number": 37.0,
+    "atomic_mass": 85.4678,
+    "electronegativity": 0.82,
+    "atomic_radius": 2.35,
+    "period": 5.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Sr",
+    "atomic_number": 38.0,
+    "atomic_mass": 87.62,
+    "electronegativity": 0.95,
+    "atomic_radius": 2.0,
+    "period": 5.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "Y",
+    "atomic_number": 39.0,
+    "atomic_mass": 88.90585,
+    "electronegativity": 1.22,
+    "atomic_radius": 1.8,
+    "period": 5.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Zr",
+    "atomic_number": 40.0,
+    "atomic_mass": 91.224,
+    "electronegativity": 1.33,
+    "atomic_radius": 1.55,
+    "period": 5.0,
+    "group": 4.0
+  },
+  {
+    "symbol": "Nb",
+    "atomic_number": 41.0,
+    "atomic_mass": 92.90638,
+    "electronegativity": 1.6,
+    "atomic_radius": 1.45,
+    "period": 5.0,
+    "group": 5.0
+  },
+  {
+    "symbol": "Mo",
+    "atomic_number": 42.0,
+    "atomic_mass": 95.94,
+    "electronegativity": 2.16,
+    "atomic_radius": 1.45,
+    "period": 5.0,
+    "group": 6.0
+  },
+  {
+    "symbol": "Tc",
+    "atomic_number": 43.0,
+    "atomic_mass": 98.0,
+    "electronegativity": 1.9,
+    "atomic_radius": 1.35,
+    "period": 5.0,
+    "group": 7.0
+  },
+  {
+    "symbol": "Ru",
+    "atomic_number": 44.0,
+    "atomic_mass": 101.07,
+    "electronegativity": 2.2,
+    "atomic_radius": 1.3,
+    "period": 5.0,
+    "group": 8.0
+  },
+  {
+    "symbol": "Rh",
+    "atomic_number": 45.0,
+    "atomic_mass": 102.9055,
+    "electronegativity": 2.28,
+    "atomic_radius": 1.35,
+    "period": 5.0,
+    "group": 9.0
+  },
+  {
+    "symbol": "Pd",
+    "atomic_number": 46.0,
+    "atomic_mass": 106.42,
+    "electronegativity": 2.2,
+    "atomic_radius": 1.4,
+    "period": 5.0,
+    "group": 10.0
+  },
+  {
+    "symbol": "Ag",
+    "atomic_number": 47.0,
+    "atomic_mass": 107.8682,
+    "electronegativity": 1.93,
+    "atomic_radius": 1.6,
+    "period": 5.0,
+    "group": 11.0
+  },
+  {
+    "symbol": "Cd",
+    "atomic_number": 48.0,
+    "atomic_mass": 112.411,
+    "electronegativity": 1.69,
+    "atomic_radius": 1.55,
+    "period": 5.0,
+    "group": 12.0
+  },
+  {
+    "symbol": "In",
+    "atomic_number": 49.0,
+    "atomic_mass": 114.818,
+    "electronegativity": 1.78,
+    "atomic_radius": 1.55,
+    "period": 5.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "Sn",
+    "atomic_number": 50.0,
+    "atomic_mass": 118.71,
+    "electronegativity": 1.96,
+    "atomic_radius": 1.45,
+    "period": 5.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "Sb",
+    "atomic_number": 51.0,
+    "atomic_mass": 121.76,
+    "electronegativity": 2.05,
+    "atomic_radius": 1.45,
+    "period": 5.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "Te",
+    "atomic_number": 52.0,
+    "atomic_mass": 127.6,
+    "electronegativity": 2.1,
+    "atomic_radius": 1.4,
+    "period": 5.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "I",
+    "atomic_number": 53.0,
+    "atomic_mass": 126.90447,
+    "electronegativity": 2.66,
+    "atomic_radius": 1.4,
+    "period": 5.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Xe",
+    "atomic_number": 54.0,
+    "atomic_mass": 131.293,
+    "electronegativity": 2.6,
+    "period": 5.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "Cs",
+    "atomic_number": 55.0,
+    "atomic_mass": 132.9054519,
+    "electronegativity": 0.79,
+    "atomic_radius": 2.6,
+    "period": 6.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Ba",
+    "atomic_number": 56.0,
+    "atomic_mass": 137.327,
+    "electronegativity": 0.89,
+    "atomic_radius": 2.15,
+    "period": 6.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "La",
+    "atomic_number": 57.0,
+    "atomic_mass": 138.90547,
+    "electronegativity": 1.1,
+    "atomic_radius": 1.95,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Ce",
+    "atomic_number": 58.0,
+    "atomic_mass": 140.116,
+    "electronegativity": 1.12,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Pr",
+    "atomic_number": 59.0,
+    "atomic_mass": 140.90765,
+    "electronegativity": 1.13,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Nd",
+    "atomic_number": 60.0,
+    "atomic_mass": 144.242,
+    "electronegativity": 1.14,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Pm",
+    "atomic_number": 61.0,
+    "atomic_mass": 145.0,
+    "electronegativity": 1.13,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Sm",
+    "atomic_number": 62.0,
+    "atomic_mass": 150.36,
+    "electronegativity": 1.17,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Eu",
+    "atomic_number": 63.0,
+    "atomic_mass": 151.964,
+    "electronegativity": 1.2,
+    "atomic_radius": 1.85,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Gd",
+    "atomic_number": 64.0,
+    "atomic_mass": 157.25,
+    "electronegativity": 1.2,
+    "atomic_radius": 1.8,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Tb",
+    "atomic_number": 65.0,
+    "atomic_mass": 158.92535,
+    "electronegativity": 1.1,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Dy",
+    "atomic_number": 66.0,
+    "atomic_mass": 162.5,
+    "electronegativity": 1.22,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Ho",
+    "atomic_number": 67.0,
+    "atomic_mass": 164.93032,
+    "electronegativity": 1.23,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Er",
+    "atomic_number": 68.0,
+    "atomic_mass": 167.259,
+    "electronegativity": 1.24,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Tm",
+    "atomic_number": 69.0,
+    "atomic_mass": 168.93421,
+    "electronegativity": 1.25,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Yb",
+    "atomic_number": 70.0,
+    "atomic_mass": 173.04,
+    "electronegativity": 1.1,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Lu",
+    "atomic_number": 71.0,
+    "atomic_mass": 174.967,
+    "electronegativity": 1.27,
+    "atomic_radius": 1.75,
+    "period": 6.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Hf",
+    "atomic_number": 72.0,
+    "atomic_mass": 178.49,
+    "electronegativity": 1.3,
+    "atomic_radius": 1.55,
+    "period": 6.0,
+    "group": 4.0
+  },
+  {
+    "symbol": "Ta",
+    "atomic_number": 73.0,
+    "atomic_mass": 180.94788,
+    "electronegativity": 1.5,
+    "atomic_radius": 1.45,
+    "period": 6.0,
+    "group": 5.0
+  },
+  {
+    "symbol": "W",
+    "atomic_number": 74.0,
+    "atomic_mass": 183.84,
+    "electronegativity": 2.36,
+    "atomic_radius": 1.35,
+    "period": 6.0,
+    "group": 6.0
+  },
+  {
+    "symbol": "Re",
+    "atomic_number": 75.0,
+    "atomic_mass": 186.207,
+    "electronegativity": 1.9,
+    "atomic_radius": 1.35,
+    "period": 6.0,
+    "group": 7.0
+  },
+  {
+    "symbol": "Os",
+    "atomic_number": 76.0,
+    "atomic_mass": 190.23,
+    "electronegativity": 2.2,
+    "atomic_radius": 1.3,
+    "period": 6.0,
+    "group": 8.0
+  },
+  {
+    "symbol": "Ir",
+    "atomic_number": 77.0,
+    "atomic_mass": 192.217,
+    "electronegativity": 2.2,
+    "atomic_radius": 1.35,
+    "period": 6.0,
+    "group": 9.0
+  },
+  {
+    "symbol": "Pt",
+    "atomic_number": 78.0,
+    "atomic_mass": 195.084,
+    "electronegativity": 2.28,
+    "atomic_radius": 1.35,
+    "period": 6.0,
+    "group": 10.0
+  },
+  {
+    "symbol": "Au",
+    "atomic_number": 79.0,
+    "atomic_mass": 196.966569,
+    "electronegativity": 2.54,
+    "atomic_radius": 1.35,
+    "period": 6.0,
+    "group": 11.0
+  },
+  {
+    "symbol": "Hg",
+    "atomic_number": 80.0,
+    "atomic_mass": 200.59,
+    "electronegativity": 2.0,
+    "atomic_radius": 1.5,
+    "period": 6.0,
+    "group": 12.0
+  },
+  {
+    "symbol": "Tl",
+    "atomic_number": 81.0,
+    "atomic_mass": 204.3833,
+    "electronegativity": 1.62,
+    "atomic_radius": 1.9,
+    "period": 6.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "Pb",
+    "atomic_number": 82.0,
+    "atomic_mass": 207.2,
+    "electronegativity": 2.33,
+    "atomic_radius": 1.8,
+    "period": 6.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "Bi",
+    "atomic_number": 83.0,
+    "atomic_mass": 208.9804,
+    "electronegativity": 2.02,
+    "atomic_radius": 1.6,
+    "period": 6.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "Po",
+    "atomic_number": 84.0,
+    "atomic_mass": 210.0,
+    "electronegativity": 2.0,
+    "atomic_radius": 1.9,
+    "period": 6.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "At",
+    "atomic_number": 85.0,
+    "atomic_mass": 210.0,
+    "electronegativity": 2.2,
+    "period": 6.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Rn",
+    "atomic_number": 86.0,
+    "atomic_mass": 220.0,
+    "electronegativity": 2.2,
+    "period": 6.0,
+    "group": 18.0
+  },
+  {
+    "symbol": "Fr",
+    "atomic_number": 87.0,
+    "atomic_mass": 223.0,
+    "electronegativity": 0.7,
+    "period": 7.0,
+    "group": 1.0
+  },
+  {
+    "symbol": "Ra",
+    "atomic_number": 88.0,
+    "atomic_mass": 226.0,
+    "electronegativity": 0.9,
+    "atomic_radius": 2.15,
+    "period": 7.0,
+    "group": 2.0
+  },
+  {
+    "symbol": "Ac",
+    "atomic_number": 89.0,
+    "atomic_mass": 227.0,
+    "electronegativity": 1.1,
+    "atomic_radius": 1.95,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Th",
+    "atomic_number": 90.0,
+    "atomic_mass": 232.03806,
+    "electronegativity": 1.3,
+    "atomic_radius": 1.8,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Pa",
+    "atomic_number": 91.0,
+    "atomic_mass": 231.03588,
+    "electronegativity": 1.5,
+    "atomic_radius": 1.8,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "U",
+    "atomic_number": 92.0,
+    "atomic_mass": 238.02891,
+    "electronegativity": 1.38,
+    "atomic_radius": 1.75,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Np",
+    "atomic_number": 93.0,
+    "atomic_mass": 237.0,
+    "electronegativity": 1.36,
+    "atomic_radius": 1.75,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Pu",
+    "atomic_number": 94.0,
+    "atomic_mass": 244.0,
+    "electronegativity": 1.28,
+    "atomic_radius": 1.75,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Am",
+    "atomic_number": 95.0,
+    "atomic_mass": 243.0,
+    "electronegativity": 1.3,
+    "atomic_radius": 1.75,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Cm",
+    "atomic_number": 96.0,
+    "atomic_mass": 247.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Bk",
+    "atomic_number": 97.0,
+    "atomic_mass": 247.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Cf",
+    "atomic_number": 98.0,
+    "atomic_mass": 251.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Es",
+    "atomic_number": 99.0,
+    "atomic_mass": 252.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Fm",
+    "atomic_number": 100.0,
+    "atomic_mass": 257.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Md",
+    "atomic_number": 101.0,
+    "atomic_mass": 258.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "No",
+    "atomic_number": 102.0,
+    "atomic_mass": 259.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Lr",
+    "atomic_number": 103.0,
+    "atomic_mass": 262.0,
+    "electronegativity": 1.3,
+    "period": 7.0,
+    "group": 3.0
+  },
+  {
+    "symbol": "Rf",
+    "atomic_number": 104.0,
+    "atomic_mass": 267.0,
+    "period": 7.0,
+    "group": 4.0
+  },
+  {
+    "symbol": "Db",
+    "atomic_number": 105.0,
+    "atomic_mass": 268.0,
+    "period": 7.0,
+    "group": 5.0
+  },
+  {
+    "symbol": "Sg",
+    "atomic_number": 106.0,
+    "atomic_mass": 269.0,
+    "period": 7.0,
+    "group": 6.0
+  },
+  {
+    "symbol": "Bh",
+    "atomic_number": 107.0,
+    "atomic_mass": 270.0,
+    "period": 7.0,
+    "group": 7.0
+  },
+  {
+    "symbol": "Hs",
+    "atomic_number": 108.0,
+    "atomic_mass": 270.0,
+    "period": 7.0,
+    "group": 8.0
+  },
+  {
+    "symbol": "Mt",
+    "atomic_number": 109.0,
+    "atomic_mass": 278.0,
+    "period": 7.0,
+    "group": 9.0
+  },
+  {
+    "symbol": "Ds",
+    "atomic_number": 110.0,
+    "atomic_mass": 281.0,
+    "period": 7.0,
+    "group": 10.0
+  },
+  {
+    "symbol": "Rg",
+    "atomic_number": 111.0,
+    "atomic_mass": 282.0,
+    "period": 7.0,
+    "group": 11.0
+  },
+  {
+    "symbol": "Cn",
+    "atomic_number": 112.0,
+    "atomic_mass": 285.0,
+    "period": 7.0,
+    "group": 12.0
+  },
+  {
+    "symbol": "Nh",
+    "atomic_number": 113.0,
+    "atomic_mass": 286.0,
+    "period": 7.0,
+    "group": 13.0
+  },
+  {
+    "symbol": "Fl",
+    "atomic_number": 114.0,
+    "atomic_mass": 289.0,
+    "period": 7.0,
+    "group": 14.0
+  },
+  {
+    "symbol": "Mc",
+    "atomic_number": 115.0,
+    "atomic_mass": 290.0,
+    "period": 7.0,
+    "group": 15.0
+  },
+  {
+    "symbol": "Lv",
+    "atomic_number": 116.0,
+    "atomic_mass": 293.0,
+    "period": 7.0,
+    "group": 16.0
+  },
+  {
+    "symbol": "Ts",
+    "atomic_number": 117.0,
+    "atomic_mass": 294.0,
+    "period": 7.0,
+    "group": 17.0
+  },
+  {
+    "symbol": "Og",
+    "atomic_number": 118.0,
+    "atomic_mass": 294.0,
+    "period": 7.0,
+    "group": 18.0
+  }
+]

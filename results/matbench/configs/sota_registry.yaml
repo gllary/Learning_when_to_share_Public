@@ -1,0 +1,118 @@
+tasks:
+  steels:
+    matbench_name: matbench_steels
+    input_type: composition
+    task_type: regression
+    n_samples: 312
+    target: yield strength
+    unit: MPa
+    metric: mae
+    direction: minimize
+  expt_gap:
+    matbench_name: matbench_expt_gap
+    input_type: composition
+    task_type: regression
+    n_samples: 4604
+    target: gap expt
+    unit: eV
+    metric: mae
+    direction: minimize
+  glass:
+    matbench_name: matbench_glass
+    input_type: composition
+    task_type: classification
+    n_samples: 5680
+    target: gfa
+    unit: null
+    metric: roc_auc
+    direction: maximize
+  expt_is_metal:
+    matbench_name: matbench_expt_is_metal
+    input_type: composition
+    task_type: classification
+    n_samples: 4921
+    target: is_metal
+    unit: null
+    metric: roc_auc
+    direction: maximize
+  jdft2d:
+    matbench_name: matbench_jdft2d
+    input_type: structure
+    task_type: regression
+    n_samples: 636
+    target: exfoliation_en
+    unit: meV/atom
+    metric: mae
+    direction: minimize
+  dielectric:
+    matbench_name: matbench_dielectric
+    input_type: structure
+    task_type: regression
+    n_samples: 4764
+    target: n
+    unit: unitless
+    metric: mae
+    direction: minimize
+  log_kvrh:
+    matbench_name: matbench_log_kvrh
+    input_type: structure
+    task_type: regression
+    n_samples: 10987
+    target: log10(K_VRH)
+    unit: log10(GPa)
+    metric: mae
+    direction: minimize
+  log_gvrh:
+    matbench_name: matbench_log_gvrh
+    input_type: structure
+    task_type: regression
+    n_samples: 10987
+    target: log10(G_VRH)
+    unit: log10(GPa)
+    metric: mae
+    direction: minimize
+  perovskites:
+    matbench_name: matbench_perovskites
+    input_type: structure
+    task_type: regression
+    n_samples: 18928
+    target: e_form
+    unit: eV/unit cell
+    metric: mae
+    direction: minimize
+  phonons:
+    matbench_name: matbench_phonons
+    input_type: structure
+    task_type: regression
+    n_samples: 1265
+    target: last phdos peak
+    unit: cm^-1
+    metric: mae
+    direction: minimize
+  mp_gap:
+    matbench_name: matbench_mp_gap
+    input_type: structure
+    task_type: regression
+    n_samples: 106113
+    target: gap pbe
+    unit: eV
+    metric: mae
+    direction: minimize
+  mp_is_metal:
+    matbench_name: matbench_mp_is_metal
+    input_type: structure
+    task_type: classification
+    n_samples: 106113
+    target: is_metal
+    unit: null
+    metric: roc_auc
+    direction: maximize
+  mp_e_form:
+    matbench_name: matbench_mp_e_form
+    input_type: structure
+    task_type: regression
+    n_samples: 132752
+    target: e_form
+    unit: eV/atom
+    metric: mae
+    direction: minimize

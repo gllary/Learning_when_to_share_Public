@@ -1,0 +1,35 @@
+{
+  "dtype": "float64",
+  "elements": [
+    "Al",
+    "C",
+    "Co",
+    "Cr",
+    "Fe",
+    "Mn",
+    "Mo",
+    "N",
+    "Nb",
+    "Ni",
+    "Si",
+    "Ti",
+    "V",
+    "W"
+  ],
+  "feature_recipe": "official_tpot_mat_14_element_vector_v2_fe_retained",
+  "features_sha256": "91c0d5d5ba0f86fd6a2aee3d0f20bcd57a2c7925d533e27e06fdcf5e4eba4a74",
+  "fit_statistics_used": false,
+  "manifest_digest": "aa28b6e6fac2c1db76cc87dd83bdb2fa0204568c0094a14f4206ef72fce9afce",
+  "raw_sha256": "473bc4957b2ea5e6465aef84bc29bb48ac34db27d69ea4ec5f508745c6fae252",
+  "sample_ids_sha256": "bfd3eb8df52c1122f1afda996fbc6533e1b010c4f6f252501b35c8b8722c3361",
+  "schema_version": 1,
+  "shape": [
+    312,
+    14
+  ],
+  "source_target_column_present": true,
+  "source_target_values_used_for_features": false,
+  "status": "complete",
+  "target_values_stored": false,
+  "task": "steels"
+}

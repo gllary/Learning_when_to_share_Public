@@ -1,0 +1,175 @@
+{
+  "dataset": "matbench",
+  "architecture": "model",
+  "source_checkpoint_manifest": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "checked_checkpoints": 100,
+  "expert_columns": [
+    {
+      "column": 0,
+      "expert_id": "tpot_mat_steels_anchor"
+    },
+    {
+      "column": 1,
+      "expert_id": "mattervial_expt_gap_anchor"
+    },
+    {
+      "column": 2,
+      "expert_id": "anchorboost_glass_anchor"
+    },
+    {
+      "column": 3,
+      "expert_id": "mattervial_expt_is_metal_anchor"
+    },
+    {
+      "column": 4,
+      "expert_id": "jmp_l_jdft2d_anchor"
+    },
+    {
+      "column": 5,
+      "expert_id": "mattervial_dielectric_anchor"
+    },
+    {
+      "column": 6,
+      "expert_id": "mattervial_log_kvrh_anchor"
+    },
+    {
+      "column": 7,
+      "expert_id": "mattervial_log_gvrh_anchor"
+    },
+    {
+      "column": 8,
+      "expert_id": "jmp_l_perovskites_anchor"
+    },
+    {
+      "column": 9,
+      "expert_id": "jmp_l_phonons_anchor"
+    },
+    {
+      "column": 10,
+      "expert_id": "jmp_l_mp_gap_anchor"
+    },
+    {
+      "column": 11,
+      "expert_id": "mattervial_mp_is_metal_anchor"
+    },
+    {
+      "column": 12,
+      "expert_id": "jmp_l_mp_e_form_anchor"
+    }
+  ],
+  "task_order": [
+    "steels",
+    "expt_gap",
+    "glass",
+    "expt_is_metal",
+    "jdft2d",
+    "dielectric",
+    "log_kvrh",
+    "log_gvrh",
+    "perovskites",
+    "phonons",
+    "mp_gap",
+    "mp_is_metal",
+    "mp_e_form"
+  ],
+  "anchor_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "attention_fields": {
+    "data_attention": "SC",
+    "physics_attention": "RC"
+  },
+  "route_columns": [
+    "anchor_technical_fallback",
+    "SC",
+    "RC"
+  ],
+  "averaged_attention_is_not_member_attention": true,
+  "weights_are_not_causal_attribution": true,
+  "new_inference": false,
+  "anchor_map": {
+    "dielectric": "mattervial_dielectric_anchor",
+    "expt_gap": "mattervial_expt_gap_anchor",
+    "expt_is_metal": "mattervial_expt_is_metal_anchor",
+    "glass": "anchorboost_glass_anchor",
+    "jdft2d": "jmp_l_jdft2d_anchor",
+    "log_gvrh": "mattervial_log_gvrh_anchor",
+    "log_kvrh": "mattervial_log_kvrh_anchor",
+    "mp_e_form": "jmp_l_mp_e_form_anchor",
+    "mp_gap": "jmp_l_mp_gap_anchor",
+    "mp_is_metal": "mattervial_mp_is_metal_anchor",
+    "perovskites": "jmp_l_perovskites_anchor",
+    "phonons": "jmp_l_phonons_anchor",
+    "steels": "tpot_mat_steels_anchor"
+  },
+  "member_routing_component_columns": [
+    "anchor_standard",
+    "SC_residual",
+    "RC_residual",
+    "raw_standard"
+  ],
+  "member_order": [
+    {
+      "member": 0,
+      "inner": 0,
+      "base_seed": 20261071
+    },
+    {
+      "member": 1,
+      "inner": 0,
+      "base_seed": 20261072
+    },
+    {
+      "member": 2,
+      "inner": 1,
+      "base_seed": 20261071
+    },
+    {
+      "member": 3,
+      "inner": 1,
+      "base_seed": 20261072
+    },
+    {
+      "member": 4,
+      "inner": 2,
+      "base_seed": 20261071
+    },
+    {
+      "member": 5,
+      "inner": 2,
+      "base_seed": 20261072
+    },
+    {
+      "member": 6,
+      "inner": 3,
+      "base_seed": 20261071
+    },
+    {
+      "member": 7,
+      "inner": 3,
+      "base_seed": 20261072
+    },
+    {
+      "member": 8,
+      "inner": 4,
+      "base_seed": 20261071
+    },
+    {
+      "member": 9,
+      "inner": 4,
+      "base_seed": 20261072
+    }
+  ]
+}

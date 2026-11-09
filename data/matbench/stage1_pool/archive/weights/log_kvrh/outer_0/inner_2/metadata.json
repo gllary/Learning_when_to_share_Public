@@ -1,0 +1,117 @@
+{
+  "extra": {
+    "expert_description": {
+      "backend": "published_mattervial_features_plus_modnet_ensemble",
+      "bridge": "mattervial_modnet_v2_multitask",
+      "feature_selection_scope": "current_fit_partition_only",
+      "latent": "canonical_target_free_task_recipe_right_padded_288d",
+      "prediction_target_visibility": "none_until_artifact_evaluation",
+      "predictor_blocks": "task_frozen_request",
+      "pretraining_overlap_status": "requires_separate_structure_overlap_audit"
+    },
+    "request_extra": {
+      "act": "relu",
+      "batch_size": 64,
+      "epochs": 1000,
+      "feature_selection_n_jobs": 16,
+      "heartbeat_seconds": 30,
+      "increase_bs": false,
+      "latent_blocks": [
+        "mvl16",
+        "mvl32"
+      ],
+      "latent_dim": 288,
+      "loss": "mae",
+      "lr": 0.005,
+      "n_feat": 512,
+      "n_models": 20,
+      "num_neurons": [
+        [
+          128
+        ],
+        [
+          32
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "predictor_blocks": [
+        "megnet_mm",
+        "megnet_ofm",
+        "mvl16",
+        "mvl32",
+        "roost_lmp",
+        "sisso_task"
+      ],
+      "resume_members": true,
+      "smoke_test": false,
+      "smoke_xgb_preselect_fraction": 0.35,
+      "smoke_xgb_preselect_target": 64,
+      "stacking_oof_only": true,
+      "task_type": "regression",
+      "use_precomputed_cross_nmi": false,
+      "verbose": 0,
+      "verify_cache_hashes": false,
+      "xgb_preselect_fraction": 0.1,
+      "xgb_preselect_target": 800,
+      "xgb_random_state": 1
+    }
+  },
+  "latents": {
+    "filename": "latents.npz",
+    "sha256": "9e4ffae771aa7b92f38842cc7c7a5e7e01c7ebb854b390f4e5f4a695b8d571d9",
+    "shape": [
+      1758,
+      288
+    ]
+  },
+  "model": {
+    "family": "mattervial_modnet_v2_multitask",
+    "name": "mattervial_modnet",
+    "pretrained_disclosure": {
+      "expert_name": "mattervial_modnet",
+      "overlap_audit_required": true,
+      "uses_pretraining": true
+    }
+  },
+  "predictions": {
+    "filename": "predictions.npz",
+    "n_samples": 1758,
+    "sha256": "1556775c4239cfdd74a4b6f67f460f183d308fb38e61bab382c15993db103cad",
+    "uncertainty_present": true,
+    "value_kind": "regression_value"
+  },
+  "provenance": {
+    "checkpoint_sha256": "8822b4378d7437ff2e40786c62303f7cb4d8a6d264b9e4108b9557e32276e5e8",
+    "environment_lock_sha256": "3041d39d2fb698f9cfdb9d19dc820f6bbdca361f046931154f4131518b195498",
+    "raw_sha256": "44b113ddb7e23aa18731a62c74afa7e5aa654199e0db5f951c8248a00955c9cd",
+    "task_manifest_digest": "e05d2e973546796f9ecae37e14ff7393bd341bbbe4bf4c4364a162a6f0e60918"
+  },
+  "run_id": "inner_2",
+  "run_kind": "production",
+  "schema_version": "1.0",
+  "selection": {
+    "outer_test_used": false,
+    "source": "externally_predeclared_published_recipe"
+  },
+  "split": {
+    "inner_fold": 2,
+    "outer_fold": 0,
+    "role": "inner_val",
+    "sample_order": "exact_split_manifest_order"
+  },
+  "task": {
+    "direction": "minimize",
+    "input_type": "structure",
+    "matbench_name": "matbench_log_kvrh",
+    "metric": "mae",
+    "target": "log10(K_VRH)",
+    "task_name": "log_kvrh",
+    "task_type": "regression",
+    "unit": "log10(GPa)"
+  }
+}

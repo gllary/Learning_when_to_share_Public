@@ -1,0 +1,7 @@
+{
+  "score": 0.028263256563527586,
+  "metric": "MAE",
+  "selected_epoch": 293,
+  "checkpoint_rule": "best_validation_mae",
+  "test_labels_read": false
+}

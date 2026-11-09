@@ -1,0 +1,88 @@
+{
+  "availability_policy": "technical_inability_only",
+  "available_rows": 1136,
+  "expert": {
+    "checkpoint_sha256": "f452a2adb3f36ff027c1d44ef3b5a52e26d66acac48a7924f2573c34398957f1",
+    "expert_id": "anchorboost_glass_anchor",
+    "frozen": true,
+    "hidden_dim": 512,
+    "input_modality": "enriched_composition_and_structure_descriptors",
+    "provider": "anchorboost_v2_own_task_inner_oof_20261028",
+    "representation_kind": "task_trained_hidden",
+    "source_task": "glass"
+  },
+  "files": {
+    "available": {
+      "dtype": "bool",
+      "filename": "available.npy",
+      "sha256": "2204141b74e9b8d464fda03833f350b4f97e7eb566e6eab9057e25944ec3da8c",
+      "shape": [
+        1136
+      ]
+    },
+    "hidden": {
+      "dtype": "float32",
+      "filename": "hidden.npy",
+      "sha256": "b152547d8e51472c63d37bdf71de29d3054b8a4cc5ccbc3d5a17db6fe150ff1b",
+      "shape": [
+        1136,
+        512
+      ]
+    },
+    "prediction": {
+      "dtype": "float32",
+      "filename": "prediction.npy",
+      "sha256": "c7f6179ad58ff24a5a02bbf41b283fd96b2a516e264c2b3ab807465c52f618c6",
+      "shape": [
+        1136
+      ]
+    },
+    "sample_ids": {
+      "dtype": "<U13",
+      "filename": "sample_ids.npy",
+      "sha256": "e13b6ccc60fa1df2f6e1d3a94f0558922f556e4c20af41c990ad34bcccf0c217",
+      "shape": [
+        1136
+      ]
+    },
+    "uncertainty": {
+      "dtype": "float32",
+      "filename": "uncertainty.npy",
+      "sha256": "84517fb31b2311dcacf4156ac6c357c0472b820fd37addba20fc3c22fb5523d2",
+      "shape": [
+        1136
+      ]
+    }
+  },
+  "label_values_stored": false,
+  "manifest_digest": "3db07417036734fe56890aae25882e0e31fe1501dfde66855a56fccfc538719b",
+  "n_samples": 1136,
+  "producer": {
+    "adapter": "anchorboost_v2_native_512d_checkpoint_replay_v15_2",
+    "checkpoint_fit_role": "outer_train",
+    "checkpoint_role": "outer",
+    "feature_preprocessor": "checkpoint/matbench/stage1/anchorboost_glass_anchor/outer_4/feature_preprocessor.joblib",
+    "feature_preprocessor_sha256": "397e8dbcb3f090e281eaeff310e5c08a4e95f067ccc477d86dbd8d747882b776",
+    "preprocessing_manifest": "checkpoint/matbench/stage1/anchorboost_glass_anchor/outer_4/preprocessing_manifest.json",
+    "relation_screening": "none",
+    "replay_receipt": {
+      "checkpoint_replayed_on_source_artifact": true,
+      "maximum_hidden_delta": 0.0,
+      "maximum_prediction_delta": 0.0,
+      "source_comparison_role": "outer_test"
+    },
+    "source_target_arrays_loaded": false,
+    "target_values_accessed_by_exporter": false
+  },
+  "protocol": "frozen_task_trained_hidden_export_v1",
+  "relation_screening": "none",
+  "schema_version": 12,
+  "split": {
+    "manifest_role": "outer_test",
+    "outer_fold": 4,
+    "role": "test",
+    "sample_order": "exact_stage1_manifest_order"
+  },
+  "target_task": "glass",
+  "unavailable_rows": 0
+}

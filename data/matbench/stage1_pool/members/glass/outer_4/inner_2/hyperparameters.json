@@ -1,0 +1,9 @@
+{
+  "blend_weights": [
+    0.07716033603290968,
+    0.6598986568095002,
+    0.2629410071575901
+  ],
+  "selected_mlp_epochs": 39,
+  "selected_xgb_iterations": 724
+}

@@ -1,0 +1,6 @@
+{
+  "score": 36.8656223155834,
+  "metric": "MAE",
+  "checkpoint_rule": "published fixed iterations",
+  "test_labels_read": false
+}

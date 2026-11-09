@@ -1,0 +1,6 @@
+{
+  "metric": "MAE",
+  "score": 0.26511541909840425,
+  "selected_epoch": 600,
+  "test_labels_read": false
+}

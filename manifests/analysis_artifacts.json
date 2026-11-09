@@ -1,0 +1,208 @@
+{
+  "scripts": [
+    "code/scripts/export_representation_inputs.py",
+    "code/scripts/recompute_representation_analysis.py",
+    "code/scripts/recompute_source_weights.py",
+    "code/scripts/recompute_s15_intervals.py",
+    "code/scripts/replay_matbench_source_weights.py",
+    "code/scripts/replay_jarvis_source_weights.py",
+    "code/scripts/plot_analysis_figures.py",
+    "code/scripts/supp_fig5_heatmap.py",
+    "code/scripts/analysis_coverage.py"
+  ],
+  "inputs": {
+    "representation": "data/analysis/representation/",
+    "source_weights": "records/analysis/source_weights/",
+    "external_predictions": "results/external/<cohort>/results/per_sample_frozen.csv",
+    "jarvis_calibration": "results/jarvis/full/calibration/<task>.json",
+    "matbench_summary": "results/tables/matbench.json",
+    "jarvis_summary": "results/tables/jarvis.json",
+    "matbench_calibration": "results/matbench/full/calibration/outer_<fold>/<task>.json"
+  },
+  "outputs": {
+    "representation": "results/analysis/representation/",
+    "source_weights": "results/analysis/source_weights/",
+    "figures": "results/analysis/figures/",
+    "paired_external_intervals": "results/analysis/external_intervals/s15_full_precision.csv"
+  },
+  "current_english_figure_map": {
+    "fig2": {
+      "manuscript_figure": "Fig. 2",
+      "files": [
+        "results/analysis/figures/fig2_source_allocation.png",
+        "results/analysis/figures/fig2_source_allocation.svg"
+      ]
+    },
+    "fig3": {
+      "manuscript_figure": "Fig. 3",
+      "files": [
+        "results/analysis/figures/fig3_ablation.png",
+        "results/analysis/figures/fig3_ablation.svg"
+      ]
+    },
+    "fig4": {
+      "manuscript_figure": "Fig. 4",
+      "files": [
+        "results/analysis/figures/fig4_external_errors.png",
+        "results/analysis/figures/fig4_external_errors.svg"
+      ]
+    },
+    "s1": {
+      "manuscript_figure": "Supplementary Fig. 1",
+      "files": [
+        "results/analysis/figures/matbench_fold_boxplots.png",
+        "results/analysis/figures/matbench_fold_boxplots.svg"
+      ]
+    },
+    "s2": {
+      "manuscript_figure": "Supplementary Fig. 2",
+      "files": [
+        "results/analysis/figures/supp_fig_s2_source_allocation.png",
+        "results/analysis/figures/supp_fig_s2_source_allocation.svg"
+      ]
+    },
+    "s3": {
+      "manuscript_figure": "Supplementary Fig. 3",
+      "files": [
+        "results/analysis/figures/supp_fig_s3_descriptor_cka.png",
+        "results/analysis/figures/supp_fig_s3_descriptor_cka.svg"
+      ]
+    },
+    "s4": {
+      "manuscript_figure": "Supplementary Fig. 4",
+      "files": [
+        "results/analysis/figures/supp_fig_s4_pca.png",
+        "results/analysis/figures/supp_fig_s4_pca.svg"
+      ]
+    },
+    "s5": {
+      "manuscript_figure": "Supplementary Fig. 5",
+      "files": [
+        "results/analysis/figures/supp_fig_s5_permutation_reference.png",
+        "results/analysis/figures/supp_fig_s5_permutation_reference.svg"
+      ]
+    }
+  },
+  "current_english_table_map": {
+    "s15": {
+      "manuscript_table": "Supplementary Table 15",
+      "script": "code/scripts/recompute_s15_intervals.py",
+      "protocol": "records/analysis/external_intervals/protocol.json",
+      "output": "results/analysis/external_intervals/s15_full_precision.csv"
+    },
+    "s17": {
+      "manuscript_table": "Supplementary Table 17",
+      "script": "code/scripts/recompute_representation_analysis.py",
+      "output": "results/analysis/representation/table_17.csv"
+    },
+    "s18": {
+      "manuscript_table": "Supplementary Table 18",
+      "script": "code/scripts/recompute_representation_analysis.py",
+      "output": "results/analysis/representation/table_18.csv"
+    }
+  },
+  "representation_input_manifest": "data/analysis/representation/metadata.json",
+  "representation_protocol": "records/analysis/representation/protocol.json",
+  "representation_files": [
+    "data/analysis/representation/descriptors/dielectric.csv.gz",
+    "data/analysis/representation/descriptors/expt_gap.csv.gz",
+    "data/analysis/representation/descriptors/expt_is_metal.csv.gz",
+    "data/analysis/representation/descriptors/glass.csv.gz",
+    "data/analysis/representation/descriptors/jdft2d.csv.gz",
+    "data/analysis/representation/descriptors/log_gvrh.csv.gz",
+    "data/analysis/representation/descriptors/log_kvrh.csv.gz",
+    "data/analysis/representation/descriptors/mp_e_form.csv.gz",
+    "data/analysis/representation/descriptors/mp_gap.csv.gz",
+    "data/analysis/representation/descriptors/mp_is_metal.csv.gz",
+    "data/analysis/representation/descriptors/perovskites.csv.gz",
+    "data/analysis/representation/descriptors/phonons.csv.gz",
+    "data/analysis/representation/descriptors/steels.csv.gz",
+    "data/analysis/representation/element_properties.json",
+    "data/analysis/representation/metadata.json",
+    "data/analysis/representation/pca/dielectric.csv.gz",
+    "data/analysis/representation/pca/expt_gap.csv.gz",
+    "data/analysis/representation/pca/expt_is_metal.csv.gz",
+    "data/analysis/representation/pca/glass.csv.gz",
+    "data/analysis/representation/pca/jdft2d.csv.gz",
+    "data/analysis/representation/pca/log_gvrh.csv.gz",
+    "data/analysis/representation/pca/log_kvrh.csv.gz",
+    "data/analysis/representation/pca/mp_e_form.csv.gz",
+    "data/analysis/representation/pca/mp_gap.csv.gz",
+    "data/analysis/representation/pca/mp_is_metal.csv.gz",
+    "data/analysis/representation/pca/perovskites.csv.gz",
+    "data/analysis/representation/pca/phonons.csv.gz",
+    "data/analysis/representation/pca/steels.csv.gz",
+    "data/analysis/representation/permutation_null_values.csv.gz",
+    "data/analysis/representation/reduced_representations/dielectric/outer_0.npz",
+    "data/analysis/representation/reduced_representations/dielectric/outer_1.npz",
+    "data/analysis/representation/reduced_representations/dielectric/outer_2.npz",
+    "data/analysis/representation/reduced_representations/dielectric/outer_3.npz",
+    "data/analysis/representation/reduced_representations/dielectric/outer_4.npz",
+    "data/analysis/representation/reduced_representations/expt_gap/outer_0.npz",
+    "data/analysis/representation/reduced_representations/expt_gap/outer_1.npz",
+    "data/analysis/representation/reduced_representations/expt_gap/outer_2.npz",
+    "data/analysis/representation/reduced_representations/expt_gap/outer_3.npz",
+    "data/analysis/representation/reduced_representations/expt_gap/outer_4.npz",
+    "data/analysis/representation/reduced_representations/expt_is_metal/outer_0.npz",
+    "data/analysis/representation/reduced_representations/expt_is_metal/outer_1.npz",
+    "data/analysis/representation/reduced_representations/expt_is_metal/outer_2.npz",
+    "data/analysis/representation/reduced_representations/expt_is_metal/outer_3.npz",
+    "data/analysis/representation/reduced_representations/expt_is_metal/outer_4.npz",
+    "data/analysis/representation/reduced_representations/glass/outer_0.npz",
+    "data/analysis/representation/reduced_representations/glass/outer_1.npz",
+    "data/analysis/representation/reduced_representations/glass/outer_2.npz",
+    "data/analysis/representation/reduced_representations/glass/outer_3.npz",
+    "data/analysis/representation/reduced_representations/glass/outer_4.npz",
+    "data/analysis/representation/reduced_representations/jdft2d/outer_0.npz",
+    "data/analysis/representation/reduced_representations/jdft2d/outer_1.npz",
+    "data/analysis/representation/reduced_representations/jdft2d/outer_2.npz",
+    "data/analysis/representation/reduced_representations/jdft2d/outer_3.npz",
+    "data/analysis/representation/reduced_representations/jdft2d/outer_4.npz",
+    "data/analysis/representation/reduced_representations/log_gvrh/outer_0.npz",
+    "data/analysis/representation/reduced_representations/log_gvrh/outer_1.npz",
+    "data/analysis/representation/reduced_representations/log_gvrh/outer_2.npz",
+    "data/analysis/representation/reduced_representations/log_gvrh/outer_3.npz",
+    "data/analysis/representation/reduced_representations/log_gvrh/outer_4.npz",
+    "data/analysis/representation/reduced_representations/log_kvrh/outer_0.npz",
+    "data/analysis/representation/reduced_representations/log_kvrh/outer_1.npz",
+    "data/analysis/representation/reduced_representations/log_kvrh/outer_2.npz",
+    "data/analysis/representation/reduced_representations/log_kvrh/outer_3.npz",
+    "data/analysis/representation/reduced_representations/log_kvrh/outer_4.npz",
+    "data/analysis/representation/reduced_representations/mp_e_form/outer_0.npz",
+    "data/analysis/representation/reduced_representations/mp_e_form/outer_1.npz",
+    "data/analysis/representation/reduced_representations/mp_e_form/outer_2.npz",
+    "data/analysis/representation/reduced_representations/mp_e_form/outer_3.npz",
+    "data/analysis/representation/reduced_representations/mp_e_form/outer_4.npz",
+    "data/analysis/representation/reduced_representations/mp_gap/outer_0.npz",
+    "data/analysis/representation/reduced_representations/mp_gap/outer_1.npz",
+    "data/analysis/representation/reduced_representations/mp_gap/outer_2.npz",
+    "data/analysis/representation/reduced_representations/mp_gap/outer_3.npz",
+    "data/analysis/representation/reduced_representations/mp_gap/outer_4.npz",
+    "data/analysis/representation/reduced_representations/mp_is_metal/outer_0.npz",
+    "data/analysis/representation/reduced_representations/mp_is_metal/outer_1.npz",
+    "data/analysis/representation/reduced_representations/mp_is_metal/outer_2.npz",
+    "data/analysis/representation/reduced_representations/mp_is_metal/outer_3.npz",
+    "data/analysis/representation/reduced_representations/mp_is_metal/outer_4.npz",
+    "data/analysis/representation/reduced_representations/perovskites/outer_0.npz",
+    "data/analysis/representation/reduced_representations/perovskites/outer_1.npz",
+    "data/analysis/representation/reduced_representations/perovskites/outer_2.npz",
+    "data/analysis/representation/reduced_representations/perovskites/outer_3.npz",
+    "data/analysis/representation/reduced_representations/perovskites/outer_4.npz",
+    "data/analysis/representation/reduced_representations/phonons/outer_0.npz",
+    "data/analysis/representation/reduced_representations/phonons/outer_1.npz",
+    "data/analysis/representation/reduced_representations/phonons/outer_2.npz",
+    "data/analysis/representation/reduced_representations/phonons/outer_3.npz",
+    "data/analysis/representation/reduced_representations/phonons/outer_4.npz",
+    "data/analysis/representation/reduced_representations/steels/outer_0.npz",
+    "data/analysis/representation/reduced_representations/steels/outer_1.npz",
+    "data/analysis/representation/reduced_representations/steels/outer_2.npz",
+    "data/analysis/representation/reduced_representations/steels/outer_3.npz",
+    "data/analysis/representation/reduced_representations/steels/outer_4.npz",
+    "results/analysis/representation/pca_coordinates.csv",
+    "results/analysis/representation/pca_metadata.csv",
+    "results/analysis/representation/representation_descriptor_cka.csv",
+    "results/analysis/representation/representation_summary.csv",
+    "results/analysis/representation/table_17.csv",
+    "results/analysis/representation/table_18.csv"
+  ]
+}

@@ -1,0 +1,1660 @@
+{
+  "task_order": [
+    "expt_is_metal",
+    "glass",
+    "mp_is_metal",
+    "dielectric",
+    "expt_gap",
+    "jdft2d",
+    "log_gvrh",
+    "log_kvrh",
+    "mp_e_form",
+    "mp_gap",
+    "perovskites",
+    "phonons",
+    "steels"
+  ],
+  "task_records": 408062,
+  "outer_test_folds": 65,
+  "pca_records": 81618,
+  "input_files": [
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_0/test/available.npy",
+      "role": "available",
+      "task": "dielectric",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "dielectric",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "dielectric",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "dielectric",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_1/test/available.npy",
+      "role": "available",
+      "task": "dielectric",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "dielectric",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "dielectric",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "dielectric",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_2/test/available.npy",
+      "role": "available",
+      "task": "dielectric",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "dielectric",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "dielectric",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "dielectric",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_3/test/available.npy",
+      "role": "available",
+      "task": "dielectric",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "dielectric",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "dielectric",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "dielectric",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_4/test/available.npy",
+      "role": "available",
+      "task": "dielectric",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "dielectric",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "dielectric",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_dielectric_anchor/dielectric/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "dielectric",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_0/test/available.npy",
+      "role": "available",
+      "task": "expt_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_1/test/available.npy",
+      "role": "available",
+      "task": "expt_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_2/test/available.npy",
+      "role": "available",
+      "task": "expt_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_3/test/available.npy",
+      "role": "available",
+      "task": "expt_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_4/test/available.npy",
+      "role": "available",
+      "task": "expt_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_gap_anchor/expt_gap/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_0/test/available.npy",
+      "role": "available",
+      "task": "expt_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_1/test/available.npy",
+      "role": "available",
+      "task": "expt_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_2/test/available.npy",
+      "role": "available",
+      "task": "expt_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_3/test/available.npy",
+      "role": "available",
+      "task": "expt_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_4/test/available.npy",
+      "role": "available",
+      "task": "expt_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "expt_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "expt_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_expt_is_metal_anchor/expt_is_metal/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "expt_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_0/test/available.npy",
+      "role": "available",
+      "task": "glass",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "glass",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "glass",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "glass",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_1/test/available.npy",
+      "role": "available",
+      "task": "glass",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "glass",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "glass",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "glass",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_2/test/available.npy",
+      "role": "available",
+      "task": "glass",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "glass",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "glass",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "glass",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_3/test/available.npy",
+      "role": "available",
+      "task": "glass",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "glass",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "glass",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "glass",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_4/test/available.npy",
+      "role": "available",
+      "task": "glass",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "glass",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "glass",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/anchorboost_glass_anchor/glass/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "glass",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_0/test/available.npy",
+      "role": "available",
+      "task": "jdft2d",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "jdft2d",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "jdft2d",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "jdft2d",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_1/test/available.npy",
+      "role": "available",
+      "task": "jdft2d",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "jdft2d",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "jdft2d",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "jdft2d",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_2/test/available.npy",
+      "role": "available",
+      "task": "jdft2d",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "jdft2d",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "jdft2d",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "jdft2d",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_3/test/available.npy",
+      "role": "available",
+      "task": "jdft2d",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "jdft2d",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "jdft2d",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "jdft2d",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_4/test/available.npy",
+      "role": "available",
+      "task": "jdft2d",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "jdft2d",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "jdft2d",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_jdft2d_anchor/jdft2d/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "jdft2d",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_0/test/available.npy",
+      "role": "available",
+      "task": "log_gvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_gvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_gvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_gvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_1/test/available.npy",
+      "role": "available",
+      "task": "log_gvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_gvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_gvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_gvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_2/test/available.npy",
+      "role": "available",
+      "task": "log_gvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_gvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_gvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_gvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_3/test/available.npy",
+      "role": "available",
+      "task": "log_gvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_gvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_gvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_gvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_4/test/available.npy",
+      "role": "available",
+      "task": "log_gvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_gvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_gvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_gvrh_anchor/log_gvrh/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_gvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_0/test/available.npy",
+      "role": "available",
+      "task": "log_kvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_kvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_kvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_kvrh",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_1/test/available.npy",
+      "role": "available",
+      "task": "log_kvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_kvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_kvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_kvrh",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_2/test/available.npy",
+      "role": "available",
+      "task": "log_kvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_kvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_kvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_kvrh",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_3/test/available.npy",
+      "role": "available",
+      "task": "log_kvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_kvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_kvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_kvrh",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_4/test/available.npy",
+      "role": "available",
+      "task": "log_kvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "log_kvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "log_kvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_log_kvrh_anchor/log_kvrh/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "log_kvrh",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_0/test/available.npy",
+      "role": "available",
+      "task": "mp_e_form",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_e_form",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_e_form",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_e_form",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_1/test/available.npy",
+      "role": "available",
+      "task": "mp_e_form",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_e_form",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_e_form",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_e_form",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_2/test/available.npy",
+      "role": "available",
+      "task": "mp_e_form",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_e_form",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_e_form",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_e_form",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_3/test/available.npy",
+      "role": "available",
+      "task": "mp_e_form",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_e_form",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_e_form",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_e_form",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_4/test/available.npy",
+      "role": "available",
+      "task": "mp_e_form",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_e_form",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_e_form",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_e_form_anchor/mp_e_form/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_e_form",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_0/test/available.npy",
+      "role": "available",
+      "task": "mp_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_gap",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_1/test/available.npy",
+      "role": "available",
+      "task": "mp_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_gap",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_2/test/available.npy",
+      "role": "available",
+      "task": "mp_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_gap",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_3/test/available.npy",
+      "role": "available",
+      "task": "mp_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_gap",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_4/test/available.npy",
+      "role": "available",
+      "task": "mp_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_mp_gap_anchor/mp_gap/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_gap",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_0/test/available.npy",
+      "role": "available",
+      "task": "mp_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_is_metal",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_1/test/available.npy",
+      "role": "available",
+      "task": "mp_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_is_metal",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_2/test/available.npy",
+      "role": "available",
+      "task": "mp_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_is_metal",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_3/test/available.npy",
+      "role": "available",
+      "task": "mp_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_is_metal",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_4/test/available.npy",
+      "role": "available",
+      "task": "mp_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "mp_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "mp_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/mattervial_mp_is_metal_anchor/mp_is_metal/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "mp_is_metal",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_0/test/available.npy",
+      "role": "available",
+      "task": "perovskites",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "perovskites",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "perovskites",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "perovskites",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_1/test/available.npy",
+      "role": "available",
+      "task": "perovskites",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "perovskites",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "perovskites",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "perovskites",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_2/test/available.npy",
+      "role": "available",
+      "task": "perovskites",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "perovskites",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "perovskites",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "perovskites",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_3/test/available.npy",
+      "role": "available",
+      "task": "perovskites",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "perovskites",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "perovskites",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "perovskites",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_4/test/available.npy",
+      "role": "available",
+      "task": "perovskites",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "perovskites",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "perovskites",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_perovskites_anchor/perovskites/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "perovskites",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_0/test/available.npy",
+      "role": "available",
+      "task": "phonons",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "phonons",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "phonons",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "phonons",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_1/test/available.npy",
+      "role": "available",
+      "task": "phonons",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "phonons",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "phonons",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "phonons",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_2/test/available.npy",
+      "role": "available",
+      "task": "phonons",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "phonons",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "phonons",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "phonons",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_3/test/available.npy",
+      "role": "available",
+      "task": "phonons",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "phonons",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "phonons",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "phonons",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_4/test/available.npy",
+      "role": "available",
+      "task": "phonons",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "phonons",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "phonons",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/jmp_l_phonons_anchor/phonons/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "phonons",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/raw/manifests/expt_is_metal.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_expt_is_metal.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/glass.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_glass.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/mp_is_metal.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_mp_is_metal.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/dielectric.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_dielectric.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/expt_gap.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_expt_gap.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/jdft2d.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_jdft2d.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/log_gvrh.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_log_gvrh.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/log_kvrh.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_log_kvrh.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/mp_e_form.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_mp_e_form.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/mp_gap.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_mp_gap.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/perovskites.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_perovskites.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/phonons.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_phonons.json.gz"
+    },
+    {
+      "path": "data/matbench/raw/manifests/steels.npz"
+    },
+    {
+      "path": "data/matbench/raw_inputs/matbench_steels.json.gz"
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_0/test/available.npy",
+      "role": "available",
+      "task": "steels",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_0/test/hidden.npy",
+      "role": "hidden",
+      "task": "steels",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_0/test/prediction.npy",
+      "role": "prediction",
+      "task": "steels",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_0/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "steels",
+      "outer_fold": 0
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_1/test/available.npy",
+      "role": "available",
+      "task": "steels",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_1/test/hidden.npy",
+      "role": "hidden",
+      "task": "steels",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_1/test/prediction.npy",
+      "role": "prediction",
+      "task": "steels",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_1/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "steels",
+      "outer_fold": 1
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_2/test/available.npy",
+      "role": "available",
+      "task": "steels",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_2/test/hidden.npy",
+      "role": "hidden",
+      "task": "steels",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_2/test/prediction.npy",
+      "role": "prediction",
+      "task": "steels",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_2/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "steels",
+      "outer_fold": 2
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_3/test/available.npy",
+      "role": "available",
+      "task": "steels",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_3/test/hidden.npy",
+      "role": "hidden",
+      "task": "steels",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_3/test/prediction.npy",
+      "role": "prediction",
+      "task": "steels",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_3/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "steels",
+      "outer_fold": 3
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_4/test/available.npy",
+      "role": "available",
+      "task": "steels",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_4/test/hidden.npy",
+      "role": "hidden",
+      "task": "steels",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_4/test/prediction.npy",
+      "role": "prediction",
+      "task": "steels",
+      "outer_fold": 4
+    },
+    {
+      "path": "data/matbench/stage1_pool/exports/tpot_mat_steels_anchor/steels/outer_4/test/sample_ids.npy",
+      "role": "sample_ids",
+      "task": "steels",
+      "outer_fold": 4
+    }
+  ]
+}

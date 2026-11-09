@@ -1,0 +1,118 @@
+{
+  "extra": {
+    "expert_description": {
+      "backend": "published_mattervial_features_plus_modnet_ensemble",
+      "bridge": "mattervial_modnet_v2_multitask",
+      "feature_selection_scope": "current_fit_partition_only",
+      "latent": "canonical_target_free_task_recipe_right_padded_288d",
+      "prediction_target_visibility": "none_until_artifact_evaluation",
+      "predictor_blocks": "task_frozen_request",
+      "pretraining_overlap_status": "requires_separate_structure_overlap_audit"
+    },
+    "request_extra": {
+      "act": "relu",
+      "batch_size": 64,
+      "ensemble_member_limit": 5,
+      "epochs": 1000,
+      "feature_selection_n_jobs": 4,
+      "heartbeat_seconds": 30,
+      "increase_bs": false,
+      "latent_blocks": [
+        "mvl16",
+        "mvl32"
+      ],
+      "latent_dim": 288,
+      "lr": 0.005,
+      "n_feat": 512,
+      "n_models": 20,
+      "num_neurons": [
+        [
+          128
+        ],
+        [
+          32
+        ],
+        [
+          8
+        ],
+        [
+          8
+        ]
+      ],
+      "predictor_blocks": [
+        "matminer",
+        "mvl16",
+        "mvl32",
+        "megnet_ofm",
+        "roost_mpgap",
+        "orb_v3"
+      ],
+      "resume_members": true,
+      "smoke_test": false,
+      "smoke_xgb_preselect_fraction": 0.35,
+      "smoke_xgb_preselect_target": 64,
+      "stacking_oof_only": true,
+      "task_type": "classification",
+      "use_precomputed_cross_nmi": false,
+      "verbose": 0,
+      "verify_cache_hashes": false,
+      "xgb_preselect_fraction": 0.1,
+      "xgb_preselect_target": 800,
+      "xgb_random_state": 1,
+      "loss": null
+    }
+  },
+  "latents": {
+    "filename": "latents.npz",
+    "sha256": "6b082c33af1f6faa88640034c319efc3ab2994637e3b4c481c48f08e64dd282a",
+    "shape": [
+      16978,
+      288
+    ]
+  },
+  "model": {
+    "family": "mattervial_modnet_v2_multitask",
+    "name": "mattervial_modnet",
+    "pretrained_disclosure": {
+      "expert_name": "mattervial_modnet",
+      "overlap_audit_required": true,
+      "uses_pretraining": true
+    }
+  },
+  "predictions": {
+    "filename": "predictions.npz",
+    "n_samples": 16978,
+    "sha256": "af58e8ae97e2a98b0798f149b56fc5630485776a017dc9770f56d33a954643f6",
+    "uncertainty_present": true,
+    "value_kind": "positive_class_probability"
+  },
+  "provenance": {
+    "checkpoint_sha256": "1983405abcdc1b9852b7138c36b453e4bd73342cfdd6aa2ce253a30a4d381d9f",
+    "environment_lock_sha256": "3041d39d2fb698f9cfdb9d19dc820f6bbdca361f046931154f4131518b195498",
+    "raw_sha256": "9a028ed5750a4c76ca36e9f3c8d48fe0bf3fb21b76ec2289e58ae7048d527919",
+    "task_manifest_digest": "2ce635496975374dcc6cabe2aab82e520204dcdb3a9b4fe53a843aa6ec05d372"
+  },
+  "run_id": "inner_0",
+  "run_kind": "production",
+  "schema_version": "1.0",
+  "selection": {
+    "outer_test_used": false,
+    "source": "externally_predeclared_published_recipe"
+  },
+  "split": {
+    "inner_fold": 0,
+    "outer_fold": 0,
+    "role": "inner_val",
+    "sample_order": "exact_split_manifest_order"
+  },
+  "task": {
+    "direction": "maximize",
+    "input_type": "structure",
+    "matbench_name": "matbench_mp_is_metal",
+    "metric": "roc_auc",
+    "target": "is_metal",
+    "task_name": "mp_is_metal",
+    "task_type": "classification",
+    "unit": null
+  }
+}

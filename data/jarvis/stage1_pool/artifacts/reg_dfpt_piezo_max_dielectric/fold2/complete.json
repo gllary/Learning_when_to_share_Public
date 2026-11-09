@@ -1,0 +1,9 @@
+{
+  "task": "reg_dfpt_piezo_max_dielectric",
+  "fold": 2,
+  "checkpoint_sha256": "b5859af3764c8b40f429262e7069fcdf793e7597bfeaf5a0601e76b480cdba19",
+  "rows": 55712,
+  "hidden_dim": 160,
+  "test_labels_read": false,
+  "seconds": 2508.818426596001
+}

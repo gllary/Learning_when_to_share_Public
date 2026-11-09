@@ -1,0 +1,42 @@
+{
+  "checkpoint_sha256": "4027abcf2197f98da4f7aabd7050bd21860db746edbe1c3c2adc92508d07942a",
+  "epochs_per_model": 1000,
+  "fit_parameters": {
+    "batch_size": 64,
+    "epochs": 1000,
+    "loss": "mae",
+    "lr": 0.005,
+    "val_fraction": 0,
+    "verbose": 0
+  },
+  "live_prediction_policy": "target_free_atomic_snapshot_monitor_read_only",
+  "member_checkpoint_policy": "atomic_per_member_signature_validated_resume",
+  "member_checkpoint_sha256": [
+    "304aa0676439c88c22264e79c0557e7006431ca1ffc6cf063abcc9005e595300",
+    "5b1e27572eae7129067f0920568832e7a11b8b49e00af3733a1499083451c604",
+    "330e13b1b88b06b5f944ea631b743847d3864a6e35074f7d4c8cac4f705e0b5e",
+    "66b7fe008bfd3cbdc9aeefa82474af6d53db6532e7455e89a99b3f56d0ae988b",
+    "a3cfbc29a62cbfd73b0aa6b30057699f300bc1d6b7e4415f9237c65299e3b044",
+    "f2b975b2e6b658dda2c9869dfe1a7fbfbaad852f6af1717b8b109befb24fc2b2",
+    "3b5c219323eda043f4d8c32ab0f1f7b236667db1e2c978d0295baefc4e1bb2ff",
+    "70124e67191013b4240f6ff11961328c3cb5aa1961564bc3d9d8ef0c46315a4e",
+    "46f1a19137b0428d844f0008567aedd1e335716a8d3016a3c75f2601863b6fe2",
+    "da17c012882af1989f28e096086d0f14660621e3848108ea7c3e7e204fc359f7",
+    "a5ba5b03c186c7375d49cb5a15af09e34787ad619336e9a6416b88f3b4efef6f",
+    "84f39a360d7251a4fa3d2243a8db034499829898acb1bcfee5b2bab355d64502",
+    "f27cf48f0f17994e3c8306435114c9a952a38a23b47c23697ac1836f600f7309",
+    "51e40485f928cdbc63d385f60e5186ba65a12abd5e8ae30cc32b4c03316929b0",
+    "b73636c70d4933aeca1995e8bcdcec436aac96c751b846fdfa0dcea4718d1933",
+    "7db385812264cd67a4e89615467e20fa293764630aa9cbea38f298f2a4532e43",
+    "9858e370ba7fbc3c876cedfea906b1001dd4ee9aa4c1d17dc4ebe4884a2cd1aa",
+    "7325988933e5d2a418cb19f350df5a13581301046c9f26d36682776409da323b",
+    "187114d0a6e211e0c6f94725742a5ad8c593e1ceac4707a07d7f1282ed92ab31",
+    "1144ab943d796cdccbf79c0c14a58cda16e84555864d3361e9b69653a1f6808f"
+  ],
+  "n_feat": 512,
+  "n_models": 20,
+  "recipe_signature": "4007ba0d0a59f3f8a945c8ca2191f5789ba832200c4a2a67577a0a43d40692cf",
+  "resumed_members": 0,
+  "schema_version": 1,
+  "smoke_test": false
+}

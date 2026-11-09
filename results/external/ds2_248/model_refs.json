@@ -1,0 +1,46 @@
+{
+  "proposal": "checkpoint/matbench/stage2_proposal/model/manifest.json",
+  "stage1": "checkpoint/matbench/stage1/manifest.json",
+  "frozen_beta": {
+    "0": {
+      "expt_gap": {
+        "beta": 1.0,
+        "file": "results/external/ds2_248/calibration/outer_0/expt_gap.json",
+        "source_sha256": "a05d892d841ff201c31c82570d61164686a363ee9db72ac4e6e33efc53d8f494",
+        "sha256": "66be69ef3daa1455c4a1af78ef61bf87a9313b90b8e4ca80edeea988e558891f"
+      }
+    },
+    "1": {
+      "expt_gap": {
+        "beta": 1.0,
+        "file": "results/external/ds2_248/calibration/outer_1/expt_gap.json",
+        "source_sha256": "25e42550f20241db6cb93ad52b48acb951a2eb5d075ced0ee06660fc7de2ad2e",
+        "sha256": "6b15366698b757d5d4d564aa5668ab6719e92387c79d70ccbdcb924f4e6034ad"
+      }
+    },
+    "2": {
+      "expt_gap": {
+        "beta": 1.0,
+        "file": "results/external/ds2_248/calibration/outer_2/expt_gap.json",
+        "source_sha256": "ddf84e649f26eb217e3e68d9ef3e7be0323e2d4147a01661c62606f5594899f0",
+        "sha256": "d4de5665af267a2748ba6c8d43a101d2172972f01f7123e38b2a7f9116dd5542"
+      }
+    },
+    "3": {
+      "expt_gap": {
+        "beta": 1.0,
+        "file": "results/external/ds2_248/calibration/outer_3/expt_gap.json",
+        "source_sha256": "596d33954518cde4dba9836ff749452e337c4258418861bd80489c30bc174f5d",
+        "sha256": "5bf82333098e92e1c51261f09fcf50665b75dae6ea21a5b194e70fb9f9f06a80"
+      }
+    },
+    "4": {
+      "expt_gap": {
+        "beta": 1.0,
+        "file": "results/external/ds2_248/calibration/outer_4/expt_gap.json",
+        "source_sha256": "d2ccd0db7ce1945cb0381417c7f61762107fe2315eb39c9ae29f0c5a27992131",
+        "sha256": "2cba8f9f6e7b9c0324817aa6708cc6ece8629688560c2e56356181aaaa14598e"
+      }
+    }
+  }
+}

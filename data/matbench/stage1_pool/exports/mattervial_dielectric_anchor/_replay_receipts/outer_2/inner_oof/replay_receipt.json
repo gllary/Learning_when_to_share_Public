@@ -1,0 +1,27 @@
+{
+  "aggregate_checkpoint_sha256": "d6702d0437401b414a3262f17f61c5efb2bf56786fe1ba6a522fa24c66d0db62",
+  "elapsed_seconds": 9.09,
+  "feature_completion_policy": "outer_union_plus_certified_target_free_stage1_cache_v1",
+  "inner_fold_count": 5,
+  "mattervial_training_performed": false,
+  "outer_fold": 2,
+  "outer_test_rows_accessed": 0,
+  "outer_train_rows": 3811,
+  "records": [
+    {
+      "n_rows": 3430,
+      "role": "train"
+    },
+    {
+      "n_rows": 381,
+      "role": "val"
+    }
+  ],
+  "schema_version": "12.2",
+  "status": "complete",
+  "supplemental_stage1_feature_cache_compatibility_policy": "frozen_schema_v1_identity_and_target_firewall_equivalent_v1",
+  "supplemental_stage1_feature_cache_receipt_sha256": "c1d51f13de43c1139ea5d4ff3289dbae75226e973fc97e83efc2a5130fce955a",
+  "supplemental_stage1_feature_cache_schema_version": 1,
+  "target_labels_accessed_by_exporter": false,
+  "task": "dielectric"
+}
