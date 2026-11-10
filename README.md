@@ -1,4 +1,4 @@
-# Learning when to share
+# Learning when to share: calibrated residual corrections for materials property prediction
 
 Code, data, prediction results and model weights for HP-SafeMoE are available in this repository.
 
