@@ -1,6 +1,6 @@
 # Data and evaluation artifacts
 
-The repository and the [v1.0.0 release](https://github.com/gllary/Learning_when_to_share_Public/releases/tag/v1.0.0) together provide the benchmark datasets, external evaluation cohorts, saved expert inputs, prediction results and analysis data listed below. Small metadata and summary files are stored directly in Git, while larger datasets and numerical arrays are included in the same release archive as the model weights. The download command in the [main README](../README.md#download-the-complete-repository) restores both models and data in one step.
+The repository and the [v1.0.0 release](https://github.com/gllary/Learning_when_to_share_Public/releases/tag/v1.0.0) together provide the benchmark datasets, external evaluation cohorts, saved expert inputs, prediction results and analysis data listed below. Saved prediction arrays, metrics, summary tables and figures under [results/](../results/) are included directly in Git and can be obtained without downloading the release archive. Larger input datasets, expert inputs and training/calibration arrays are provided in the release alongside the model weights. The download command in the [main README](../README.md#download-the-complete-repository) restores the models and supporting data needed for training, inference and full result verification.
 
 All paths below are relative to the repository root after extraction.
 

@@ -4,10 +4,14 @@ Code, data, prediction results and model weights for “Learning when to share: 
 
 ## Download the complete repository
 
-Code, configurations, summary results and figures are stored in the Git repository.
-Model weights and larger datasets are available in the
+Code, configurations, prediction arrays, summary tables and figures are stored in Git.
+Published results can be browsed or downloaded directly from [results/](results/)
+without downloading the release archive.
+
+Model weights and larger input datasets are available in the
 [v1.0.0 release](https://github.com/gllary/Learning_when_to_share_Public/releases/tag/v1.0.0).
-The download command below restores both models and data.
+The download command below restores models and supporting data for training,
+inference and full result verification.
 
 See [Model weights](checkpoint/README.md) for the released models and their
 locations, and [Data and evaluation artifacts](data/README.md) for the datasets,
@@ -68,7 +72,7 @@ External entry points accept `core23`, `ds2_248`, `hea95` and `b2_18`.
 
 ## Working directory and installation
 
-Copy or unpack the complete repository, preserving its internal relative symbolic
+Clone or unpack the repository, preserving its internal relative symbolic
 links. Run every command below from the repository root, which contains this
 README and `pyproject.toml`:
 
